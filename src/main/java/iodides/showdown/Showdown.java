@@ -16,7 +16,7 @@ public class Showdown {
 		boolean config = checkConfig();
 		boolean db = checkDB();
 
-		if (config && db) {
+		if (config && db) { 
 			log.info("메인 실행");
 		}else {
 			log.info("프로그램을 종료합니다.");
