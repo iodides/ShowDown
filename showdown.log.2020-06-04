@@ -1,0 +1,57 @@
+2020-06-04 12:30:49,070 [Showdown       ][INFO ] Hello World!
+2020-06-04 22:29:39,387 [Showdown       ][INFO ] 설정파일을 읽을 수 없습니다.
+2020-06-04 22:29:39,394 [Showdown       ][INFO ] Hello World!
+2020-06-04 22:29:39,394 [Showdown       ][INFO ] {}
+2020-06-04 22:30:36,610 [Showdown       ][INFO ] Hello World!
+2020-06-04 22:30:36,613 [Showdown       ][INFO ] {"SITE":{"TORRENTUBE":{"USE":true,"URL":"https:\/\/9.torrentube.net\/"},"SITE2":{"USE":true,"URL":""}},"TRANSMISSION":{"DELETE":true,"PASS":"Password!234","USER":"qnap","URL":"http:\/\/192.168.0.70:39091\/transmission\/rpc\/"},"RELGROUP":["NEXT","Deresisi","ISSUE"],"FILE":{"TV":{"LOCATION":""},"DRAMA":{"LOCATION":"\/share\/GDrive\/My Drive\/test\/드라마_한국","FILEFORMAT":""},"ENTER":{"LOCATION":""}},"DB":{"PORT":"3306","PASS":"Password!234","HOST":"192.168.0.80","USER":"showdown","NAME":"showdown"}}
+2020-06-04 22:37:01,481 [Showdown       ][INFO ] Hello World!
+2020-06-04 22:37:58,919 [Showdown       ][INFO ] Hello World!
+2020-06-04 22:37:58,924 [Showdown       ][INFO ] 
+2020-06-04 22:41:32,628 [Showdown       ][INFO ] Hello World!
+2020-06-04 22:41:48,551 [Showdown       ][INFO ] Hello World!
+2020-06-04 22:41:48,555 [Showdown       ][INFO ] 192.168.0.80
+2020-06-04 22:47:47,293 [Showdown       ][INFO ] 192.168.0.80
+2020-06-04 22:48:09,099 [Showdown       ][INFO ] 192.168.0.80
+2020-06-04 22:48:49,377 [Showdown       ][INFO ] 설정파일을 읽을 수 없습니다.
+2020-06-04 22:48:49,381 [Showdown       ][INFO ] 프로그램을 종료합니다.
+2020-06-04 22:49:12,830 [Showdown       ][INFO ] 192.168.0.80
+2020-06-04 22:53:28,226 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-04 22:53:28,238 [Showdown       ][INFO ] 192.168.0.80
+2020-06-04 22:53:28,239 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-04 23:01:43,621 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-04 23:01:43,634 [Showdown       ][INFO ] DB 연결 실패
+2020-06-04 23:01:43,636 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-04 23:03:30,961 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-04 23:03:30,978 [Showdown       ][INFO ] DB 연결 실패
+2020-06-04 23:03:30,980 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-04 23:04:56,264 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-04 23:04:56,281 [Showdown       ][INFO ] DB 연결 실패
+2020-06-04 23:04:56,283 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-04 23:05:22,918 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-04 23:05:23,078 [Showdown       ][INFO ] DB 연결 실패
+2020-06-04 23:05:23,083 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-04 23:06:49,199 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-04 23:06:49,359 [Showdown       ][INFO ] DB 연결 실패
+2020-06-04 23:06:49,364 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-04 23:07:37,016 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-04 23:07:37,178 [Showdown       ][INFO ] DB 연결 실패
+2020-06-04 23:07:37,183 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-04 23:08:56,484 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-04 23:08:56,871 [Showdown       ][INFO ] DB 연결 실패
+2020-06-04 23:08:56,873 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-04 23:16:54,928 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-04 23:16:55,365 [Showdown       ][INFO ] DB 연결 실패
+2020-06-04 23:16:55,367 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-04 23:17:08,931 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-04 23:17:09,310 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-04 23:21:41,718 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-04 23:23:42,193 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-04 23:30:32,738 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-04 23:30:32,751 [Showdown       ][INFO ] 설정 파일 로드
+2020-06-04 23:30:33,120 [Showdown       ][INFO ] DB 연결 성공
+2020-06-04 23:30:33,120 [Showdown       ][INFO ] 메인 실행
+2020-06-04 23:52:36,196 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-04 23:52:36,211 [Showdown       ][INFO ] 설정 파일 로드
+2020-06-04 23:52:36,635 [Showdown       ][INFO ] DB 연결 성공
+2020-06-04 23:52:36,635 [Showdown       ][INFO ] 메인 실행
+2020-06-04 23:52:36,636 [Showdown       ][INFO ] ===== Showdown 종료
