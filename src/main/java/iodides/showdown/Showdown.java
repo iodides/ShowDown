@@ -6,8 +6,6 @@ import java.sql.SQLException;
 import org.apache.log4j.Logger;
 import org.json.simple.parser.ParseException;
 
-import iodides.Log;
-
 public class Showdown {
 	private static Logger log = Log.setLog();
 

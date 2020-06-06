@@ -1,4 +1,4 @@
-package iodides;
+package iodides.showdown;
 
 import org.apache.log4j.ConsoleAppender;
 import org.apache.log4j.DailyRollingFileAppender;
