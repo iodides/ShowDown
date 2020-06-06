@@ -11,7 +11,7 @@ import iodides.Log;
 public class Showdown {
 	private static Logger log = Log.setLog();
 
-	public static void main(final String[] args) {
+	public static void main(final String[] args) { 
 		log.info("===== Showdown 시작");
 		boolean config = checkConfig();
 		boolean db = checkDB();
