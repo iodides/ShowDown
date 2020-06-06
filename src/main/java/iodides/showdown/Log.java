@@ -6,7 +6,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PatternLayout;
 
-public class Log {  
+public class Log {  kkjjk
 	// 로그 세팅
 	// 깃 테스트
 	public static Logger setLog() {
