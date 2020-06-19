@@ -12,7 +12,6 @@ import org.jsoup.select.Elements;
 
 import iodides.showdown.Log;
 import iodides.showdown.object.DaumCategory;
-import iodides.showdown.object.DaumShowUrl;
 import iodides.showdown.object.Show;
 
 public class DaumParse {
@@ -31,7 +30,7 @@ public class DaumParse {
         Elements listProgram = doc.select(".list_program li .tit_program a");
 
         int listSize = listProgram.size();
-        log.debug((listSize + 1) + "개의 프로그램 검색");
+        log.debug(listSize + "개의 프로그램 검색");
 
         for (int i = 0; i < listSize; i++) {
             Element elm = listProgram.get(i);
@@ -45,10 +44,6 @@ public class DaumParse {
             showList.add(show);
         }
         return showList;
-    }
-
-    public void parse(DaumShowUrl daumShowUrl) {
-
     }
 
     private static String getSid(String url) {

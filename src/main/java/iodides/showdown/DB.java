@@ -32,10 +32,6 @@ public class DB {
 
     }
 
-    public Show getShow(String sid) {
-        Show show = new Show();
-        return show;
-    }
 
 	public static boolean insertNewShow(iodides.showdown.object.Show show) {
 		return false;

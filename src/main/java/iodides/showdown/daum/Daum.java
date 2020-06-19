@@ -19,27 +19,39 @@ public class Daum extends Thread {
 
     public void run() {
 
-
-        for (DaumCategory dc : getCategoryList()) {
-            ArrayList<Show> showList;
-            try {
-                showList = DaumParse.category(dc);
-                for (Show show : showList) {
-                    if (show.add())
-                        log.info("신규 프로그램 추가 - " + show);
-                    else
-                        log.debug("중복 프로그램 - " + show);
+        while(true){
+            for (DaumCategory dc : getCategoryList()) {
+                ArrayList<Show> showList;
+                try {
+                    showList = DaumParse.category(dc);
+                    for (Show show : showList) {
+                        if (show.add())
+                            log.info("신규 프로그램 추가 - " + show);
+                        else
+                            log.debug("중복 프로그램 - " + show);
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
-            } catch (IOException e) {
-                e.printStackTrace();
+                sleep("3s");
             }
-            sleep(3);
+            sleep("10h");
         }
+
+        
         
     }
 
+    private void sleep(String time) {
+        int sec = 0;
+        if (time.contains("s")) {
+            sec = Integer.parseInt(time.replace("s", ""));
+        } else if (time.contains("m")) {
+            sec = Integer.parseInt(time.replace("m", "")) * 60;
+        } else if (time.contains("h")) {
+            sec = Integer.parseInt(time.replace("h", "")) * 60 * 60;
+        }
 
-    private void sleep(int sec) {
         try {
             Thread.sleep(1000 * sec);
         } catch (InterruptedException e) {

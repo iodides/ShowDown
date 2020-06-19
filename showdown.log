@@ -1137,3 +1137,108 @@
 2020-06-19 15:15:14,351 [Daum           ][DEBUG] 중복 프로그램 - 77311  아빠본색
 2020-06-19 15:15:14,351 [Daum           ][DEBUG] 중복 프로그램 - 88475  집쿡라이브
 2020-06-19 15:15:14,351 [Daum           ][DEBUG] 중복 프로그램 - 88451  서울촌놈
+2020-06-19 15:24:32,013 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-19 15:24:32,025 [Showdown       ][INFO ] 설정 파일 로드
+2020-06-19 15:24:32,391 [Showdown       ][INFO ] DB 연결 성공
+2020-06-19 15:24:32,391 [Showdown       ][INFO ] 메인 실행
+2020-06-19 15:24:32,392 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-19 15:24:32,393 [DaumParse      ][DEBUG] 파싱 : https://m.search.daum.net/search?w=tot&DA=TVS&rtmaxcoll=TVS&q=월화드라마
+2020-06-19 15:24:33,369 [DaumParse      ][DEBUG] 5개의 프로그램 검색
+2020-06-19 15:24:33,371 [DaumParse      ][DEBUG] (1/4) URL : https://m.search.daum.net/search?w=tv&q=저녁 같이 드실래요?&DA=TVS&&irk=68810&irt=tv-program
+2020-06-19 15:24:33,371 [DaumParse      ][DEBUG] (1/4) TITLE : 저녁 같이 드실래요?
+2020-06-19 15:24:33,371 [DaumParse      ][DEBUG] (1/4) SID : 68810
+2020-06-19 15:24:33,372 [DaumParse      ][DEBUG] (2/4) URL : https://m.search.daum.net/search?w=tv&q=(아는 건 별로 없지만) 가족입니다&DA=TVS&&irk=87661&irt=tv-program
+2020-06-19 15:24:33,372 [DaumParse      ][DEBUG] (2/4) TITLE : (아는 건 별로 없지만) 가족입니다
+2020-06-19 15:24:33,373 [DaumParse      ][DEBUG] (2/4) SID : 87661
+2020-06-19 15:24:33,373 [DaumParse      ][DEBUG] (3/4) URL : https://m.search.daum.net/search?w=tv&q=야식남녀&DA=TVS&&irk=87578&irt=tv-program
+2020-06-19 15:24:33,373 [DaumParse      ][DEBUG] (3/4) TITLE : 야식남녀
+2020-06-19 15:24:33,373 [DaumParse      ][DEBUG] (3/4) SID : 87578
+2020-06-19 15:24:33,375 [DaumParse      ][DEBUG] (4/4) URL : https://m.search.daum.net/search?w=tv&q=그놈이 그놈이다&DA=TVS&&irk=87855&irt=tv-program
+2020-06-19 15:24:33,375 [DaumParse      ][DEBUG] (4/4) TITLE : 그놈이 그놈이다
+2020-06-19 15:24:33,375 [DaumParse      ][DEBUG] (4/4) SID : 87855
+2020-06-19 15:24:33,375 [Daum           ][DEBUG] 중복 프로그램 - 68810  저녁 같이 드실래요?
+2020-06-19 15:24:33,376 [Daum           ][DEBUG] 중복 프로그램 - 87661  (아는 건 별로 없지만) 가족입니다
+2020-06-19 15:24:33,376 [Daum           ][DEBUG] 중복 프로그램 - 87578  야식남녀
+2020-06-19 15:24:33,376 [Daum           ][DEBUG] 중복 프로그램 - 87855  그놈이 그놈이다
+2020-06-19 15:24:36,377 [DaumParse      ][DEBUG] 파싱 : https://m.search.daum.net/search?w=tot&DA=TVS&rtmaxcoll=TVS&q=수목드라마
+2020-06-19 15:24:36,659 [DaumParse      ][DEBUG] 10개의 프로그램 검색
+2020-06-19 15:24:36,659 [DaumParse      ][DEBUG] (1/9) URL : https://m.search.daum.net/search?w=tv&q=꼰대인턴&DA=TVS&&irk=87432&irt=tv-program
+2020-06-19 15:24:36,659 [DaumParse      ][DEBUG] (1/9) TITLE : 꼰대인턴
+2020-06-19 15:24:36,660 [DaumParse      ][DEBUG] (1/9) SID : 87432
+2020-06-19 15:24:36,660 [DaumParse      ][DEBUG] (2/9) URL : https://m.search.daum.net/search?w=tv&q=쌍갑포차&DA=TVS&&irk=85760&irt=tv-program
+2020-06-19 15:24:36,660 [DaumParse      ][DEBUG] (2/9) TITLE : 쌍갑포차
+2020-06-19 15:24:36,660 [DaumParse      ][DEBUG] (2/9) SID : 85760
+2020-06-19 15:24:36,660 [DaumParse      ][DEBUG] (3/9) URL : https://m.search.daum.net/search?w=tv&q=영혼수선공&DA=TVS&&irk=86936&irt=tv-program
+2020-06-19 15:24:36,661 [DaumParse      ][DEBUG] (3/9) TITLE : 영혼수선공
+2020-06-19 15:24:36,661 [DaumParse      ][DEBUG] (3/9) SID : 86936
+2020-06-19 15:24:36,661 [DaumParse      ][DEBUG] (4/9) URL : https://m.search.daum.net/search?w=tv&q=오 마이 베이비&DA=TVS&&irk=87316&irt=tv-program
+2020-06-19 15:24:36,661 [DaumParse      ][DEBUG] (4/9) TITLE : 오 마이 베이비
+2020-06-19 15:24:36,661 [DaumParse      ][DEBUG] (4/9) SID : 87316
+2020-06-19 15:24:36,662 [DaumParse      ][DEBUG] (5/9) URL : https://m.search.daum.net/search?w=tv&q=출사표&DA=TVS&&irk=87766&irt=tv-program
+2020-06-19 15:24:36,662 [DaumParse      ][DEBUG] (5/9) TITLE : 출사표
+2020-06-19 15:24:36,662 [DaumParse      ][DEBUG] (5/9) SID : 87766
+2020-06-19 15:24:36,662 [DaumParse      ][DEBUG] (6/9) URL : https://m.search.daum.net/search?w=tv&q=미쓰리는 알고 있다&DA=TVS&&irk=88214&irt=tv-program
+2020-06-19 15:24:36,662 [DaumParse      ][DEBUG] (6/9) TITLE : 미쓰리는 알고 있다
+2020-06-19 15:24:36,662 [DaumParse      ][DEBUG] (6/9) SID : 88214
+2020-06-19 15:24:36,663 [DaumParse      ][DEBUG] (7/9) URL : https://m.search.daum.net/search?w=tv&q=우리, 사랑했을까&DA=TVS&&irk=87139&irt=tv-program
+2020-06-19 15:24:36,663 [DaumParse      ][DEBUG] (7/9) TITLE : 우리, 사랑했을까
+2020-06-19 15:24:36,663 [DaumParse      ][DEBUG] (7/9) SID : 87139
+2020-06-19 15:24:36,663 [DaumParse      ][DEBUG] (8/9) URL : https://m.search.daum.net/search?w=tv&q=십시일반&DA=TVS&&irk=87832&irt=tv-program
+2020-06-19 15:24:36,663 [DaumParse      ][DEBUG] (8/9) TITLE : 십시일반
+2020-06-19 15:24:36,663 [DaumParse      ][DEBUG] (8/9) SID : 87832
+2020-06-19 15:24:36,664 [DaumParse      ][DEBUG] (9/9) URL : https://m.search.daum.net/search?w=tv&q=악의 꽃&DA=TVS&&irk=87579&irt=tv-program
+2020-06-19 15:24:36,664 [DaumParse      ][DEBUG] (9/9) TITLE : 악의 꽃
+2020-06-19 15:24:36,664 [DaumParse      ][DEBUG] (9/9) SID : 87579
+2020-06-19 15:24:36,664 [Daum           ][DEBUG] 중복 프로그램 - 87432  꼰대인턴
+2020-06-19 15:24:36,665 [Daum           ][DEBUG] 중복 프로그램 - 85760  쌍갑포차
+2020-06-19 15:24:36,665 [Daum           ][DEBUG] 중복 프로그램 - 86936  영혼수선공
+2020-06-19 15:24:36,665 [Daum           ][DEBUG] 중복 프로그램 - 87316  오 마이 베이비
+2020-06-19 15:24:36,665 [Daum           ][DEBUG] 중복 프로그램 - 87766  출사표
+2020-06-19 15:24:36,665 [Daum           ][DEBUG] 중복 프로그램 - 88214  미쓰리는 알고 있다
+2020-06-19 15:24:36,666 [Daum           ][DEBUG] 중복 프로그램 - 87139  우리, 사랑했을까
+2020-06-19 15:24:36,666 [Daum           ][DEBUG] 중복 프로그램 - 87832  십시일반
+2020-06-19 15:24:36,666 [Daum           ][DEBUG] 중복 프로그램 - 87579  악의 꽃
+2020-06-19 15:24:39,666 [DaumParse      ][DEBUG] 파싱 : https://m.search.daum.net/search?w=tot&DA=TVS&rtmaxcoll=TVS&q=금요/주말드라마
+2020-06-19 15:24:39,824 [DaumParse      ][DEBUG] 8개의 프로그램 검색
+2020-06-19 15:24:39,825 [DaumParse      ][DEBUG] (1/7) URL : https://m.search.daum.net/search?w=tv&q=한 번 다녀왔습니다&DA=TVS&&irk=86448&irt=tv-program
+2020-06-19 15:24:39,825 [DaumParse      ][DEBUG] (1/7) TITLE : 한 번 다녀왔습니다
+2020-06-19 15:24:39,825 [DaumParse      ][DEBUG] (1/7) SID : 86448
+2020-06-19 15:24:39,826 [DaumParse      ][DEBUG] (2/7) URL : https://m.search.daum.net/search?w=tv&q=바람과 구름과 비&DA=TVS&&irk=87796&irt=tv-program
+2020-06-19 15:24:39,826 [DaumParse      ][DEBUG] (2/7) TITLE : 바람과 구름과 비
+2020-06-19 15:24:39,826 [DaumParse      ][DEBUG] (2/7) SID : 87796
+2020-06-19 15:24:39,826 [DaumParse      ][DEBUG] (3/7) URL : https://m.search.daum.net/search?w=tv&q=번외수사&DA=TVS&&irk=86622&irt=tv-program
+2020-06-19 15:24:39,826 [DaumParse      ][DEBUG] (3/7) TITLE : 번외수사
+2020-06-19 15:24:39,827 [DaumParse      ][DEBUG] (3/7) SID : 86622
+2020-06-19 15:24:39,827 [DaumParse      ][DEBUG] (4/7) URL : https://m.search.daum.net/search?w=tv&q=편의점 샛별이&DA=TVS&&irk=87527&irt=tv-program
+2020-06-19 15:24:39,827 [DaumParse      ][DEBUG] (4/7) TITLE : 편의점 샛별이
+2020-06-19 15:24:39,827 [DaumParse      ][DEBUG] (4/7) SID : 87527
+2020-06-19 15:24:39,827 [DaumParse      ][DEBUG] (5/7) URL : https://m.search.daum.net/search?w=tv&q=사이코지만 괜찮아&DA=TVS&&irk=87743&irt=tv-program
+2020-06-19 15:24:39,827 [DaumParse      ][DEBUG] (5/7) TITLE : 사이코지만 괜찮아
+2020-06-19 15:24:39,828 [DaumParse      ][DEBUG] (5/7) SID : 87743
+2020-06-19 15:24:39,828 [DaumParse      ][DEBUG] (6/7) URL : https://m.search.daum.net/search?w=tv&q=우아한 친구들&DA=TVS&&irk=86710&irt=tv-program
+2020-06-19 15:24:39,828 [DaumParse      ][DEBUG] (6/7) TITLE : 우아한 친구들
+2020-06-19 15:24:39,828 [DaumParse      ][DEBUG] (6/7) SID : 86710
+2020-06-19 15:24:39,828 [DaumParse      ][DEBUG] (7/7) URL : https://m.search.daum.net/search?w=tv&q=미씽: 그들이 있었다&DA=TVS&&irk=87976&irt=tv-program
+2020-06-19 15:24:39,828 [DaumParse      ][DEBUG] (7/7) TITLE : 미씽: 그들이 있었다
+2020-06-19 15:24:39,829 [DaumParse      ][DEBUG] (7/7) SID : 87976
+2020-06-19 15:24:39,829 [Daum           ][DEBUG] 중복 프로그램 - 86448  한 번 다녀왔습니다
+2020-06-19 15:24:39,829 [Daum           ][DEBUG] 중복 프로그램 - 87796  바람과 구름과 비
+2020-06-19 15:24:39,829 [Daum           ][DEBUG] 중복 프로그램 - 86622  번외수사
+2020-06-19 15:24:39,829 [Daum           ][DEBUG] 중복 프로그램 - 87527  편의점 샛별이
+2020-06-19 15:24:39,829 [Daum           ][DEBUG] 중복 프로그램 - 87743  사이코지만 괜찮아
+2020-06-19 15:24:39,829 [Daum           ][DEBUG] 중복 프로그램 - 86710  우아한 친구들
+2020-06-19 15:24:39,829 [Daum           ][DEBUG] 중복 프로그램 - 87976  미씽: 그들이 있었다
+2020-06-19 15:24:42,830 [DaumParse      ][DEBUG] 파싱 : https://m.search.daum.net/search?w=tot&DA=TVS&rtmaxcoll=TVS&q=일일/아침드라마
+2020-06-19 15:24:43,064 [DaumParse      ][DEBUG] 4개의 프로그램 검색
+2020-06-19 15:24:43,065 [DaumParse      ][DEBUG] (1/3) URL : https://m.search.daum.net/search?w=tv&q=기막힌 유산&DA=TVS&&irk=87948&irt=tv-program
+2020-06-19 15:24:43,071 [DaumParse      ][DEBUG] (1/3) TITLE : 기막힌 유산
+2020-06-19 15:24:43,071 [DaumParse      ][DEBUG] (1/3) SID : 87948
+2020-06-19 15:24:43,072 [DaumParse      ][DEBUG] (2/3) URL : https://m.search.daum.net/search?w=tv&q=위험한 약속&DA=TVS&&irk=87754&irt=tv-program
+2020-06-19 15:24:43,072 [DaumParse      ][DEBUG] (2/3) TITLE : 위험한 약속
+2020-06-19 15:24:43,072 [DaumParse      ][DEBUG] (2/3) SID : 87754
+2020-06-19 15:24:43,072 [DaumParse      ][DEBUG] (3/3) URL : https://m.search.daum.net/search?w=tv&q=엄마가 바람났다&DA=TVS&&irk=87887&irt=tv-program
+2020-06-19 15:24:43,072 [DaumParse      ][DEBUG] (3/3) TITLE : 엄마가 바람났다
+2020-06-19 15:24:43,073 [DaumParse      ][DEBUG] (3/3) SID : 87887
+2020-06-19 15:24:43,073 [Daum           ][DEBUG] 중복 프로그램 - 87948  기막힌 유산
+2020-06-19 15:24:43,073 [Daum           ][DEBUG] 중복 프로그램 - 87754  위험한 약속
+2020-06-19 15:24:43,073 [Daum           ][DEBUG] 중복 프로그램 - 87887  엄마가 바람났다
