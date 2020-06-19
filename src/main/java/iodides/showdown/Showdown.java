@@ -6,16 +6,28 @@ import java.sql.SQLException;
 import org.apache.log4j.Logger;
 import org.json.simple.parser.ParseException;
 
+import iodides.showdown.daum.Daum;
+
 public class Showdown {
 	private static Logger log = Log.setLog();
 
 	public static void main(final String[] args) { 
 		log.info("===== Showdown 시작");
-		boolean config = checkConfig();
+		boolean config = false;
+		if(args.length>0) config = checkConfig(args[0]);
+		else config = checkConfig("./config.json");
+		
 		boolean db = checkDB();
 
 		if (config && db) { 
 			log.info("메인 실행");
+
+			Daum daum = new Daum();
+			daum.start();
+			
+
+
+
 		}else {
 			log.info("프로그램을 종료합니다.");
 		}
@@ -25,10 +37,10 @@ public class Showdown {
 	}
 
 	// config 파일 체크
-	private static boolean checkConfig() {
+	private static boolean checkConfig(String configFile) {
 		boolean result = false;
 		try {
-			Config.load();
+			Config.load(configFile);
 			log.info("설정 파일 로드");
 			result = true;
 		} catch (IOException e) {

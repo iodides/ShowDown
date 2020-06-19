@@ -1,5 +1,1139 @@
-2020-06-06 20:46:42,830 [Showdown       ][INFO ] ===== Showdown 시작
-2020-06-06 20:46:42,846 [Showdown       ][INFO ] 설정 파일 로드
-2020-06-06 20:46:43,239 [Showdown       ][INFO ] DB 연결 성공
-2020-06-06 20:46:43,239 [Showdown       ][INFO ] 메인 실행
-2020-06-06 20:46:43,240 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-19 12:44:40,709 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-19 12:47:04,177 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-19 12:47:31,656 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-19 12:47:59,048 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-19 12:49:33,273 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-19 12:50:04,668 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-19 12:50:04,670 [Showdown       ][INFO ] 0
+2020-06-19 12:50:26,863 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-19 12:50:26,866 [Showdown       ][INFO ] 0
+2020-06-19 12:50:26,877 [Showdown       ][INFO ] 설정 파일 로드
+2020-06-19 12:50:27,268 [Showdown       ][INFO ] DB 연결 성공
+2020-06-19 12:50:27,269 [Showdown       ][INFO ] 메인 실행
+2020-06-19 12:50:27,270 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-19 12:50:27,270 [Daum           ][INFO ] === DAUM 프로그램 정보 파싱 ===
+2020-06-19 12:50:27,274 [Daum           ][INFO ] === 드라마 정보 파싱 ===
+2020-06-19 12:50:27,274 [Daum           ][INFO ] === 월화드라마 검색 시작
+2020-06-19 12:50:28,242 [Daum           ][INFO ] === 월화드라마 검색 완료
+2020-06-19 12:50:28,242 [Daum           ][INFO ] === 수목드라마 검색 시작
+2020-06-19 12:50:28,536 [Daum           ][INFO ] === 수목드라마 검색 완료
+2020-06-19 12:50:28,536 [Daum           ][INFO ] === 금요/주말드라마 검색 시작
+2020-06-19 12:50:28,832 [Daum           ][INFO ] === 금요/주말드라마 검색 완료
+2020-06-19 12:50:28,833 [Daum           ][INFO ] === 일일/아침드라마 검색 시작
+2020-06-19 12:50:29,057 [Daum           ][INFO ] === 일일/아침드라마 검색 완료
+2020-06-19 12:53:13,030 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-19 12:53:13,042 [Showdown       ][INFO ] 설정 파일 로드
+2020-06-19 12:53:13,411 [Showdown       ][INFO ] DB 연결 성공
+2020-06-19 12:53:13,411 [Showdown       ][INFO ] 메인 실행
+2020-06-19 12:53:13,413 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-19 12:53:13,413 [Daum           ][INFO ] === DAUM 프로그램 정보 파싱 ===
+2020-06-19 12:53:13,413 [Daum           ][INFO ] === 드라마 정보 파싱 ===
+2020-06-19 12:53:13,416 [Daum           ][INFO ] === 월화드라마 검색 시작
+2020-06-19 12:53:14,293 [Daum           ][INFO ] === 월화드라마 검색 완료
+2020-06-19 12:56:11,946 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-19 12:56:11,960 [Showdown       ][INFO ] 설정 파일 로드
+2020-06-19 12:56:12,331 [Showdown       ][INFO ] DB 연결 성공
+2020-06-19 12:56:12,331 [Showdown       ][INFO ] 메인 실행
+2020-06-19 12:56:12,332 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-19 12:56:12,333 [Daum           ][INFO ] === DAUM 프로그램 정보 파싱 ===
+2020-06-19 12:56:12,333 [Daum           ][INFO ] === 드라마 정보 파싱 ===
+2020-06-19 12:56:12,336 [Daum           ][INFO ] === 월화드라마 검색 시작
+2020-06-19 12:56:13,208 [Daum           ][INFO ] === 월화드라마 검색 완료
+2020-06-19 12:56:14,209 [Daum           ][INFO ] === 수목드라마 검색 시작
+2020-06-19 12:56:14,503 [Daum           ][INFO ] === 수목드라마 검색 완료
+2020-06-19 12:56:15,503 [Daum           ][INFO ] === 금요/주말드라마 검색 시작
+2020-06-19 12:56:15,739 [Daum           ][INFO ] === 금요/주말드라마 검색 완료
+2020-06-19 12:56:16,740 [Daum           ][INFO ] === 일일/아침드라마 검색 시작
+2020-06-19 12:56:16,974 [Daum           ][INFO ] === 일일/아침드라마 검색 완료
+2020-06-19 12:58:39,348 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-19 12:58:39,360 [Showdown       ][INFO ] 설정 파일 로드
+2020-06-19 12:58:39,733 [Showdown       ][INFO ] DB 연결 성공
+2020-06-19 12:58:39,734 [Showdown       ][INFO ] 메인 실행
+2020-06-19 12:58:39,735 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-19 12:58:39,735 [Daum           ][INFO ] === DAUM 프로그램 정보 파싱 ===
+2020-06-19 12:58:39,735 [Daum           ][INFO ] === 드라마 정보 파싱 ===
+2020-06-19 12:58:39,738 [Daum           ][INFO ] === 월화드라마 검색 시작
+2020-06-19 12:58:40,603 [Daum           ][DEBUG] 월화드라마 (0/4) URL : https://m.search.daum.net/search?w=tv&q=저녁 같이 드실래요?&DA=TVS&&irk=68810&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:40,603 [Daum           ][DEBUG] 월화드라마 (0/4) TITLE : 저녁 같이 드실래요?
+2020-06-19 12:58:40,603 [Daum           ][DEBUG] 월화드라마 (0/4) SID : =68810
+2020-06-19 12:58:40,604 [Daum           ][DEBUG] 월화드라마 (1/4) URL : https://m.search.daum.net/search?w=tv&q=(아는 건 별로 없지만) 가족입니다&DA=TVS&&irk=87661&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:40,604 [Daum           ][DEBUG] 월화드라마 (1/4) TITLE : (아는 건 별로 없지만) 가족입니다
+2020-06-19 12:58:40,605 [Daum           ][DEBUG] 월화드라마 (1/4) SID : =87661
+2020-06-19 12:58:40,605 [Daum           ][DEBUG] 월화드라마 (2/4) URL : https://m.search.daum.net/search?w=tv&q=야식남녀&DA=TVS&&irk=87578&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:40,605 [Daum           ][DEBUG] 월화드라마 (2/4) TITLE : 야식남녀
+2020-06-19 12:58:40,606 [Daum           ][DEBUG] 월화드라마 (2/4) SID : =87578
+2020-06-19 12:58:40,607 [Daum           ][DEBUG] 월화드라마 (3/4) URL : https://m.search.daum.net/search?w=tv&q=그놈이 그놈이다&DA=TVS&&irk=87855&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:40,607 [Daum           ][DEBUG] 월화드라마 (3/4) TITLE : 그놈이 그놈이다
+2020-06-19 12:58:40,607 [Daum           ][DEBUG] 월화드라마 (3/4) SID : =87855
+2020-06-19 12:58:40,607 [Daum           ][DEBUG] 중복 프로그램 - =68810 월화드라마 저녁 같이 드실래요?
+2020-06-19 12:58:40,608 [Daum           ][DEBUG] 중복 프로그램 - =87661 월화드라마 (아는 건 별로 없지만) 가족입니다
+2020-06-19 12:58:40,608 [Daum           ][DEBUG] 중복 프로그램 - =87578 월화드라마 야식남녀
+2020-06-19 12:58:40,608 [Daum           ][DEBUG] 중복 프로그램 - =87855 월화드라마 그놈이 그놈이다
+2020-06-19 12:58:40,608 [Daum           ][INFO ] === 월화드라마 검색 완료
+2020-06-19 12:58:41,609 [Daum           ][INFO ] === 수목드라마 검색 시작
+2020-06-19 12:58:41,932 [Daum           ][DEBUG] 수목드라마 (0/9) URL : https://m.search.daum.net/search?w=tv&q=꼰대인턴&DA=TVS&&irk=87432&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:41,933 [Daum           ][DEBUG] 수목드라마 (0/9) TITLE : 꼰대인턴
+2020-06-19 12:58:41,933 [Daum           ][DEBUG] 수목드라마 (0/9) SID : =87432
+2020-06-19 12:58:41,933 [Daum           ][DEBUG] 수목드라마 (1/9) URL : https://m.search.daum.net/search?w=tv&q=쌍갑포차&DA=TVS&&irk=85760&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:41,933 [Daum           ][DEBUG] 수목드라마 (1/9) TITLE : 쌍갑포차
+2020-06-19 12:58:41,934 [Daum           ][DEBUG] 수목드라마 (1/9) SID : =85760
+2020-06-19 12:58:41,934 [Daum           ][DEBUG] 수목드라마 (2/9) URL : https://m.search.daum.net/search?w=tv&q=영혼수선공&DA=TVS&&irk=86936&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:41,934 [Daum           ][DEBUG] 수목드라마 (2/9) TITLE : 영혼수선공
+2020-06-19 12:58:41,934 [Daum           ][DEBUG] 수목드라마 (2/9) SID : =86936
+2020-06-19 12:58:41,934 [Daum           ][DEBUG] 수목드라마 (3/9) URL : https://m.search.daum.net/search?w=tv&q=오 마이 베이비&DA=TVS&&irk=87316&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:41,935 [Daum           ][DEBUG] 수목드라마 (3/9) TITLE : 오 마이 베이비
+2020-06-19 12:58:41,935 [Daum           ][DEBUG] 수목드라마 (3/9) SID : =87316
+2020-06-19 12:58:41,935 [Daum           ][DEBUG] 수목드라마 (4/9) URL : https://m.search.daum.net/search?w=tv&q=출사표&DA=TVS&&irk=87766&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:41,935 [Daum           ][DEBUG] 수목드라마 (4/9) TITLE : 출사표
+2020-06-19 12:58:41,935 [Daum           ][DEBUG] 수목드라마 (4/9) SID : =87766
+2020-06-19 12:58:41,936 [Daum           ][DEBUG] 수목드라마 (5/9) URL : https://m.search.daum.net/search?w=tv&q=미쓰리는 알고 있다&DA=TVS&&irk=88214&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:41,936 [Daum           ][DEBUG] 수목드라마 (5/9) TITLE : 미쓰리는 알고 있다
+2020-06-19 12:58:41,936 [Daum           ][DEBUG] 수목드라마 (5/9) SID : =88214
+2020-06-19 12:58:41,942 [Daum           ][DEBUG] 수목드라마 (6/9) URL : https://m.search.daum.net/search?w=tv&q=우리, 사랑했을까&DA=TVS&&irk=87139&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:41,942 [Daum           ][DEBUG] 수목드라마 (6/9) TITLE : 우리, 사랑했을까
+2020-06-19 12:58:41,942 [Daum           ][DEBUG] 수목드라마 (6/9) SID : =87139
+2020-06-19 12:58:41,943 [Daum           ][DEBUG] 수목드라마 (7/9) URL : https://m.search.daum.net/search?w=tv&q=십시일반&DA=TVS&&irk=87832&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:41,943 [Daum           ][DEBUG] 수목드라마 (7/9) TITLE : 십시일반
+2020-06-19 12:58:41,943 [Daum           ][DEBUG] 수목드라마 (7/9) SID : =87832
+2020-06-19 12:58:41,943 [Daum           ][DEBUG] 수목드라마 (8/9) URL : https://m.search.daum.net/search?w=tv&q=악의 꽃&DA=TVS&&irk=87579&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:41,943 [Daum           ][DEBUG] 수목드라마 (8/9) TITLE : 악의 꽃
+2020-06-19 12:58:41,944 [Daum           ][DEBUG] 수목드라마 (8/9) SID : =87579
+2020-06-19 12:58:41,944 [Daum           ][DEBUG] 중복 프로그램 - =87432 수목드라마 꼰대인턴
+2020-06-19 12:58:41,944 [Daum           ][DEBUG] 중복 프로그램 - =85760 수목드라마 쌍갑포차
+2020-06-19 12:58:41,944 [Daum           ][DEBUG] 중복 프로그램 - =86936 수목드라마 영혼수선공
+2020-06-19 12:58:41,944 [Daum           ][DEBUG] 중복 프로그램 - =87316 수목드라마 오 마이 베이비
+2020-06-19 12:58:41,944 [Daum           ][DEBUG] 중복 프로그램 - =87766 수목드라마 출사표
+2020-06-19 12:58:41,944 [Daum           ][DEBUG] 중복 프로그램 - =88214 수목드라마 미쓰리는 알고 있다
+2020-06-19 12:58:41,945 [Daum           ][DEBUG] 중복 프로그램 - =87139 수목드라마 우리, 사랑했을까
+2020-06-19 12:58:41,945 [Daum           ][DEBUG] 중복 프로그램 - =87832 수목드라마 십시일반
+2020-06-19 12:58:41,945 [Daum           ][DEBUG] 중복 프로그램 - =87579 수목드라마 악의 꽃
+2020-06-19 12:58:41,945 [Daum           ][INFO ] === 수목드라마 검색 완료
+2020-06-19 12:58:42,946 [Daum           ][INFO ] === 금요/주말드라마 검색 시작
+2020-06-19 12:58:43,176 [Daum           ][DEBUG] 금요/주말드라마 (0/7) URL : https://m.search.daum.net/search?w=tv&q=한 번 다녀왔습니다&DA=TVS&&irk=86448&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:43,177 [Daum           ][DEBUG] 금요/주말드라마 (0/7) TITLE : 한 번 다녀왔습니다
+2020-06-19 12:58:43,177 [Daum           ][DEBUG] 금요/주말드라마 (0/7) SID : =86448
+2020-06-19 12:58:43,177 [Daum           ][DEBUG] 금요/주말드라마 (1/7) URL : https://m.search.daum.net/search?w=tv&q=바람과 구름과 비&DA=TVS&&irk=87796&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:43,177 [Daum           ][DEBUG] 금요/주말드라마 (1/7) TITLE : 바람과 구름과 비
+2020-06-19 12:58:43,177 [Daum           ][DEBUG] 금요/주말드라마 (1/7) SID : =87796
+2020-06-19 12:58:43,177 [Daum           ][DEBUG] 금요/주말드라마 (2/7) URL : https://m.search.daum.net/search?w=tv&q=번외수사&DA=TVS&&irk=86622&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:43,178 [Daum           ][DEBUG] 금요/주말드라마 (2/7) TITLE : 번외수사
+2020-06-19 12:58:43,178 [Daum           ][DEBUG] 금요/주말드라마 (2/7) SID : =86622
+2020-06-19 12:58:43,178 [Daum           ][DEBUG] 금요/주말드라마 (3/7) URL : https://m.search.daum.net/search?w=tv&q=편의점 샛별이&DA=TVS&&irk=87527&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:43,178 [Daum           ][DEBUG] 금요/주말드라마 (3/7) TITLE : 편의점 샛별이
+2020-06-19 12:58:43,178 [Daum           ][DEBUG] 금요/주말드라마 (3/7) SID : =87527
+2020-06-19 12:58:43,178 [Daum           ][DEBUG] 금요/주말드라마 (4/7) URL : https://m.search.daum.net/search?w=tv&q=사이코지만 괜찮아&DA=TVS&&irk=87743&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:43,179 [Daum           ][DEBUG] 금요/주말드라마 (4/7) TITLE : 사이코지만 괜찮아
+2020-06-19 12:58:43,179 [Daum           ][DEBUG] 금요/주말드라마 (4/7) SID : =87743
+2020-06-19 12:58:43,179 [Daum           ][DEBUG] 금요/주말드라마 (5/7) URL : https://m.search.daum.net/search?w=tv&q=우아한 친구들&DA=TVS&&irk=86710&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:43,179 [Daum           ][DEBUG] 금요/주말드라마 (5/7) TITLE : 우아한 친구들
+2020-06-19 12:58:43,179 [Daum           ][DEBUG] 금요/주말드라마 (5/7) SID : =86710
+2020-06-19 12:58:43,179 [Daum           ][DEBUG] 금요/주말드라마 (6/7) URL : https://m.search.daum.net/search?w=tv&q=미씽: 그들이 있었다&DA=TVS&&irk=87976&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:43,179 [Daum           ][DEBUG] 금요/주말드라마 (6/7) TITLE : 미씽: 그들이 있었다
+2020-06-19 12:58:43,180 [Daum           ][DEBUG] 금요/주말드라마 (6/7) SID : =87976
+2020-06-19 12:58:43,180 [Daum           ][DEBUG] 중복 프로그램 - =86448 금요/주말드라마 한 번 다녀왔습니다
+2020-06-19 12:58:43,180 [Daum           ][DEBUG] 중복 프로그램 - =87796 금요/주말드라마 바람과 구름과 비
+2020-06-19 12:58:43,180 [Daum           ][DEBUG] 중복 프로그램 - =86622 금요/주말드라마 번외수사
+2020-06-19 12:58:43,180 [Daum           ][DEBUG] 중복 프로그램 - =87527 금요/주말드라마 편의점 샛별이
+2020-06-19 12:58:43,180 [Daum           ][DEBUG] 중복 프로그램 - =87743 금요/주말드라마 사이코지만 괜찮아
+2020-06-19 12:58:43,180 [Daum           ][DEBUG] 중복 프로그램 - =86710 금요/주말드라마 우아한 친구들
+2020-06-19 12:58:43,181 [Daum           ][DEBUG] 중복 프로그램 - =87976 금요/주말드라마 미씽: 그들이 있었다
+2020-06-19 12:58:43,181 [Daum           ][INFO ] === 금요/주말드라마 검색 완료
+2020-06-19 12:58:44,181 [Daum           ][INFO ] === 일일/아침드라마 검색 시작
+2020-06-19 12:58:44,415 [Daum           ][DEBUG] 일일/아침드라마 (0/3) URL : https://m.search.daum.net/search?w=tv&q=기막힌 유산&DA=TVS&&irk=87948&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:44,415 [Daum           ][DEBUG] 일일/아침드라마 (0/3) TITLE : 기막힌 유산
+2020-06-19 12:58:44,416 [Daum           ][DEBUG] 일일/아침드라마 (0/3) SID : =87948
+2020-06-19 12:58:44,416 [Daum           ][DEBUG] 일일/아침드라마 (1/3) URL : https://m.search.daum.net/search?w=tv&q=위험한 약속&DA=TVS&&irk=87754&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:44,416 [Daum           ][DEBUG] 일일/아침드라마 (1/3) TITLE : 위험한 약속
+2020-06-19 12:58:44,416 [Daum           ][DEBUG] 일일/아침드라마 (1/3) SID : =87754
+2020-06-19 12:58:44,416 [Daum           ][DEBUG] 일일/아침드라마 (2/3) URL : https://m.search.daum.net/search?w=tv&q=엄마가 바람났다&DA=TVS&&irk=87887&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 12:58:44,417 [Daum           ][DEBUG] 일일/아침드라마 (2/3) TITLE : 엄마가 바람났다
+2020-06-19 12:58:44,417 [Daum           ][DEBUG] 일일/아침드라마 (2/3) SID : =87887
+2020-06-19 12:58:44,417 [Daum           ][DEBUG] 중복 프로그램 - =87948 일일/아침드라마 기막힌 유산
+2020-06-19 12:58:44,417 [Daum           ][DEBUG] 중복 프로그램 - =87754 일일/아침드라마 위험한 약속
+2020-06-19 12:58:44,417 [Daum           ][DEBUG] 중복 프로그램 - =87887 일일/아침드라마 엄마가 바람났다
+2020-06-19 12:58:44,417 [Daum           ][INFO ] === 일일/아침드라마 검색 완료
+2020-06-19 13:00:47,406 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-19 13:00:47,420 [Showdown       ][INFO ] 설정 파일 로드
+2020-06-19 13:00:47,790 [Showdown       ][INFO ] DB 연결 성공
+2020-06-19 13:00:47,790 [Showdown       ][INFO ] 메인 실행
+2020-06-19 13:00:47,791 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-19 13:00:47,791 [Daum           ][INFO ] === DAUM 프로그램 정보 파싱 ===
+2020-06-19 13:00:47,792 [Daum           ][INFO ] === 드라마 정보 파싱 ===
+2020-06-19 13:00:47,795 [Daum           ][INFO ] === 월화드라마 검색 시작
+2020-06-19 13:01:03,741 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-19 13:01:03,754 [Showdown       ][INFO ] 설정 파일 로드
+2020-06-19 13:01:04,130 [Showdown       ][INFO ] DB 연결 성공
+2020-06-19 13:01:04,131 [Showdown       ][INFO ] 메인 실행
+2020-06-19 13:01:04,132 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-19 13:01:04,132 [Daum           ][INFO ] === DAUM 프로그램 정보 파싱 ===
+2020-06-19 13:01:04,133 [Daum           ][INFO ] === 드라마 정보 파싱 ===
+2020-06-19 13:01:04,135 [Daum           ][INFO ] === 월화드라마 검색 시작
+2020-06-19 13:01:05,043 [Daum           ][DEBUG] 월화드라마 (01/4) https://m.search.daum.net/search?w=tv&q=저녁 같이 드실래요?&DA=TVS&&irk=68810&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:05,043 [Daum           ][DEBUG] TITLE : 저녁 같이 드실래요?
+2020-06-19 13:01:05,043 [Daum           ][DEBUG] SID : =68810
+2020-06-19 13:01:05,044 [Daum           ][DEBUG] 월화드라마 (11/4) https://m.search.daum.net/search?w=tv&q=(아는 건 별로 없지만) 가족입니다&DA=TVS&&irk=87661&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:05,045 [Daum           ][DEBUG] TITLE : (아는 건 별로 없지만) 가족입니다
+2020-06-19 13:01:05,045 [Daum           ][DEBUG] SID : =87661
+2020-06-19 13:01:05,045 [Daum           ][DEBUG] 월화드라마 (21/4) https://m.search.daum.net/search?w=tv&q=야식남녀&DA=TVS&&irk=87578&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:05,045 [Daum           ][DEBUG] TITLE : 야식남녀
+2020-06-19 13:01:05,046 [Daum           ][DEBUG] SID : =87578
+2020-06-19 13:01:05,047 [Daum           ][DEBUG] 월화드라마 (31/4) https://m.search.daum.net/search?w=tv&q=그놈이 그놈이다&DA=TVS&&irk=87855&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:05,047 [Daum           ][DEBUG] TITLE : 그놈이 그놈이다
+2020-06-19 13:01:05,047 [Daum           ][DEBUG] SID : =87855
+2020-06-19 13:01:05,047 [Daum           ][DEBUG] 중복 프로그램 - =68810 월화드라마 저녁 같이 드실래요?
+2020-06-19 13:01:05,047 [Daum           ][DEBUG] 중복 프로그램 - =87661 월화드라마 (아는 건 별로 없지만) 가족입니다
+2020-06-19 13:01:05,048 [Daum           ][DEBUG] 중복 프로그램 - =87578 월화드라마 야식남녀
+2020-06-19 13:01:05,048 [Daum           ][DEBUG] 중복 프로그램 - =87855 월화드라마 그놈이 그놈이다
+2020-06-19 13:01:05,048 [Daum           ][INFO ] === 월화드라마 검색 완료
+2020-06-19 13:01:06,049 [Daum           ][INFO ] === 수목드라마 검색 시작
+2020-06-19 13:01:06,362 [Daum           ][DEBUG] 수목드라마 (01/9) https://m.search.daum.net/search?w=tv&q=꼰대인턴&DA=TVS&&irk=87432&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:06,363 [Daum           ][DEBUG] TITLE : 꼰대인턴
+2020-06-19 13:01:06,363 [Daum           ][DEBUG] SID : =87432
+2020-06-19 13:01:06,363 [Daum           ][DEBUG] 수목드라마 (11/9) https://m.search.daum.net/search?w=tv&q=쌍갑포차&DA=TVS&&irk=85760&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:06,363 [Daum           ][DEBUG] TITLE : 쌍갑포차
+2020-06-19 13:01:06,364 [Daum           ][DEBUG] SID : =85760
+2020-06-19 13:01:06,364 [Daum           ][DEBUG] 수목드라마 (21/9) https://m.search.daum.net/search?w=tv&q=영혼수선공&DA=TVS&&irk=86936&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:06,364 [Daum           ][DEBUG] TITLE : 영혼수선공
+2020-06-19 13:01:06,364 [Daum           ][DEBUG] SID : =86936
+2020-06-19 13:01:06,364 [Daum           ][DEBUG] 수목드라마 (31/9) https://m.search.daum.net/search?w=tv&q=오 마이 베이비&DA=TVS&&irk=87316&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:06,364 [Daum           ][DEBUG] TITLE : 오 마이 베이비
+2020-06-19 13:01:06,365 [Daum           ][DEBUG] SID : =87316
+2020-06-19 13:01:06,365 [Daum           ][DEBUG] 수목드라마 (41/9) https://m.search.daum.net/search?w=tv&q=출사표&DA=TVS&&irk=87766&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:06,365 [Daum           ][DEBUG] TITLE : 출사표
+2020-06-19 13:01:06,365 [Daum           ][DEBUG] SID : =87766
+2020-06-19 13:01:06,365 [Daum           ][DEBUG] 수목드라마 (51/9) https://m.search.daum.net/search?w=tv&q=미쓰리는 알고 있다&DA=TVS&&irk=88214&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:06,366 [Daum           ][DEBUG] TITLE : 미쓰리는 알고 있다
+2020-06-19 13:01:06,366 [Daum           ][DEBUG] SID : =88214
+2020-06-19 13:01:06,366 [Daum           ][DEBUG] 수목드라마 (61/9) https://m.search.daum.net/search?w=tv&q=우리, 사랑했을까&DA=TVS&&irk=87139&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:06,366 [Daum           ][DEBUG] TITLE : 우리, 사랑했을까
+2020-06-19 13:01:06,366 [Daum           ][DEBUG] SID : =87139
+2020-06-19 13:01:06,367 [Daum           ][DEBUG] 수목드라마 (71/9) https://m.search.daum.net/search?w=tv&q=십시일반&DA=TVS&&irk=87832&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:06,367 [Daum           ][DEBUG] TITLE : 십시일반
+2020-06-19 13:01:06,367 [Daum           ][DEBUG] SID : =87832
+2020-06-19 13:01:06,367 [Daum           ][DEBUG] 수목드라마 (81/9) https://m.search.daum.net/search?w=tv&q=악의 꽃&DA=TVS&&irk=87579&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:06,367 [Daum           ][DEBUG] TITLE : 악의 꽃
+2020-06-19 13:01:06,367 [Daum           ][DEBUG] SID : =87579
+2020-06-19 13:01:06,368 [Daum           ][DEBUG] 중복 프로그램 - =87432 수목드라마 꼰대인턴
+2020-06-19 13:01:06,368 [Daum           ][DEBUG] 중복 프로그램 - =85760 수목드라마 쌍갑포차
+2020-06-19 13:01:06,368 [Daum           ][DEBUG] 중복 프로그램 - =86936 수목드라마 영혼수선공
+2020-06-19 13:01:06,368 [Daum           ][DEBUG] 중복 프로그램 - =87316 수목드라마 오 마이 베이비
+2020-06-19 13:01:06,369 [Daum           ][DEBUG] 중복 프로그램 - =87766 수목드라마 출사표
+2020-06-19 13:01:06,369 [Daum           ][DEBUG] 중복 프로그램 - =88214 수목드라마 미쓰리는 알고 있다
+2020-06-19 13:01:06,369 [Daum           ][DEBUG] 중복 프로그램 - =87139 수목드라마 우리, 사랑했을까
+2020-06-19 13:01:06,369 [Daum           ][DEBUG] 중복 프로그램 - =87832 수목드라마 십시일반
+2020-06-19 13:01:06,370 [Daum           ][DEBUG] 중복 프로그램 - =87579 수목드라마 악의 꽃
+2020-06-19 13:01:06,370 [Daum           ][INFO ] === 수목드라마 검색 완료
+2020-06-19 13:01:07,370 [Daum           ][INFO ] === 금요/주말드라마 검색 시작
+2020-06-19 13:01:07,614 [Daum           ][DEBUG] 금요/주말드라마 (01/7) https://m.search.daum.net/search?w=tv&q=한 번 다녀왔습니다&DA=TVS&&irk=86448&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:07,615 [Daum           ][DEBUG] TITLE : 한 번 다녀왔습니다
+2020-06-19 13:01:07,615 [Daum           ][DEBUG] SID : =86448
+2020-06-19 13:01:07,615 [Daum           ][DEBUG] 금요/주말드라마 (11/7) https://m.search.daum.net/search?w=tv&q=바람과 구름과 비&DA=TVS&&irk=87796&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:07,615 [Daum           ][DEBUG] TITLE : 바람과 구름과 비
+2020-06-19 13:01:07,615 [Daum           ][DEBUG] SID : =87796
+2020-06-19 13:01:07,616 [Daum           ][DEBUG] 금요/주말드라마 (21/7) https://m.search.daum.net/search?w=tv&q=번외수사&DA=TVS&&irk=86622&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:07,616 [Daum           ][DEBUG] TITLE : 번외수사
+2020-06-19 13:01:07,616 [Daum           ][DEBUG] SID : =86622
+2020-06-19 13:01:07,616 [Daum           ][DEBUG] 금요/주말드라마 (31/7) https://m.search.daum.net/search?w=tv&q=편의점 샛별이&DA=TVS&&irk=87527&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:07,616 [Daum           ][DEBUG] TITLE : 편의점 샛별이
+2020-06-19 13:01:07,616 [Daum           ][DEBUG] SID : =87527
+2020-06-19 13:01:07,617 [Daum           ][DEBUG] 금요/주말드라마 (41/7) https://m.search.daum.net/search?w=tv&q=사이코지만 괜찮아&DA=TVS&&irk=87743&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:07,617 [Daum           ][DEBUG] TITLE : 사이코지만 괜찮아
+2020-06-19 13:01:07,617 [Daum           ][DEBUG] SID : =87743
+2020-06-19 13:01:07,617 [Daum           ][DEBUG] 금요/주말드라마 (51/7) https://m.search.daum.net/search?w=tv&q=우아한 친구들&DA=TVS&&irk=86710&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:07,617 [Daum           ][DEBUG] TITLE : 우아한 친구들
+2020-06-19 13:01:07,617 [Daum           ][DEBUG] SID : =86710
+2020-06-19 13:01:07,617 [Daum           ][DEBUG] 금요/주말드라마 (61/7) https://m.search.daum.net/search?w=tv&q=미씽: 그들이 있었다&DA=TVS&&irk=87976&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:07,618 [Daum           ][DEBUG] TITLE : 미씽: 그들이 있었다
+2020-06-19 13:01:07,618 [Daum           ][DEBUG] SID : =87976
+2020-06-19 13:01:07,618 [Daum           ][DEBUG] 중복 프로그램 - =86448 금요/주말드라마 한 번 다녀왔습니다
+2020-06-19 13:01:07,618 [Daum           ][DEBUG] 중복 프로그램 - =87796 금요/주말드라마 바람과 구름과 비
+2020-06-19 13:01:07,618 [Daum           ][DEBUG] 중복 프로그램 - =86622 금요/주말드라마 번외수사
+2020-06-19 13:01:07,618 [Daum           ][DEBUG] 중복 프로그램 - =87527 금요/주말드라마 편의점 샛별이
+2020-06-19 13:01:07,618 [Daum           ][DEBUG] 중복 프로그램 - =87743 금요/주말드라마 사이코지만 괜찮아
+2020-06-19 13:01:07,619 [Daum           ][DEBUG] 중복 프로그램 - =86710 금요/주말드라마 우아한 친구들
+2020-06-19 13:01:07,619 [Daum           ][DEBUG] 중복 프로그램 - =87976 금요/주말드라마 미씽: 그들이 있었다
+2020-06-19 13:01:07,619 [Daum           ][INFO ] === 금요/주말드라마 검색 완료
+2020-06-19 13:01:08,619 [Daum           ][INFO ] === 일일/아침드라마 검색 시작
+2020-06-19 13:01:08,865 [Daum           ][DEBUG] 일일/아침드라마 (01/3) https://m.search.daum.net/search?w=tv&q=기막힌 유산&DA=TVS&&irk=87948&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:08,865 [Daum           ][DEBUG] TITLE : 기막힌 유산
+2020-06-19 13:01:08,865 [Daum           ][DEBUG] SID : =87948
+2020-06-19 13:01:08,866 [Daum           ][DEBUG] 일일/아침드라마 (11/3) https://m.search.daum.net/search?w=tv&q=위험한 약속&DA=TVS&&irk=87754&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:08,866 [Daum           ][DEBUG] TITLE : 위험한 약속
+2020-06-19 13:01:08,866 [Daum           ][DEBUG] SID : =87754
+2020-06-19 13:01:08,872 [Daum           ][DEBUG] 일일/아침드라마 (21/3) https://m.search.daum.net/search?w=tv&q=엄마가 바람났다&DA=TVS&&irk=87887&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:08,872 [Daum           ][DEBUG] TITLE : 엄마가 바람났다
+2020-06-19 13:01:08,872 [Daum           ][DEBUG] SID : =87887
+2020-06-19 13:01:08,872 [Daum           ][DEBUG] 중복 프로그램 - =87948 일일/아침드라마 기막힌 유산
+2020-06-19 13:01:08,872 [Daum           ][DEBUG] 중복 프로그램 - =87754 일일/아침드라마 위험한 약속
+2020-06-19 13:01:08,873 [Daum           ][DEBUG] 중복 프로그램 - =87887 일일/아침드라마 엄마가 바람났다
+2020-06-19 13:01:08,873 [Daum           ][INFO ] === 일일/아침드라마 검색 완료
+2020-06-19 13:01:35,730 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-19 13:01:35,743 [Showdown       ][INFO ] 설정 파일 로드
+2020-06-19 13:01:36,133 [Showdown       ][INFO ] DB 연결 성공
+2020-06-19 13:01:36,133 [Showdown       ][INFO ] 메인 실행
+2020-06-19 13:01:36,134 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-19 13:01:36,135 [Daum           ][INFO ] === DAUM 프로그램 정보 파싱 ===
+2020-06-19 13:01:36,135 [Daum           ][INFO ] === 드라마 정보 파싱 ===
+2020-06-19 13:01:36,138 [Daum           ][INFO ] === 월화드라마 검색 시작
+2020-06-19 13:01:37,047 [Daum           ][DEBUG] 월화드라마 (1/4) https://m.search.daum.net/search?w=tv&q=저녁 같이 드실래요?&DA=TVS&&irk=68810&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:37,047 [Daum           ][DEBUG] TITLE : 저녁 같이 드실래요?
+2020-06-19 13:01:37,048 [Daum           ][DEBUG] SID : =68810
+2020-06-19 13:01:37,049 [Daum           ][DEBUG] 월화드라마 (2/4) https://m.search.daum.net/search?w=tv&q=(아는 건 별로 없지만) 가족입니다&DA=TVS&&irk=87661&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:37,050 [Daum           ][DEBUG] TITLE : (아는 건 별로 없지만) 가족입니다
+2020-06-19 13:01:37,050 [Daum           ][DEBUG] SID : =87661
+2020-06-19 13:01:37,050 [Daum           ][DEBUG] 월화드라마 (3/4) https://m.search.daum.net/search?w=tv&q=야식남녀&DA=TVS&&irk=87578&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:37,051 [Daum           ][DEBUG] TITLE : 야식남녀
+2020-06-19 13:01:37,053 [Daum           ][DEBUG] SID : =87578
+2020-06-19 13:01:37,054 [Daum           ][DEBUG] 월화드라마 (4/4) https://m.search.daum.net/search?w=tv&q=그놈이 그놈이다&DA=TVS&&irk=87855&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:37,054 [Daum           ][DEBUG] TITLE : 그놈이 그놈이다
+2020-06-19 13:01:37,055 [Daum           ][DEBUG] SID : =87855
+2020-06-19 13:01:37,055 [Daum           ][DEBUG] 중복 프로그램 - =68810 월화드라마 저녁 같이 드실래요?
+2020-06-19 13:01:37,055 [Daum           ][DEBUG] 중복 프로그램 - =87661 월화드라마 (아는 건 별로 없지만) 가족입니다
+2020-06-19 13:01:37,056 [Daum           ][DEBUG] 중복 프로그램 - =87578 월화드라마 야식남녀
+2020-06-19 13:01:37,056 [Daum           ][DEBUG] 중복 프로그램 - =87855 월화드라마 그놈이 그놈이다
+2020-06-19 13:01:37,057 [Daum           ][INFO ] === 월화드라마 검색 완료
+2020-06-19 13:01:38,057 [Daum           ][INFO ] === 수목드라마 검색 시작
+2020-06-19 13:01:38,341 [Daum           ][DEBUG] 수목드라마 (1/9) https://m.search.daum.net/search?w=tv&q=꼰대인턴&DA=TVS&&irk=87432&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:38,342 [Daum           ][DEBUG] TITLE : 꼰대인턴
+2020-06-19 13:01:38,342 [Daum           ][DEBUG] SID : =87432
+2020-06-19 13:01:38,343 [Daum           ][DEBUG] 수목드라마 (2/9) https://m.search.daum.net/search?w=tv&q=쌍갑포차&DA=TVS&&irk=85760&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:38,343 [Daum           ][DEBUG] TITLE : 쌍갑포차
+2020-06-19 13:01:38,344 [Daum           ][DEBUG] SID : =85760
+2020-06-19 13:01:38,344 [Daum           ][DEBUG] 수목드라마 (3/9) https://m.search.daum.net/search?w=tv&q=영혼수선공&DA=TVS&&irk=86936&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:38,344 [Daum           ][DEBUG] TITLE : 영혼수선공
+2020-06-19 13:01:38,345 [Daum           ][DEBUG] SID : =86936
+2020-06-19 13:01:38,345 [Daum           ][DEBUG] 수목드라마 (4/9) https://m.search.daum.net/search?w=tv&q=오 마이 베이비&DA=TVS&&irk=87316&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:38,345 [Daum           ][DEBUG] TITLE : 오 마이 베이비
+2020-06-19 13:01:38,346 [Daum           ][DEBUG] SID : =87316
+2020-06-19 13:01:38,346 [Daum           ][DEBUG] 수목드라마 (5/9) https://m.search.daum.net/search?w=tv&q=출사표&DA=TVS&&irk=87766&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:38,347 [Daum           ][DEBUG] TITLE : 출사표
+2020-06-19 13:01:38,348 [Daum           ][DEBUG] SID : =87766
+2020-06-19 13:01:38,349 [Daum           ][DEBUG] 수목드라마 (6/9) https://m.search.daum.net/search?w=tv&q=미쓰리는 알고 있다&DA=TVS&&irk=88214&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:38,349 [Daum           ][DEBUG] TITLE : 미쓰리는 알고 있다
+2020-06-19 13:01:38,349 [Daum           ][DEBUG] SID : =88214
+2020-06-19 13:01:38,350 [Daum           ][DEBUG] 수목드라마 (7/9) https://m.search.daum.net/search?w=tv&q=우리, 사랑했을까&DA=TVS&&irk=87139&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:38,350 [Daum           ][DEBUG] TITLE : 우리, 사랑했을까
+2020-06-19 13:01:38,350 [Daum           ][DEBUG] SID : =87139
+2020-06-19 13:01:38,351 [Daum           ][DEBUG] 수목드라마 (8/9) https://m.search.daum.net/search?w=tv&q=십시일반&DA=TVS&&irk=87832&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:38,352 [Daum           ][DEBUG] TITLE : 십시일반
+2020-06-19 13:01:38,353 [Daum           ][DEBUG] SID : =87832
+2020-06-19 13:01:38,354 [Daum           ][DEBUG] 수목드라마 (9/9) https://m.search.daum.net/search?w=tv&q=악의 꽃&DA=TVS&&irk=87579&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:38,354 [Daum           ][DEBUG] TITLE : 악의 꽃
+2020-06-19 13:01:38,354 [Daum           ][DEBUG] SID : =87579
+2020-06-19 13:01:38,355 [Daum           ][DEBUG] 중복 프로그램 - =87432 수목드라마 꼰대인턴
+2020-06-19 13:01:38,355 [Daum           ][DEBUG] 중복 프로그램 - =85760 수목드라마 쌍갑포차
+2020-06-19 13:01:38,355 [Daum           ][DEBUG] 중복 프로그램 - =86936 수목드라마 영혼수선공
+2020-06-19 13:01:38,355 [Daum           ][DEBUG] 중복 프로그램 - =87316 수목드라마 오 마이 베이비
+2020-06-19 13:01:38,356 [Daum           ][DEBUG] 중복 프로그램 - =87766 수목드라마 출사표
+2020-06-19 13:01:38,356 [Daum           ][DEBUG] 중복 프로그램 - =88214 수목드라마 미쓰리는 알고 있다
+2020-06-19 13:01:38,357 [Daum           ][DEBUG] 중복 프로그램 - =87139 수목드라마 우리, 사랑했을까
+2020-06-19 13:01:38,358 [Daum           ][DEBUG] 중복 프로그램 - =87832 수목드라마 십시일반
+2020-06-19 13:01:38,358 [Daum           ][DEBUG] 중복 프로그램 - =87579 수목드라마 악의 꽃
+2020-06-19 13:01:38,359 [Daum           ][INFO ] === 수목드라마 검색 완료
+2020-06-19 13:01:39,359 [Daum           ][INFO ] === 금요/주말드라마 검색 시작
+2020-06-19 13:01:39,607 [Daum           ][DEBUG] 금요/주말드라마 (1/7) https://m.search.daum.net/search?w=tv&q=한 번 다녀왔습니다&DA=TVS&&irk=86448&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:39,607 [Daum           ][DEBUG] TITLE : 한 번 다녀왔습니다
+2020-06-19 13:01:39,607 [Daum           ][DEBUG] SID : =86448
+2020-06-19 13:01:39,608 [Daum           ][DEBUG] 금요/주말드라마 (2/7) https://m.search.daum.net/search?w=tv&q=바람과 구름과 비&DA=TVS&&irk=87796&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:39,608 [Daum           ][DEBUG] TITLE : 바람과 구름과 비
+2020-06-19 13:01:39,608 [Daum           ][DEBUG] SID : =87796
+2020-06-19 13:01:39,608 [Daum           ][DEBUG] 금요/주말드라마 (3/7) https://m.search.daum.net/search?w=tv&q=번외수사&DA=TVS&&irk=86622&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:39,608 [Daum           ][DEBUG] TITLE : 번외수사
+2020-06-19 13:01:39,608 [Daum           ][DEBUG] SID : =86622
+2020-06-19 13:01:39,609 [Daum           ][DEBUG] 금요/주말드라마 (4/7) https://m.search.daum.net/search?w=tv&q=편의점 샛별이&DA=TVS&&irk=87527&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:39,609 [Daum           ][DEBUG] TITLE : 편의점 샛별이
+2020-06-19 13:01:39,609 [Daum           ][DEBUG] SID : =87527
+2020-06-19 13:01:39,609 [Daum           ][DEBUG] 금요/주말드라마 (5/7) https://m.search.daum.net/search?w=tv&q=사이코지만 괜찮아&DA=TVS&&irk=87743&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:39,610 [Daum           ][DEBUG] TITLE : 사이코지만 괜찮아
+2020-06-19 13:01:39,610 [Daum           ][DEBUG] SID : =87743
+2020-06-19 13:01:39,610 [Daum           ][DEBUG] 금요/주말드라마 (6/7) https://m.search.daum.net/search?w=tv&q=우아한 친구들&DA=TVS&&irk=86710&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:39,610 [Daum           ][DEBUG] TITLE : 우아한 친구들
+2020-06-19 13:01:39,610 [Daum           ][DEBUG] SID : =86710
+2020-06-19 13:01:39,610 [Daum           ][DEBUG] 금요/주말드라마 (7/7) https://m.search.daum.net/search?w=tv&q=미씽: 그들이 있었다&DA=TVS&&irk=87976&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:39,611 [Daum           ][DEBUG] TITLE : 미씽: 그들이 있었다
+2020-06-19 13:01:39,611 [Daum           ][DEBUG] SID : =87976
+2020-06-19 13:01:39,611 [Daum           ][DEBUG] 중복 프로그램 - =86448 금요/주말드라마 한 번 다녀왔습니다
+2020-06-19 13:01:39,611 [Daum           ][DEBUG] 중복 프로그램 - =87796 금요/주말드라마 바람과 구름과 비
+2020-06-19 13:01:39,611 [Daum           ][DEBUG] 중복 프로그램 - =86622 금요/주말드라마 번외수사
+2020-06-19 13:01:39,611 [Daum           ][DEBUG] 중복 프로그램 - =87527 금요/주말드라마 편의점 샛별이
+2020-06-19 13:01:39,611 [Daum           ][DEBUG] 중복 프로그램 - =87743 금요/주말드라마 사이코지만 괜찮아
+2020-06-19 13:01:39,612 [Daum           ][DEBUG] 중복 프로그램 - =86710 금요/주말드라마 우아한 친구들
+2020-06-19 13:01:39,612 [Daum           ][DEBUG] 중복 프로그램 - =87976 금요/주말드라마 미씽: 그들이 있었다
+2020-06-19 13:01:39,612 [Daum           ][INFO ] === 금요/주말드라마 검색 완료
+2020-06-19 13:01:40,613 [Daum           ][INFO ] === 일일/아침드라마 검색 시작
+2020-06-19 13:01:41,415 [Daum           ][DEBUG] 일일/아침드라마 (1/3) https://m.search.daum.net/search?w=tv&q=기막힌 유산&DA=TVS&&irk=87948&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:41,416 [Daum           ][DEBUG] TITLE : 기막힌 유산
+2020-06-19 13:01:41,416 [Daum           ][DEBUG] SID : =87948
+2020-06-19 13:01:41,416 [Daum           ][DEBUG] 일일/아침드라마 (2/3) https://m.search.daum.net/search?w=tv&q=위험한 약속&DA=TVS&&irk=87754&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:41,416 [Daum           ][DEBUG] TITLE : 위험한 약속
+2020-06-19 13:01:41,417 [Daum           ][DEBUG] SID : =87754
+2020-06-19 13:01:41,417 [Daum           ][DEBUG] 일일/아침드라마 (3/3) https://m.search.daum.net/search?w=tv&q=엄마가 바람났다&DA=TVS&&irk=87887&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:01:41,417 [Daum           ][DEBUG] TITLE : 엄마가 바람났다
+2020-06-19 13:01:41,417 [Daum           ][DEBUG] SID : =87887
+2020-06-19 13:01:41,417 [Daum           ][DEBUG] 중복 프로그램 - =87948 일일/아침드라마 기막힌 유산
+2020-06-19 13:01:41,417 [Daum           ][DEBUG] 중복 프로그램 - =87754 일일/아침드라마 위험한 약속
+2020-06-19 13:01:41,418 [Daum           ][DEBUG] 중복 프로그램 - =87887 일일/아침드라마 엄마가 바람났다
+2020-06-19 13:01:41,418 [Daum           ][INFO ] === 일일/아침드라마 검색 완료
+2020-06-19 13:04:16,185 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-19 13:04:16,198 [Showdown       ][INFO ] 설정 파일 로드
+2020-06-19 13:04:16,628 [Showdown       ][INFO ] DB 연결 성공
+2020-06-19 13:04:16,628 [Showdown       ][INFO ] 메인 실행
+2020-06-19 13:04:16,629 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-19 13:04:16,630 [Daum           ][INFO ] === DAUM 프로그램 정보 파싱 ===
+2020-06-19 13:04:16,630 [Daum           ][INFO ] === 드라마 정보 파싱 ===
+2020-06-19 13:04:16,634 [Daum           ][INFO ] === 월화드라마 검색 시작
+2020-06-19 13:04:17,623 [Daum           ][DEBUG] 월화드라마 (1/4) https://m.search.daum.net/search?w=tv&q=저녁 같이 드실래요?&DA=TVS&&irk=68810&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:17,623 [Daum           ][DEBUG] TITLE : 저녁 같이 드실래요?
+2020-06-19 13:04:17,623 [Daum           ][DEBUG] SID : 68810
+2020-06-19 13:04:17,627 [Daum           ][DEBUG] 월화드라마 (2/4) https://m.search.daum.net/search?w=tv&q=(아는 건 별로 없지만) 가족입니다&DA=TVS&&irk=87661&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:17,627 [Daum           ][DEBUG] TITLE : (아는 건 별로 없지만) 가족입니다
+2020-06-19 13:04:17,627 [Daum           ][DEBUG] SID : 87661
+2020-06-19 13:04:17,628 [Daum           ][DEBUG] 월화드라마 (3/4) https://m.search.daum.net/search?w=tv&q=야식남녀&DA=TVS&&irk=87578&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:17,628 [Daum           ][DEBUG] TITLE : 야식남녀
+2020-06-19 13:04:17,630 [Daum           ][DEBUG] SID : 87578
+2020-06-19 13:04:17,630 [Daum           ][DEBUG] 월화드라마 (4/4) https://m.search.daum.net/search?w=tv&q=그놈이 그놈이다&DA=TVS&&irk=87855&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:17,630 [Daum           ][DEBUG] TITLE : 그놈이 그놈이다
+2020-06-19 13:04:17,631 [Daum           ][DEBUG] SID : 87855
+2020-06-19 13:04:17,631 [Daum           ][DEBUG] 중복 프로그램 - 68810 월화드라마 저녁 같이 드실래요?
+2020-06-19 13:04:17,631 [Daum           ][DEBUG] 중복 프로그램 - 87661 월화드라마 (아는 건 별로 없지만) 가족입니다
+2020-06-19 13:04:17,631 [Daum           ][DEBUG] 중복 프로그램 - 87578 월화드라마 야식남녀
+2020-06-19 13:04:17,631 [Daum           ][DEBUG] 중복 프로그램 - 87855 월화드라마 그놈이 그놈이다
+2020-06-19 13:04:17,631 [Daum           ][INFO ] === 월화드라마 검색 완료
+2020-06-19 13:04:18,632 [Daum           ][INFO ] === 수목드라마 검색 시작
+2020-06-19 13:04:18,907 [Daum           ][DEBUG] 수목드라마 (1/9) https://m.search.daum.net/search?w=tv&q=꼰대인턴&DA=TVS&&irk=87432&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:18,908 [Daum           ][DEBUG] TITLE : 꼰대인턴
+2020-06-19 13:04:18,908 [Daum           ][DEBUG] SID : 87432
+2020-06-19 13:04:18,908 [Daum           ][DEBUG] 수목드라마 (2/9) https://m.search.daum.net/search?w=tv&q=쌍갑포차&DA=TVS&&irk=85760&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:18,908 [Daum           ][DEBUG] TITLE : 쌍갑포차
+2020-06-19 13:04:18,909 [Daum           ][DEBUG] SID : 85760
+2020-06-19 13:04:18,909 [Daum           ][DEBUG] 수목드라마 (3/9) https://m.search.daum.net/search?w=tv&q=영혼수선공&DA=TVS&&irk=86936&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:18,909 [Daum           ][DEBUG] TITLE : 영혼수선공
+2020-06-19 13:04:18,909 [Daum           ][DEBUG] SID : 86936
+2020-06-19 13:04:18,910 [Daum           ][DEBUG] 수목드라마 (4/9) https://m.search.daum.net/search?w=tv&q=오 마이 베이비&DA=TVS&&irk=87316&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:18,910 [Daum           ][DEBUG] TITLE : 오 마이 베이비
+2020-06-19 13:04:18,910 [Daum           ][DEBUG] SID : 87316
+2020-06-19 13:04:18,911 [Daum           ][DEBUG] 수목드라마 (5/9) https://m.search.daum.net/search?w=tv&q=출사표&DA=TVS&&irk=87766&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:18,911 [Daum           ][DEBUG] TITLE : 출사표
+2020-06-19 13:04:18,911 [Daum           ][DEBUG] SID : 87766
+2020-06-19 13:04:18,911 [Daum           ][DEBUG] 수목드라마 (6/9) https://m.search.daum.net/search?w=tv&q=미쓰리는 알고 있다&DA=TVS&&irk=88214&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:18,911 [Daum           ][DEBUG] TITLE : 미쓰리는 알고 있다
+2020-06-19 13:04:18,911 [Daum           ][DEBUG] SID : 88214
+2020-06-19 13:04:18,912 [Daum           ][DEBUG] 수목드라마 (7/9) https://m.search.daum.net/search?w=tv&q=우리, 사랑했을까&DA=TVS&&irk=87139&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:18,912 [Daum           ][DEBUG] TITLE : 우리, 사랑했을까
+2020-06-19 13:04:18,912 [Daum           ][DEBUG] SID : 87139
+2020-06-19 13:04:18,912 [Daum           ][DEBUG] 수목드라마 (8/9) https://m.search.daum.net/search?w=tv&q=십시일반&DA=TVS&&irk=87832&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:18,913 [Daum           ][DEBUG] TITLE : 십시일반
+2020-06-19 13:04:18,914 [Daum           ][DEBUG] SID : 87832
+2020-06-19 13:04:18,915 [Daum           ][DEBUG] 수목드라마 (9/9) https://m.search.daum.net/search?w=tv&q=악의 꽃&DA=TVS&&irk=87579&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:18,915 [Daum           ][DEBUG] TITLE : 악의 꽃
+2020-06-19 13:04:18,915 [Daum           ][DEBUG] SID : 87579
+2020-06-19 13:04:18,916 [Daum           ][DEBUG] 중복 프로그램 - 87432 수목드라마 꼰대인턴
+2020-06-19 13:04:18,916 [Daum           ][DEBUG] 중복 프로그램 - 85760 수목드라마 쌍갑포차
+2020-06-19 13:04:18,916 [Daum           ][DEBUG] 중복 프로그램 - 86936 수목드라마 영혼수선공
+2020-06-19 13:04:18,916 [Daum           ][DEBUG] 중복 프로그램 - 87316 수목드라마 오 마이 베이비
+2020-06-19 13:04:18,917 [Daum           ][DEBUG] 중복 프로그램 - 87766 수목드라마 출사표
+2020-06-19 13:04:18,917 [Daum           ][DEBUG] 중복 프로그램 - 88214 수목드라마 미쓰리는 알고 있다
+2020-06-19 13:04:18,918 [Daum           ][DEBUG] 중복 프로그램 - 87139 수목드라마 우리, 사랑했을까
+2020-06-19 13:04:18,918 [Daum           ][DEBUG] 중복 프로그램 - 87832 수목드라마 십시일반
+2020-06-19 13:04:18,918 [Daum           ][DEBUG] 중복 프로그램 - 87579 수목드라마 악의 꽃
+2020-06-19 13:04:18,919 [Daum           ][INFO ] === 수목드라마 검색 완료
+2020-06-19 13:04:19,919 [Daum           ][INFO ] === 금요/주말드라마 검색 시작
+2020-06-19 13:04:20,169 [Daum           ][DEBUG] 금요/주말드라마 (1/7) https://m.search.daum.net/search?w=tv&q=한 번 다녀왔습니다&DA=TVS&&irk=86448&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:20,170 [Daum           ][DEBUG] TITLE : 한 번 다녀왔습니다
+2020-06-19 13:04:20,170 [Daum           ][DEBUG] SID : 86448
+2020-06-19 13:04:20,170 [Daum           ][DEBUG] 금요/주말드라마 (2/7) https://m.search.daum.net/search?w=tv&q=바람과 구름과 비&DA=TVS&&irk=87796&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:20,170 [Daum           ][DEBUG] TITLE : 바람과 구름과 비
+2020-06-19 13:04:20,171 [Daum           ][DEBUG] SID : 87796
+2020-06-19 13:04:20,171 [Daum           ][DEBUG] 금요/주말드라마 (3/7) https://m.search.daum.net/search?w=tv&q=번외수사&DA=TVS&&irk=86622&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:20,171 [Daum           ][DEBUG] TITLE : 번외수사
+2020-06-19 13:04:20,171 [Daum           ][DEBUG] SID : 86622
+2020-06-19 13:04:20,171 [Daum           ][DEBUG] 금요/주말드라마 (4/7) https://m.search.daum.net/search?w=tv&q=편의점 샛별이&DA=TVS&&irk=87527&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:20,171 [Daum           ][DEBUG] TITLE : 편의점 샛별이
+2020-06-19 13:04:20,171 [Daum           ][DEBUG] SID : 87527
+2020-06-19 13:04:20,172 [Daum           ][DEBUG] 금요/주말드라마 (5/7) https://m.search.daum.net/search?w=tv&q=사이코지만 괜찮아&DA=TVS&&irk=87743&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:20,172 [Daum           ][DEBUG] TITLE : 사이코지만 괜찮아
+2020-06-19 13:04:20,172 [Daum           ][DEBUG] SID : 87743
+2020-06-19 13:04:20,172 [Daum           ][DEBUG] 금요/주말드라마 (6/7) https://m.search.daum.net/search?w=tv&q=우아한 친구들&DA=TVS&&irk=86710&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:20,172 [Daum           ][DEBUG] TITLE : 우아한 친구들
+2020-06-19 13:04:20,172 [Daum           ][DEBUG] SID : 86710
+2020-06-19 13:04:20,173 [Daum           ][DEBUG] 금요/주말드라마 (7/7) https://m.search.daum.net/search?w=tv&q=미씽: 그들이 있었다&DA=TVS&&irk=87976&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:20,173 [Daum           ][DEBUG] TITLE : 미씽: 그들이 있었다
+2020-06-19 13:04:20,173 [Daum           ][DEBUG] SID : 87976
+2020-06-19 13:04:20,173 [Daum           ][DEBUG] 중복 프로그램 - 86448 금요/주말드라마 한 번 다녀왔습니다
+2020-06-19 13:04:20,173 [Daum           ][DEBUG] 중복 프로그램 - 87796 금요/주말드라마 바람과 구름과 비
+2020-06-19 13:04:20,173 [Daum           ][DEBUG] 중복 프로그램 - 86622 금요/주말드라마 번외수사
+2020-06-19 13:04:20,173 [Daum           ][DEBUG] 중복 프로그램 - 87527 금요/주말드라마 편의점 샛별이
+2020-06-19 13:04:20,173 [Daum           ][DEBUG] 중복 프로그램 - 87743 금요/주말드라마 사이코지만 괜찮아
+2020-06-19 13:04:20,174 [Daum           ][DEBUG] 중복 프로그램 - 86710 금요/주말드라마 우아한 친구들
+2020-06-19 13:04:20,174 [Daum           ][DEBUG] 중복 프로그램 - 87976 금요/주말드라마 미씽: 그들이 있었다
+2020-06-19 13:04:20,174 [Daum           ][INFO ] === 금요/주말드라마 검색 완료
+2020-06-19 13:04:21,174 [Daum           ][INFO ] === 일일/아침드라마 검색 시작
+2020-06-19 13:04:21,420 [Daum           ][DEBUG] 일일/아침드라마 (1/3) https://m.search.daum.net/search?w=tv&q=기막힌 유산&DA=TVS&&irk=87948&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:21,420 [Daum           ][DEBUG] TITLE : 기막힌 유산
+2020-06-19 13:04:21,420 [Daum           ][DEBUG] SID : 87948
+2020-06-19 13:04:21,427 [Daum           ][DEBUG] 일일/아침드라마 (2/3) https://m.search.daum.net/search?w=tv&q=위험한 약속&DA=TVS&&irk=87754&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:21,427 [Daum           ][DEBUG] TITLE : 위험한 약속
+2020-06-19 13:04:21,427 [Daum           ][DEBUG] SID : 87754
+2020-06-19 13:04:21,427 [Daum           ][DEBUG] 일일/아침드라마 (3/3) https://m.search.daum.net/search?w=tv&q=엄마가 바람났다&DA=TVS&&irk=87887&irt=tv-program&rtmaxcoll=TVP
+2020-06-19 13:04:21,428 [Daum           ][DEBUG] TITLE : 엄마가 바람났다
+2020-06-19 13:04:21,428 [Daum           ][DEBUG] SID : 87887
+2020-06-19 13:04:21,428 [Daum           ][DEBUG] 중복 프로그램 - 87948 일일/아침드라마 기막힌 유산
+2020-06-19 13:04:21,428 [Daum           ][DEBUG] 중복 프로그램 - 87754 일일/아침드라마 위험한 약속
+2020-06-19 13:04:21,428 [Daum           ][DEBUG] 중복 프로그램 - 87887 일일/아침드라마 엄마가 바람났다
+2020-06-19 13:04:21,429 [Daum           ][INFO ] === 일일/아침드라마 검색 완료
+2020-06-19 15:14:50,141 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-19 15:14:50,154 [Showdown       ][INFO ] 설정 파일 로드
+2020-06-19 15:14:50,522 [Showdown       ][INFO ] DB 연결 성공
+2020-06-19 15:14:50,522 [Showdown       ][INFO ] 메인 실행
+2020-06-19 15:14:50,523 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-19 15:15:10,015 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-19 15:15:10,027 [Showdown       ][INFO ] 설정 파일 로드
+2020-06-19 15:15:10,397 [Showdown       ][INFO ] DB 연결 성공
+2020-06-19 15:15:10,397 [Showdown       ][INFO ] 메인 실행
+2020-06-19 15:15:10,398 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-19 15:15:10,399 [DaumParse      ][DEBUG] 파싱 : https://m.search.daum.net/search?w=tot&DA=TVS&rtmaxcoll=TVS&q=월화드라마
+2020-06-19 15:15:11,403 [DaumParse      ][DEBUG] 5개의 프로그램 검색
+2020-06-19 15:15:11,404 [DaumParse      ][DEBUG] (1/4) URL : https://m.search.daum.net/search?w=tv&q=저녁 같이 드실래요?&DA=TVS&&irk=68810&irt=tv-program
+2020-06-19 15:15:11,405 [DaumParse      ][DEBUG] (1/4) TITLE : 저녁 같이 드실래요?
+2020-06-19 15:15:11,405 [DaumParse      ][DEBUG] (1/4) SID : 68810
+2020-06-19 15:15:11,406 [DaumParse      ][DEBUG] (2/4) URL : https://m.search.daum.net/search?w=tv&q=(아는 건 별로 없지만) 가족입니다&DA=TVS&&irk=87661&irt=tv-program
+2020-06-19 15:15:11,406 [DaumParse      ][DEBUG] (2/4) TITLE : (아는 건 별로 없지만) 가족입니다
+2020-06-19 15:15:11,406 [DaumParse      ][DEBUG] (2/4) SID : 87661
+2020-06-19 15:15:11,406 [DaumParse      ][DEBUG] (3/4) URL : https://m.search.daum.net/search?w=tv&q=야식남녀&DA=TVS&&irk=87578&irt=tv-program
+2020-06-19 15:15:11,407 [DaumParse      ][DEBUG] (3/4) TITLE : 야식남녀
+2020-06-19 15:15:11,407 [DaumParse      ][DEBUG] (3/4) SID : 87578
+2020-06-19 15:15:11,408 [DaumParse      ][DEBUG] (4/4) URL : https://m.search.daum.net/search?w=tv&q=그놈이 그놈이다&DA=TVS&&irk=87855&irt=tv-program
+2020-06-19 15:15:11,409 [DaumParse      ][DEBUG] (4/4) TITLE : 그놈이 그놈이다
+2020-06-19 15:15:11,409 [DaumParse      ][DEBUG] (4/4) SID : 87855
+2020-06-19 15:15:11,409 [Daum           ][DEBUG] 중복 프로그램 - 68810  저녁 같이 드실래요?
+2020-06-19 15:15:11,409 [Daum           ][DEBUG] 중복 프로그램 - 87661  (아는 건 별로 없지만) 가족입니다
+2020-06-19 15:15:11,410 [Daum           ][DEBUG] 중복 프로그램 - 87578  야식남녀
+2020-06-19 15:15:11,410 [Daum           ][DEBUG] 중복 프로그램 - 87855  그놈이 그놈이다
+2020-06-19 15:15:11,410 [DaumParse      ][DEBUG] 파싱 : https://m.search.daum.net/search?w=tot&DA=TVS&rtmaxcoll=TVS&q=수목드라마
+2020-06-19 15:15:11,710 [DaumParse      ][DEBUG] 10개의 프로그램 검색
+2020-06-19 15:15:11,710 [DaumParse      ][DEBUG] (1/9) URL : https://m.search.daum.net/search?w=tv&q=꼰대인턴&DA=TVS&&irk=87432&irt=tv-program
+2020-06-19 15:15:11,710 [DaumParse      ][DEBUG] (1/9) TITLE : 꼰대인턴
+2020-06-19 15:15:11,711 [DaumParse      ][DEBUG] (1/9) SID : 87432
+2020-06-19 15:15:11,711 [DaumParse      ][DEBUG] (2/9) URL : https://m.search.daum.net/search?w=tv&q=쌍갑포차&DA=TVS&&irk=85760&irt=tv-program
+2020-06-19 15:15:11,711 [DaumParse      ][DEBUG] (2/9) TITLE : 쌍갑포차
+2020-06-19 15:15:11,711 [DaumParse      ][DEBUG] (2/9) SID : 85760
+2020-06-19 15:15:11,711 [DaumParse      ][DEBUG] (3/9) URL : https://m.search.daum.net/search?w=tv&q=영혼수선공&DA=TVS&&irk=86936&irt=tv-program
+2020-06-19 15:15:11,712 [DaumParse      ][DEBUG] (3/9) TITLE : 영혼수선공
+2020-06-19 15:15:11,712 [DaumParse      ][DEBUG] (3/9) SID : 86936
+2020-06-19 15:15:11,712 [DaumParse      ][DEBUG] (4/9) URL : https://m.search.daum.net/search?w=tv&q=오 마이 베이비&DA=TVS&&irk=87316&irt=tv-program
+2020-06-19 15:15:11,712 [DaumParse      ][DEBUG] (4/9) TITLE : 오 마이 베이비
+2020-06-19 15:15:11,712 [DaumParse      ][DEBUG] (4/9) SID : 87316
+2020-06-19 15:15:11,713 [DaumParse      ][DEBUG] (5/9) URL : https://m.search.daum.net/search?w=tv&q=출사표&DA=TVS&&irk=87766&irt=tv-program
+2020-06-19 15:15:11,713 [DaumParse      ][DEBUG] (5/9) TITLE : 출사표
+2020-06-19 15:15:11,713 [DaumParse      ][DEBUG] (5/9) SID : 87766
+2020-06-19 15:15:11,713 [DaumParse      ][DEBUG] (6/9) URL : https://m.search.daum.net/search?w=tv&q=미쓰리는 알고 있다&DA=TVS&&irk=88214&irt=tv-program
+2020-06-19 15:15:11,713 [DaumParse      ][DEBUG] (6/9) TITLE : 미쓰리는 알고 있다
+2020-06-19 15:15:11,713 [DaumParse      ][DEBUG] (6/9) SID : 88214
+2020-06-19 15:15:11,714 [DaumParse      ][DEBUG] (7/9) URL : https://m.search.daum.net/search?w=tv&q=우리, 사랑했을까&DA=TVS&&irk=87139&irt=tv-program
+2020-06-19 15:15:11,714 [DaumParse      ][DEBUG] (7/9) TITLE : 우리, 사랑했을까
+2020-06-19 15:15:11,714 [DaumParse      ][DEBUG] (7/9) SID : 87139
+2020-06-19 15:15:11,714 [DaumParse      ][DEBUG] (8/9) URL : https://m.search.daum.net/search?w=tv&q=십시일반&DA=TVS&&irk=87832&irt=tv-program
+2020-06-19 15:15:11,715 [DaumParse      ][DEBUG] (8/9) TITLE : 십시일반
+2020-06-19 15:15:11,715 [DaumParse      ][DEBUG] (8/9) SID : 87832
+2020-06-19 15:15:11,715 [DaumParse      ][DEBUG] (9/9) URL : https://m.search.daum.net/search?w=tv&q=악의 꽃&DA=TVS&&irk=87579&irt=tv-program
+2020-06-19 15:15:11,715 [DaumParse      ][DEBUG] (9/9) TITLE : 악의 꽃
+2020-06-19 15:15:11,716 [DaumParse      ][DEBUG] (9/9) SID : 87579
+2020-06-19 15:15:11,716 [Daum           ][DEBUG] 중복 프로그램 - 87432  꼰대인턴
+2020-06-19 15:15:11,716 [Daum           ][DEBUG] 중복 프로그램 - 85760  쌍갑포차
+2020-06-19 15:15:11,716 [Daum           ][DEBUG] 중복 프로그램 - 86936  영혼수선공
+2020-06-19 15:15:11,716 [Daum           ][DEBUG] 중복 프로그램 - 87316  오 마이 베이비
+2020-06-19 15:15:11,717 [Daum           ][DEBUG] 중복 프로그램 - 87766  출사표
+2020-06-19 15:15:11,717 [Daum           ][DEBUG] 중복 프로그램 - 88214  미쓰리는 알고 있다
+2020-06-19 15:15:11,717 [Daum           ][DEBUG] 중복 프로그램 - 87139  우리, 사랑했을까
+2020-06-19 15:15:11,717 [Daum           ][DEBUG] 중복 프로그램 - 87832  십시일반
+2020-06-19 15:15:11,717 [Daum           ][DEBUG] 중복 프로그램 - 87579  악의 꽃
+2020-06-19 15:15:11,717 [DaumParse      ][DEBUG] 파싱 : https://m.search.daum.net/search?w=tot&DA=TVS&rtmaxcoll=TVS&q=금요/주말드라마
+2020-06-19 15:15:11,963 [DaumParse      ][DEBUG] 8개의 프로그램 검색
+2020-06-19 15:15:11,964 [DaumParse      ][DEBUG] (1/7) URL : https://m.search.daum.net/search?w=tv&q=한 번 다녀왔습니다&DA=TVS&&irk=86448&irt=tv-program
+2020-06-19 15:15:11,964 [DaumParse      ][DEBUG] (1/7) TITLE : 한 번 다녀왔습니다
+2020-06-19 15:15:11,964 [DaumParse      ][DEBUG] (1/7) SID : 86448
+2020-06-19 15:15:11,965 [DaumParse      ][DEBUG] (2/7) URL : https://m.search.daum.net/search?w=tv&q=바람과 구름과 비&DA=TVS&&irk=87796&irt=tv-program
+2020-06-19 15:15:11,965 [DaumParse      ][DEBUG] (2/7) TITLE : 바람과 구름과 비
+2020-06-19 15:15:11,965 [DaumParse      ][DEBUG] (2/7) SID : 87796
+2020-06-19 15:15:11,965 [DaumParse      ][DEBUG] (3/7) URL : https://m.search.daum.net/search?w=tv&q=번외수사&DA=TVS&&irk=86622&irt=tv-program
+2020-06-19 15:15:11,965 [DaumParse      ][DEBUG] (3/7) TITLE : 번외수사
+2020-06-19 15:15:11,965 [DaumParse      ][DEBUG] (3/7) SID : 86622
+2020-06-19 15:15:11,966 [DaumParse      ][DEBUG] (4/7) URL : https://m.search.daum.net/search?w=tv&q=편의점 샛별이&DA=TVS&&irk=87527&irt=tv-program
+2020-06-19 15:15:11,966 [DaumParse      ][DEBUG] (4/7) TITLE : 편의점 샛별이
+2020-06-19 15:15:11,966 [DaumParse      ][DEBUG] (4/7) SID : 87527
+2020-06-19 15:15:11,966 [DaumParse      ][DEBUG] (5/7) URL : https://m.search.daum.net/search?w=tv&q=사이코지만 괜찮아&DA=TVS&&irk=87743&irt=tv-program
+2020-06-19 15:15:11,966 [DaumParse      ][DEBUG] (5/7) TITLE : 사이코지만 괜찮아
+2020-06-19 15:15:11,966 [DaumParse      ][DEBUG] (5/7) SID : 87743
+2020-06-19 15:15:11,967 [DaumParse      ][DEBUG] (6/7) URL : https://m.search.daum.net/search?w=tv&q=우아한 친구들&DA=TVS&&irk=86710&irt=tv-program
+2020-06-19 15:15:11,967 [DaumParse      ][DEBUG] (6/7) TITLE : 우아한 친구들
+2020-06-19 15:15:11,967 [DaumParse      ][DEBUG] (6/7) SID : 86710
+2020-06-19 15:15:11,967 [DaumParse      ][DEBUG] (7/7) URL : https://m.search.daum.net/search?w=tv&q=미씽: 그들이 있었다&DA=TVS&&irk=87976&irt=tv-program
+2020-06-19 15:15:11,967 [DaumParse      ][DEBUG] (7/7) TITLE : 미씽: 그들이 있었다
+2020-06-19 15:15:11,967 [DaumParse      ][DEBUG] (7/7) SID : 87976
+2020-06-19 15:15:11,967 [Daum           ][DEBUG] 중복 프로그램 - 86448  한 번 다녀왔습니다
+2020-06-19 15:15:11,968 [Daum           ][DEBUG] 중복 프로그램 - 87796  바람과 구름과 비
+2020-06-19 15:15:11,968 [Daum           ][DEBUG] 중복 프로그램 - 86622  번외수사
+2020-06-19 15:15:11,968 [Daum           ][DEBUG] 중복 프로그램 - 87527  편의점 샛별이
+2020-06-19 15:15:11,968 [Daum           ][DEBUG] 중복 프로그램 - 87743  사이코지만 괜찮아
+2020-06-19 15:15:11,968 [Daum           ][DEBUG] 중복 프로그램 - 86710  우아한 친구들
+2020-06-19 15:15:11,968 [Daum           ][DEBUG] 중복 프로그램 - 87976  미씽: 그들이 있었다
+2020-06-19 15:15:11,968 [DaumParse      ][DEBUG] 파싱 : https://m.search.daum.net/search?w=tot&DA=TVS&rtmaxcoll=TVS&q=일일/아침드라마
+2020-06-19 15:15:12,187 [DaumParse      ][DEBUG] 4개의 프로그램 검색
+2020-06-19 15:15:12,188 [DaumParse      ][DEBUG] (1/3) URL : https://m.search.daum.net/search?w=tv&q=기막힌 유산&DA=TVS&&irk=87948&irt=tv-program
+2020-06-19 15:15:12,188 [DaumParse      ][DEBUG] (1/3) TITLE : 기막힌 유산
+2020-06-19 15:15:12,188 [DaumParse      ][DEBUG] (1/3) SID : 87948
+2020-06-19 15:15:12,188 [DaumParse      ][DEBUG] (2/3) URL : https://m.search.daum.net/search?w=tv&q=위험한 약속&DA=TVS&&irk=87754&irt=tv-program
+2020-06-19 15:15:12,194 [DaumParse      ][DEBUG] (2/3) TITLE : 위험한 약속
+2020-06-19 15:15:12,194 [DaumParse      ][DEBUG] (2/3) SID : 87754
+2020-06-19 15:15:12,195 [DaumParse      ][DEBUG] (3/3) URL : https://m.search.daum.net/search?w=tv&q=엄마가 바람났다&DA=TVS&&irk=87887&irt=tv-program
+2020-06-19 15:15:12,195 [DaumParse      ][DEBUG] (3/3) TITLE : 엄마가 바람났다
+2020-06-19 15:15:12,195 [DaumParse      ][DEBUG] (3/3) SID : 87887
+2020-06-19 15:15:12,195 [Daum           ][DEBUG] 중복 프로그램 - 87948  기막힌 유산
+2020-06-19 15:15:12,195 [Daum           ][DEBUG] 중복 프로그램 - 87754  위험한 약속
+2020-06-19 15:15:12,195 [Daum           ][DEBUG] 중복 프로그램 - 87887  엄마가 바람났다
+2020-06-19 15:15:12,195 [DaumParse      ][DEBUG] 파싱 : https://m.search.daum.net/search?w=tot&DA=TVS&rtmaxcoll=TVS&q=월요일예능
+2020-06-19 15:15:12,474 [DaumParse      ][DEBUG] 20개의 프로그램 검색
+2020-06-19 15:15:12,474 [DaumParse      ][DEBUG] (1/19) URL : https://m.search.daum.net/search?w=tv&q=가요무대&DA=TVS&&irk=48475&irt=tv-program
+2020-06-19 15:15:12,475 [DaumParse      ][DEBUG] (1/19) TITLE : 가요무대
+2020-06-19 15:15:12,475 [DaumParse      ][DEBUG] (1/19) SID : 48475
+2020-06-19 15:15:12,475 [DaumParse      ][DEBUG] (2/19) URL : https://m.search.daum.net/search?w=tv&q=옥탑방의 문제아들&DA=TVS&&irk=83906&irt=tv-program
+2020-06-19 15:15:12,476 [DaumParse      ][DEBUG] (2/19) TITLE : 옥탑방의 문제아들
+2020-06-19 15:15:12,476 [DaumParse      ][DEBUG] (2/19) SID : 83906
+2020-06-19 15:15:12,476 [DaumParse      ][DEBUG] (3/19) URL : https://m.search.daum.net/search?w=tv&q=동상이몽 2 - 너는 내 운명&DA=TVS&&irk=80459&irt=tv-program
+2020-06-19 15:15:12,477 [DaumParse      ][DEBUG] (3/19) TITLE : 동상이몽 2 - 너는 내 운명
+2020-06-19 15:15:12,477 [DaumParse      ][DEBUG] (3/19) SID : 80459
+2020-06-19 15:15:12,478 [DaumParse      ][DEBUG] (4/19) URL : https://m.search.daum.net/search?w=tv&q=개는 훌륭하다&DA=TVS&&irk=86961&irt=tv-program
+2020-06-19 15:15:12,478 [DaumParse      ][DEBUG] (4/19) TITLE : 개는 훌륭하다
+2020-06-19 15:15:12,478 [DaumParse      ][DEBUG] (4/19) SID : 86961
+2020-06-19 15:15:12,478 [DaumParse      ][DEBUG] (5/19) URL : https://m.search.daum.net/search?w=tv&q=위대한 배태랑&DA=TVS&&irk=88308&irt=tv-program
+2020-06-19 15:15:12,479 [DaumParse      ][DEBUG] (5/19) TITLE : 위대한 배태랑
+2020-06-19 15:15:12,479 [DaumParse      ][DEBUG] (5/19) SID : 88308
+2020-06-19 15:15:12,480 [DaumParse      ][DEBUG] (6/19) URL : https://m.search.daum.net/search?w=tv&q=얼마예요?&DA=TVS&&irk=81158&irt=tv-program
+2020-06-19 15:15:12,481 [DaumParse      ][DEBUG] (6/19) TITLE : 얼마예요?
+2020-06-19 15:15:12,481 [DaumParse      ][DEBUG] (6/19) SID : 81158
+2020-06-19 15:15:12,481 [DaumParse      ][DEBUG] (7/19) URL : https://m.search.daum.net/search?w=tv&q=리얼연애 부러우면 지는거다&DA=TVS&&irk=87783&irt=tv-program
+2020-06-19 15:15:12,482 [DaumParse      ][DEBUG] (7/19) TITLE : 리얼연애 부러우면 지는거다
+2020-06-19 15:15:12,482 [DaumParse      ][DEBUG] (7/19) SID : 87783
+2020-06-19 15:15:12,483 [DaumParse      ][DEBUG] (8/19) URL : https://m.search.daum.net/search?w=tv&q=전국민 드루와&DA=TVS&&irk=88567&irt=tv-program
+2020-06-19 15:15:12,483 [DaumParse      ][DEBUG] (8/19) TITLE : 전국민 드루와
+2020-06-19 15:15:12,483 [DaumParse      ][DEBUG] (8/19) SID : 88567
+2020-06-19 15:15:12,484 [DaumParse      ][DEBUG] (9/19) URL : https://m.search.daum.net/search?w=tv&q=아이콘택트&DA=TVS&&irk=86294&irt=tv-program
+2020-06-19 15:15:12,484 [DaumParse      ][DEBUG] (9/19) TITLE : 아이콘택트
+2020-06-19 15:15:12,484 [DaumParse      ][DEBUG] (9/19) SID : 86294
+2020-06-19 15:15:12,484 [DaumParse      ][DEBUG] (10/19) URL : https://m.search.daum.net/search?w=tv&q=건강함의 시작, 몸의 대화&DA=TVS&&irk=88231&irt=tv-program
+2020-06-19 15:15:12,484 [DaumParse      ][DEBUG] (10/19) TITLE : 건강함의 시작, 몸의 대화
+2020-06-19 15:15:12,485 [DaumParse      ][DEBUG] (10/19) SID : 88231
+2020-06-19 15:15:12,485 [DaumParse      ][DEBUG] (11/19) URL : https://m.search.daum.net/search?w=tv&q=풍문으로 들었쇼&DA=TVS&&irk=73930&irt=tv-program
+2020-06-19 15:15:12,485 [DaumParse      ][DEBUG] (11/19) TITLE : 풍문으로 들었쇼
+2020-06-19 15:15:12,485 [DaumParse      ][DEBUG] (11/19) SID : 73930
+2020-06-19 15:15:12,485 [DaumParse      ][DEBUG] (12/19) URL : https://m.search.daum.net/search?w=tv&q=밥은 먹고 다니냐?&DA=TVS&&irk=86656&irt=tv-program
+2020-06-19 15:15:12,485 [DaumParse      ][DEBUG] (12/19) TITLE : 밥은 먹고 다니냐?
+2020-06-19 15:15:12,485 [DaumParse      ][DEBUG] (12/19) SID : 86656
+2020-06-19 15:15:12,486 [DaumParse      ][DEBUG] (13/19) URL : https://m.search.daum.net/search?w=tv&q=무엇이든 물어보살&DA=TVS&&irk=84999&irt=tv-program
+2020-06-19 15:15:12,486 [DaumParse      ][DEBUG] (13/19) TITLE : 무엇이든 물어보살
+2020-06-19 15:15:12,486 [DaumParse      ][DEBUG] (13/19) SID : 84999
+2020-06-19 15:15:12,486 [DaumParse      ][DEBUG] (14/19) URL : https://m.search.daum.net/search?w=tv&q=프리한19&DA=TVS&&irk=76400&irt=tv-program
+2020-06-19 15:15:12,486 [DaumParse      ][DEBUG] (14/19) TITLE : 프리한19
+2020-06-19 15:15:12,486 [DaumParse      ][DEBUG] (14/19) SID : 76400
+2020-06-19 15:15:12,486 [DaumParse      ][DEBUG] (15/19) URL : https://m.search.daum.net/search?w=tv&q=반반쇼&DA=TVS&&irk=86688&irt=tv-program
+2020-06-19 15:15:12,487 [DaumParse      ][DEBUG] (15/19) TITLE : 반반쇼
+2020-06-19 15:15:12,487 [DaumParse      ][DEBUG] (15/19) SID : 86688
+2020-06-19 15:15:12,487 [DaumParse      ][DEBUG] (16/19) URL : https://m.search.daum.net/search?w=tv&q=유불리 상담소&DA=TVS&&irk=88320&irt=tv-program
+2020-06-19 15:15:12,487 [DaumParse      ][DEBUG] (16/19) TITLE : 유불리 상담소
+2020-06-19 15:15:12,487 [DaumParse      ][DEBUG] (16/19) SID : 88320
+2020-06-19 15:15:12,487 [DaumParse      ][DEBUG] (17/19) URL : https://m.search.daum.net/search?w=tv&q=감자덕후&DA=TVS&&irk=88469&irt=tv-program
+2020-06-19 15:15:12,488 [DaumParse      ][DEBUG] (17/19) TITLE : 감자덕후
+2020-06-19 15:15:12,488 [DaumParse      ][DEBUG] (17/19) SID : 88469
+2020-06-19 15:15:12,488 [DaumParse      ][DEBUG] (18/19) URL : https://m.search.daum.net/search?w=tv&q=왈가닥뷰티&DA=TVS&&irk=88285&irt=tv-program
+2020-06-19 15:15:12,488 [DaumParse      ][DEBUG] (18/19) TITLE : 왈가닥뷰티
+2020-06-19 15:15:12,489 [DaumParse      ][DEBUG] (18/19) SID : 88285
+2020-06-19 15:15:12,489 [DaumParse      ][DEBUG] (19/19) URL : https://m.search.daum.net/search?w=tv&q=신박한 정리&DA=TVS&&irk=88597&irt=tv-program
+2020-06-19 15:15:12,489 [DaumParse      ][DEBUG] (19/19) TITLE : 신박한 정리
+2020-06-19 15:15:12,489 [DaumParse      ][DEBUG] (19/19) SID : 88597
+2020-06-19 15:15:12,489 [Daum           ][DEBUG] 중복 프로그램 - 48475  가요무대
+2020-06-19 15:15:12,489 [Daum           ][DEBUG] 중복 프로그램 - 83906  옥탑방의 문제아들
+2020-06-19 15:15:12,489 [Daum           ][DEBUG] 중복 프로그램 - 80459  동상이몽 2 - 너는 내 운명
+2020-06-19 15:15:12,490 [Daum           ][DEBUG] 중복 프로그램 - 86961  개는 훌륭하다
+2020-06-19 15:15:12,490 [Daum           ][DEBUG] 중복 프로그램 - 88308  위대한 배태랑
+2020-06-19 15:15:12,490 [Daum           ][DEBUG] 중복 프로그램 - 81158  얼마예요?
+2020-06-19 15:15:12,490 [Daum           ][DEBUG] 중복 프로그램 - 87783  리얼연애 부러우면 지는거다
+2020-06-19 15:15:12,490 [Daum           ][DEBUG] 중복 프로그램 - 88567  전국민 드루와
+2020-06-19 15:15:12,490 [Daum           ][DEBUG] 중복 프로그램 - 86294  아이콘택트
+2020-06-19 15:15:12,490 [Daum           ][DEBUG] 중복 프로그램 - 88231  건강함의 시작, 몸의 대화
+2020-06-19 15:15:12,490 [Daum           ][DEBUG] 중복 프로그램 - 73930  풍문으로 들었쇼
+2020-06-19 15:15:12,491 [Daum           ][DEBUG] 중복 프로그램 - 86656  밥은 먹고 다니냐?
+2020-06-19 15:15:12,491 [Daum           ][DEBUG] 중복 프로그램 - 84999  무엇이든 물어보살
+2020-06-19 15:15:12,491 [Daum           ][DEBUG] 중복 프로그램 - 76400  프리한19
+2020-06-19 15:15:12,491 [Daum           ][DEBUG] 중복 프로그램 - 86688  반반쇼
+2020-06-19 15:15:12,491 [Daum           ][DEBUG] 중복 프로그램 - 88320  유불리 상담소
+2020-06-19 15:15:12,491 [Daum           ][DEBUG] 중복 프로그램 - 88469  감자덕후
+2020-06-19 15:15:12,491 [Daum           ][DEBUG] 중복 프로그램 - 88285  왈가닥뷰티
+2020-06-19 15:15:12,492 [Daum           ][DEBUG] 중복 프로그램 - 88597  신박한 정리
+2020-06-19 15:15:12,492 [DaumParse      ][DEBUG] 파싱 : https://m.search.daum.net/search?w=tot&DA=TVS&rtmaxcoll=TVS&q=화요일예능
+2020-06-19 15:15:12,772 [DaumParse      ][DEBUG] 14개의 프로그램 검색
+2020-06-19 15:15:12,773 [DaumParse      ][DEBUG] (1/13) URL : https://m.search.daum.net/search?w=tv&q=아내의 맛&DA=TVS&&irk=83003&irt=tv-program
+2020-06-19 15:15:12,773 [DaumParse      ][DEBUG] (1/13) TITLE : 아내의 맛
+2020-06-19 15:15:12,774 [DaumParse      ][DEBUG] (1/13) SID : 83003
+2020-06-19 15:15:12,774 [DaumParse      ][DEBUG] (2/13) URL : https://m.search.daum.net/search?w=tv&q=불타는 청춘&DA=TVS&&irk=68070&irt=tv-program
+2020-06-19 15:15:12,775 [DaumParse      ][DEBUG] (2/13) TITLE : 불타는 청춘
+2020-06-19 15:15:12,775 [DaumParse      ][DEBUG] (2/13) SID : 68070
+2020-06-19 15:15:12,775 [DaumParse      ][DEBUG] (3/13) URL : https://m.search.daum.net/search?w=tv&q=나는 몸신이다&DA=TVS&&irk=67462&irt=tv-program
+2020-06-19 15:15:12,775 [DaumParse      ][DEBUG] (3/13) TITLE : 나는 몸신이다
+2020-06-19 15:15:12,776 [DaumParse      ][DEBUG] (3/13) SID : 67462
+2020-06-19 15:15:12,776 [DaumParse      ][DEBUG] (4/13) URL : https://m.search.daum.net/search?w=tv&q=날아라 슛돌이 - 뉴 비기닝&DA=TVS&&irk=87381&irt=tv-program
+2020-06-19 15:15:12,776 [DaumParse      ][DEBUG] (4/13) TITLE : 날아라 슛돌이 - 뉴 비기닝
+2020-06-19 15:15:12,777 [DaumParse      ][DEBUG] (4/13) SID : 87381
+2020-06-19 15:15:12,777 [DaumParse      ][DEBUG] (5/13) URL : https://m.search.daum.net/search?w=tv&q=엄지의 제왕&DA=TVS&&irk=62434&irt=tv-program
+2020-06-19 15:15:12,778 [DaumParse      ][DEBUG] (5/13) TITLE : 엄지의 제왕
+2020-06-19 15:15:12,779 [DaumParse      ][DEBUG] (5/13) SID : 62434
+2020-06-19 15:15:12,779 [DaumParse      ][DEBUG] (6/13) URL : https://m.search.daum.net/search?w=tv&q=더 짠내투어&DA=TVS&&irk=81303&irt=tv-program
+2020-06-19 15:15:12,779 [DaumParse      ][DEBUG] (6/13) TITLE : 더 짠내투어
+2020-06-19 15:15:12,780 [DaumParse      ][DEBUG] (6/13) SID : 81303
+2020-06-19 15:15:12,780 [DaumParse      ][DEBUG] (7/13) URL : https://m.search.daum.net/search?w=tv&q=배달해서 먹힐까?&DA=TVS&&irk=88328&irt=tv-program
+2020-06-19 15:15:12,780 [DaumParse      ][DEBUG] (7/13) TITLE : 배달해서 먹힐까?
+2020-06-19 15:15:12,780 [DaumParse      ][DEBUG] (7/13) SID : 88328
+2020-06-19 15:15:12,781 [DaumParse      ][DEBUG] (8/13) URL : https://m.search.daum.net/search?w=tv&q=신비한 동물 퀴즈&DA=TVS&&irk=88329&irt=tv-program
+2020-06-19 15:15:12,781 [DaumParse      ][DEBUG] (8/13) TITLE : 신비한 동물 퀴즈
+2020-06-19 15:15:12,781 [DaumParse      ][DEBUG] (8/13) SID : 88329
+2020-06-19 15:15:12,782 [DaumParse      ][DEBUG] (9/13) URL : https://m.search.daum.net/search?w=tv&q=비디오스타&DA=TVS&&irk=77166&irt=tv-program
+2020-06-19 15:15:12,782 [DaumParse      ][DEBUG] (9/13) TITLE : 비디오스타
+2020-06-19 15:15:12,782 [DaumParse      ][DEBUG] (9/13) SID : 77166
+2020-06-19 15:15:12,783 [DaumParse      ][DEBUG] (10/13) URL : https://m.search.daum.net/search?w=tv&q=연애의 참견 3&DA=TVS&&irk=87508&irt=tv-program
+2020-06-19 15:15:12,783 [DaumParse      ][DEBUG] (10/13) TITLE : 연애의 참견 3
+2020-06-19 15:15:12,784 [DaumParse      ][DEBUG] (10/13) SID : 87508
+2020-06-19 15:15:12,784 [DaumParse      ][DEBUG] (11/13) URL : https://m.search.daum.net/search?w=tv&q=더 쇼&DA=TVS&&irk=79396&irt=tv-program
+2020-06-19 15:15:12,785 [DaumParse      ][DEBUG] (11/13) TITLE : 더 쇼
+2020-06-19 15:15:12,785 [DaumParse      ][DEBUG] (11/13) SID : 79396
+2020-06-19 15:15:12,785 [DaumParse      ][DEBUG] (12/13) URL : https://m.search.daum.net/search?w=tv&q=가정경제전담 수사본부&DA=TVS&&irk=87038&irt=tv-program
+2020-06-19 15:15:12,786 [DaumParse      ][DEBUG] (12/13) TITLE : 가정경제전담 수사본부
+2020-06-19 15:15:12,786 [DaumParse      ][DEBUG] (12/13) SID : 87038
+2020-06-19 15:15:12,786 [DaumParse      ][DEBUG] (13/13) URL : https://m.search.daum.net/search?w=tv&q=내게 ON 트롯&DA=TVS&&irk=88453&irt=tv-program
+2020-06-19 15:15:12,786 [DaumParse      ][DEBUG] (13/13) TITLE : 내게 ON 트롯
+2020-06-19 15:15:12,786 [DaumParse      ][DEBUG] (13/13) SID : 88453
+2020-06-19 15:15:12,786 [Daum           ][DEBUG] 중복 프로그램 - 83003  아내의 맛
+2020-06-19 15:15:12,787 [Daum           ][DEBUG] 중복 프로그램 - 68070  불타는 청춘
+2020-06-19 15:15:12,787 [Daum           ][DEBUG] 중복 프로그램 - 67462  나는 몸신이다
+2020-06-19 15:15:12,787 [Daum           ][DEBUG] 중복 프로그램 - 87381  날아라 슛돌이 - 뉴 비기닝
+2020-06-19 15:15:12,787 [Daum           ][DEBUG] 중복 프로그램 - 62434  엄지의 제왕
+2020-06-19 15:15:12,787 [Daum           ][DEBUG] 중복 프로그램 - 81303  더 짠내투어
+2020-06-19 15:15:12,787 [Daum           ][DEBUG] 중복 프로그램 - 88328  배달해서 먹힐까?
+2020-06-19 15:15:12,787 [Daum           ][DEBUG] 중복 프로그램 - 88329  신비한 동물 퀴즈
+2020-06-19 15:15:12,787 [Daum           ][DEBUG] 중복 프로그램 - 77166  비디오스타
+2020-06-19 15:15:12,787 [Daum           ][DEBUG] 중복 프로그램 - 87508  연애의 참견 3
+2020-06-19 15:15:12,788 [Daum           ][DEBUG] 중복 프로그램 - 79396  더 쇼
+2020-06-19 15:15:12,788 [Daum           ][DEBUG] 중복 프로그램 - 87038  가정경제전담 수사본부
+2020-06-19 15:15:12,788 [Daum           ][DEBUG] 중복 프로그램 - 88453  내게 ON 트롯
+2020-06-19 15:15:12,788 [DaumParse      ][DEBUG] 파싱 : https://m.search.daum.net/search?w=tot&DA=TVS&rtmaxcoll=TVS&q=수요일예능
+2020-06-19 15:15:13,098 [DaumParse      ][DEBUG] 19개의 프로그램 검색
+2020-06-19 15:15:13,099 [DaumParse      ][DEBUG] (1/18) URL : https://m.search.daum.net/search?w=tv&q=뽕숭아학당&DA=TVS&&irk=88235&irt=tv-program
+2020-06-19 15:15:13,099 [DaumParse      ][DEBUG] (1/18) TITLE : 뽕숭아학당
+2020-06-19 15:15:13,099 [DaumParse      ][DEBUG] (1/18) SID : 88235
+2020-06-19 15:15:13,099 [DaumParse      ][DEBUG] (2/18) URL : https://m.search.daum.net/search?w=tv&q=백종원의 골목식당&DA=TVS&&irk=81824&irt=tv-program
+2020-06-19 15:15:13,100 [DaumParse      ][DEBUG] (2/18) TITLE : 백종원의 골목식당
+2020-06-19 15:15:13,100 [DaumParse      ][DEBUG] (2/18) SID : 81824
+2020-06-19 15:15:13,100 [DaumParse      ][DEBUG] (3/18) URL : https://m.search.daum.net/search?w=tv&q=트롯신이 떴다&DA=TVS&&irk=87858&irt=tv-program
+2020-06-19 15:15:13,100 [DaumParse      ][DEBUG] (3/18) TITLE : 트롯신이 떴다
+2020-06-19 15:15:13,100 [DaumParse      ][DEBUG] (3/18) SID : 87858
+2020-06-19 15:15:13,100 [DaumParse      ][DEBUG] (4/18) URL : https://m.search.daum.net/search?w=tv&q=본격연예 한밤&DA=TVS&&irk=78544&irt=tv-program
+2020-06-19 15:15:13,100 [DaumParse      ][DEBUG] (4/18) TITLE : 본격연예 한밤
+2020-06-19 15:15:13,100 [DaumParse      ][DEBUG] (4/18) SID : 78544
+2020-06-19 15:15:13,101 [DaumParse      ][DEBUG] (5/18) URL : https://m.search.daum.net/search?w=tv&q=라디오스타&DA=TVS&&irk=50181&irt=tv-program
+2020-06-19 15:15:13,101 [DaumParse      ][DEBUG] (5/18) TITLE : 라디오스타
+2020-06-19 15:15:13,101 [DaumParse      ][DEBUG] (5/18) SID : 50181
+2020-06-19 15:15:13,101 [DaumParse      ][DEBUG] (6/18) URL : https://m.search.daum.net/search?w=tv&q=유 퀴즈 온 더 블럭&DA=TVS&&irk=83691&irt=tv-program
+2020-06-19 15:15:13,101 [DaumParse      ][DEBUG] (6/18) TITLE : 유 퀴즈 온 더 블럭
+2020-06-19 15:15:13,101 [DaumParse      ][DEBUG] (6/18) SID : 83691
+2020-06-19 15:15:13,102 [DaumParse      ][DEBUG] (7/18) URL : https://m.search.daum.net/search?w=tv&q=1호가 될 순 없어&DA=TVS&&irk=88380&irt=tv-program
+2020-06-19 15:15:13,102 [DaumParse      ][DEBUG] (7/18) TITLE : 1호가 될 순 없어
+2020-06-19 15:15:13,102 [DaumParse      ][DEBUG] (7/18) SID : 88380
+2020-06-19 15:15:13,102 [DaumParse      ][DEBUG] (8/18) URL : https://m.search.daum.net/search?w=tv&q=하트시그널 시즌3&DA=TVS&&irk=85134&irt=tv-program
+2020-06-19 15:15:13,102 [DaumParse      ][DEBUG] (8/18) TITLE : 하트시그널 시즌3
+2020-06-19 15:15:13,102 [DaumParse      ][DEBUG] (8/18) SID : 85134
+2020-06-19 15:15:13,103 [DaumParse      ][DEBUG] (9/18) URL : https://m.search.daum.net/search?w=tv&q=대한외국인&DA=TVS&&irk=84092&irt=tv-program
+2020-06-19 15:15:13,103 [DaumParse      ][DEBUG] (9/18) TITLE : 대한외국인
+2020-06-19 15:15:13,103 [DaumParse      ][DEBUG] (9/18) SID : 84092
+2020-06-19 15:15:13,103 [DaumParse      ][DEBUG] (10/18) URL : https://m.search.daum.net/search?w=tv&q=TMI NEWS&DA=TVS&&irk=85420&irt=tv-program
+2020-06-19 15:15:13,103 [DaumParse      ][DEBUG] (10/18) TITLE : TMI NEWS
+2020-06-19 15:15:13,103 [DaumParse      ][DEBUG] (10/18) SID : 85420
+2020-06-19 15:15:13,103 [DaumParse      ][DEBUG] (11/18) URL : https://m.search.daum.net/search?w=tv&q=주간 아이돌&DA=TVS&&irk=58850&irt=tv-program
+2020-06-19 15:15:13,104 [DaumParse      ][DEBUG] (11/18) TITLE : 주간 아이돌
+2020-06-19 15:15:13,104 [DaumParse      ][DEBUG] (11/18) SID : 58850
+2020-06-19 15:15:13,104 [DaumParse      ][DEBUG] (12/18) URL : https://m.search.daum.net/search?w=tv&q=쇼 챔피언&DA=TVS&&irk=60057&irt=tv-program
+2020-06-19 15:15:13,104 [DaumParse      ][DEBUG] (12/18) TITLE : 쇼 챔피언
+2020-06-19 15:15:13,104 [DaumParse      ][DEBUG] (12/18) SID : 60057
+2020-06-19 15:15:13,104 [DaumParse      ][DEBUG] (13/18) URL : https://m.search.daum.net/search?w=tv&q=SBS MTV K-POP 20&DA=TVS&&irk=59400&irt=tv-program
+2020-06-19 15:15:13,104 [DaumParse      ][DEBUG] (13/18) TITLE : SBS MTV K-POP 20
+2020-06-19 15:15:13,104 [DaumParse      ][DEBUG] (13/18) SID : 59400
+2020-06-19 15:15:13,105 [DaumParse      ][DEBUG] (14/18) URL : https://m.search.daum.net/search?w=tv&q=마음에 들어&DA=TVS&&irk=85549&irt=tv-program
+2020-06-19 15:15:13,105 [DaumParse      ][DEBUG] (14/18) TITLE : 마음에 들어
+2020-06-19 15:15:13,105 [DaumParse      ][DEBUG] (14/18) SID : 85549
+2020-06-19 15:15:13,105 [DaumParse      ][DEBUG] (15/18) URL : https://m.search.daum.net/search?w=tv&q=프리한마켓 10&DA=TVS&&irk=85892&irt=tv-program
+2020-06-19 15:15:13,105 [DaumParse      ][DEBUG] (15/18) TITLE : 프리한마켓 10
+2020-06-19 15:15:13,106 [DaumParse      ][DEBUG] (15/18) SID : 85892
+2020-06-19 15:15:13,106 [DaumParse      ][DEBUG] (16/18) URL : https://m.search.daum.net/search?w=tv&q=외식하는 날 2&DA=TVS&&irk=87930&irt=tv-program
+2020-06-19 15:15:13,106 [DaumParse      ][DEBUG] (16/18) TITLE : 외식하는 날 2
+2020-06-19 15:15:13,106 [DaumParse      ][DEBUG] (16/18) SID : 87930
+2020-06-19 15:15:13,106 [DaumParse      ][DEBUG] (17/18) URL : https://m.search.daum.net/search?w=tv&q=식벤져스&DA=TVS&&irk=88643&irt=tv-program
+2020-06-19 15:15:13,106 [DaumParse      ][DEBUG] (17/18) TITLE : 식벤져스
+2020-06-19 15:15:13,106 [DaumParse      ][DEBUG] (17/18) SID : 88643
+2020-06-19 15:15:13,107 [DaumParse      ][DEBUG] (18/18) URL : https://m.search.daum.net/search?w=tv&q=찾았다 스트레이 키즈 최신판&DA=TVS&&irk=88716&irt=tv-program
+2020-06-19 15:15:13,107 [DaumParse      ][DEBUG] (18/18) TITLE : 찾았다 스트레이 키즈 최신판
+2020-06-19 15:15:13,107 [DaumParse      ][DEBUG] (18/18) SID : 88716
+2020-06-19 15:15:13,107 [Daum           ][DEBUG] 중복 프로그램 - 88235  뽕숭아학당
+2020-06-19 15:15:13,107 [Daum           ][DEBUG] 중복 프로그램 - 81824  백종원의 골목식당
+2020-06-19 15:15:13,107 [Daum           ][DEBUG] 중복 프로그램 - 87858  트롯신이 떴다
+2020-06-19 15:15:13,107 [Daum           ][DEBUG] 중복 프로그램 - 78544  본격연예 한밤
+2020-06-19 15:15:13,107 [Daum           ][DEBUG] 중복 프로그램 - 50181  라디오스타
+2020-06-19 15:15:13,107 [Daum           ][DEBUG] 중복 프로그램 - 83691  유 퀴즈 온 더 블럭
+2020-06-19 15:15:13,108 [Daum           ][DEBUG] 중복 프로그램 - 88380  1호가 될 순 없어
+2020-06-19 15:15:13,108 [Daum           ][DEBUG] 중복 프로그램 - 85134  하트시그널 시즌3
+2020-06-19 15:15:13,108 [Daum           ][DEBUG] 중복 프로그램 - 84092  대한외국인
+2020-06-19 15:15:13,108 [Daum           ][DEBUG] 중복 프로그램 - 85420  TMI NEWS
+2020-06-19 15:15:13,108 [Daum           ][DEBUG] 중복 프로그램 - 58850  주간 아이돌
+2020-06-19 15:15:13,108 [Daum           ][DEBUG] 중복 프로그램 - 60057  쇼 챔피언
+2020-06-19 15:15:13,108 [Daum           ][DEBUG] 중복 프로그램 - 59400  SBS MTV K-POP 20
+2020-06-19 15:15:13,108 [Daum           ][DEBUG] 중복 프로그램 - 85549  마음에 들어
+2020-06-19 15:15:13,108 [Daum           ][DEBUG] 중복 프로그램 - 85892  프리한마켓 10
+2020-06-19 15:15:13,109 [Daum           ][DEBUG] 중복 프로그램 - 87930  외식하는 날 2
+2020-06-19 15:15:13,109 [Daum           ][DEBUG] 중복 프로그램 - 88643  식벤져스
+2020-06-19 15:15:13,109 [Daum           ][DEBUG] 중복 프로그램 - 88716  찾았다 스트레이 키즈 최신판
+2020-06-19 15:15:13,109 [DaumParse      ][DEBUG] 파싱 : https://m.search.daum.net/search?w=tot&DA=TVS&rtmaxcoll=TVS&q=목요일예능
+2020-06-19 15:15:13,396 [DaumParse      ][DEBUG] 15개의 프로그램 검색
+2020-06-19 15:15:13,397 [DaumParse      ][DEBUG] (1/14) URL : https://m.search.daum.net/search?w=tv&q=신청곡을 불러드립니다 - 사랑의 콜센타&DA=TVS&&irk=88164&irt=tv-program
+2020-06-19 15:15:13,397 [DaumParse      ][DEBUG] (1/14) TITLE : 신청곡을 불러드립니다 - 사랑의 콜센타
+2020-06-19 15:15:13,397 [DaumParse      ][DEBUG] (1/14) SID : 88164
+2020-06-19 15:15:13,397 [DaumParse      ][DEBUG] (2/14) URL : https://m.search.daum.net/search?w=tv&q=맛남의 광장&DA=TVS&&irk=86347&irt=tv-program
+2020-06-19 15:15:13,397 [DaumParse      ][DEBUG] (2/14) TITLE : 맛남의 광장
+2020-06-19 15:15:13,397 [DaumParse      ][DEBUG] (2/14) SID : 86347
+2020-06-19 15:15:13,397 [DaumParse      ][DEBUG] (3/14) URL : https://m.search.daum.net/search?w=tv&q=나만 믿고 따라와, 도시어부 2&DA=TVS&&irk=81484&irt=tv-program
+2020-06-19 15:15:13,398 [DaumParse      ][DEBUG] (3/14) TITLE : 나만 믿고 따라와, 도시어부 2
+2020-06-19 15:15:13,398 [DaumParse      ][DEBUG] (3/14) SID : 81484
+2020-06-19 15:15:13,398 [DaumParse      ][DEBUG] (4/14) URL : https://m.search.daum.net/search?w=tv&q=바퀴 달린 집&DA=TVS&&irk=88402&irt=tv-program
+2020-06-19 15:15:13,398 [DaumParse      ][DEBUG] (4/14) TITLE : 바퀴 달린 집
+2020-06-19 15:15:13,398 [DaumParse      ][DEBUG] (4/14) SID : 88402
+2020-06-19 15:15:13,398 [DaumParse      ][DEBUG] (5/14) URL : https://m.search.daum.net/search?w=tv&q=어서와 한국은 처음이지? 시즌2&DA=TVS&&irk=82401&irt=tv-program
+2020-06-19 15:15:13,398 [DaumParse      ][DEBUG] (5/14) TITLE : 어서와 한국은 처음이지? 시즌2
+2020-06-19 15:15:13,399 [DaumParse      ][DEBUG] (5/14) SID : 82401
+2020-06-19 15:15:13,399 [DaumParse      ][DEBUG] (6/14) URL : https://m.search.daum.net/search?w=tv&q=문제적 남자 : 브레인 유랑단&DA=TVS&&irk=87240&irt=tv-program
+2020-06-19 15:15:13,399 [DaumParse      ][DEBUG] (6/14) TITLE : 문제적 남자 : 브레인 유랑단
+2020-06-19 15:15:13,399 [DaumParse      ][DEBUG] (6/14) SID : 87240
+2020-06-19 15:15:13,399 [DaumParse      ][DEBUG] (7/14) URL : https://m.search.daum.net/search?w=tv&q=로드 투 킹덤&DA=TVS&&irk=87946&irt=tv-program
+2020-06-19 15:15:13,399 [DaumParse      ][DEBUG] (7/14) TITLE : 로드 투 킹덤
+2020-06-19 15:15:13,400 [DaumParse      ][DEBUG] (7/14) SID : 87946
+2020-06-19 15:15:13,400 [DaumParse      ][DEBUG] (8/14) URL : https://m.search.daum.net/search?w=tv&q=스포츠 야&DA=TVS&&irk=65077&irt=tv-program
+2020-06-19 15:15:13,401 [DaumParse      ][DEBUG] (8/14) TITLE : 스포츠 야
+2020-06-19 15:15:13,401 [DaumParse      ][DEBUG] (8/14) SID : 65077
+2020-06-19 15:15:13,402 [DaumParse      ][DEBUG] (9/14) URL : https://m.search.daum.net/search?w=tv&q=올댓뮤직&DA=TVS&&irk=61735&irt=tv-program
+2020-06-19 15:15:13,403 [DaumParse      ][DEBUG] (9/14) TITLE : 올댓뮤직
+2020-06-19 15:15:13,403 [DaumParse      ][DEBUG] (9/14) SID : 61735
+2020-06-19 15:15:13,404 [DaumParse      ][DEBUG] (10/14) URL : https://m.search.daum.net/search?w=tv&q=M Countdown&DA=TVS&&irk=48585&irt=tv-program
+2020-06-19 15:15:13,404 [DaumParse      ][DEBUG] (10/14) TITLE : M Countdown
+2020-06-19 15:15:13,404 [DaumParse      ][DEBUG] (10/14) SID : 48585
+2020-06-19 15:15:13,405 [DaumParse      ][DEBUG] (11/14) URL : https://m.search.daum.net/search?w=tv&q=아이돌 피싱캠프&DA=TVS&&irk=88721&irt=tv-program
+2020-06-19 15:15:13,405 [DaumParse      ][DEBUG] (11/14) TITLE : 아이돌 피싱캠프
+2020-06-19 15:15:13,405 [DaumParse      ][DEBUG] (11/14) SID : 88721
+2020-06-19 15:15:13,406 [DaumParse      ][DEBUG] (12/14) URL : https://m.search.daum.net/search?w=tv&q=밥블레스유2&DA=TVS&&irk=87616&irt=tv-program
+2020-06-19 15:15:13,406 [DaumParse      ][DEBUG] (12/14) TITLE : 밥블레스유2
+2020-06-19 15:15:13,406 [DaumParse      ][DEBUG] (12/14) SID : 87616
+2020-06-19 15:15:13,407 [DaumParse      ][DEBUG] (13/14) URL : https://m.search.daum.net/search?w=tv&q=GOOD GIRL : 누가 방송국을 털었나&DA=TVS&&irk=88344&irt=tv-program
+2020-06-19 15:15:13,407 [DaumParse      ][DEBUG] (13/14) TITLE : GOOD GIRL : 누가 방송국을 털었나
+2020-06-19 15:15:13,408 [DaumParse      ][DEBUG] (13/14) SID : 88344
+2020-06-19 15:15:13,408 [DaumParse      ][DEBUG] (14/14) URL : https://m.search.daum.net/search?w=tv&q=아이돌리그 시즌2&DA=TVS&&irk=88251&irt=tv-program
+2020-06-19 15:15:13,409 [DaumParse      ][DEBUG] (14/14) TITLE : 아이돌리그 시즌2
+2020-06-19 15:15:13,409 [DaumParse      ][DEBUG] (14/14) SID : 88251
+2020-06-19 15:15:13,409 [Daum           ][DEBUG] 중복 프로그램 - 88164  신청곡을 불러드립니다 - 사랑의 콜센타
+2020-06-19 15:15:13,409 [Daum           ][DEBUG] 중복 프로그램 - 86347  맛남의 광장
+2020-06-19 15:15:13,409 [Daum           ][DEBUG] 중복 프로그램 - 81484  나만 믿고 따라와, 도시어부 2
+2020-06-19 15:15:13,410 [Daum           ][DEBUG] 중복 프로그램 - 88402  바퀴 달린 집
+2020-06-19 15:15:13,410 [Daum           ][DEBUG] 중복 프로그램 - 82401  어서와 한국은 처음이지? 시즌2
+2020-06-19 15:15:13,410 [Daum           ][DEBUG] 중복 프로그램 - 87240  문제적 남자 : 브레인 유랑단
+2020-06-19 15:15:13,411 [Daum           ][DEBUG] 중복 프로그램 - 87946  로드 투 킹덤
+2020-06-19 15:15:13,411 [Daum           ][DEBUG] 중복 프로그램 - 65077  스포츠 야
+2020-06-19 15:15:13,411 [Daum           ][DEBUG] 중복 프로그램 - 61735  올댓뮤직
+2020-06-19 15:15:13,411 [Daum           ][DEBUG] 중복 프로그램 - 48585  M Countdown
+2020-06-19 15:15:13,411 [Daum           ][DEBUG] 중복 프로그램 - 88721  아이돌 피싱캠프
+2020-06-19 15:15:13,412 [Daum           ][DEBUG] 중복 프로그램 - 87616  밥블레스유2
+2020-06-19 15:15:13,412 [Daum           ][DEBUG] 중복 프로그램 - 88344  GOOD GIRL : 누가 방송국을 털었나
+2020-06-19 15:15:13,412 [Daum           ][DEBUG] 중복 프로그램 - 88251  아이돌리그 시즌2
+2020-06-19 15:15:13,412 [DaumParse      ][DEBUG] 파싱 : https://m.search.daum.net/search?w=tot&DA=TVS&rtmaxcoll=TVS&q=금요일예능
+2020-06-19 15:15:13,688 [DaumParse      ][DEBUG] 23개의 프로그램 검색
+2020-06-19 15:15:13,688 [DaumParse      ][DEBUG] (1/22) URL : https://m.search.daum.net/search?w=tv&q=나 혼자 산다&DA=TVS&&irk=62560&irt=tv-program
+2020-06-19 15:15:13,689 [DaumParse      ][DEBUG] (1/22) TITLE : 나 혼자 산다
+2020-06-19 15:15:13,689 [DaumParse      ][DEBUG] (1/22) SID : 62560
+2020-06-19 15:15:13,689 [DaumParse      ][DEBUG] (2/22) URL : https://m.search.daum.net/search?w=tv&q=삼시세끼 - 어촌편 시즌5&DA=TVS&&irk=88182&irt=tv-program
+2020-06-19 15:15:13,689 [DaumParse      ][DEBUG] (2/22) TITLE : 삼시세끼 - 어촌편 시즌5
+2020-06-19 15:15:13,689 [DaumParse      ][DEBUG] (2/22) SID : 88182
+2020-06-19 15:15:13,689 [DaumParse      ][DEBUG] (3/22) URL : https://m.search.daum.net/search?w=tv&q=TV는 사랑을 싣고&DA=TVS&&irk=83874&irt=tv-program
+2020-06-19 15:15:13,689 [DaumParse      ][DEBUG] (3/22) TITLE : TV는 사랑을 싣고
+2020-06-19 15:15:13,689 [DaumParse      ][DEBUG] (3/22) SID : 83874
+2020-06-19 15:15:13,690 [DaumParse      ][DEBUG] (4/22) URL : https://m.search.daum.net/search?w=tv&q=편애중계&DA=TVS&&irk=86260&irt=tv-program
+2020-06-19 15:15:13,690 [DaumParse      ][DEBUG] (4/22) TITLE : 편애중계
+2020-06-19 15:15:13,690 [DaumParse      ][DEBUG] (4/22) SID : 86260
+2020-06-19 15:15:13,690 [DaumParse      ][DEBUG] (5/22) URL : https://m.search.daum.net/search?w=tv&q=신상출시 편스토랑&DA=TVS&&irk=86857&irt=tv-program
+2020-06-19 15:15:13,690 [DaumParse      ][DEBUG] (5/22) TITLE : 신상출시 편스토랑
+2020-06-19 15:15:13,690 [DaumParse      ][DEBUG] (5/22) SID : 86857
+2020-06-19 15:15:13,690 [DaumParse      ][DEBUG] (6/22) URL : https://m.search.daum.net/search?w=tv&q=팬텀싱어 3&DA=TVS&&irk=87063&irt=tv-program
+2020-06-19 15:15:13,691 [DaumParse      ][DEBUG] (6/22) TITLE : 팬텀싱어 3
+2020-06-19 15:15:13,691 [DaumParse      ][DEBUG] (6/22) SID : 87063
+2020-06-19 15:15:13,691 [DaumParse      ][DEBUG] (7/22) URL : https://m.search.daum.net/search?w=tv&q=삼시네세끼&DA=TVS&&irk=88429&irt=tv-program
+2020-06-19 15:15:13,691 [DaumParse      ][DEBUG] (7/22) TITLE : 삼시네세끼
+2020-06-19 15:15:13,691 [DaumParse      ][DEBUG] (7/22) SID : 88429
+2020-06-19 15:15:13,691 [DaumParse      ][DEBUG] (8/22) URL : https://m.search.daum.net/search?w=tv&q=개그콘서트&DA=TVS&&irk=48870&irt=tv-program
+2020-06-19 15:15:13,691 [DaumParse      ][DEBUG] (8/22) TITLE : 개그콘서트
+2020-06-19 15:15:13,691 [DaumParse      ][DEBUG] (8/22) SID : 48870
+2020-06-19 15:15:13,692 [DaumParse      ][DEBUG] (9/22) URL : https://m.search.daum.net/search?w=tv&q=보이스 코리아 2020&DA=TVS&&irk=65570&irt=tv-program
+2020-06-19 15:15:13,692 [DaumParse      ][DEBUG] (9/22) TITLE : 보이스 코리아 2020
+2020-06-19 15:15:13,692 [DaumParse      ][DEBUG] (9/22) SID : 65570
+2020-06-19 15:15:13,692 [DaumParse      ][DEBUG] (10/22) URL : https://m.search.daum.net/search?w=tv&q=공부가 머니?&DA=TVS&&irk=86175&irt=tv-program
+2020-06-19 15:15:13,692 [DaumParse      ][DEBUG] (10/22) TITLE : 공부가 머니?
+2020-06-19 15:15:13,692 [DaumParse      ][DEBUG] (10/22) SID : 86175
+2020-06-19 15:15:13,692 [DaumParse      ][DEBUG] (11/22) URL : https://m.search.daum.net/search?w=tv&q=요즘 육아 금쪽같은 내새끼&DA=TVS&&irk=88262&irt=tv-program
+2020-06-19 15:15:13,692 [DaumParse      ][DEBUG] (11/22) TITLE : 요즘 육아 금쪽같은 내새끼
+2020-06-19 15:15:13,693 [DaumParse      ][DEBUG] (11/22) SID : 88262
+2020-06-19 15:15:13,693 [DaumParse      ][DEBUG] (12/22) URL : https://m.search.daum.net/search?w=tv&q=뮤직뱅크&DA=TVS&&irk=52253&irt=tv-program
+2020-06-19 15:15:13,693 [DaumParse      ][DEBUG] (12/22) TITLE : 뮤직뱅크
+2020-06-19 15:15:13,693 [DaumParse      ][DEBUG] (12/22) SID : 52253
+2020-06-19 15:15:13,693 [DaumParse      ][DEBUG] (13/22) URL : https://m.search.daum.net/search?w=tv&q=유희열의 스케치북&DA=TVS&&irk=54011&irt=tv-program
+2020-06-19 15:15:13,693 [DaumParse      ][DEBUG] (13/22) TITLE : 유희열의 스케치북
+2020-06-19 15:15:13,693 [DaumParse      ][DEBUG] (13/22) SID : 54011
+2020-06-19 15:15:13,694 [DaumParse      ][DEBUG] (14/22) URL : https://m.search.daum.net/search?w=tv&q=맛있는 녀석들&DA=TVS&&irk=67795&irt=tv-program
+2020-06-19 15:15:13,694 [DaumParse      ][DEBUG] (14/22) TITLE : 맛있는 녀석들
+2020-06-19 15:15:13,694 [DaumParse      ][DEBUG] (14/22) SID : 67795
+2020-06-19 15:15:13,694 [DaumParse      ][DEBUG] (15/22) URL : https://m.search.daum.net/search?w=tv&q=독립영화관&DA=TVS&&irk=57883&irt=tv-program
+2020-06-19 15:15:13,695 [DaumParse      ][DEBUG] (15/22) TITLE : 독립영화관
+2020-06-19 15:15:13,695 [DaumParse      ][DEBUG] (15/22) SID : 57883
+2020-06-19 15:15:13,695 [DaumParse      ][DEBUG] (16/22) URL : https://m.search.daum.net/search?w=tv&q=EBS 스페이스 공감&DA=TVS&&irk=47951&irt=tv-program
+2020-06-19 15:15:13,696 [DaumParse      ][DEBUG] (16/22) TITLE : EBS 스페이스 공감
+2020-06-19 15:15:13,696 [DaumParse      ][DEBUG] (16/22) SID : 47951
+2020-06-19 15:15:13,696 [DaumParse      ][DEBUG] (17/22) URL : https://m.search.daum.net/search?w=tv&q=Simply K-Pop&DA=TVS&&irk=86708&irt=tv-program
+2020-06-19 15:15:13,697 [DaumParse      ][DEBUG] (17/22) TITLE : Simply K-Pop
+2020-06-19 15:15:13,697 [DaumParse      ][DEBUG] (17/22) SID : 86708
+2020-06-19 15:15:13,697 [DaumParse      ][DEBUG] (18/22) URL : https://m.search.daum.net/search?w=tv&q=겟잇뷰티 2020&DA=TVS&&irk=87883&irt=tv-program
+2020-06-19 15:15:13,697 [DaumParse      ][DEBUG] (18/22) TITLE : 겟잇뷰티 2020
+2020-06-19 15:15:13,697 [DaumParse      ][DEBUG] (18/22) SID : 87883
+2020-06-19 15:15:13,698 [DaumParse      ][DEBUG] (19/22) URL : https://m.search.daum.net/search?w=tv&q=이십세기 힛-트쏭&DA=TVS&&irk=87949&irt=tv-program
+2020-06-19 15:15:13,698 [DaumParse      ][DEBUG] (19/22) TITLE : 이십세기 힛-트쏭
+2020-06-19 15:15:13,698 [DaumParse      ][DEBUG] (19/22) SID : 87949
+2020-06-19 15:15:13,698 [DaumParse      ][DEBUG] (20/22) URL : https://m.search.daum.net/search?w=tv&q=와이낫 시즌3&DA=TVS&&irk=88528&irt=tv-program
+2020-06-19 15:15:13,698 [DaumParse      ][DEBUG] (20/22) TITLE : 와이낫 시즌3
+2020-06-19 15:15:13,698 [DaumParse      ][DEBUG] (20/22) SID : 88528
+2020-06-19 15:15:13,698 [DaumParse      ][DEBUG] (21/22) URL : https://m.search.daum.net/search?w=tv&q=I-LAND&DA=TVS&&irk=88492&irt=tv-program
+2020-06-19 15:15:13,698 [DaumParse      ][DEBUG] (21/22) TITLE : I-LAND
+2020-06-19 15:15:13,698 [DaumParse      ][DEBUG] (21/22) SID : 88492
+2020-06-19 15:15:13,699 [DaumParse      ][DEBUG] (22/22) URL : https://m.search.daum.net/search?w=tv&q=보이스트롯&DA=TVS&&irk=88309&irt=tv-program
+2020-06-19 15:15:13,699 [DaumParse      ][DEBUG] (22/22) TITLE : 보이스트롯
+2020-06-19 15:15:13,699 [DaumParse      ][DEBUG] (22/22) SID : 88309
+2020-06-19 15:15:13,699 [Daum           ][DEBUG] 중복 프로그램 - 62560  나 혼자 산다
+2020-06-19 15:15:13,699 [Daum           ][DEBUG] 중복 프로그램 - 88182  삼시세끼 - 어촌편 시즌5
+2020-06-19 15:15:13,699 [Daum           ][DEBUG] 중복 프로그램 - 83874  TV는 사랑을 싣고
+2020-06-19 15:15:13,699 [Daum           ][DEBUG] 중복 프로그램 - 86260  편애중계
+2020-06-19 15:15:13,699 [Daum           ][DEBUG] 중복 프로그램 - 86857  신상출시 편스토랑
+2020-06-19 15:15:13,699 [Daum           ][DEBUG] 중복 프로그램 - 87063  팬텀싱어 3
+2020-06-19 15:15:13,699 [Daum           ][DEBUG] 중복 프로그램 - 88429  삼시네세끼
+2020-06-19 15:15:13,699 [Daum           ][DEBUG] 중복 프로그램 - 48870  개그콘서트
+2020-06-19 15:15:13,700 [Daum           ][DEBUG] 중복 프로그램 - 65570  보이스 코리아 2020
+2020-06-19 15:15:13,700 [Daum           ][DEBUG] 중복 프로그램 - 86175  공부가 머니?
+2020-06-19 15:15:13,700 [Daum           ][DEBUG] 중복 프로그램 - 88262  요즘 육아 금쪽같은 내새끼
+2020-06-19 15:15:13,700 [Daum           ][DEBUG] 중복 프로그램 - 52253  뮤직뱅크
+2020-06-19 15:15:13,700 [Daum           ][DEBUG] 중복 프로그램 - 54011  유희열의 스케치북
+2020-06-19 15:15:13,700 [Daum           ][DEBUG] 중복 프로그램 - 67795  맛있는 녀석들
+2020-06-19 15:15:13,700 [Daum           ][DEBUG] 중복 프로그램 - 57883  독립영화관
+2020-06-19 15:15:13,700 [Daum           ][DEBUG] 중복 프로그램 - 47951  EBS 스페이스 공감
+2020-06-19 15:15:13,700 [Daum           ][DEBUG] 중복 프로그램 - 86708  Simply K-Pop
+2020-06-19 15:15:13,700 [Daum           ][DEBUG] 중복 프로그램 - 87883  겟잇뷰티 2020
+2020-06-19 15:15:13,701 [Daum           ][DEBUG] 중복 프로그램 - 87949  이십세기 힛-트쏭
+2020-06-19 15:15:13,701 [Daum           ][DEBUG] 중복 프로그램 - 88528  와이낫 시즌3
+2020-06-19 15:15:13,701 [Daum           ][DEBUG] 중복 프로그램 - 88492  I-LAND
+2020-06-19 15:15:13,701 [Daum           ][DEBUG] 중복 프로그램 - 88309  보이스트롯
+2020-06-19 15:15:13,701 [DaumParse      ][DEBUG] 파싱 : https://m.search.daum.net/search?w=tot&DA=TVS&rtmaxcoll=TVS&q=토요일예능
+2020-06-19 15:15:14,014 [DaumParse      ][DEBUG] 25개의 프로그램 검색
+2020-06-19 15:15:14,015 [DaumParse      ][DEBUG] (1/24) URL : https://m.search.daum.net/search?w=tv&q=놀면 뭐하니?&DA=TVS&&irk=86230&irt=tv-program
+2020-06-19 15:15:14,015 [DaumParse      ][DEBUG] (1/24) TITLE : 놀면 뭐하니?
+2020-06-19 15:15:14,015 [DaumParse      ][DEBUG] (1/24) SID : 86230
+2020-06-19 15:15:14,015 [DaumParse      ][DEBUG] (2/24) URL : https://m.search.daum.net/search?w=tv&q=살림하는 남자들 시즌2&DA=TVS&&irk=79193&irt=tv-program
+2020-06-19 15:15:14,015 [DaumParse      ][DEBUG] (2/24) TITLE : 살림하는 남자들 시즌2
+2020-06-19 15:15:14,015 [DaumParse      ][DEBUG] (2/24) SID : 79193
+2020-06-19 15:15:14,015 [DaumParse      ][DEBUG] (3/24) URL : https://m.search.daum.net/search?w=tv&q=불후의 명곡 전설을 노래하다&DA=TVS&&irk=58495&irt=tv-program
+2020-06-19 15:15:14,016 [DaumParse      ][DEBUG] (3/24) TITLE : 불후의 명곡 전설을 노래하다
+2020-06-19 15:15:14,016 [DaumParse      ][DEBUG] (3/24) SID : 58495
+2020-06-19 15:15:14,016 [DaumParse      ][DEBUG] (4/24) URL : https://m.search.daum.net/search?w=tv&q=전지적 참견 시점&DA=TVS&&irk=81037&irt=tv-program
+2020-06-19 15:15:14,016 [DaumParse      ][DEBUG] (4/24) TITLE : 전지적 참견 시점
+2020-06-19 15:15:14,016 [DaumParse      ][DEBUG] (4/24) SID : 81037
+2020-06-19 15:15:14,016 [DaumParse      ][DEBUG] (5/24) URL : https://m.search.daum.net/search?w=tv&q=노래가 좋아&DA=TVS&&irk=78135&irt=tv-program
+2020-06-19 15:15:14,016 [DaumParse      ][DEBUG] (5/24) TITLE : 노래가 좋아
+2020-06-19 15:15:14,016 [DaumParse      ][DEBUG] (5/24) SID : 78135
+2020-06-19 15:15:14,016 [DaumParse      ][DEBUG] (6/24) URL : https://m.search.daum.net/search?w=tv&q=아는 형님&DA=TVS&&irk=74828&irt=tv-program
+2020-06-19 15:15:14,017 [DaumParse      ][DEBUG] (6/24) TITLE : 아는 형님
+2020-06-19 15:15:14,017 [DaumParse      ][DEBUG] (6/24) SID : 74828
+2020-06-19 15:15:14,017 [DaumParse      ][DEBUG] (7/24) URL : https://m.search.daum.net/search?w=tv&q=강적들&DA=TVS&&irk=64489&irt=tv-program
+2020-06-19 15:15:14,017 [DaumParse      ][DEBUG] (7/24) TITLE : 강적들
+2020-06-19 15:15:14,017 [DaumParse      ][DEBUG] (7/24) SID : 64489
+2020-06-19 15:15:14,017 [DaumParse      ][DEBUG] (8/24) URL : https://m.search.daum.net/search?w=tv&q=접속! 무비월드&DA=TVS&&irk=50071&irt=tv-program
+2020-06-19 15:15:14,017 [DaumParse      ][DEBUG] (8/24) TITLE : 접속! 무비월드
+2020-06-19 15:15:14,017 [DaumParse      ][DEBUG] (8/24) SID : 50071
+2020-06-19 15:15:14,017 [DaumParse      ][DEBUG] (9/24) URL : https://m.search.daum.net/search?w=tv&q=악인전&DA=TVS&&irk=88176&irt=tv-program
+2020-06-19 15:15:14,018 [DaumParse      ][DEBUG] (9/24) TITLE : 악인전
+2020-06-19 15:15:14,018 [DaumParse      ][DEBUG] (9/24) SID : 88176
+2020-06-19 15:15:14,018 [DaumParse      ][DEBUG] (10/24) URL : https://m.search.daum.net/search?w=tv&q=영화가 좋다&DA=TVS&&irk=49417&irt=tv-program
+2020-06-19 15:15:14,018 [DaumParse      ][DEBUG] (10/24) TITLE : 영화가 좋다
+2020-06-19 15:15:14,018 [DaumParse      ][DEBUG] (10/24) SID : 49417
+2020-06-19 15:15:14,018 [DaumParse      ][DEBUG] (11/24) URL : https://m.search.daum.net/search?w=tv&q=도레미마켓&DA=TVS&&irk=82304&irt=tv-program
+2020-06-19 15:15:14,018 [DaumParse      ][DEBUG] (11/24) TITLE : 도레미마켓
+2020-06-19 15:15:14,018 [DaumParse      ][DEBUG] (11/24) SID : 82304
+2020-06-19 15:15:14,018 [DaumParse      ][DEBUG] (12/24) URL : https://m.search.daum.net/search?w=tv&q=비긴어게인 코리아&DA=TVS&&irk=88465&irt=tv-program
+2020-06-19 15:15:14,019 [DaumParse      ][DEBUG] (12/24) TITLE : 비긴어게인 코리아
+2020-06-19 15:15:14,019 [DaumParse      ][DEBUG] (12/24) SID : 88465
+2020-06-19 15:15:14,019 [DaumParse      ][DEBUG] (13/24) URL : https://m.search.daum.net/search?w=tv&q=온앤오프&DA=TVS&&irk=88232&irt=tv-program
+2020-06-19 15:15:14,019 [DaumParse      ][DEBUG] (13/24) TITLE : 온앤오프
+2020-06-19 15:15:14,019 [DaumParse      ][DEBUG] (13/24) SID : 88232
+2020-06-19 15:15:14,019 [DaumParse      ][DEBUG] (14/24) URL : https://m.search.daum.net/search?w=tv&q=속풀이쇼 동치미&DA=TVS&&irk=62012&irt=tv-program
+2020-06-19 15:15:14,019 [DaumParse      ][DEBUG] (14/24) TITLE : 속풀이쇼 동치미
+2020-06-19 15:15:14,019 [DaumParse      ][DEBUG] (14/24) SID : 62012
+2020-06-19 15:15:14,020 [DaumParse      ][DEBUG] (15/24) URL : https://m.search.daum.net/search?w=tv&q=가장 보통의 가족&DA=TVS&&irk=88242&irt=tv-program
+2020-06-19 15:15:14,020 [DaumParse      ][DEBUG] (15/24) TITLE : 가장 보통의 가족
+2020-06-19 15:15:14,020 [DaumParse      ][DEBUG] (15/24) SID : 88242
+2020-06-19 15:15:14,020 [DaumParse      ][DEBUG] (16/24) URL : https://m.search.daum.net/search?w=tv&q=쇼! 음악중심&DA=TVS&&irk=48508&irt=tv-program
+2020-06-19 15:15:14,020 [DaumParse      ][DEBUG] (16/24) TITLE : 쇼! 음악중심
+2020-06-19 15:15:14,020 [DaumParse      ][DEBUG] (16/24) SID : 48508
+2020-06-19 15:15:14,020 [DaumParse      ][DEBUG] (17/24) URL : https://m.search.daum.net/search?w=tv&q=차트를 달리는 남자&DA=TVS&&irk=78354&irt=tv-program
+2020-06-19 15:15:14,020 [DaumParse      ][DEBUG] (17/24) TITLE : 차트를 달리는 남자
+2020-06-19 15:15:14,020 [DaumParse      ][DEBUG] (17/24) SID : 78354
+2020-06-19 15:15:14,021 [DaumParse      ][DEBUG] (18/24) URL : https://m.search.daum.net/search?w=tv&q=숙희네 미장원&DA=TVS&&irk=88105&irt=tv-program
+2020-06-19 15:15:14,021 [DaumParse      ][DEBUG] (18/24) TITLE : 숙희네 미장원
+2020-06-19 15:15:14,021 [DaumParse      ][DEBUG] (18/24) SID : 88105
+2020-06-19 15:15:14,021 [DaumParse      ][DEBUG] (19/24) URL : https://m.search.daum.net/search?w=tv&q=구라철&DA=TVS&&irk=87944&irt=tv-program
+2020-06-19 15:15:14,021 [DaumParse      ][DEBUG] (19/24) TITLE : 구라철
+2020-06-19 15:15:14,021 [DaumParse      ][DEBUG] (19/24) SID : 87944
+2020-06-19 15:15:14,021 [DaumParse      ][DEBUG] (20/24) URL : https://m.search.daum.net/search?w=tv&q=노홍철의 게릴라 데이트&DA=TVS&&irk=88353&irt=tv-program
+2020-06-19 15:15:14,021 [DaumParse      ][DEBUG] (20/24) TITLE : 노홍철의 게릴라 데이트
+2020-06-19 15:15:14,021 [DaumParse      ][DEBUG] (20/24) SID : 88353
+2020-06-19 15:15:14,022 [DaumParse      ][DEBUG] (21/24) URL : https://m.search.daum.net/search?w=tv&q=탑골 랩소디 : K-POP도 통역이 되나요?&DA=TVS&&irk=87890&irt=tv-program
+2020-06-19 15:15:14,022 [DaumParse      ][DEBUG] (21/24) TITLE : 탑골 랩소디 : K-POP도 통역이 되나요?
+2020-06-19 15:15:14,022 [DaumParse      ][DEBUG] (21/24) SID : 87890
+2020-06-19 15:15:14,022 [DaumParse      ][DEBUG] (22/24) URL : https://m.search.daum.net/search?w=tv&q=도니스쿨&DA=TVS&&irk=88761&irt=tv-program
+2020-06-19 15:15:14,022 [DaumParse      ][DEBUG] (22/24) TITLE : 도니스쿨
+2020-06-19 15:15:14,022 [DaumParse      ][DEBUG] (22/24) SID : 88761
+2020-06-19 15:15:14,022 [DaumParse      ][DEBUG] (23/24) URL : https://m.search.daum.net/search?w=tv&q=백파더 : 요리를 멈추지 마!&DA=TVS&&irk=88695&irt=tv-program
+2020-06-19 15:15:14,022 [DaumParse      ][DEBUG] (23/24) TITLE : 백파더 : 요리를 멈추지 마!
+2020-06-19 15:15:14,023 [DaumParse      ][DEBUG] (23/24) SID : 88695
+2020-06-19 15:15:14,023 [DaumParse      ][DEBUG] (24/24) URL : https://m.search.daum.net/search?w=tv&q=최애 엔터테인먼트&DA=TVS&&irk=88650&irt=tv-program
+2020-06-19 15:15:14,023 [DaumParse      ][DEBUG] (24/24) TITLE : 최애 엔터테인먼트
+2020-06-19 15:15:14,023 [DaumParse      ][DEBUG] (24/24) SID : 88650
+2020-06-19 15:15:14,023 [Daum           ][DEBUG] 중복 프로그램 - 86230  놀면 뭐하니?
+2020-06-19 15:15:14,023 [Daum           ][DEBUG] 중복 프로그램 - 79193  살림하는 남자들 시즌2
+2020-06-19 15:15:14,023 [Daum           ][DEBUG] 중복 프로그램 - 58495  불후의 명곡 전설을 노래하다
+2020-06-19 15:15:14,023 [Daum           ][DEBUG] 중복 프로그램 - 81037  전지적 참견 시점
+2020-06-19 15:15:14,023 [Daum           ][DEBUG] 중복 프로그램 - 78135  노래가 좋아
+2020-06-19 15:15:14,023 [Daum           ][DEBUG] 중복 프로그램 - 74828  아는 형님
+2020-06-19 15:15:14,024 [Daum           ][DEBUG] 중복 프로그램 - 64489  강적들
+2020-06-19 15:15:14,024 [Daum           ][DEBUG] 중복 프로그램 - 50071  접속! 무비월드
+2020-06-19 15:15:14,024 [Daum           ][DEBUG] 중복 프로그램 - 88176  악인전
+2020-06-19 15:15:14,024 [Daum           ][DEBUG] 중복 프로그램 - 49417  영화가 좋다
+2020-06-19 15:15:14,024 [Daum           ][DEBUG] 중복 프로그램 - 82304  도레미마켓
+2020-06-19 15:15:14,024 [Daum           ][DEBUG] 중복 프로그램 - 88465  비긴어게인 코리아
+2020-06-19 15:15:14,024 [Daum           ][DEBUG] 중복 프로그램 - 88232  온앤오프
+2020-06-19 15:15:14,024 [Daum           ][DEBUG] 중복 프로그램 - 62012  속풀이쇼 동치미
+2020-06-19 15:15:14,024 [Daum           ][DEBUG] 중복 프로그램 - 88242  가장 보통의 가족
+2020-06-19 15:15:14,024 [Daum           ][DEBUG] 중복 프로그램 - 48508  쇼! 음악중심
+2020-06-19 15:15:14,025 [Daum           ][DEBUG] 중복 프로그램 - 78354  차트를 달리는 남자
+2020-06-19 15:15:14,025 [Daum           ][DEBUG] 중복 프로그램 - 88105  숙희네 미장원
+2020-06-19 15:15:14,025 [Daum           ][DEBUG] 중복 프로그램 - 87944  구라철
+2020-06-19 15:15:14,025 [Daum           ][DEBUG] 중복 프로그램 - 88353  노홍철의 게릴라 데이트
+2020-06-19 15:15:14,025 [Daum           ][DEBUG] 중복 프로그램 - 87890  탑골 랩소디 : K-POP도 통역이 되나요?
+2020-06-19 15:15:14,025 [Daum           ][DEBUG] 중복 프로그램 - 88761  도니스쿨
+2020-06-19 15:15:14,025 [Daum           ][DEBUG] 중복 프로그램 - 88695  백파더 : 요리를 멈추지 마!
+2020-06-19 15:15:14,025 [Daum           ][DEBUG] 중복 프로그램 - 88650  최애 엔터테인먼트
+2020-06-19 15:15:14,025 [DaumParse      ][DEBUG] 파싱 : https://m.search.daum.net/search?w=tot&DA=TVS&rtmaxcoll=TVS&q=일요일예능
+2020-06-19 15:15:14,342 [DaumParse      ][DEBUG] 24개의 프로그램 검색
+2020-06-19 15:15:14,343 [DaumParse      ][DEBUG] (1/23) URL : https://m.search.daum.net/search?w=tv&q=미운 우리 새끼&DA=TVS&&irk=77121&irt=tv-program
+2020-06-19 15:15:14,343 [DaumParse      ][DEBUG] (1/23) TITLE : 미운 우리 새끼
+2020-06-19 15:15:14,343 [DaumParse      ][DEBUG] (1/23) SID : 77121
+2020-06-19 15:15:14,343 [DaumParse      ][DEBUG] (2/23) URL : https://m.search.daum.net/search?w=tv&q=전국노래자랑&DA=TVS&&irk=52225&irt=tv-program
+2020-06-19 15:15:14,343 [DaumParse      ][DEBUG] (2/23) TITLE : 전국노래자랑
+2020-06-19 15:15:14,343 [DaumParse      ][DEBUG] (2/23) SID : 52225
+2020-06-19 15:15:14,343 [DaumParse      ][DEBUG] (3/23) URL : https://m.search.daum.net/search?w=tv&q=슈퍼맨이 돌아왔다&DA=TVS&&irk=64177&irt=tv-program
+2020-06-19 15:15:14,343 [DaumParse      ][DEBUG] (3/23) TITLE : 슈퍼맨이 돌아왔다
+2020-06-19 15:15:14,344 [DaumParse      ][DEBUG] (3/23) SID : 64177
+2020-06-19 15:15:14,344 [DaumParse      ][DEBUG] (4/23) URL : https://m.search.daum.net/search?w=tv&q=1박 2일 시즌4&DA=TVS&&irk=87052&irt=tv-program
+2020-06-19 15:15:14,344 [DaumParse      ][DEBUG] (4/23) TITLE : 1박 2일 시즌4
+2020-06-19 15:15:14,344 [DaumParse      ][DEBUG] (4/23) SID : 87052
+2020-06-19 15:15:14,344 [DaumParse      ][DEBUG] (5/23) URL : https://m.search.daum.net/search?w=tv&q=미스터리 음악쇼 복면가왕&DA=TVS&&irk=68024&irt=tv-program
+2020-06-19 15:15:14,344 [DaumParse      ][DEBUG] (5/23) TITLE : 미스터리 음악쇼 복면가왕
+2020-06-19 15:15:14,344 [DaumParse      ][DEBUG] (5/23) SID : 68024
+2020-06-19 15:15:14,344 [DaumParse      ][DEBUG] (6/23) URL : https://m.search.daum.net/search?w=tv&q=사장님 귀는 당나귀 귀&DA=TVS&&irk=84969&irt=tv-program
+2020-06-19 15:15:14,344 [DaumParse      ][DEBUG] (6/23) TITLE : 사장님 귀는 당나귀 귀
+2020-06-19 15:15:14,344 [DaumParse      ][DEBUG] (6/23) SID : 84969
+2020-06-19 15:15:14,344 [DaumParse      ][DEBUG] (7/23) URL : https://m.search.daum.net/search?w=tv&q=구해줘! 홈즈&DA=TVS&&irk=84848&irt=tv-program
+2020-06-19 15:15:14,345 [DaumParse      ][DEBUG] (7/23) TITLE : 구해줘! 홈즈
+2020-06-19 15:15:14,345 [DaumParse      ][DEBUG] (7/23) SID : 84848
+2020-06-19 15:15:14,345 [DaumParse      ][DEBUG] (8/23) URL : https://m.search.daum.net/search?w=tv&q=뭉쳐야 찬다&DA=TVS&&irk=85954&irt=tv-program
+2020-06-19 15:15:14,345 [DaumParse      ][DEBUG] (8/23) TITLE : 뭉쳐야 찬다
+2020-06-19 15:15:14,345 [DaumParse      ][DEBUG] (8/23) SID : 85954
+2020-06-19 15:15:14,345 [DaumParse      ][DEBUG] (9/23) URL : https://m.search.daum.net/search?w=tv&q=런닝맨&DA=TVS&&irk=56963&irt=tv-program
+2020-06-19 15:15:14,345 [DaumParse      ][DEBUG] (9/23) TITLE : 런닝맨
+2020-06-19 15:15:14,345 [DaumParse      ][DEBUG] (9/23) SID : 56963
+2020-06-19 15:15:14,345 [DaumParse      ][DEBUG] (10/23) URL : https://m.search.daum.net/search?w=tv&q=집사부일체&DA=TVS&&irk=81601&irt=tv-program
+2020-06-19 15:15:14,345 [DaumParse      ][DEBUG] (10/23) TITLE : 집사부일체
+2020-06-19 15:15:14,345 [DaumParse      ][DEBUG] (10/23) SID : 81601
+2020-06-19 15:15:14,346 [DaumParse      ][DEBUG] (11/23) URL : https://m.search.daum.net/search?w=tv&q=신비한 TV 서프라이즈&DA=TVS&&irk=48510&irt=tv-program
+2020-06-19 15:15:14,346 [DaumParse      ][DEBUG] (11/23) TITLE : 신비한 TV 서프라이즈
+2020-06-19 15:15:14,346 [DaumParse      ][DEBUG] (11/23) SID : 48510
+2020-06-19 15:15:14,346 [DaumParse      ][DEBUG] (12/23) URL : https://m.search.daum.net/search?w=tv&q=선을 넘는 녀석들 리턴즈&DA=TVS&&irk=86209&irt=tv-program
+2020-06-19 15:15:14,346 [DaumParse      ][DEBUG] (12/23) TITLE : 선을 넘는 녀석들 리턴즈
+2020-06-19 15:15:14,346 [DaumParse      ][DEBUG] (12/23) SID : 86209
+2020-06-19 15:15:14,346 [DaumParse      ][DEBUG] (13/23) URL : https://m.search.daum.net/search?w=tv&q=열린음악회&DA=TVS&&irk=52231&irt=tv-program
+2020-06-19 15:15:14,346 [DaumParse      ][DEBUG] (13/23) TITLE : 열린음악회
+2020-06-19 15:15:14,346 [DaumParse      ][DEBUG] (13/23) SID : 52231
+2020-06-19 15:15:14,346 [DaumParse      ][DEBUG] (14/23) URL : https://m.search.daum.net/search?w=tv&q=모란봉클럽&DA=TVS&&irk=71533&irt=tv-program
+2020-06-19 15:15:14,346 [DaumParse      ][DEBUG] (14/23) TITLE : 모란봉클럽
+2020-06-19 15:15:14,346 [DaumParse      ][DEBUG] (14/23) SID : 71533
+2020-06-19 15:15:14,347 [DaumParse      ][DEBUG] (15/23) URL : https://m.search.daum.net/search?w=tv&q=SBS 인기가요&DA=TVS&&irk=48481&irt=tv-program
+2020-06-19 15:15:14,347 [DaumParse      ][DEBUG] (15/23) TITLE : SBS 인기가요
+2020-06-19 15:15:14,347 [DaumParse      ][DEBUG] (15/23) SID : 48481
+2020-06-19 15:15:14,347 [DaumParse      ][DEBUG] (16/23) URL : https://m.search.daum.net/search?w=tv&q=알토란&DA=TVS&&irk=67070&irt=tv-program
+2020-06-19 15:15:14,347 [DaumParse      ][DEBUG] (16/23) TITLE : 알토란
+2020-06-19 15:15:14,347 [DaumParse      ][DEBUG] (16/23) SID : 67070
+2020-06-19 15:15:14,347 [DaumParse      ][DEBUG] (17/23) URL : https://m.search.daum.net/search?w=tv&q=이제 만나러 갑니다&DA=TVS&&irk=59500&irt=tv-program
+2020-06-19 15:15:14,347 [DaumParse      ][DEBUG] (17/23) TITLE : 이제 만나러 갑니다
+2020-06-19 15:15:14,347 [DaumParse      ][DEBUG] (17/23) SID : 59500
+2020-06-19 15:15:14,347 [DaumParse      ][DEBUG] (18/23) URL : https://m.search.daum.net/search?w=tv&q=코미디빅리그&DA=TVS&&irk=61511&irt=tv-program
+2020-06-19 15:15:14,347 [DaumParse      ][DEBUG] (18/23) TITLE : 코미디빅리그
+2020-06-19 15:15:14,348 [DaumParse      ][DEBUG] (18/23) SID : 61511
+2020-06-19 15:15:14,348 [DaumParse      ][DEBUG] (19/23) URL : https://m.search.daum.net/search?w=tv&q=유랑마켓&DA=TVS&&irk=87531&irt=tv-program
+2020-06-19 15:15:14,348 [DaumParse      ][DEBUG] (19/23) TITLE : 유랑마켓
+2020-06-19 15:15:14,348 [DaumParse      ][DEBUG] (19/23) SID : 87531
+2020-06-19 15:15:14,348 [DaumParse      ][DEBUG] (20/23) URL : https://m.search.daum.net/search?w=tv&q=방구석1열&DA=TVS&&irk=82692&irt=tv-program
+2020-06-19 15:15:14,348 [DaumParse      ][DEBUG] (20/23) TITLE : 방구석1열
+2020-06-19 15:15:14,348 [DaumParse      ][DEBUG] (20/23) SID : 82692
+2020-06-19 15:15:14,348 [DaumParse      ][DEBUG] (21/23) URL : https://m.search.daum.net/search?w=tv&q=아빠본색&DA=TVS&&irk=77311&irt=tv-program
+2020-06-19 15:15:14,349 [DaumParse      ][DEBUG] (21/23) TITLE : 아빠본색
+2020-06-19 15:15:14,349 [DaumParse      ][DEBUG] (21/23) SID : 77311
+2020-06-19 15:15:14,349 [DaumParse      ][DEBUG] (22/23) URL : https://m.search.daum.net/search?w=tv&q=집쿡라이브&DA=TVS&&irk=88475&irt=tv-program
+2020-06-19 15:15:14,349 [DaumParse      ][DEBUG] (22/23) TITLE : 집쿡라이브
+2020-06-19 15:15:14,349 [DaumParse      ][DEBUG] (22/23) SID : 88475
+2020-06-19 15:15:14,349 [DaumParse      ][DEBUG] (23/23) URL : https://m.search.daum.net/search?w=tv&q=서울촌놈&DA=TVS&&irk=88451&irt=tv-program
+2020-06-19 15:15:14,349 [DaumParse      ][DEBUG] (23/23) TITLE : 서울촌놈
+2020-06-19 15:15:14,349 [DaumParse      ][DEBUG] (23/23) SID : 88451
+2020-06-19 15:15:14,349 [Daum           ][DEBUG] 중복 프로그램 - 77121  미운 우리 새끼
+2020-06-19 15:15:14,349 [Daum           ][DEBUG] 중복 프로그램 - 52225  전국노래자랑
+2020-06-19 15:15:14,349 [Daum           ][DEBUG] 중복 프로그램 - 64177  슈퍼맨이 돌아왔다
+2020-06-19 15:15:14,349 [Daum           ][DEBUG] 중복 프로그램 - 87052  1박 2일 시즌4
+2020-06-19 15:15:14,350 [Daum           ][DEBUG] 중복 프로그램 - 68024  미스터리 음악쇼 복면가왕
+2020-06-19 15:15:14,350 [Daum           ][DEBUG] 중복 프로그램 - 84969  사장님 귀는 당나귀 귀
+2020-06-19 15:15:14,350 [Daum           ][DEBUG] 중복 프로그램 - 84848  구해줘! 홈즈
+2020-06-19 15:15:14,350 [Daum           ][DEBUG] 중복 프로그램 - 85954  뭉쳐야 찬다
+2020-06-19 15:15:14,350 [Daum           ][DEBUG] 중복 프로그램 - 56963  런닝맨
+2020-06-19 15:15:14,350 [Daum           ][DEBUG] 중복 프로그램 - 81601  집사부일체
+2020-06-19 15:15:14,350 [Daum           ][DEBUG] 중복 프로그램 - 48510  신비한 TV 서프라이즈
+2020-06-19 15:15:14,350 [Daum           ][DEBUG] 중복 프로그램 - 86209  선을 넘는 녀석들 리턴즈
+2020-06-19 15:15:14,350 [Daum           ][DEBUG] 중복 프로그램 - 52231  열린음악회
+2020-06-19 15:15:14,350 [Daum           ][DEBUG] 중복 프로그램 - 71533  모란봉클럽
+2020-06-19 15:15:14,350 [Daum           ][DEBUG] 중복 프로그램 - 48481  SBS 인기가요
+2020-06-19 15:15:14,350 [Daum           ][DEBUG] 중복 프로그램 - 67070  알토란
+2020-06-19 15:15:14,350 [Daum           ][DEBUG] 중복 프로그램 - 59500  이제 만나러 갑니다
+2020-06-19 15:15:14,350 [Daum           ][DEBUG] 중복 프로그램 - 61511  코미디빅리그
+2020-06-19 15:15:14,350 [Daum           ][DEBUG] 중복 프로그램 - 87531  유랑마켓
+2020-06-19 15:15:14,351 [Daum           ][DEBUG] 중복 프로그램 - 82692  방구석1열
+2020-06-19 15:15:14,351 [Daum           ][DEBUG] 중복 프로그램 - 77311  아빠본색
+2020-06-19 15:15:14,351 [Daum           ][DEBUG] 중복 프로그램 - 88475  집쿡라이브
+2020-06-19 15:15:14,351 [Daum           ][DEBUG] 중복 프로그램 - 88451  서울촌놈

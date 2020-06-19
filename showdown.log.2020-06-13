@@ -1,0 +1,229 @@
+2020-06-13 00:01:59,773 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-13 00:01:59,790 [Showdown       ][INFO ] 설정 파일 로드
+2020-06-13 00:02:00,283 [Showdown       ][INFO ] DB 연결 성공
+2020-06-13 00:02:00,283 [Showdown       ][INFO ] 메인 실행
+2020-06-13 00:02:00,285 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-13 00:02:00,285 [Daum           ][INFO ] === 신규 드라마 검색
+2020-06-13 00:02:01,345 [Daum           ][INFO ] 굿캐스팅 https://search.daum.net/search?w=tv&q=굿캐스팅&DA=TVS&&irk=86289&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:01,354 [Daum           ][INFO ] 저녁 같이 드실래요? https://search.daum.net/search?w=tv&q=저녁 같이 드실래요?&DA=TVS&&irk=68810&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:01,357 [Daum           ][INFO ] (아는 건 별로 없지만) 가족입니다 https://search.daum.net/search?w=tv&q=(아는 건 별로 없지만) 가족입니다&DA=TVS&&irk=87661&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:01,360 [Daum           ][INFO ] 야식남녀 https://search.daum.net/search?w=tv&q=야식남녀&DA=TVS&&irk=87578&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:01,363 [Daum           ][INFO ] 그놈이 그놈이다 https://search.daum.net/search?w=tv&q=그놈이 그놈이다&DA=TVS&&irk=87855&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,110 [Daum           ][INFO ] 꼰대인턴 https://search.daum.net/search?w=tv&q=꼰대인턴&DA=TVS&&irk=87432&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,111 [Daum           ][INFO ] 쌍갑포차 https://search.daum.net/search?w=tv&q=쌍갑포차&DA=TVS&&irk=85760&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,111 [Daum           ][INFO ] 오 마이 베이비 https://search.daum.net/search?w=tv&q=오 마이 베이비&DA=TVS&&irk=87316&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,112 [Daum           ][INFO ] 영혼수선공 https://search.daum.net/search?w=tv&q=영혼수선공&DA=TVS&&irk=86936&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,112 [Daum           ][INFO ] 미쓰리는 알고 있다 https://search.daum.net/search?w=tv&q=미쓰리는 알고 있다&DA=TVS&&irk=88214&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,114 [Daum           ][INFO ] 출사표 https://search.daum.net/search?w=tv&q=출사표&DA=TVS&&irk=87766&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,114 [Daum           ][INFO ] 우리, 사랑했을까 https://search.daum.net/search?w=tv&q=우리, 사랑했을까&DA=TVS&&irk=87139&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,114 [Daum           ][INFO ] 십시일반 https://search.daum.net/search?w=tv&q=십시일반&DA=TVS&&irk=87832&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,433 [Daum           ][INFO ] 한 번 다녀왔습니다 https://search.daum.net/search?w=tv&q=한 번 다녀왔습니다&DA=TVS&&irk=86448&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,434 [Daum           ][INFO ] 더 킹 : 영원의 군주 https://search.daum.net/search?w=tv&q=더 킹 : 영원의 군주&DA=TVS&&irk=85808&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,434 [Daum           ][INFO ] 바람과 구름과 비 https://search.daum.net/search?w=tv&q=바람과 구름과 비&DA=TVS&&irk=87796&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,434 [Daum           ][INFO ] 화양연화 - 삶이 꽃이 되는 순간 https://search.daum.net/search?w=tv&q=화양연화 - 삶이 꽃이 되는 순간&DA=TVS&&irk=87449&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,435 [Daum           ][INFO ] 번외수사 https://search.daum.net/search?w=tv&q=번외수사&DA=TVS&&irk=86622&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,435 [Daum           ][INFO ] 편의점 샛별이 https://search.daum.net/search?w=tv&q=편의점 샛별이&DA=TVS&&irk=87527&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,435 [Daum           ][INFO ] 사이코지만 괜찮아 https://search.daum.net/search?w=tv&q=사이코지만 괜찮아&DA=TVS&&irk=87743&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,435 [Daum           ][INFO ] 우아한 친구들 https://search.daum.net/search?w=tv&q=우아한 친구들&DA=TVS&&irk=86710&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,436 [Daum           ][INFO ] 미씽: 그들이 있었다 https://search.daum.net/search?w=tv&q=미씽: 그들이 있었다&DA=TVS&&irk=87976&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,770 [Daum           ][INFO ] 기막힌 유산 https://search.daum.net/search?w=tv&q=기막힌 유산&DA=TVS&&irk=87948&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,771 [Daum           ][INFO ] 위험한 약속 https://search.daum.net/search?w=tv&q=위험한 약속&DA=TVS&&irk=87754&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:03,772 [Daum           ][INFO ] 엄마가 바람났다 https://search.daum.net/search?w=tv&q=엄마가 바람났다&DA=TVS&&irk=87887&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,178 [Daum           ][INFO ] 가요무대 https://search.daum.net/search?w=tv&q=가요무대&DA=TVS&&irk=48475&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,181 [Daum           ][INFO ] 옥탑방의 문제아들 https://search.daum.net/search?w=tv&q=옥탑방의 문제아들&DA=TVS&&irk=83906&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,182 [Daum           ][INFO ] 동상이몽 2 - 너는 내 운명 https://search.daum.net/search?w=tv&q=동상이몽 2 - 너는 내 운명&DA=TVS&&irk=80459&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,182 [Daum           ][INFO ] 개는 훌륭하다 https://search.daum.net/search?w=tv&q=개는 훌륭하다&DA=TVS&&irk=86961&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,183 [Daum           ][INFO ] 위대한 배태랑 https://search.daum.net/search?w=tv&q=위대한 배태랑&DA=TVS&&irk=88308&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,184 [Daum           ][INFO ] 풍문으로 들었쇼 https://search.daum.net/search?w=tv&q=풍문으로 들었쇼&DA=TVS&&irk=73930&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,185 [Daum           ][INFO ] 얼마예요? https://search.daum.net/search?w=tv&q=얼마예요?&DA=TVS&&irk=81158&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,186 [Daum           ][INFO ] 리얼연애 부러우면 지는거다 https://search.daum.net/search?w=tv&q=리얼연애 부러우면 지는거다&DA=TVS&&irk=87783&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,187 [Daum           ][INFO ] 더 짠내투어 https://search.daum.net/search?w=tv&q=더 짠내투어&DA=TVS&&irk=81303&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,187 [Daum           ][INFO ] 아이콘택트 https://search.daum.net/search?w=tv&q=아이콘택트&DA=TVS&&irk=86294&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,188 [Daum           ][INFO ] 드루와 https://search.daum.net/search?w=tv&q=드루와&DA=TVS&&irk=88567&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,190 [Daum           ][INFO ] 건강함의 시작, 몸의 대화 https://search.daum.net/search?w=tv&q=건강함의 시작, 몸의 대화&DA=TVS&&irk=88231&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,193 [Daum           ][INFO ] 무엇이든 물어보살 https://search.daum.net/search?w=tv&q=무엇이든 물어보살&DA=TVS&&irk=84999&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,194 [Daum           ][INFO ] 프리한19 https://search.daum.net/search?w=tv&q=프리한19&DA=TVS&&irk=76400&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,194 [Daum           ][INFO ] 밥은 먹고 다니냐? https://search.daum.net/search?w=tv&q=밥은 먹고 다니냐?&DA=TVS&&irk=86656&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,195 [Daum           ][INFO ] 반반쇼 https://search.daum.net/search?w=tv&q=반반쇼&DA=TVS&&irk=86688&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,195 [Daum           ][INFO ] 곡FARM! https://search.daum.net/search?w=tv&q=곡FARM!&DA=TVS&&irk=88156&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,195 [Daum           ][INFO ] 유불리 상담소 https://search.daum.net/search?w=tv&q=유불리 상담소&DA=TVS&&irk=88320&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,196 [Daum           ][INFO ] 감자덕후 https://search.daum.net/search?w=tv&q=감자덕후&DA=TVS&&irk=88469&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,196 [Daum           ][INFO ] 왈가닥뷰티 https://search.daum.net/search?w=tv&q=왈가닥뷰티&DA=TVS&&irk=88285&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:04,196 [Daum           ][INFO ] 신박한 정리 https://search.daum.net/search?w=tv&q=신박한 정리&DA=TVS&&irk=88597&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,157 [Daum           ][INFO ] 아내의 맛 https://search.daum.net/search?w=tv&q=아내의 맛&DA=TVS&&irk=83003&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,158 [Daum           ][INFO ] 불타는 청춘 https://search.daum.net/search?w=tv&q=불타는 청춘&DA=TVS&&irk=68070&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,158 [Daum           ][INFO ] 나는 몸신이다 https://search.daum.net/search?w=tv&q=나는 몸신이다&DA=TVS&&irk=67462&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,158 [Daum           ][INFO ] 엄지의 제왕 https://search.daum.net/search?w=tv&q=엄지의 제왕&DA=TVS&&irk=62434&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,159 [Daum           ][INFO ] 날아라 슛돌이 - 뉴 비기닝 https://search.daum.net/search?w=tv&q=날아라 슛돌이 - 뉴 비기닝&DA=TVS&&irk=87381&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,159 [Daum           ][INFO ] 배달해서 먹힐까? https://search.daum.net/search?w=tv&q=배달해서 먹힐까?&DA=TVS&&irk=88328&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,159 [Daum           ][INFO ] 신비한 동물 퀴즈 https://search.daum.net/search?w=tv&q=신비한 동물 퀴즈&DA=TVS&&irk=88329&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,159 [Daum           ][INFO ] 비디오스타 https://search.daum.net/search?w=tv&q=비디오스타&DA=TVS&&irk=77166&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,160 [Daum           ][INFO ] 연애의 참견 3 https://search.daum.net/search?w=tv&q=연애의 참견 3&DA=TVS&&irk=87508&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,160 [Daum           ][INFO ] 더 쇼 https://search.daum.net/search?w=tv&q=더 쇼&DA=TVS&&irk=79396&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,160 [Daum           ][INFO ] 가정경제전담 수사본부 https://search.daum.net/search?w=tv&q=가정경제전담 수사본부&DA=TVS&&irk=87038&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,160 [Daum           ][INFO ] 셀럽뷰티 https://search.daum.net/search?w=tv&q=셀럽뷰티&DA=TVS&&irk=87695&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,161 [Daum           ][INFO ] 내게 ON 트롯 https://search.daum.net/search?w=tv&q=내게 ON 트롯&DA=TVS&&irk=88453&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,459 [Daum           ][INFO ] 뽕숭아학당 https://search.daum.net/search?w=tv&q=뽕숭아학당&DA=TVS&&irk=88235&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,463 [Daum           ][INFO ] 트롯신이 떴다 https://search.daum.net/search?w=tv&q=트롯신이 떴다&DA=TVS&&irk=87858&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,466 [Daum           ][INFO ] 백종원의 골목식당 https://search.daum.net/search?w=tv&q=백종원의 골목식당&DA=TVS&&irk=81824&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,470 [Daum           ][INFO ] 본격연예 한밤 https://search.daum.net/search?w=tv&q=본격연예 한밤&DA=TVS&&irk=78544&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,474 [Daum           ][INFO ] 라디오스타 https://search.daum.net/search?w=tv&q=라디오스타&DA=TVS&&irk=50181&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,478 [Daum           ][INFO ] 대한외국인 https://search.daum.net/search?w=tv&q=대한외국인&DA=TVS&&irk=84092&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,481 [Daum           ][INFO ] 유 퀴즈 온 더 블럭 https://search.daum.net/search?w=tv&q=유 퀴즈 온 더 블럭&DA=TVS&&irk=83691&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,482 [Daum           ][INFO ] 1호가 될 순 없어 https://search.daum.net/search?w=tv&q=1호가 될 순 없어&DA=TVS&&irk=88380&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,483 [Daum           ][INFO ] 하트시그널 시즌3 https://search.daum.net/search?w=tv&q=하트시그널 시즌3&DA=TVS&&irk=85134&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,484 [Daum           ][INFO ] TMI NEWS https://search.daum.net/search?w=tv&q=TMI NEWS&DA=TVS&&irk=85420&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,490 [Daum           ][INFO ] 주간 아이돌 https://search.daum.net/search?w=tv&q=주간 아이돌&DA=TVS&&irk=58850&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,490 [Daum           ][INFO ] 쇼 챔피언 https://search.daum.net/search?w=tv&q=쇼 챔피언&DA=TVS&&irk=60057&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,490 [Daum           ][INFO ] SBS MTV K-POP 20 https://search.daum.net/search?w=tv&q=SBS MTV K-POP 20&DA=TVS&&irk=59400&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,490 [Daum           ][INFO ] 마음에 들어 https://search.daum.net/search?w=tv&q=마음에 들어&DA=TVS&&irk=85549&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,490 [Daum           ][INFO ] 프리한마켓 10 https://search.daum.net/search?w=tv&q=프리한마켓 10&DA=TVS&&irk=85892&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,491 [Daum           ][INFO ] 외식하는 날 2 https://search.daum.net/search?w=tv&q=외식하는 날 2&DA=TVS&&irk=87930&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,491 [Daum           ][INFO ] 아이즈원츄 - 환상 캠퍼스 https://search.daum.net/search?w=tv&q=아이즈원츄 - 환상 캠퍼스&DA=TVS&&irk=88580&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,491 [Daum           ][INFO ] 식벤져스 https://search.daum.net/search?w=tv&q=식벤져스&DA=TVS&&irk=88643&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:06,491 [Daum           ][INFO ] 찾았다 스트레이 키즈 최신판 https://search.daum.net/search?w=tv&q=찾았다 스트레이 키즈 최신판&DA=TVS&&irk=88716&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,104 [Daum           ][INFO ] 신청곡을 불러드립니다 - 사랑의 콜센타 https://search.daum.net/search?w=tv&q=신청곡을 불러드립니다 - 사랑의 콜센타&DA=TVS&&irk=88164&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,105 [Daum           ][INFO ] 맛남의 광장 https://search.daum.net/search?w=tv&q=맛남의 광장&DA=TVS&&irk=86347&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,106 [Daum           ][INFO ] 바퀴 달린 집 https://search.daum.net/search?w=tv&q=바퀴 달린 집&DA=TVS&&irk=88402&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,107 [Daum           ][INFO ] 나만 믿고 따라와, 도시어부 2 https://search.daum.net/search?w=tv&q=나만 믿고 따라와, 도시어부 2&DA=TVS&&irk=81484&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,107 [Daum           ][INFO ] 어서와 한국은 처음이지? 시즌2 https://search.daum.net/search?w=tv&q=어서와 한국은 처음이지? 시즌2&DA=TVS&&irk=82401&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,108 [Daum           ][INFO ] 문제적 남자 : 브레인 유랑단 https://search.daum.net/search?w=tv&q=문제적 남자 : 브레인 유랑단&DA=TVS&&irk=87240&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,108 [Daum           ][INFO ] 올댓뮤직 https://search.daum.net/search?w=tv&q=올댓뮤직&DA=TVS&&irk=61735&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,108 [Daum           ][INFO ] 로드 투 킹덤 https://search.daum.net/search?w=tv&q=로드 투 킹덤&DA=TVS&&irk=87946&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,109 [Daum           ][INFO ] 스포츠 야 https://search.daum.net/search?w=tv&q=스포츠 야&DA=TVS&&irk=65077&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,109 [Daum           ][INFO ] M Countdown https://search.daum.net/search?w=tv&q=M Countdown&DA=TVS&&irk=48585&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,109 [Daum           ][INFO ] 밥블레스유2 https://search.daum.net/search?w=tv&q=밥블레스유2&DA=TVS&&irk=87616&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,110 [Daum           ][INFO ] GOOD GIRL : 누가 방송국을 털었나 https://search.daum.net/search?w=tv&q=GOOD GIRL : 누가 방송국을 털었나&DA=TVS&&irk=88344&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,110 [Daum           ][INFO ] 아이돌리그 시즌2 https://search.daum.net/search?w=tv&q=아이돌리그 시즌2&DA=TVS&&irk=88251&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,111 [Daum           ][INFO ] 아이돌 피싱캠프 https://search.daum.net/search?w=tv&q=아이돌 피싱캠프&DA=TVS&&irk=88721&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,606 [Daum           ][INFO ] 나 혼자 산다 https://search.daum.net/search?w=tv&q=나 혼자 산다&DA=TVS&&irk=62560&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,606 [Daum           ][INFO ] 삼시세끼 - 어촌편 시즌5 https://search.daum.net/search?w=tv&q=삼시세끼 - 어촌편 시즌5&DA=TVS&&irk=88182&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,606 [Daum           ][INFO ] TV는 사랑을 싣고 https://search.daum.net/search?w=tv&q=TV는 사랑을 싣고&DA=TVS&&irk=83874&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,607 [Daum           ][INFO ] 신상출시 편스토랑 https://search.daum.net/search?w=tv&q=신상출시 편스토랑&DA=TVS&&irk=86857&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,607 [Daum           ][INFO ] 편애중계 https://search.daum.net/search?w=tv&q=편애중계&DA=TVS&&irk=86260&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,607 [Daum           ][INFO ] 삼시네세끼 https://search.daum.net/search?w=tv&q=삼시네세끼&DA=TVS&&irk=88429&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,607 [Daum           ][INFO ] 팬텀싱어 3 https://search.daum.net/search?w=tv&q=팬텀싱어 3&DA=TVS&&irk=87063&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,608 [Daum           ][INFO ] 공부가 머니? https://search.daum.net/search?w=tv&q=공부가 머니?&DA=TVS&&irk=86175&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,608 [Daum           ][INFO ] 개그콘서트 https://search.daum.net/search?w=tv&q=개그콘서트&DA=TVS&&irk=48870&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,609 [Daum           ][INFO ] 보이스 코리아 2020 https://search.daum.net/search?w=tv&q=보이스 코리아 2020&DA=TVS&&irk=65570&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,609 [Daum           ][INFO ] 요즘 육아 금쪽같은 내새끼 https://search.daum.net/search?w=tv&q=요즘 육아 금쪽같은 내새끼&DA=TVS&&irk=88262&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,609 [Daum           ][INFO ] 뮤직뱅크 https://search.daum.net/search?w=tv&q=뮤직뱅크&DA=TVS&&irk=52253&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,610 [Daum           ][INFO ] 유희열의 스케치북 https://search.daum.net/search?w=tv&q=유희열의 스케치북&DA=TVS&&irk=54011&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,610 [Daum           ][INFO ] 맛있는 녀석들 https://search.daum.net/search?w=tv&q=맛있는 녀석들&DA=TVS&&irk=67795&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,611 [Daum           ][INFO ] 독립영화관 https://search.daum.net/search?w=tv&q=독립영화관&DA=TVS&&irk=57883&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,611 [Daum           ][INFO ] EBS 스페이스 공감 https://search.daum.net/search?w=tv&q=EBS 스페이스 공감&DA=TVS&&irk=47951&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,612 [Daum           ][INFO ] Simply K-Pop https://search.daum.net/search?w=tv&q=Simply K-Pop&DA=TVS&&irk=86708&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,612 [Daum           ][INFO ] 겟잇뷰티 2020 https://search.daum.net/search?w=tv&q=겟잇뷰티 2020&DA=TVS&&irk=87883&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,613 [Daum           ][INFO ] 이십세기 힛-트쏭 https://search.daum.net/search?w=tv&q=이십세기 힛-트쏭&DA=TVS&&irk=87949&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,613 [Daum           ][INFO ] 와이낫 시즌3 https://search.daum.net/search?w=tv&q=와이낫 시즌3&DA=TVS&&irk=88528&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,614 [Daum           ][INFO ] I-LAND https://search.daum.net/search?w=tv&q=I-LAND&DA=TVS&&irk=88492&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:07,614 [Daum           ][INFO ] 보이스트롯 https://search.daum.net/search?w=tv&q=보이스트롯&DA=TVS&&irk=88309&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,529 [Daum           ][INFO ] 불후의 명곡 전설을 노래하다 https://search.daum.net/search?w=tv&q=불후의 명곡 전설을 노래하다&DA=TVS&&irk=58495&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,535 [Daum           ][INFO ] 살림하는 남자들 시즌2 https://search.daum.net/search?w=tv&q=살림하는 남자들 시즌2&DA=TVS&&irk=79193&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,537 [Daum           ][INFO ] 놀면 뭐하니? https://search.daum.net/search?w=tv&q=놀면 뭐하니?&DA=TVS&&irk=86230&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,538 [Daum           ][INFO ] 전지적 참견 시점 https://search.daum.net/search?w=tv&q=전지적 참견 시점&DA=TVS&&irk=81037&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,538 [Daum           ][INFO ] 아는 형님 https://search.daum.net/search?w=tv&q=아는 형님&DA=TVS&&irk=74828&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,538 [Daum           ][INFO ] 노래가 좋아 https://search.daum.net/search?w=tv&q=노래가 좋아&DA=TVS&&irk=78135&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,538 [Daum           ][INFO ] 오! 나의 파트, 너 https://search.daum.net/search?w=tv&q=오! 나의 파트, 너&DA=TVS&&irk=87327&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,539 [Daum           ][INFO ] 강적들 https://search.daum.net/search?w=tv&q=강적들&DA=TVS&&irk=64489&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,539 [Daum           ][INFO ] 영화가 좋다 https://search.daum.net/search?w=tv&q=영화가 좋다&DA=TVS&&irk=49417&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,539 [Daum           ][INFO ] 악인전 https://search.daum.net/search?w=tv&q=악인전&DA=TVS&&irk=88176&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,539 [Daum           ][INFO ] 속풀이쇼 동치미 https://search.daum.net/search?w=tv&q=속풀이쇼 동치미&DA=TVS&&irk=62012&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,539 [Daum           ][INFO ] 접속! 무비월드 https://search.daum.net/search?w=tv&q=접속! 무비월드&DA=TVS&&irk=50071&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,539 [Daum           ][INFO ] 도레미마켓 https://search.daum.net/search?w=tv&q=도레미마켓&DA=TVS&&irk=82304&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,540 [Daum           ][INFO ] 비긴어게인 코리아 https://search.daum.net/search?w=tv&q=비긴어게인 코리아&DA=TVS&&irk=88465&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,540 [Daum           ][INFO ] 가장 보통의 가족 https://search.daum.net/search?w=tv&q=가장 보통의 가족&DA=TVS&&irk=88242&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,540 [Daum           ][INFO ] 온앤오프 https://search.daum.net/search?w=tv&q=온앤오프&DA=TVS&&irk=88232&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,540 [Daum           ][INFO ] 쇼! 음악중심 https://search.daum.net/search?w=tv&q=쇼! 음악중심&DA=TVS&&irk=48508&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,540 [Daum           ][INFO ] 차트를 달리는 남자 https://search.daum.net/search?w=tv&q=차트를 달리는 남자&DA=TVS&&irk=78354&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,540 [Daum           ][INFO ] 숙희네 미장원 https://search.daum.net/search?w=tv&q=숙희네 미장원&DA=TVS&&irk=88105&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,541 [Daum           ][INFO ] 구라철 https://search.daum.net/search?w=tv&q=구라철&DA=TVS&&irk=87944&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,541 [Daum           ][INFO ] 노홍철의 게릴라 데이트 https://search.daum.net/search?w=tv&q=노홍철의 게릴라 데이트&DA=TVS&&irk=88353&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,541 [Daum           ][INFO ] 탑골 랩소디 : K-POP도 통역이 되나요? https://search.daum.net/search?w=tv&q=탑골 랩소디 : K-POP도 통역이 되나요?&DA=TVS&&irk=87890&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,541 [Daum           ][INFO ] 도니스쿨 https://search.daum.net/search?w=tv&q=도니스쿨&DA=TVS&&irk=88761&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,541 [Daum           ][INFO ] 백파더 : 요리를 멈추지 마! https://search.daum.net/search?w=tv&q=백파더 : 요리를 멈추지 마!&DA=TVS&&irk=88695&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:08,541 [Daum           ][INFO ] 최애 엔터테인먼트 https://search.daum.net/search?w=tv&q=최애 엔터테인먼트&DA=TVS&&irk=88650&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,560 [Daum           ][INFO ] 미운 우리 새끼 https://search.daum.net/search?w=tv&q=미운 우리 새끼&DA=TVS&&irk=77121&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,562 [Daum           ][INFO ] 전국노래자랑 https://search.daum.net/search?w=tv&q=전국노래자랑&DA=TVS&&irk=52225&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,562 [Daum           ][INFO ] 미스터리 음악쇼 복면가왕 https://search.daum.net/search?w=tv&q=미스터리 음악쇼 복면가왕&DA=TVS&&irk=68024&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,562 [Daum           ][INFO ] 슈퍼맨이 돌아왔다 https://search.daum.net/search?w=tv&q=슈퍼맨이 돌아왔다&DA=TVS&&irk=64177&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,563 [Daum           ][INFO ] 1박 2일 시즌4 https://search.daum.net/search?w=tv&q=1박 2일 시즌4&DA=TVS&&irk=87052&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,563 [Daum           ][INFO ] 사장님 귀는 당나귀 귀 https://search.daum.net/search?w=tv&q=사장님 귀는 당나귀 귀&DA=TVS&&irk=84969&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,563 [Daum           ][INFO ] 구해줘! 홈즈 https://search.daum.net/search?w=tv&q=구해줘! 홈즈&DA=TVS&&irk=84848&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,563 [Daum           ][INFO ] 집사부일체 https://search.daum.net/search?w=tv&q=집사부일체&DA=TVS&&irk=81601&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,563 [Daum           ][INFO ] 런닝맨 https://search.daum.net/search?w=tv&q=런닝맨&DA=TVS&&irk=56963&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,564 [Daum           ][INFO ] 뭉쳐야 찬다 https://search.daum.net/search?w=tv&q=뭉쳐야 찬다&DA=TVS&&irk=85954&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,564 [Daum           ][INFO ] 선을 넘는 녀석들 리턴즈 https://search.daum.net/search?w=tv&q=선을 넘는 녀석들 리턴즈&DA=TVS&&irk=86209&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,564 [Daum           ][INFO ] 신비한 TV 서프라이즈 https://search.daum.net/search?w=tv&q=신비한 TV 서프라이즈&DA=TVS&&irk=48510&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,564 [Daum           ][INFO ] 열린음악회 https://search.daum.net/search?w=tv&q=열린음악회&DA=TVS&&irk=52231&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,565 [Daum           ][INFO ] 알토란 https://search.daum.net/search?w=tv&q=알토란&DA=TVS&&irk=67070&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,565 [Daum           ][INFO ] 이제 만나러 갑니다 https://search.daum.net/search?w=tv&q=이제 만나러 갑니다&DA=TVS&&irk=59500&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,565 [Daum           ][INFO ] 모란봉클럽 https://search.daum.net/search?w=tv&q=모란봉클럽&DA=TVS&&irk=71533&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,565 [Daum           ][INFO ] SBS 인기가요 https://search.daum.net/search?w=tv&q=SBS 인기가요&DA=TVS&&irk=48481&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,570 [Daum           ][INFO ] 유랑마켓 https://search.daum.net/search?w=tv&q=유랑마켓&DA=TVS&&irk=87531&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,571 [Daum           ][INFO ] 코미디빅리그 https://search.daum.net/search?w=tv&q=코미디빅리그&DA=TVS&&irk=61511&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,571 [Daum           ][INFO ] 방구석1열 https://search.daum.net/search?w=tv&q=방구석1열&DA=TVS&&irk=82692&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,571 [Daum           ][INFO ] 아빠본색 https://search.daum.net/search?w=tv&q=아빠본색&DA=TVS&&irk=77311&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:02:18,571 [Daum           ][INFO ] 집쿡라이브 https://search.daum.net/search?w=tv&q=집쿡라이브&DA=TVS&&irk=88475&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:52,568 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-13 00:03:52,586 [Showdown       ][INFO ] 설정 파일 로드
+2020-06-13 00:03:53,046 [Showdown       ][INFO ] DB 연결 성공
+2020-06-13 00:03:53,047 [Showdown       ][INFO ] 메인 실행
+2020-06-13 00:03:53,049 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-13 00:03:53,050 [Daum           ][INFO ] === 신규 드라마 검색
+2020-06-13 00:03:54,144 [Daum           ][INFO ] 굿캐스팅 https://search.daum.net/search?w=tv&q=굿캐스팅&DA=TVS&&irk=86289&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:54,145 [Daum           ][INFO ] 저녁 같이 드실래요? https://search.daum.net/search?w=tv&q=저녁 같이 드실래요?&DA=TVS&&irk=68810&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:54,146 [Daum           ][INFO ] (아는 건 별로 없지만) 가족입니다 https://search.daum.net/search?w=tv&q=(아는 건 별로 없지만) 가족입니다&DA=TVS&&irk=87661&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:54,146 [Daum           ][INFO ] 야식남녀 https://search.daum.net/search?w=tv&q=야식남녀&DA=TVS&&irk=87578&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:54,146 [Daum           ][INFO ] 그놈이 그놈이다 https://search.daum.net/search?w=tv&q=그놈이 그놈이다&DA=TVS&&irk=87855&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:56,056 [Daum           ][INFO ] 꼰대인턴 https://search.daum.net/search?w=tv&q=꼰대인턴&DA=TVS&&irk=87432&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:56,057 [Daum           ][INFO ] 쌍갑포차 https://search.daum.net/search?w=tv&q=쌍갑포차&DA=TVS&&irk=85760&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:56,057 [Daum           ][INFO ] 오 마이 베이비 https://search.daum.net/search?w=tv&q=오 마이 베이비&DA=TVS&&irk=87316&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:56,057 [Daum           ][INFO ] 영혼수선공 https://search.daum.net/search?w=tv&q=영혼수선공&DA=TVS&&irk=86936&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:56,058 [Daum           ][INFO ] 미쓰리는 알고 있다 https://search.daum.net/search?w=tv&q=미쓰리는 알고 있다&DA=TVS&&irk=88214&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:56,060 [Daum           ][INFO ] 출사표 https://search.daum.net/search?w=tv&q=출사표&DA=TVS&&irk=87766&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:56,060 [Daum           ][INFO ] 우리, 사랑했을까 https://search.daum.net/search?w=tv&q=우리, 사랑했을까&DA=TVS&&irk=87139&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:56,061 [Daum           ][INFO ] 십시일반 https://search.daum.net/search?w=tv&q=십시일반&DA=TVS&&irk=87832&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:57,343 [Daum           ][INFO ] 한 번 다녀왔습니다 https://search.daum.net/search?w=tv&q=한 번 다녀왔습니다&DA=TVS&&irk=86448&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:57,345 [Daum           ][INFO ] 더 킹 : 영원의 군주 https://search.daum.net/search?w=tv&q=더 킹 : 영원의 군주&DA=TVS&&irk=85808&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:57,346 [Daum           ][INFO ] 바람과 구름과 비 https://search.daum.net/search?w=tv&q=바람과 구름과 비&DA=TVS&&irk=87796&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:57,346 [Daum           ][INFO ] 화양연화 - 삶이 꽃이 되는 순간 https://search.daum.net/search?w=tv&q=화양연화 - 삶이 꽃이 되는 순간&DA=TVS&&irk=87449&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:57,347 [Daum           ][INFO ] 번외수사 https://search.daum.net/search?w=tv&q=번외수사&DA=TVS&&irk=86622&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:57,347 [Daum           ][INFO ] 편의점 샛별이 https://search.daum.net/search?w=tv&q=편의점 샛별이&DA=TVS&&irk=87527&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:57,348 [Daum           ][INFO ] 사이코지만 괜찮아 https://search.daum.net/search?w=tv&q=사이코지만 괜찮아&DA=TVS&&irk=87743&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:57,348 [Daum           ][INFO ] 우아한 친구들 https://search.daum.net/search?w=tv&q=우아한 친구들&DA=TVS&&irk=86710&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:57,349 [Daum           ][INFO ] 미씽: 그들이 있었다 https://search.daum.net/search?w=tv&q=미씽: 그들이 있었다&DA=TVS&&irk=87976&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:59,013 [Daum           ][INFO ] 기막힌 유산 https://search.daum.net/search?w=tv&q=기막힌 유산&DA=TVS&&irk=87948&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:59,016 [Daum           ][INFO ] 위험한 약속 https://search.daum.net/search?w=tv&q=위험한 약속&DA=TVS&&irk=87754&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:03:59,016 [Daum           ][INFO ] 엄마가 바람났다 https://search.daum.net/search?w=tv&q=엄마가 바람났다&DA=TVS&&irk=87887&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:05,166 [Showdown       ][INFO ] ===== Showdown 시작
+2020-06-13 00:04:05,179 [Showdown       ][INFO ] 설정 파일 로드
+2020-06-13 00:04:05,582 [Showdown       ][INFO ] DB 연결 성공
+2020-06-13 00:04:05,583 [Showdown       ][INFO ] 메인 실행
+2020-06-13 00:04:05,584 [Showdown       ][INFO ] ===== Showdown 종료
+2020-06-13 00:04:05,584 [Daum           ][INFO ] === 신규 드라마 검색
+2020-06-13 00:04:08,897 [Daum           ][INFO ] 굿캐스팅 https://search.daum.net/search?w=tv&q=굿캐스팅&DA=TVS&&irk=86289&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:08,903 [Daum           ][INFO ] 저녁 같이 드실래요? https://search.daum.net/search?w=tv&q=저녁 같이 드실래요?&DA=TVS&&irk=68810&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:08,903 [Daum           ][INFO ] (아는 건 별로 없지만) 가족입니다 https://search.daum.net/search?w=tv&q=(아는 건 별로 없지만) 가족입니다&DA=TVS&&irk=87661&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:08,904 [Daum           ][INFO ] 야식남녀 https://search.daum.net/search?w=tv&q=야식남녀&DA=TVS&&irk=87578&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:08,904 [Daum           ][INFO ] 그놈이 그놈이다 https://search.daum.net/search?w=tv&q=그놈이 그놈이다&DA=TVS&&irk=87855&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:11,999 [Daum           ][INFO ] 꼰대인턴 https://search.daum.net/search?w=tv&q=꼰대인턴&DA=TVS&&irk=87432&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:12,000 [Daum           ][INFO ] 쌍갑포차 https://search.daum.net/search?w=tv&q=쌍갑포차&DA=TVS&&irk=85760&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:12,001 [Daum           ][INFO ] 오 마이 베이비 https://search.daum.net/search?w=tv&q=오 마이 베이비&DA=TVS&&irk=87316&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:12,002 [Daum           ][INFO ] 영혼수선공 https://search.daum.net/search?w=tv&q=영혼수선공&DA=TVS&&irk=86936&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:12,002 [Daum           ][INFO ] 미쓰리는 알고 있다 https://search.daum.net/search?w=tv&q=미쓰리는 알고 있다&DA=TVS&&irk=88214&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:12,006 [Daum           ][INFO ] 출사표 https://search.daum.net/search?w=tv&q=출사표&DA=TVS&&irk=87766&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:12,007 [Daum           ][INFO ] 우리, 사랑했을까 https://search.daum.net/search?w=tv&q=우리, 사랑했을까&DA=TVS&&irk=87139&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:12,007 [Daum           ][INFO ] 십시일반 https://search.daum.net/search?w=tv&q=십시일반&DA=TVS&&irk=87832&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:13,702 [Daum           ][INFO ] 한 번 다녀왔습니다 https://search.daum.net/search?w=tv&q=한 번 다녀왔습니다&DA=TVS&&irk=86448&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:13,703 [Daum           ][INFO ] 더 킹 : 영원의 군주 https://search.daum.net/search?w=tv&q=더 킹 : 영원의 군주&DA=TVS&&irk=85808&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:13,704 [Daum           ][INFO ] 바람과 구름과 비 https://search.daum.net/search?w=tv&q=바람과 구름과 비&DA=TVS&&irk=87796&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:13,704 [Daum           ][INFO ] 화양연화 - 삶이 꽃이 되는 순간 https://search.daum.net/search?w=tv&q=화양연화 - 삶이 꽃이 되는 순간&DA=TVS&&irk=87449&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:13,705 [Daum           ][INFO ] 번외수사 https://search.daum.net/search?w=tv&q=번외수사&DA=TVS&&irk=86622&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:13,705 [Daum           ][INFO ] 편의점 샛별이 https://search.daum.net/search?w=tv&q=편의점 샛별이&DA=TVS&&irk=87527&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:13,705 [Daum           ][INFO ] 사이코지만 괜찮아 https://search.daum.net/search?w=tv&q=사이코지만 괜찮아&DA=TVS&&irk=87743&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:13,706 [Daum           ][INFO ] 우아한 친구들 https://search.daum.net/search?w=tv&q=우아한 친구들&DA=TVS&&irk=86710&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:13,706 [Daum           ][INFO ] 미씽: 그들이 있었다 https://search.daum.net/search?w=tv&q=미씽: 그들이 있었다&DA=TVS&&irk=87976&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:17,457 [Daum           ][INFO ] 기막힌 유산 https://search.daum.net/search?w=tv&q=기막힌 유산&DA=TVS&&irk=87948&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:17,459 [Daum           ][INFO ] 위험한 약속 https://search.daum.net/search?w=tv&q=위험한 약속&DA=TVS&&irk=87754&irt=tv-program&rtmaxcoll=TVP
+2020-06-13 00:04:17,459 [Daum           ][INFO ] 엄마가 바람났다 https://search.daum.net/search?w=tv&q=엄마가 바람났다&DA=TVS&&irk=87887&irt=tv-program&rtmaxcoll=TVP

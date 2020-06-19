@@ -10,14 +10,17 @@ import org.json.simple.parser.ParseException;
 
 public class Config {
 
+    // private static String configFile = "";
+
     public static JSONObject json = new JSONObject();
 
-    public static void load() throws IOException, ParseException {
-        String configFile = "config.json";
 
-        JSONParser parser = new JSONParser();
+    public static void load(String configFile) throws IOException, ParseException {
+        // String configFile = "config.json";
 
-        Reader render = new FileReader(configFile);
+        final JSONParser parser = new JSONParser();
+
+        final Reader render = new FileReader(configFile);
         json = (JSONObject) parser.parse(render);
     }
 
@@ -29,7 +32,7 @@ public class Config {
         static String pass;
 
         public static void get() {
-            JSONObject section = (JSONObject) json.get("DB");
+            final JSONObject section = (JSONObject) json.get("DB");
             host = (String) section.get("HOST");
             port = (String) section.get("PORT");
             name = (String) section.get("NAME");

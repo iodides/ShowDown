@@ -22,5 +22,28 @@ public class DB {
         conn = DriverManager.getConnection(DB_URL, DBUSER, DBPASS);
 
 	}
+
+	public boolean addShow() {
+        boolean result = false;
+        return result;
+    }
+    
+    public void getShowList() {
+
+    }
+
+    public Show getShow(String sid) {
+        Show show = new Show();
+        return show;
+    }
+
+	public static boolean insertNewShow(iodides.showdown.object.Show show) {
+		return false;
+	}
+
+	public static int countShowSid(String sid) {
+		return 0;
+	}
+
     
 }
