@@ -20516,3 +20516,592 @@ java.io.IOException
 2020-06-28 22:31:09,223 [Show           ][DEBUG] 87855 그놈이 그놈이다 schedule : 월, 화 오후 9:30
 2020-06-28 22:31:09,223 [Show           ][DEBUG] 87855 그놈이 그놈이다 airDate : 2020.7.6~
 2020-06-28 22:31:09,223 [Show           ][DEBUG] 87855 그놈이 그놈이다 epiCount : 0
+2020-06-28 22:31:14,224 [Show           ][DEBUG] 87858 트롯신이 떴다 파싱 - https://search.daum.net/search?w=tv&q=트롯신이 떴다&DA=TVS&&irk=87858&irt=tv-program
+2020-06-28 22:31:14,630 [Show           ][DEBUG] 87858 트롯신이 떴다 title : 트롯신이 떴다
+2020-06-28 22:31:14,631 [Show           ][DEBUG] 87858 트롯신이 떴다 status : 2
+2020-06-28 22:31:14,631 [Show           ][DEBUG] 87858 트롯신이 떴다 genre : 예능
+2020-06-28 22:31:14,631 [Show           ][DEBUG] 87858 트롯신이 떴다 comment : 전 세계에 K-POP 열풍이 한창인 지금, 해외 한복판에서 지금껏 경험한 적 없는 K-트로트의 세계가 열린다. 한국 트로트계 전설들의 K-트로트 세계 정복기 '트롯신이 떴다'
+2020-06-28 22:31:14,631 [Show           ][DEBUG] 87858 트롯신이 떴다 company : SBS
+2020-06-28 22:31:14,631 [Show           ][DEBUG] 87858 트롯신이 떴다 schedule : 수 오후 10:00
+2020-06-28 22:31:14,631 [Show           ][DEBUG] 87858 트롯신이 떴다 airDate : 2020.3.4~
+2020-06-28 22:31:14,631 [Show           ][DEBUG] 87858 트롯신이 떴다 epiCount : 16
+2020-06-28 22:31:14,728 [Show           ][INFO ] 87858 트롯신이 떴다 에피소드 업데이트 : 0 > 16
+2020-06-28 22:31:14,762 [Show           ][INFO ] iodides.showdown.object.Episode@4cc3990c 에피소드 추가
+2020-06-28 22:31:14,795 [Show           ][INFO ] iodides.showdown.object.Episode@615a740c 에피소드 추가
+2020-06-28 22:31:14,828 [Show           ][INFO ] iodides.showdown.object.Episode@782281b6 에피소드 추가
+2020-06-28 22:31:14,862 [Show           ][INFO ] iodides.showdown.object.Episode@43debfa9 에피소드 추가
+2020-06-28 22:31:14,895 [Show           ][INFO ] iodides.showdown.object.Episode@13855527 에피소드 추가
+2020-06-28 22:31:14,928 [Show           ][INFO ] iodides.showdown.object.Episode@214da94f 에피소드 추가
+2020-06-28 22:31:14,962 [Show           ][INFO ] iodides.showdown.object.Episode@4d0ea3e1 에피소드 추가
+2020-06-28 22:31:14,995 [Show           ][INFO ] iodides.showdown.object.Episode@7b1b6e1e 에피소드 추가
+2020-06-28 22:31:15,029 [Show           ][INFO ] iodides.showdown.object.Episode@428e3037 에피소드 추가
+2020-06-28 22:31:15,062 [Show           ][INFO ] iodides.showdown.object.Episode@e45eef8 에피소드 추가
+2020-06-28 22:31:15,095 [Show           ][INFO ] iodides.showdown.object.Episode@36ec457a 에피소드 추가
+2020-06-28 22:31:15,129 [Show           ][INFO ] iodides.showdown.object.Episode@16a7b627 에피소드 추가
+2020-06-28 22:31:15,163 [Show           ][INFO ] iodides.showdown.object.Episode@259b334c 에피소드 추가
+2020-06-28 22:31:15,204 [Show           ][INFO ] iodides.showdown.object.Episode@4082b29 에피소드 추가
+2020-06-28 22:31:15,237 [Show           ][INFO ] iodides.showdown.object.Episode@509b6947 에피소드 추가
+2020-06-28 22:31:15,271 [Show           ][INFO ] iodides.showdown.object.Episode@7ba6ebfd 에피소드 추가
+2020-06-28 22:31:20,272 [Show           ][DEBUG] 87883 겟잇뷰티 2020 파싱 - https://search.daum.net/search?w=tv&q=겟잇뷰티 2020&DA=TVS&&irk=87883&irt=tv-program
+2020-06-28 22:31:20,614 [Show           ][DEBUG] 87883 겟잇뷰티 2020 title : 겟잇뷰티 2020
+2020-06-28 22:31:20,615 [Show           ][DEBUG] 87883 겟잇뷰티 2020 status : 2
+2020-06-28 22:31:20,615 [Show           ][DEBUG] 87883 겟잇뷰티 2020 genre : 예능
+2020-06-28 22:31:20,615 [Show           ][DEBUG] 87883 겟잇뷰티 2020 comment : 화장품 성분에 대한 불안감! 매년 반복되는 뻔한 뷰티 팁! 천편일률적 아름다움을 강조하는 뷰티 프로그램의 홍수 속에서 여성들의 삶을 보다 건강하고 아름답게 업그레이드 시켜 줄 프로그램
+2020-06-28 22:31:20,615 [Show           ][DEBUG] 87883 겟잇뷰티 2020 company : On Style
+2020-06-28 22:31:20,615 [Show           ][DEBUG] 87883 겟잇뷰티 2020 schedule : 금 오후 8:30
+2020-06-28 22:31:20,615 [Show           ][DEBUG] 87883 겟잇뷰티 2020 airDate : 2020.3.13~
+2020-06-28 22:31:20,615 [Show           ][DEBUG] 87883 겟잇뷰티 2020 epiCount : 17
+2020-06-28 22:31:20,682 [Show           ][INFO ] 87883 겟잇뷰티 2020 에피소드 업데이트 : 0 > 17
+2020-06-28 22:31:20,716 [Show           ][INFO ] iodides.showdown.object.Episode@42cf9437 에피소드 추가
+2020-06-28 22:31:20,749 [Show           ][INFO ] iodides.showdown.object.Episode@49150c78 에피소드 추가
+2020-06-28 22:31:20,782 [Show           ][INFO ] iodides.showdown.object.Episode@520efa4 에피소드 추가
+2020-06-28 22:31:20,815 [Show           ][INFO ] iodides.showdown.object.Episode@5f959680 에피소드 추가
+2020-06-28 22:31:20,849 [Show           ][INFO ] iodides.showdown.object.Episode@6145cf69 에피소드 추가
+2020-06-28 22:31:20,882 [Show           ][INFO ] iodides.showdown.object.Episode@5279f5 에피소드 추가
+2020-06-28 22:31:20,915 [Show           ][INFO ] iodides.showdown.object.Episode@20deb94 에피소드 추가
+2020-06-28 22:31:20,986 [Show           ][INFO ] iodides.showdown.object.Episode@715f5cc3 에피소드 추가
+2020-06-28 22:31:21,020 [Show           ][INFO ] iodides.showdown.object.Episode@3e2eeb06 에피소드 추가
+2020-06-28 22:31:21,053 [Show           ][INFO ] iodides.showdown.object.Episode@2d20a0e7 에피소드 추가
+2020-06-28 22:31:21,086 [Show           ][INFO ] iodides.showdown.object.Episode@401caf9c 에피소드 추가
+2020-06-28 22:31:21,120 [Show           ][INFO ] iodides.showdown.object.Episode@4b2e4a18 에피소드 추가
+2020-06-28 22:31:21,153 [Show           ][INFO ] iodides.showdown.object.Episode@211eea0 에피소드 추가
+2020-06-28 22:31:21,186 [Show           ][INFO ] iodides.showdown.object.Episode@2a9e519d 에피소드 추가
+2020-06-28 22:31:21,220 [Show           ][INFO ] iodides.showdown.object.Episode@fdb6b1d 에피소드 추가
+2020-06-28 22:31:21,253 [Show           ][INFO ] iodides.showdown.object.Episode@369c8e74 에피소드 추가
+2020-06-28 22:31:21,287 [Show           ][INFO ] iodides.showdown.object.Episode@3b7512e9 에피소드 추가
+2020-06-28 22:31:26,288 [Show           ][DEBUG] 87887 엄마가 바람났다 파싱 - https://search.daum.net/search?w=tv&q=엄마가 바람났다&DA=TVS&&irk=87887&irt=tv-program
+2020-06-28 22:31:26,611 [Show           ][DEBUG] 87887 엄마가 바람났다 title : 엄마가 바람났다
+2020-06-28 22:31:26,611 [Show           ][DEBUG] 87887 엄마가 바람났다 status : 2
+2020-06-28 22:31:26,611 [Show           ][DEBUG] 87887 엄마가 바람났다 genre : 드라마 (120부작)
+2020-06-28 22:31:26,611 [Show           ][DEBUG] 87887 엄마가 바람났다 comment : 내 인생에 두 번째 결혼 따윈 없다! 결혼이라면 치를 떨던 싱글맘이 재력가 아빠를 원하는 자식들을 위해 돈 많은 남자랑 결혼하려는 좌충우돌 로맨스 가족이야기
+2020-06-28 22:31:26,611 [Show           ][DEBUG] 87887 엄마가 바람났다 company : SBS
+2020-06-28 22:31:26,611 [Show           ][DEBUG] 87887 엄마가 바람났다 schedule : 월~금 오전 8:35
+2020-06-28 22:31:26,611 [Show           ][DEBUG] 87887 엄마가 바람났다 airDate : 2020.5.4~
+2020-06-28 22:31:26,612 [Show           ][DEBUG] 87887 엄마가 바람났다 epiCount : 42
+2020-06-28 22:31:26,645 [Show           ][INFO ] 87887 엄마가 바람났다 에피소드 업데이트 : 0 > 42
+2020-06-28 22:31:26,679 [Show           ][INFO ] iodides.showdown.object.Episode@36240b83 에피소드 추가
+2020-06-28 22:31:26,712 [Show           ][INFO ] iodides.showdown.object.Episode@4cb7259 에피소드 추가
+2020-06-28 22:31:26,746 [Show           ][INFO ] iodides.showdown.object.Episode@3855d2e2 에피소드 추가
+2020-06-28 22:31:26,779 [Show           ][INFO ] iodides.showdown.object.Episode@4a90c2d0 에피소드 추가
+2020-06-28 22:31:26,812 [Show           ][INFO ] iodides.showdown.object.Episode@5cfea012 에피소드 추가
+2020-06-28 22:31:26,846 [Show           ][INFO ] iodides.showdown.object.Episode@378486e 에피소드 추가
+2020-06-28 22:31:26,879 [Show           ][INFO ] iodides.showdown.object.Episode@152c5821 에피소드 추가
+2020-06-28 22:31:26,913 [Show           ][INFO ] iodides.showdown.object.Episode@59669e16 에피소드 추가
+2020-06-28 22:31:26,946 [Show           ][INFO ] iodides.showdown.object.Episode@70314b18 에피소드 추가
+2020-06-28 22:31:26,979 [Show           ][INFO ] iodides.showdown.object.Episode@314b4648 에피소드 추가
+2020-06-28 22:31:27,013 [Show           ][INFO ] iodides.showdown.object.Episode@46d1fd10 에피소드 추가
+2020-06-28 22:31:27,046 [Show           ][INFO ] iodides.showdown.object.Episode@2baa4df2 에피소드 추가
+2020-06-28 22:31:27,079 [Show           ][INFO ] iodides.showdown.object.Episode@5139ba14 에피소드 추가
+2020-06-28 22:31:27,113 [Show           ][INFO ] iodides.showdown.object.Episode@3a2bcf7d 에피소드 추가
+2020-06-28 22:31:27,147 [Show           ][INFO ] iodides.showdown.object.Episode@73db8c55 에피소드 추가
+2020-06-28 22:31:27,180 [Show           ][INFO ] iodides.showdown.object.Episode@ae78a01 에피소드 추가
+2020-06-28 22:31:27,213 [Show           ][INFO ] iodides.showdown.object.Episode@16927853 에피소드 추가
+2020-06-28 22:31:27,251 [Show           ][INFO ] iodides.showdown.object.Episode@72a61ddb 에피소드 추가
+2020-06-28 22:31:27,276 [Show           ][INFO ] iodides.showdown.object.Episode@5d309efe 에피소드 추가
+2020-06-28 22:31:27,302 [Show           ][INFO ] iodides.showdown.object.Episode@6bb1b0db 에피소드 추가
+2020-06-28 22:31:27,327 [Show           ][INFO ] iodides.showdown.object.Episode@6ee41d1e 에피소드 추가
+2020-06-28 22:31:27,351 [Show           ][INFO ] iodides.showdown.object.Episode@2c6e8ddc 에피소드 추가
+2020-06-28 22:31:27,376 [Show           ][INFO ] iodides.showdown.object.Episode@75f021c1 에피소드 추가
+2020-06-28 22:31:27,401 [Show           ][INFO ] iodides.showdown.object.Episode@13a170cc 에피소드 추가
+2020-06-28 22:31:27,439 [Show           ][INFO ] iodides.showdown.object.Episode@5d63934b 에피소드 추가
+2020-06-28 22:31:27,489 [Show           ][INFO ] iodides.showdown.object.Episode@53be556 에피소드 추가
+2020-06-28 22:31:27,518 [Show           ][INFO ] iodides.showdown.object.Episode@71312219 에피소드 추가
+2020-06-28 22:31:27,544 [Show           ][INFO ] iodides.showdown.object.Episode@690e1be3 에피소드 추가
+2020-06-28 22:31:27,569 [Show           ][INFO ] iodides.showdown.object.Episode@28362442 에피소드 추가
+2020-06-28 22:31:27,594 [Show           ][INFO ] iodides.showdown.object.Episode@727d7547 에피소드 추가
+2020-06-28 22:31:27,619 [Show           ][INFO ] iodides.showdown.object.Episode@aa4a0fb 에피소드 추가
+2020-06-28 22:31:27,644 [Show           ][INFO ] iodides.showdown.object.Episode@136c734f 에피소드 추가
+2020-06-28 22:31:27,714 [Show           ][INFO ] iodides.showdown.object.Episode@a615154 에피소드 추가
+2020-06-28 22:31:27,747 [Show           ][INFO ] iodides.showdown.object.Episode@13afca12 에피소드 추가
+2020-06-28 22:31:27,780 [Show           ][INFO ] iodides.showdown.object.Episode@3c2313e4 에피소드 추가
+2020-06-28 22:31:27,814 [Show           ][INFO ] iodides.showdown.object.Episode@4ca5e924 에피소드 추가
+2020-06-28 22:31:27,847 [Show           ][INFO ] iodides.showdown.object.Episode@4c4efa15 에피소드 추가
+2020-06-28 22:31:27,880 [Show           ][INFO ] iodides.showdown.object.Episode@21dc56d4 에피소드 추가
+2020-06-28 22:31:27,914 [Show           ][INFO ] iodides.showdown.object.Episode@544dd38 에피소드 추가
+2020-06-28 22:31:27,947 [Show           ][INFO ] iodides.showdown.object.Episode@66cbf87d 에피소드 추가
+2020-06-28 22:31:27,981 [Show           ][INFO ] iodides.showdown.object.Episode@5d6e38e3 에피소드 추가
+2020-06-28 22:31:28,014 [Show           ][INFO ] iodides.showdown.object.Episode@1ec7af6c 에피소드 추가
+2020-06-28 22:31:33,015 [Show           ][DEBUG] 87890 탑골 랩소디  KPOP도 통역이 되나요 파싱 - https://search.daum.net/search?w=tv&q=탑골 랩소디 : K-POP도 통역이 되나요?&DA=TVS&&irk=87890&irt=tv-program
+2020-06-28 22:31:33,264 [Show           ][DEBUG] 87890 탑골 랩소디  KPOP도 통역이 되나요 title : 탑골 랩소디  KPOP도 통역이 되나요
+2020-06-28 22:31:33,265 [Show           ][DEBUG] 87890 탑골 랩소디  KPOP도 통역이 되나요 status : 2
+2020-06-28 22:31:33,265 [Show           ][DEBUG] 87890 탑골 랩소디  KPOP도 통역이 되나요 genre : 예능
+2020-06-28 22:31:33,265 [Show           ][DEBUG] 87890 탑골 랩소디  KPOP도 통역이 되나요 comment : 탑골 가요 세계화 프로젝트! 한국인보다 더한 열정으로 K-POP을 사랑하는 외국인들을 위한 서바이벌 프로그램
+2020-06-28 22:31:33,265 [Show           ][DEBUG] 87890 탑골 랩소디  KPOP도 통역이 되나요 company : E채널
+2020-06-28 22:31:33,265 [Show           ][DEBUG] 87890 탑골 랩소디  KPOP도 통역이 되나요 schedule : 토 오후 7:40
+2020-06-28 22:31:33,265 [Show           ][DEBUG] 87890 탑골 랩소디  KPOP도 통역이 되나요 airDate : 2020.5.2~
+2020-06-28 22:31:33,266 [Show           ][DEBUG] 87890 탑골 랩소디  KPOP도 통역이 되나요 epiCount : 0
+2020-06-28 22:31:38,266 [Show           ][DEBUG] 87930 외식하는 날 2 파싱 - https://search.daum.net/search?w=tv&q=외식하는 날 2&DA=TVS&&irk=87930&irt=tv-program
+2020-06-28 22:31:38,416 [Show           ][DEBUG] 87930 외식하는 날 2 title : 외식하는 날 2
+2020-06-28 22:31:38,416 [Show           ][DEBUG] 87930 외식하는 날 2 status : 2
+2020-06-28 22:31:38,416 [Show           ][DEBUG] 87930 외식하는 날 2 genre : 예능
+2020-06-28 22:31:38,416 [Show           ][DEBUG] 87930 외식하는 날 2 comment : 스타들의 외식 문화를 관찰하고 참견해 보는 관찰 리얼리티 토크쇼
+2020-06-28 22:31:38,416 [Show           ][DEBUG] 87930 외식하는 날 2 company : SBS F!L
+2020-06-28 22:31:38,416 [Show           ][DEBUG] 87930 외식하는 날 2 schedule : 수 오후 9:00
+2020-06-28 22:31:38,416 [Show           ][DEBUG] 87930 외식하는 날 2 airDate : 2020.4.30~
+2020-06-28 22:31:38,417 [Show           ][DEBUG] 87930 외식하는 날 2 epiCount : 0
+2020-06-28 22:31:43,417 [Show           ][DEBUG] 87944 스튜디오 K구라철 파싱 - https://search.daum.net/search?w=tv&q=구라철&DA=TVS&&irk=87944&irt=tv-program
+2020-06-28 22:31:43,660 [Show           ][DEBUG] 87944 스튜디오 K구라철 title : 스튜디오 K구라철
+2020-06-28 22:31:43,661 [Show           ][DEBUG] 87944 스튜디오 K구라철 status : 2
+2020-06-28 22:31:43,661 [Show           ][DEBUG] 87944 스튜디오 K구라철 genre : 예능
+2020-06-28 22:31:43,661 [Show           ][DEBUG] 87944 스튜디오 K구라철 comment : 거침없이 센 질문을 날리는 김구라! 여러분들이 궁금해하시는 그 어떤 것이든 거침없이 날려드립니다!
+2020-06-28 22:31:43,661 [Show           ][DEBUG] 87944 스튜디오 K구라철 company : KBS2
+2020-06-28 22:31:43,661 [Show           ][DEBUG] 87944 스튜디오 K구라철 schedule : 토 오후 10:30
+2020-06-28 22:31:43,662 [Show           ][DEBUG] 87944 스튜디오 K구라철 airDate : 2020.4.25~
+2020-06-28 22:31:43,662 [Show           ][DEBUG] 87944 스튜디오 K구라철 epiCount : 0
+2020-06-28 22:31:48,662 [Show           ][DEBUG] 87948 기막힌 유산 파싱 - https://search.daum.net/search?w=tv&q=기막힌 유산&DA=TVS&&irk=87948&irt=tv-program
+2020-06-28 22:31:48,938 [Show           ][DEBUG] 87948 기막힌 유산 title : 기막힌 유산
+2020-06-28 22:31:48,938 [Show           ][DEBUG] 87948 기막힌 유산 status : 2
+2020-06-28 22:31:48,938 [Show           ][DEBUG] 87948 기막힌 유산 genre : 드라마
+2020-06-28 22:31:48,938 [Show           ][DEBUG] 87948 기막힌 유산 comment : 서른셋의 무일푼 처녀가장이 팔순의 백억 자산가와 위장결혼을 작당, 꽃미남 막장 아들 넷과 가족애를 찾아가는 과정을 그린 유쾌하면서도 따뜻하고 교훈적인 가족극
+2020-06-28 22:31:48,938 [Show           ][DEBUG] 87948 기막힌 유산 company : KBS1
+2020-06-28 22:31:48,938 [Show           ][DEBUG] 87948 기막힌 유산 schedule : 월~금 오후 8:30
+2020-06-28 22:31:48,938 [Show           ][DEBUG] 87948 기막힌 유산 airDate : 2020.4.20~
+2020-06-28 22:31:48,938 [Show           ][DEBUG] 87948 기막힌 유산 epiCount : 51
+2020-06-28 22:31:48,970 [Show           ][INFO ] 87948 기막힌 유산 에피소드 업데이트 : 0 > 51
+2020-06-28 22:31:49,003 [Show           ][INFO ] iodides.showdown.object.Episode@706a156f 에피소드 추가
+2020-06-28 22:31:49,036 [Show           ][INFO ] iodides.showdown.object.Episode@17569409 에피소드 추가
+2020-06-28 22:31:49,070 [Show           ][INFO ] iodides.showdown.object.Episode@b6caae9 에피소드 추가
+2020-06-28 22:31:49,104 [Show           ][INFO ] iodides.showdown.object.Episode@44801107 에피소드 추가
+2020-06-28 22:31:49,137 [Show           ][INFO ] iodides.showdown.object.Episode@64e1a595 에피소드 추가
+2020-06-28 22:31:49,171 [Show           ][INFO ] iodides.showdown.object.Episode@47b483dc 에피소드 추가
+2020-06-28 22:31:49,202 [Show           ][INFO ] iodides.showdown.object.Episode@29e14221 에피소드 추가
+2020-06-28 22:31:49,238 [Show           ][INFO ] iodides.showdown.object.Episode@6d2d7633 에피소드 추가
+2020-06-28 22:31:49,338 [Show           ][INFO ] iodides.showdown.object.Episode@489bb0e 에피소드 추가
+2020-06-28 22:31:49,366 [Show           ][INFO ] iodides.showdown.object.Episode@67407220 에피소드 추가
+2020-06-28 22:31:49,390 [Show           ][INFO ] iodides.showdown.object.Episode@4413c4a3 에피소드 추가
+2020-06-28 22:31:49,425 [Show           ][INFO ] iodides.showdown.object.Episode@4289aefc 에피소드 추가
+2020-06-28 22:31:49,488 [Show           ][INFO ] iodides.showdown.object.Episode@b912c68 에피소드 추가
+2020-06-28 22:31:49,538 [Show           ][INFO ] iodides.showdown.object.Episode@6f249e48 에피소드 추가
+2020-06-28 22:31:49,566 [Show           ][INFO ] iodides.showdown.object.Episode@354869d3 에피소드 추가
+2020-06-28 22:31:49,592 [Show           ][INFO ] iodides.showdown.object.Episode@3a39cfc8 에피소드 추가
+2020-06-28 22:31:49,617 [Show           ][INFO ] iodides.showdown.object.Episode@38c9568b 에피소드 추가
+2020-06-28 22:31:49,642 [Show           ][INFO ] iodides.showdown.object.Episode@73d45904 에피소드 추가
+2020-06-28 22:31:49,667 [Show           ][INFO ] iodides.showdown.object.Episode@524b05c 에피소드 추가
+2020-06-28 22:31:49,693 [Show           ][INFO ] iodides.showdown.object.Episode@719778bf 에피소드 추가
+2020-06-28 22:31:49,717 [Show           ][INFO ] iodides.showdown.object.Episode@3981508 에피소드 추가
+2020-06-28 22:31:49,742 [Show           ][INFO ] iodides.showdown.object.Episode@52d56006 에피소드 추가
+2020-06-28 22:31:49,768 [Show           ][INFO ] iodides.showdown.object.Episode@72538c50 에피소드 추가
+2020-06-28 22:31:49,793 [Show           ][INFO ] iodides.showdown.object.Episode@384b4025 에피소드 추가
+2020-06-28 22:31:49,817 [Show           ][INFO ] iodides.showdown.object.Episode@7b383271 에피소드 추가
+2020-06-28 22:31:49,843 [Show           ][INFO ] iodides.showdown.object.Episode@294a840 에피소드 추가
+2020-06-28 22:31:49,868 [Show           ][INFO ] iodides.showdown.object.Episode@6ccb854e 에피소드 추가
+2020-06-28 22:31:49,893 [Show           ][INFO ] iodides.showdown.object.Episode@e63ba9a 에피소드 추가
+2020-06-28 22:31:49,918 [Show           ][INFO ] iodides.showdown.object.Episode@34f2aa9d 에피소드 추가
+2020-06-28 22:31:49,943 [Show           ][INFO ] iodides.showdown.object.Episode@1303d2eb 에피소드 추가
+2020-06-28 22:31:49,976 [Show           ][INFO ] iodides.showdown.object.Episode@2352c430 에피소드 추가
+2020-06-28 22:31:50,010 [Show           ][INFO ] iodides.showdown.object.Episode@30f60daa 에피소드 추가
+2020-06-28 22:31:50,043 [Show           ][INFO ] iodides.showdown.object.Episode@11f1ff6b 에피소드 추가
+2020-06-28 22:31:50,077 [Show           ][INFO ] iodides.showdown.object.Episode@1c68e334 에피소드 추가
+2020-06-28 22:31:50,110 [Show           ][INFO ] iodides.showdown.object.Episode@292ed7cd 에피소드 추가
+2020-06-28 22:31:50,144 [Show           ][INFO ] iodides.showdown.object.Episode@29b5141f 에피소드 추가
+2020-06-28 22:31:50,177 [Show           ][INFO ] iodides.showdown.object.Episode@3721bce5 에피소드 추가
+2020-06-28 22:31:50,210 [Show           ][INFO ] iodides.showdown.object.Episode@6c0b9876 에피소드 추가
+2020-06-28 22:31:50,244 [Show           ][INFO ] iodides.showdown.object.Episode@33c4aa85 에피소드 추가
+2020-06-28 22:31:50,277 [Show           ][INFO ] iodides.showdown.object.Episode@3250450e 에피소드 추가
+2020-06-28 22:31:50,324 [Show           ][INFO ] iodides.showdown.object.Episode@82c1135 에피소드 추가
+2020-06-28 22:31:50,361 [Show           ][INFO ] iodides.showdown.object.Episode@3854e06e 에피소드 추가
+2020-06-28 22:31:50,394 [Show           ][INFO ] iodides.showdown.object.Episode@2e52f563 에피소드 추가
+2020-06-28 22:31:50,436 [Show           ][INFO ] iodides.showdown.object.Episode@1e9aad92 에피소드 추가
+2020-06-28 22:31:50,486 [Show           ][INFO ] iodides.showdown.object.Episode@76d7b2cd 에피소드 추가
+2020-06-28 22:31:50,527 [Show           ][INFO ] iodides.showdown.object.Episode@691f6be9 에피소드 추가
+2020-06-28 22:31:50,562 [Show           ][INFO ] iodides.showdown.object.Episode@50df7244 에피소드 추가
+2020-06-28 22:31:50,595 [Show           ][INFO ] iodides.showdown.object.Episode@1be2b3f0 에피소드 추가
+2020-06-28 22:31:50,679 [Show           ][INFO ] iodides.showdown.object.Episode@50e83b9b 에피소드 추가
+2020-06-28 22:31:50,712 [Show           ][INFO ] iodides.showdown.object.Episode@423a424c 에피소드 추가
+2020-06-28 22:31:50,746 [Show           ][INFO ] iodides.showdown.object.Episode@69dc551d 에피소드 추가
+2020-06-28 22:31:55,747 [Show           ][DEBUG] 87949 이십세기 힛트쏭 파싱 - https://search.daum.net/search?w=tv&q=이십세기 힛-트쏭&DA=TVS&&irk=87949&irt=tv-program
+2020-06-28 22:31:56,002 [Show           ][DEBUG] 87949 이십세기 힛트쏭 title : 이십세기 힛트쏭
+2020-06-28 22:31:56,002 [Show           ][DEBUG] 87949 이십세기 힛트쏭 status : 2
+2020-06-28 22:31:56,003 [Show           ][DEBUG] 87949 이십세기 힛트쏭 genre : 예능
+2020-06-28 22:31:56,003 [Show           ][DEBUG] 87949 이십세기 힛트쏭 comment : 대한민국 가요史가 고스란히 담긴 KBS의 올드 케이팝 프로그램을 소환하고 재해석하여 대중이 원하는 뉴트로 가요의 갈증을 해소하는, 신개념 뉴트로 음악 차트쇼 프로그램
+2020-06-28 22:31:56,003 [Show           ][DEBUG] 87949 이십세기 힛트쏭 company : KBS Joy
+2020-06-28 22:31:56,003 [Show           ][DEBUG] 87949 이십세기 힛트쏭 schedule : 금 오후 11:50
+2020-06-28 22:31:56,003 [Show           ][DEBUG] 87949 이십세기 힛트쏭 airDate : 2020.3.27~
+2020-06-28 22:31:56,004 [Show           ][DEBUG] 87949 이십세기 힛트쏭 epiCount : 0
+2020-06-28 22:32:01,004 [Show           ][DEBUG] 87976 미씽 그들이 있었다 파싱 - https://search.daum.net/search?w=tv&q=미씽: 그들이 있었다&DA=TVS&&irk=87976&irt=tv-program
+2020-06-28 22:32:01,210 [Show           ][DEBUG] 87976 미씽 그들이 있었다 title : 미씽 그들이 있었다
+2020-06-28 22:32:01,210 [Show           ][DEBUG] 87976 미씽 그들이 있었다 status : 1
+2020-06-28 22:32:01,210 [Show           ][DEBUG] 87976 미씽 그들이 있었다 genre : 드라마
+2020-06-28 22:32:01,210 [Show           ][DEBUG] 87976 미씽 그들이 있었다 comment : 실종된 망자들이 모인 영혼 마을을 배경으로, 사라진 시체를 찾고 사건 배후의 진실을 추적하는 미스터리 판타지 드라마
+2020-06-28 22:32:01,211 [Show           ][DEBUG] 87976 미씽 그들이 있었다 company : OCN
+2020-06-28 22:32:01,211 [Show           ][DEBUG] 87976 미씽 그들이 있었다 schedule : 2020.8~
+2020-06-28 22:32:01,211 [Show           ][DEBUG] 87976 미씽 그들이 있었다 airDate : 
+2020-06-28 22:32:01,211 [Show           ][DEBUG] 87976 미씽 그들이 있었다 epiCount : 0
+2020-06-28 22:32:06,212 [Show           ][DEBUG] 88105 숙희네 미장원 파싱 - https://search.daum.net/search?w=tv&q=숙희네 미장원&DA=TVS&&irk=88105&irt=tv-program
+2020-06-28 22:32:06,429 [Show           ][DEBUG] 88105 숙희네 미장원 title : 숙희네 미장원
+2020-06-28 22:32:06,429 [Show           ][DEBUG] 88105 숙희네 미장원 status : 2
+2020-06-28 22:32:06,429 [Show           ][DEBUG] 88105 숙희네 미장원 genre : 예능
+2020-06-28 22:32:06,430 [Show           ][DEBUG] 88105 숙희네 미장원 comment : 서로 다른 톤의 삶을 사는 세 여자가 다양한 트렌드와 소재에 대해 수다를 떨며 한 시간 물어뜯는 매거진 토크쇼
+2020-06-28 22:32:06,430 [Show           ][DEBUG] 88105 숙희네 미장원 company : STATV
+2020-06-28 22:32:06,430 [Show           ][DEBUG] 88105 숙희네 미장원 schedule : 토 오후 10:00
+2020-06-28 22:32:06,430 [Show           ][DEBUG] 88105 숙희네 미장원 airDate : 2020.3.21~
+2020-06-28 22:32:06,430 [Show           ][DEBUG] 88105 숙희네 미장원 epiCount : 0
+2020-06-28 22:32:11,431 [Show           ][DEBUG] 88156 곡FARM 파싱 - https://search.daum.net/search?w=tv&DA=TVS&rtmaxcoll=TVS&q=?w=tv&q=곡FARM!&DA=TVS&&irk=88156&irt=tv-program&rtmaxcoll=TVP
+2020-06-28 22:32:11,549 [Show           ][DEBUG] 파싱 에러 - 88156 곡FARM
+java.io.IOException
+	at iodides.showdown.object.Show.parse(Show.java:83)
+	at iodides.showdown.daum.Daum.update(Daum.java:51)
+	at iodides.showdown.daum.Daum.run(Daum.java:27)
+2020-06-28 22:32:16,550 [Show           ][DEBUG] 88164 신청곡을 불러드립니다  사랑의 콜센타 파싱 - https://search.daum.net/search?w=tv&q=신청곡을 불러드립니다 - 사랑의 콜센타&DA=TVS&&irk=88164&irt=tv-program
+2020-06-28 22:32:16,713 [Show           ][DEBUG] 88164 신청곡을 불러드립니다  사랑의 콜센타 title : 신청곡을 불러드립니다  사랑의 콜센타
+2020-06-28 22:32:16,714 [Show           ][DEBUG] 88164 신청곡을 불러드립니다  사랑의 콜센타 status : 2
+2020-06-28 22:32:16,714 [Show           ][DEBUG] 88164 신청곡을 불러드립니다  사랑의 콜센타 genre : 예능
+2020-06-28 22:32:16,714 [Show           ][DEBUG] 88164 신청곡을 불러드립니다  사랑의 콜센타 comment : '미스터트롯'의 감동과 재미... 쉬지 않고 달려 시청자의 가슴에 또 다시 찾아간다! 전화를 통해 '미스터트롯' TOP7의 목소리로 노래를 들을 수 있는 20세기 감성의 신박한 버라이어티 쇼! 더 강력해진 재미와 감동으로 돌아온 TOP7의 보석같은 쇼!
+2020-06-28 22:32:16,714 [Show           ][DEBUG] 88164 신청곡을 불러드립니다  사랑의 콜센타 company : TV조선
+2020-06-28 22:32:16,714 [Show           ][DEBUG] 88164 신청곡을 불러드립니다  사랑의 콜센타 schedule : 목 오후 10:00
+2020-06-28 22:32:16,714 [Show           ][DEBUG] 88164 신청곡을 불러드립니다  사랑의 콜센타 airDate : 2020.4.2~
+2020-06-28 22:32:16,714 [Show           ][DEBUG] 88164 신청곡을 불러드립니다  사랑의 콜센타 epiCount : 13
+2020-06-28 22:32:16,869 [Show           ][INFO ] 88164 신청곡을 불러드립니다  사랑의 콜센타 에피소드 업데이트 : 0 > 13
+2020-06-28 22:32:16,898 [Show           ][INFO ] iodides.showdown.object.Episode@6304e87a 에피소드 추가
+2020-06-28 22:32:16,924 [Show           ][INFO ] iodides.showdown.object.Episode@6c9b7dd2 에피소드 추가
+2020-06-28 22:32:16,949 [Show           ][INFO ] iodides.showdown.object.Episode@31e66f91 에피소드 추가
+2020-06-28 22:32:16,974 [Show           ][INFO ] iodides.showdown.object.Episode@59507438 에피소드 추가
+2020-06-28 22:32:16,999 [Show           ][INFO ] iodides.showdown.object.Episode@1dd31050 에피소드 추가
+2020-06-28 22:32:17,024 [Show           ][INFO ] iodides.showdown.object.Episode@2a118bd5 에피소드 추가
+2020-06-28 22:32:17,049 [Show           ][INFO ] iodides.showdown.object.Episode@2889e3e1 에피소드 추가
+2020-06-28 22:32:17,074 [Show           ][INFO ] iodides.showdown.object.Episode@7222b37c 에피소드 추가
+2020-06-28 22:32:17,099 [Show           ][INFO ] iodides.showdown.object.Episode@77f66cf8 에피소드 추가
+2020-06-28 22:32:17,124 [Show           ][INFO ] iodides.showdown.object.Episode@519f0ef0 에피소드 추가
+2020-06-28 22:32:17,149 [Show           ][INFO ] iodides.showdown.object.Episode@36ee79c9 에피소드 추가
+2020-06-28 22:32:17,183 [Show           ][INFO ] iodides.showdown.object.Episode@51b0853b 에피소드 추가
+2020-06-28 22:32:17,212 [Show           ][INFO ] iodides.showdown.object.Episode@15e5b259 에피소드 추가
+2020-06-28 22:32:22,213 [Show           ][DEBUG] 88176 악인전 파싱 - https://search.daum.net/search?w=tv&q=악인전&DA=TVS&&irk=88176&irt=tv-program
+2020-06-28 22:32:22,400 [Show           ][DEBUG] 88176 악인전 title : 악인전
+2020-06-28 22:32:22,400 [Show           ][DEBUG] 88176 악인전 status : 2
+2020-06-28 22:32:22,401 [Show           ][DEBUG] 88176 악인전 genre : 예능
+2020-06-28 22:32:22,401 [Show           ][DEBUG] 88176 악인전 comment : 한 많은 음악늦둥이와 한 많은 음악제작자 이상민이 레전드 음악인을 만나 새 프로젝트를 실현해가는 리얼리티 프로그램
+2020-06-28 22:32:22,401 [Show           ][DEBUG] 88176 악인전 company : KBS2
+2020-06-28 22:32:22,401 [Show           ][DEBUG] 88176 악인전 schedule : 토 오후 10:55
+2020-06-28 22:32:22,401 [Show           ][DEBUG] 88176 악인전 airDate : 2020.4.25~
+2020-06-28 22:32:22,401 [Show           ][DEBUG] 88176 악인전 epiCount : 11
+2020-06-28 22:32:22,515 [Show           ][INFO ] 88176 악인전 에피소드 업데이트 : 0 > 11
+2020-06-28 22:32:22,552 [Show           ][INFO ] iodides.showdown.object.Episode@4382677e 에피소드 추가
+2020-06-28 22:32:22,623 [Show           ][INFO ] iodides.showdown.object.Episode@135f669f 에피소드 추가
+2020-06-28 22:32:22,660 [Show           ][INFO ] iodides.showdown.object.Episode@379b6e66 에피소드 추가
+2020-06-28 22:32:22,761 [Show           ][INFO ] iodides.showdown.object.Episode@97b2cf8 에피소드 추가
+2020-06-28 22:32:22,792 [Show           ][INFO ] iodides.showdown.object.Episode@5912133e 에피소드 추가
+2020-06-28 22:32:22,826 [Show           ][INFO ] iodides.showdown.object.Episode@3111ed1d 에피소드 추가
+2020-06-28 22:32:22,859 [Show           ][INFO ] iodides.showdown.object.Episode@5d955d07 에피소드 추가
+2020-06-28 22:32:22,893 [Show           ][INFO ] iodides.showdown.object.Episode@dd9a6a1 에피소드 추가
+2020-06-28 22:32:22,926 [Show           ][INFO ] iodides.showdown.object.Episode@449bcfc7 에피소드 추가
+2020-06-28 22:32:22,960 [Show           ][INFO ] iodides.showdown.object.Episode@7a5cab4c 에피소드 추가
+2020-06-28 22:32:22,993 [Show           ][INFO ] iodides.showdown.object.Episode@dd6bc65 에피소드 추가
+2020-06-28 22:32:27,993 [Show           ][DEBUG] 88182 삼시세끼  어촌편 시즌5 파싱 - https://search.daum.net/search?w=tv&q=삼시세끼 - 어촌편 시즌5&DA=TVS&&irk=88182&irt=tv-program
+2020-06-28 22:32:28,203 [Show           ][DEBUG] 88182 삼시세끼  어촌편 시즌5 title : 삼시세끼  어촌편 시즌5
+2020-06-28 22:32:28,203 [Show           ][DEBUG] 88182 삼시세끼  어촌편 시즌5 status : 2
+2020-06-28 22:32:28,203 [Show           ][DEBUG] 88182 삼시세끼  어촌편 시즌5 genre : 예능
+2020-06-28 22:32:28,203 [Show           ][DEBUG] 88182 삼시세끼  어촌편 시즌5 comment : 어촌에서 나는 온갖 재료로 '한끼'를 해결하기 위해 고군분투하는 야외 버라이어티 프로그램
+2020-06-28 22:32:28,203 [Show           ][DEBUG] 88182 삼시세끼  어촌편 시즌5 company : tvN
+2020-06-28 22:32:28,203 [Show           ][DEBUG] 88182 삼시세끼  어촌편 시즌5 schedule : 금 오후 9:10
+2020-06-28 22:32:28,203 [Show           ][DEBUG] 88182 삼시세끼  어촌편 시즌5 airDate : 2020.5.1~
+2020-06-28 22:32:28,204 [Show           ][DEBUG] 88182 삼시세끼  어촌편 시즌5 epiCount : 9
+2020-06-28 22:32:28,355 [Show           ][INFO ] 88182 삼시세끼  어촌편 시즌5 에피소드 업데이트 : 0 > 9
+2020-06-28 22:32:28,385 [Show           ][INFO ] iodides.showdown.object.Episode@42a5e483 에피소드 추가
+2020-06-28 22:32:28,418 [Show           ][INFO ] iodides.showdown.object.Episode@18646baf 에피소드 추가
+2020-06-28 22:32:28,452 [Show           ][INFO ] iodides.showdown.object.Episode@226930d6 에피소드 추가
+2020-06-28 22:32:28,485 [Show           ][INFO ] iodides.showdown.object.Episode@64e76154 에피소드 추가
+2020-06-28 22:32:28,518 [Show           ][INFO ] iodides.showdown.object.Episode@98b10b7 에피소드 추가
+2020-06-28 22:32:28,552 [Show           ][INFO ] iodides.showdown.object.Episode@32892b3a 에피소드 추가
+2020-06-28 22:32:28,580 [Show           ][INFO ] iodides.showdown.object.Episode@590d523d 에피소드 추가
+2020-06-28 22:32:28,605 [Show           ][INFO ] iodides.showdown.object.Episode@6bf6589 에피소드 추가
+2020-06-28 22:32:28,661 [Show           ][INFO ] iodides.showdown.object.Episode@5760d341 에피소드 추가
+2020-06-28 22:32:33,662 [Show           ][DEBUG] 88214 미쓰리는 알고 있다 파싱 - https://search.daum.net/search?w=tv&q=미쓰리는 알고 있다&DA=TVS&&irk=88214&irt=tv-program
+2020-06-28 22:32:33,788 [Show           ][DEBUG] 88214 미쓰리는 알고 있다 title : 미쓰리는 알고 있다
+2020-06-28 22:32:33,788 [Show           ][DEBUG] 88214 미쓰리는 알고 있다 status : 1
+2020-06-28 22:32:33,789 [Show           ][DEBUG] 88214 미쓰리는 알고 있다 genre : 드라마
+2020-06-28 22:32:33,789 [Show           ][DEBUG] 88214 미쓰리는 알고 있다 comment : 재건축 아파트에서 벌어진 의문의 죽음, 자살? 타살? 미스터리한 죽음에 얽힌 용의자를 추적하며 밝혀지는 인간의 욕망과 진실을 다룬 미스터리 사건극을 그린 드라마
+2020-06-28 22:32:33,789 [Show           ][DEBUG] 88214 미쓰리는 알고 있다 company : MBC
+2020-06-28 22:32:33,789 [Show           ][DEBUG] 88214 미쓰리는 알고 있다 schedule : 수, 목 오후 9:30
+2020-06-28 22:32:33,789 [Show           ][DEBUG] 88214 미쓰리는 알고 있다 airDate : 2020.7.8~
+2020-06-28 22:32:33,789 [Show           ][DEBUG] 88214 미쓰리는 알고 있다 epiCount : 0
+2020-06-28 22:32:38,790 [Show           ][DEBUG] 88231 건강함의 시작 몸의 대화 파싱 - https://search.daum.net/search?w=tv&q=건강함의 시작, 몸의 대화&DA=TVS&&irk=88231&irt=tv-program
+2020-06-28 22:32:39,067 [Show           ][DEBUG] 88231 건강함의 시작 몸의 대화 title : 건강함의 시작 몸의 대화
+2020-06-28 22:32:39,067 [Show           ][DEBUG] 88231 건강함의 시작 몸의 대화 status : 2
+2020-06-28 22:32:39,067 [Show           ][DEBUG] 88231 건강함의 시작 몸의 대화 genre : 예능
+2020-06-28 22:32:39,067 [Show           ][DEBUG] 88231 건강함의 시작 몸의 대화 comment : 개인의 특성부터 질병 예측까지 가능한 유전자 검사를 통해 내 몸에 잠재되어 있는 유전적 요인을 살펴보는 평생 질병 예측 토크쇼
+2020-06-28 22:32:39,067 [Show           ][DEBUG] 88231 건강함의 시작 몸의 대화 company : tvN
+2020-06-28 22:32:39,067 [Show           ][DEBUG] 88231 건강함의 시작 몸의 대화 schedule : 월 오후 7:40
+2020-06-28 22:32:39,068 [Show           ][DEBUG] 88231 건강함의 시작 몸의 대화 airDate : 2020.5.11~
+2020-06-28 22:32:39,068 [Show           ][DEBUG] 88231 건강함의 시작 몸의 대화 epiCount : 8
+2020-06-28 22:32:39,231 [Show           ][INFO ] 88231 건강함의 시작 몸의 대화 에피소드 업데이트 : 0 > 8
+2020-06-28 22:32:39,255 [Show           ][INFO ] iodides.showdown.object.Episode@2381a3e5 에피소드 추가
+2020-06-28 22:32:39,280 [Show           ][INFO ] iodides.showdown.object.Episode@2675c350 에피소드 추가
+2020-06-28 22:32:39,305 [Show           ][INFO ] iodides.showdown.object.Episode@141a86fe 에피소드 추가
+2020-06-28 22:32:39,331 [Show           ][INFO ] iodides.showdown.object.Episode@417ca1fe 에피소드 추가
+2020-06-28 22:32:39,364 [Show           ][INFO ] iodides.showdown.object.Episode@6f4cacbf 에피소드 추가
+2020-06-28 22:32:39,444 [Show           ][INFO ] iodides.showdown.object.Episode@67ab8d45 에피소드 추가
+2020-06-28 22:32:39,506 [Show           ][INFO ] iodides.showdown.object.Episode@2746ca38 에피소드 추가
+2020-06-28 22:32:39,549 [Show           ][INFO ] iodides.showdown.object.Episode@311ec7f 에피소드 추가
+2020-06-28 22:32:44,549 [Show           ][DEBUG] 88232 온앤오프 파싱 - https://search.daum.net/search?w=tv&q=온앤오프&DA=TVS&&irk=88232&irt=tv-program
+2020-06-28 22:32:44,732 [Show           ][DEBUG] 88232 온앤오프 title : 온앤오프
+2020-06-28 22:32:44,733 [Show           ][DEBUG] 88232 온앤오프 status : 2
+2020-06-28 22:32:44,733 [Show           ][DEBUG] 88232 온앤오프 genre : 예능
+2020-06-28 22:32:44,733 [Show           ][DEBUG] 88232 온앤오프 comment : 다양한 삶을 사는 멀티 페르소나 모두 모여라! 바쁜 일상 속 내 모습(ON), '사회적 나'와 거리 둔 내 모습(OFF)을 있는 그대로 모두 보여주는 신개념 사적 다큐멘터리
+2020-06-28 22:32:44,733 [Show           ][DEBUG] 88232 온앤오프 company : tvN
+2020-06-28 22:32:44,733 [Show           ][DEBUG] 88232 온앤오프 schedule : 토 오후 10:40
+2020-06-28 22:32:44,733 [Show           ][DEBUG] 88232 온앤오프 airDate : 2020.5.2~
+2020-06-28 22:32:44,733 [Show           ][DEBUG] 88232 온앤오프 epiCount : 9
+2020-06-28 22:32:44,824 [Show           ][INFO ] 88232 온앤오프 에피소드 업데이트 : 0 > 9
+2020-06-28 22:32:44,857 [Show           ][INFO ] iodides.showdown.object.Episode@29c8f0ff 에피소드 추가
+2020-06-28 22:32:44,891 [Show           ][INFO ] iodides.showdown.object.Episode@5ef0a639 에피소드 추가
+2020-06-28 22:32:44,924 [Show           ][INFO ] iodides.showdown.object.Episode@af5756c 에피소드 추가
+2020-06-28 22:32:44,958 [Show           ][INFO ] iodides.showdown.object.Episode@67c9a48e 에피소드 추가
+2020-06-28 22:32:44,991 [Show           ][INFO ] iodides.showdown.object.Episode@9e8ff80 에피소드 추가
+2020-06-28 22:32:45,024 [Show           ][INFO ] iodides.showdown.object.Episode@527241ea 에피소드 추가
+2020-06-28 22:32:45,058 [Show           ][INFO ] iodides.showdown.object.Episode@738d10dd 에피소드 추가
+2020-06-28 22:32:45,091 [Show           ][INFO ] iodides.showdown.object.Episode@59ca27f6 에피소드 추가
+2020-06-28 22:32:45,126 [Show           ][INFO ] iodides.showdown.object.Episode@1710d7b0 에피소드 추가
+2020-06-28 22:32:50,127 [Show           ][DEBUG] 88235 뽕숭아학당 파싱 - https://search.daum.net/search?w=tv&q=뽕숭아학당&DA=TVS&&irk=88235&irt=tv-program
+2020-06-28 22:32:50,263 [Show           ][DEBUG] 88235 뽕숭아학당 title : 뽕숭아학당
+2020-06-28 22:32:50,264 [Show           ][DEBUG] 88235 뽕숭아학당 status : 2
+2020-06-28 22:32:50,264 [Show           ][DEBUG] 88235 뽕숭아학당 genre : 예능
+2020-06-28 22:32:50,264 [Show           ][DEBUG] 88235 뽕숭아학당 comment : '뽕 따러 가세'의 두 번째 시즌으로 레전드와 함께 노래를 배우는 '노래 교실' 스타일이 가미된 예능 프로그램
+2020-06-28 22:32:50,264 [Show           ][DEBUG] 88235 뽕숭아학당 company : TV조선
+2020-06-28 22:32:50,264 [Show           ][DEBUG] 88235 뽕숭아학당 schedule : 수 오후 10:00
+2020-06-28 22:32:50,264 [Show           ][DEBUG] 88235 뽕숭아학당 airDate : 2020.5.13~
+2020-06-28 22:32:50,265 [Show           ][DEBUG] 88235 뽕숭아학당 epiCount : 7
+2020-06-28 22:32:50,350 [Show           ][INFO ] 88235 뽕숭아학당 에피소드 업데이트 : 0 > 7
+2020-06-28 22:32:50,379 [Show           ][INFO ] iodides.showdown.object.Episode@584498e7 에피소드 추가
+2020-06-28 22:32:50,404 [Show           ][INFO ] iodides.showdown.object.Episode@6969e8e1 에피소드 추가
+2020-06-28 22:32:50,429 [Show           ][INFO ] iodides.showdown.object.Episode@6cad9024 에피소드 추가
+2020-06-28 22:32:50,509 [Show           ][INFO ] iodides.showdown.object.Episode@4a79080b 에피소드 추가
+2020-06-28 22:32:50,538 [Show           ][INFO ] iodides.showdown.object.Episode@36063203 에피소드 추가
+2020-06-28 22:32:50,625 [Show           ][INFO ] iodides.showdown.object.Episode@108efac2 에피소드 추가
+2020-06-28 22:32:50,655 [Show           ][INFO ] iodides.showdown.object.Episode@10a27447 에피소드 추가
+2020-06-28 22:32:55,656 [Show           ][DEBUG] 88251 아이돌리그 시즌2 파싱 - https://search.daum.net/search?w=tv&q=아이돌리그 시즌2&DA=TVS&&irk=88251&irt=tv-program
+2020-06-28 22:32:55,835 [Show           ][DEBUG] 88251 아이돌리그 시즌2 title : 아이돌리그 시즌2
+2020-06-28 22:32:55,835 [Show           ][DEBUG] 88251 아이돌리그 시즌2 status : 2
+2020-06-28 22:32:55,835 [Show           ][DEBUG] 88251 아이돌리그 시즌2 genre : 예능
+2020-06-28 22:32:55,835 [Show           ][DEBUG] 88251 아이돌리그 시즌2 comment : 아이돌 덕후들을 위한, 덕후들에 의한, 덕후들의 글로벌 입덕 영업 방송!
+2020-06-28 22:32:55,835 [Show           ][DEBUG] 88251 아이돌리그 시즌2 company : STATV
+2020-06-28 22:32:55,836 [Show           ][DEBUG] 88251 아이돌리그 시즌2 schedule : 목 오후 5:00
+2020-06-28 22:32:55,836 [Show           ][DEBUG] 88251 아이돌리그 시즌2 airDate : 2020.4.23~
+2020-06-28 22:32:55,836 [Show           ][DEBUG] 88251 아이돌리그 시즌2 epiCount : 0
+2020-06-28 22:33:00,837 [Show           ][DEBUG] 88262 요즘 육아 금쪽같은 내새끼 파싱 - https://search.daum.net/search?w=tv&q=요즘 육아 금쪽같은 내새끼&DA=TVS&&irk=88262&irt=tv-program
+2020-06-28 22:33:00,917 [Show           ][DEBUG] 88262 요즘 육아 금쪽같은 내새끼 title : 요즘 육아 금쪽같은 내새끼
+2020-06-28 22:33:00,917 [Show           ][DEBUG] 88262 요즘 육아 금쪽같은 내새끼 status : 2
+2020-06-28 22:33:00,918 [Show           ][DEBUG] 88262 요즘 육아 금쪽같은 내새끼 genre : 예능
+2020-06-28 22:33:00,918 [Show           ][DEBUG] 88262 요즘 육아 금쪽같은 내새끼 comment : 베테랑 육아 전문가들이 모여 부모들에게 요즘 육아 트렌드가 반영된 육아법을 코칭하는 프로그램
+2020-06-28 22:33:00,918 [Show           ][DEBUG] 88262 요즘 육아 금쪽같은 내새끼 company : 채널A
+2020-06-28 22:33:00,918 [Show           ][DEBUG] 88262 요즘 육아 금쪽같은 내새끼 schedule : 금 오후 8:30
+2020-06-28 22:33:00,918 [Show           ][DEBUG] 88262 요즘 육아 금쪽같은 내새끼 airDate : 2020.5.29~
+2020-06-28 22:33:00,918 [Show           ][DEBUG] 88262 요즘 육아 금쪽같은 내새끼 epiCount : 6
+2020-06-28 22:33:01,009 [Show           ][INFO ] 88262 요즘 육아 금쪽같은 내새끼 에피소드 업데이트 : 0 > 6
+2020-06-28 22:33:01,042 [Show           ][INFO ] iodides.showdown.object.Episode@6fc805c9 에피소드 추가
+2020-06-28 22:33:01,084 [Show           ][INFO ] iodides.showdown.object.Episode@2a6b78ea 에피소드 추가
+2020-06-28 22:33:01,117 [Show           ][INFO ] iodides.showdown.object.Episode@15c50ccd 에피소드 추가
+2020-06-28 22:33:01,151 [Show           ][INFO ] iodides.showdown.object.Episode@3ae5a1d 에피소드 추가
+2020-06-28 22:33:01,199 [Show           ][INFO ] iodides.showdown.object.Episode@2c67e1ec 에피소드 추가
+2020-06-28 22:33:01,234 [Show           ][INFO ] iodides.showdown.object.Episode@5dba70a2 에피소드 추가
+2020-06-28 22:33:06,235 [Show           ][DEBUG] 88285 왈가닥뷰티 파싱 - https://search.daum.net/search?w=tv&q=왈가닥뷰티&DA=TVS&&irk=88285&irt=tv-program
+2020-06-28 22:33:06,381 [Show           ][DEBUG] 88285 왈가닥뷰티 title : 왈가닥뷰티
+2020-06-28 22:33:06,381 [Show           ][DEBUG] 88285 왈가닥뷰티 status : 2
+2020-06-28 22:33:06,381 [Show           ][DEBUG] 88285 왈가닥뷰티 genre : 예능
+2020-06-28 22:33:06,381 [Show           ][DEBUG] 88285 왈가닥뷰티 comment : 뷰티 생태계, 너어~! 긴장해야 할 걸~? 웃었을 뿐인데 뷰티해졌다?! 현실 뷰티 꿀팁 초초초초대방출 뷰티 예능계의 판을 뒤집을 [왈가닥 뷰티]
+2020-06-28 22:33:06,381 [Show           ][DEBUG] 88285 왈가닥뷰티 company : SBS funE
+2020-06-28 22:33:06,381 [Show           ][DEBUG] 88285 왈가닥뷰티 schedule : 월 오후 11:00
+2020-06-28 22:33:06,381 [Show           ][DEBUG] 88285 왈가닥뷰티 airDate : 2020.5.11~
+2020-06-28 22:33:06,381 [Show           ][DEBUG] 88285 왈가닥뷰티 epiCount : 0
+2020-06-28 22:33:11,382 [Show           ][DEBUG] 88308 위대한 배태랑 파싱 - https://search.daum.net/search?w=tv&q=위대한 배태랑&DA=TVS&&irk=88308&irt=tv-program
+2020-06-28 22:33:11,554 [Show           ][DEBUG] 88308 위대한 배태랑 title : 위대한 배태랑
+2020-06-28 22:33:11,554 [Show           ][DEBUG] 88308 위대한 배태랑 status : 2
+2020-06-28 22:33:11,554 [Show           ][DEBUG] 88308 위대한 배태랑 genre : 예능
+2020-06-28 22:33:11,554 [Show           ][DEBUG] 88308 위대한 배태랑 comment : 각자의 이유로 체중 감량이 절실한 예능인들의 처절한 다이어트 도전기를 담은 프로그램
+2020-06-28 22:33:11,554 [Show           ][DEBUG] 88308 위대한 배태랑 company : JTBC
+2020-06-28 22:33:11,554 [Show           ][DEBUG] 88308 위대한 배태랑 schedule : 월 오후 11:00
+2020-06-28 22:33:11,554 [Show           ][DEBUG] 88308 위대한 배태랑 airDate : 2020.6.1~
+2020-06-28 22:33:11,554 [Show           ][DEBUG] 88308 위대한 배태랑 epiCount : 4
+2020-06-28 22:33:11,633 [Show           ][INFO ] 88308 위대한 배태랑 에피소드 업데이트 : 0 > 4
+2020-06-28 22:33:11,667 [Show           ][INFO ] iodides.showdown.object.Episode@3a067414 에피소드 추가
+2020-06-28 22:33:11,700 [Show           ][INFO ] iodides.showdown.object.Episode@3b036160 에피소드 추가
+2020-06-28 22:33:11,733 [Show           ][INFO ] iodides.showdown.object.Episode@4d3fa381 에피소드 추가
+2020-06-28 22:33:11,767 [Show           ][INFO ] iodides.showdown.object.Episode@b6fcfb3 에피소드 추가
+2020-06-28 22:33:16,768 [Show           ][DEBUG] 88309 보이스트롯 파싱 - https://search.daum.net/search?w=tv&q=보이스트롯&DA=TVS&&irk=88309&irt=tv-program
+2020-06-28 22:33:16,960 [Show           ][DEBUG] 88309 보이스트롯 title : 보이스트롯
+2020-06-28 22:33:16,961 [Show           ][DEBUG] 88309 보이스트롯 status : 1
+2020-06-28 22:33:16,961 [Show           ][DEBUG] 88309 보이스트롯 genre : 예능
+2020-06-28 22:33:16,961 [Show           ][DEBUG] 88309 보이스트롯 comment : 스타들을 대상으로 한 트롯 오디션 프로그램
+2020-06-28 22:33:16,962 [Show           ][DEBUG] 88309 보이스트롯 company : MBN
+2020-06-28 22:33:16,962 [Show           ][DEBUG] 88309 보이스트롯 schedule : 금
+2020-06-28 22:33:16,962 [Show           ][DEBUG] 88309 보이스트롯 airDate : 2020.7.10~
+2020-06-28 22:33:16,963 [Show           ][DEBUG] 88309 보이스트롯 epiCount : 0
+2020-06-28 22:33:21,963 [Show           ][DEBUG] 88320 유불리 상담소 파싱 - https://search.daum.net/search?w=tv&q=유불리 상담소&DA=TVS&&irk=88320&irt=tv-program
+2020-06-28 22:33:22,137 [Show           ][DEBUG] 88320 유불리 상담소 title : 유불리 상담소
+2020-06-28 22:33:22,138 [Show           ][DEBUG] 88320 유불리 상담소 status : 2
+2020-06-28 22:33:22,138 [Show           ][DEBUG] 88320 유불리 상담소 genre : 예능
+2020-06-28 22:33:22,138 [Show           ][DEBUG] 88320 유불리 상담소 comment : '유리한 것은 지켜주고, 불리한 것은 줄여준다!' 셀럽 3인과 상위 1% 재무 쓰앵님 3인이 1:1 팀을 이루어 당신의 자산을 코디 해드립니다. 시청자에게 찐 '돈 버는 법'을 알려주는 1:1 돌직구 재무 상담쇼
+2020-06-28 22:33:22,138 [Show           ][DEBUG] 88320 유불리 상담소 company : ONCE
+2020-06-28 22:33:22,138 [Show           ][DEBUG] 88320 유불리 상담소 schedule : 월 오후 7:30
+2020-06-28 22:33:22,138 [Show           ][DEBUG] 88320 유불리 상담소 airDate : 2020.4.20~
+2020-06-28 22:33:22,138 [Show           ][DEBUG] 88320 유불리 상담소 epiCount : 0
+2020-06-28 22:33:27,139 [Show           ][DEBUG] 88328 배달해서 먹힐까 파싱 - https://search.daum.net/search?w=tv&q=배달해서 먹힐까?&DA=TVS&&irk=88328&irt=tv-program
+2020-06-28 22:33:27,474 [Show           ][DEBUG] 88328 배달해서 먹힐까 title : 배달해서 먹힐까
+2020-06-28 22:33:27,474 [Show           ][DEBUG] 88328 배달해서 먹힐까 status : 2
+2020-06-28 22:33:27,474 [Show           ][DEBUG] 88328 배달해서 먹힐까 genre : 예능
+2020-06-28 22:33:27,475 [Show           ][DEBUG] 88328 배달해서 먹힐까 comment : 푸드트럭으로 현지 입맛 저격을 위해 고군분투하는 리얼리티 프로그램
+2020-06-28 22:33:27,475 [Show           ][DEBUG] 88328 배달해서 먹힐까 company : tvN
+2020-06-28 22:33:27,475 [Show           ][DEBUG] 88328 배달해서 먹힐까 schedule : 화 오후 10:30
+2020-06-28 22:33:27,475 [Show           ][DEBUG] 88328 배달해서 먹힐까 airDate : 2020.5.19~
+2020-06-28 22:33:27,475 [Show           ][DEBUG] 88328 배달해서 먹힐까 epiCount : 6
+2020-06-28 22:33:27,583 [Show           ][INFO ] 88328 배달해서 먹힐까 에피소드 업데이트 : 0 > 6
+2020-06-28 22:33:27,617 [Show           ][INFO ] iodides.showdown.object.Episode@4bd3e3c6 에피소드 추가
+2020-06-28 22:33:27,733 [Show           ][INFO ] iodides.showdown.object.Episode@2afb25ec 에피소드 추가
+2020-06-28 22:33:27,767 [Show           ][INFO ] iodides.showdown.object.Episode@3c700c9 에피소드 추가
+2020-06-28 22:33:27,800 [Show           ][INFO ] iodides.showdown.object.Episode@7686f3ae 에피소드 추가
+2020-06-28 22:33:27,833 [Show           ][INFO ] iodides.showdown.object.Episode@221fe36b 에피소드 추가
+2020-06-28 22:33:27,866 [Show           ][INFO ] iodides.showdown.object.Episode@51387681 에피소드 추가
+2020-06-28 22:33:32,867 [Show           ][DEBUG] 88329 신비한 동물 퀴즈 파싱 - https://search.daum.net/search?w=tv&q=신비한 동물 퀴즈&DA=TVS&&irk=88329&irt=tv-program
+2020-06-28 22:33:33,159 [Show           ][DEBUG] 88329 신비한 동물 퀴즈 title : 신비한 동물 퀴즈
+2020-06-28 22:33:33,159 [Show           ][DEBUG] 88329 신비한 동물 퀴즈 status : 2
+2020-06-28 22:33:33,160 [Show           ][DEBUG] 88329 신비한 동물 퀴즈 genre : 예능
+2020-06-28 22:33:33,160 [Show           ][DEBUG] 88329 신비한 동물 퀴즈 comment : 야생동물부터 반려동물까지 다양한 동물들의 습성과 별난 모습 등을 퀴즈로 알아보는 프로그램
+2020-06-28 22:33:33,160 [Show           ][DEBUG] 88329 신비한 동물 퀴즈 company : MBN
+2020-06-28 22:33:33,160 [Show           ][DEBUG] 88329 신비한 동물 퀴즈 schedule : 화 오후 11:00
+2020-06-28 22:33:33,160 [Show           ][DEBUG] 88329 신비한 동물 퀴즈 airDate : 2020.4.28~
+2020-06-28 22:33:33,160 [Show           ][DEBUG] 88329 신비한 동물 퀴즈 epiCount : 9
+2020-06-28 22:33:33,202 [Show           ][INFO ] 88329 신비한 동물 퀴즈 에피소드 업데이트 : 0 > 9
+2020-06-28 22:33:33,235 [Show           ][INFO ] iodides.showdown.object.Episode@6f64c457 에피소드 추가
+2020-06-28 22:33:33,268 [Show           ][INFO ] iodides.showdown.object.Episode@4fec0e6c 에피소드 추가
+2020-06-28 22:33:33,302 [Show           ][INFO ] iodides.showdown.object.Episode@5159ed82 에피소드 추가
+2020-06-28 22:33:33,335 [Show           ][INFO ] iodides.showdown.object.Episode@727c021f 에피소드 추가
+2020-06-28 22:33:33,369 [Show           ][INFO ] iodides.showdown.object.Episode@3bf3267b 에피소드 추가
+2020-06-28 22:33:33,402 [Show           ][INFO ] iodides.showdown.object.Episode@14c3d007 에피소드 추가
+2020-06-28 22:33:33,436 [Show           ][INFO ] iodides.showdown.object.Episode@ae80ae0 에피소드 추가
+2020-06-28 22:33:33,469 [Show           ][INFO ] iodides.showdown.object.Episode@18968d58 에피소드 추가
+2020-06-28 22:33:33,504 [Show           ][INFO ] iodides.showdown.object.Episode@3af4a0cf 에피소드 추가
+2020-06-28 22:33:38,505 [Show           ][DEBUG] 88344 GOOD GIRL  누가 방송국을 털었나 파싱 - https://search.daum.net/search?w=tv&q=GOOD GIRL : 누가 방송국을 털었나&DA=TVS&&irk=88344&irt=tv-program
+2020-06-28 22:33:38,717 [Show           ][DEBUG] 88344 GOOD GIRL  누가 방송국을 털었나 title : GOOD GIRL  누가 방송국을 털었나
+2020-06-28 22:33:38,717 [Show           ][DEBUG] 88344 GOOD GIRL  누가 방송국을 털었나 status : 2
+2020-06-28 22:33:38,717 [Show           ][DEBUG] 88344 GOOD GIRL  누가 방송국을 털었나 genre : 예능
+2020-06-28 22:33:38,717 [Show           ][DEBUG] 88344 GOOD GIRL  누가 방송국을 털었나 comment : 2020년, 차원이 다른 그녀들이 온다! 언더그라운드 래퍼부터 현역 아이돌, 인가 최정상 아티스트까지. 국내 최고의 여자 Hiphop R&B 뮤지션들이 방송국을 털기 위해 한 팀으로 뭉쳤다! FLEX MONEY를 걸고 펼쳐지는 힙합 리얼리티 뮤직 쇼
+2020-06-28 22:33:38,718 [Show           ][DEBUG] 88344 GOOD GIRL  누가 방송국을 털었나 company : Mnet
+2020-06-28 22:33:38,718 [Show           ][DEBUG] 88344 GOOD GIRL  누가 방송국을 털었나 schedule : 목 오후 11:00
+2020-06-28 22:33:38,718 [Show           ][DEBUG] 88344 GOOD GIRL  누가 방송국을 털었나 airDate : 2020.5.14~
+2020-06-28 22:33:38,718 [Show           ][DEBUG] 88344 GOOD GIRL  누가 방송국을 털었나 epiCount : 8
+2020-06-28 22:33:38,846 [Show           ][INFO ] 88344 GOOD GIRL  누가 방송국을 털었나 에피소드 업데이트 : 0 > 8
+2020-06-28 22:33:38,879 [Show           ][INFO ] iodides.showdown.object.Episode@3f85a5d7 에피소드 추가
+2020-06-28 22:33:38,904 [Show           ][INFO ] iodides.showdown.object.Episode@40880122 에피소드 추가
+2020-06-28 22:33:38,937 [Show           ][INFO ] iodides.showdown.object.Episode@378b4720 에피소드 추가
+2020-06-28 22:33:38,971 [Show           ][INFO ] iodides.showdown.object.Episode@118e8f9c 에피소드 추가
+2020-06-28 22:33:39,004 [Show           ][INFO ] iodides.showdown.object.Episode@3372b67 에피소드 추가
+2020-06-28 22:33:39,038 [Show           ][INFO ] iodides.showdown.object.Episode@336ab32 에피소드 추가
+2020-06-28 22:33:39,071 [Show           ][INFO ] iodides.showdown.object.Episode@6e695e33 에피소드 추가
+2020-06-28 22:33:39,104 [Show           ][INFO ] iodides.showdown.object.Episode@b7ede0d 에피소드 추가
+2020-06-28 22:33:44,105 [Show           ][DEBUG] 88353 스튜디오 K노홍철의 게릴라 데이트 파싱 - https://search.daum.net/search?w=tv&q=노홍철의 게릴라 데이트&DA=TVS&&irk=88353&irt=tv-program
+2020-06-28 22:33:44,296 [Show           ][DEBUG] 88353 스튜디오 K노홍철의 게릴라 데이트 title : 스튜디오 K노홍철의 게릴라 데이트
+2020-06-28 22:33:44,296 [Show           ][DEBUG] 88353 스튜디오 K노홍철의 게릴라 데이트 status : 2
+2020-06-28 22:33:44,296 [Show           ][DEBUG] 88353 스튜디오 K노홍철의 게릴라 데이트 genre : 예능
+2020-06-28 22:33:44,296 [Show           ][DEBUG] 88353 스튜디오 K노홍철의 게릴라 데이트 comment : 연예가 중계의 인기코너 ‘게릴라 데이트’가 유튜브 콘텐츠로 변신! 최고의 톱스타를 만나는 ‘원조 스타 인터뷰’에 디지털 감성을 더해 한층 업그레이드된 노홍철의 게릴라 데이트
+2020-06-28 22:33:44,297 [Show           ][DEBUG] 88353 스튜디오 K노홍철의 게릴라 데이트 company : KBS2
+2020-06-28 22:33:44,297 [Show           ][DEBUG] 88353 스튜디오 K노홍철의 게릴라 데이트 schedule : 토 오후 10:30
+2020-06-28 22:33:44,297 [Show           ][DEBUG] 88353 스튜디오 K노홍철의 게릴라 데이트 airDate : 2020.5.2~
+2020-06-28 22:33:44,297 [Show           ][DEBUG] 88353 스튜디오 K노홍철의 게릴라 데이트 epiCount : 0
+2020-06-28 22:33:49,298 [Show           ][DEBUG] 88380 1호가 될 순 없어 파싱 - https://search.daum.net/search?w=tv&q=1호가 될 순 없어&DA=TVS&&irk=88380&irt=tv-program
+2020-06-28 22:33:49,599 [Show           ][DEBUG] 88380 1호가 될 순 없어 title : 1호가 될 순 없어
+2020-06-28 22:33:49,600 [Show           ][DEBUG] 88380 1호가 될 순 없어 status : 2
+2020-06-28 22:33:49,600 [Show           ][DEBUG] 88380 1호가 될 순 없어 genre : 예능
+2020-06-28 22:33:49,600 [Show           ][DEBUG] 88380 1호가 될 순 없어 comment : 개그맨 부부 세 쌍이 그들의 리얼한 결혼 생활을 보여주는 포맷으로 유독 개그맨 커플 중 '이혼 1호'가 탄생하지 않는 이유를 집중 탐구하는 예능 프로그램
+2020-06-28 22:33:49,600 [Show           ][DEBUG] 88380 1호가 될 순 없어 company : JTBC
+2020-06-28 22:33:49,600 [Show           ][DEBUG] 88380 1호가 될 순 없어 schedule : 수 오후 11:00
+2020-06-28 22:33:49,600 [Show           ][DEBUG] 88380 1호가 될 순 없어 airDate : 2020.5.20~
+2020-06-28 22:33:49,600 [Show           ][DEBUG] 88380 1호가 될 순 없어 epiCount : 6
+2020-06-28 22:33:49,715 [Show           ][INFO ] 88380 1호가 될 순 없어 에피소드 업데이트 : 0 > 6
+2020-06-28 22:33:49,740 [Show           ][INFO ] iodides.showdown.object.Episode@13551be6 에피소드 추가
+2020-06-28 22:33:49,765 [Show           ][INFO ] iodides.showdown.object.Episode@ddadaed 에피소드 추가
+2020-06-28 22:33:49,790 [Show           ][INFO ] iodides.showdown.object.Episode@3d2f450 에피소드 추가
+2020-06-28 22:33:49,815 [Show           ][INFO ] iodides.showdown.object.Episode@36f870a3 에피소드 추가
+2020-06-28 22:33:49,841 [Show           ][INFO ] iodides.showdown.object.Episode@d49d7b1 에피소드 추가
+2020-06-28 22:33:49,865 [Show           ][INFO ] iodides.showdown.object.Episode@561f6947 에피소드 추가
+2020-06-28 22:33:54,866 [Show           ][DEBUG] 88402 바퀴 달린 집 파싱 - https://search.daum.net/search?w=tv&q=바퀴 달린 집&DA=TVS&&irk=88402&irt=tv-program
+2020-06-28 22:33:55,177 [Show           ][DEBUG] 88402 바퀴 달린 집 title : 바퀴 달린 집
+2020-06-28 22:33:55,177 [Show           ][DEBUG] 88402 바퀴 달린 집 status : 2
+2020-06-28 22:33:55,177 [Show           ][DEBUG] 88402 바퀴 달린 집 genre : 예능
+2020-06-28 22:33:55,177 [Show           ][DEBUG] 88402 바퀴 달린 집 comment : 바퀴 달린 집을 타고 전국 방방곡곡을 앞마당 삼아 살아보는 과정을 담은 프로그램
+2020-06-28 22:33:55,177 [Show           ][DEBUG] 88402 바퀴 달린 집 company : tvN
+2020-06-28 22:33:55,177 [Show           ][DEBUG] 88402 바퀴 달린 집 schedule : 목 오후 9:00
+2020-06-28 22:33:55,177 [Show           ][DEBUG] 88402 바퀴 달린 집 airDate : 2020.6.11~
+2020-06-28 22:33:55,178 [Show           ][DEBUG] 88402 바퀴 달린 집 epiCount : 3
+2020-06-28 22:33:55,315 [Show           ][INFO ] 88402 바퀴 달린 집 에피소드 업데이트 : 0 > 3
+2020-06-28 22:33:55,340 [Show           ][INFO ] iodides.showdown.object.Episode@5e7ead6b 에피소드 추가
+2020-06-28 22:33:55,365 [Show           ][INFO ] iodides.showdown.object.Episode@7411d372 에피소드 추가
+2020-06-28 22:33:55,390 [Show           ][INFO ] iodides.showdown.object.Episode@1786bafa 에피소드 추가
+2020-06-28 22:34:00,391 [Show           ][DEBUG] 88429 삼시네세끼 파싱 - https://search.daum.net/search?w=tv&q=삼시네세끼&DA=TVS&&irk=88429&irt=tv-program
+2020-06-28 22:34:00,631 [Show           ][DEBUG] 88429 삼시네세끼 title : 삼시네세끼
+2020-06-28 22:34:00,632 [Show           ][DEBUG] 88429 삼시네세끼 status : 2
+2020-06-28 22:34:00,632 [Show           ][DEBUG] 88429 삼시네세끼 genre : 예능
+2020-06-28 22:34:00,632 [Show           ][DEBUG] 88429 삼시네세끼 comment : 지난해 큰 화제를 몰고 왔던 '달나라 공약 지키기'의 첫 번째 프로젝트
+2020-06-28 22:34:00,632 [Show           ][DEBUG] 88429 삼시네세끼 company : tvN
+2020-06-28 22:34:00,632 [Show           ][DEBUG] 88429 삼시네세끼 schedule : 금 오후 10:50
+2020-06-28 22:34:00,632 [Show           ][DEBUG] 88429 삼시네세끼 airDate : 2020.5.15~
+2020-06-28 22:34:00,633 [Show           ][DEBUG] 88429 삼시네세끼 epiCount : 6
+2020-06-28 22:34:00,782 [Show           ][INFO ] 88429 삼시네세끼 에피소드 업데이트 : 0 > 6
+2020-06-28 22:34:00,815 [Show           ][INFO ] iodides.showdown.object.Episode@411f876b 에피소드 추가
+2020-06-28 22:34:00,849 [Show           ][INFO ] iodides.showdown.object.Episode@5039e87 에피소드 추가
+2020-06-28 22:34:00,882 [Show           ][INFO ] iodides.showdown.object.Episode@14176184 에피소드 추가
+2020-06-28 22:34:00,916 [Show           ][INFO ] iodides.showdown.object.Episode@cf7c22a 에피소드 추가
+2020-06-28 22:34:00,949 [Show           ][INFO ] iodides.showdown.object.Episode@31ee2800 에피소드 추가
+2020-06-28 22:34:00,982 [Show           ][INFO ] iodides.showdown.object.Episode@28806f1c 에피소드 추가
+2020-06-28 22:34:01,016 [Show           ][INFO ] iodides.showdown.object.Episode@73430c9 에피소드 추가
+2020-06-28 22:34:06,017 [Show           ][DEBUG] 88451 서울촌놈 파싱 - https://search.daum.net/search?w=tv&q=서울촌놈&DA=TVS&&irk=88451&irt=tv-program
+2020-06-28 22:34:06,217 [Show           ][DEBUG] 88451 서울촌놈 title : 서울촌놈
+2020-06-28 22:34:06,218 [Show           ][DEBUG] 88451 서울촌놈 status : 1
+2020-06-28 22:34:06,218 [Show           ][DEBUG] 88451 서울촌놈 genre : 예능 (12부작)
+2020-06-28 22:34:06,218 [Show           ][DEBUG] 88451 서울촌놈 comment : 서울만 아는 서울 촌놈들이 동네 전설들의 고향에서 그들의 추억을 공유하며 펼치는 하드코어 로컬 버라이어티
+2020-06-28 22:34:06,218 [Show           ][DEBUG] 88451 서울촌놈 company : tvN
+2020-06-28 22:34:06,218 [Show           ][DEBUG] 88451 서울촌놈 schedule : 일 오후 10:50
+2020-06-28 22:34:06,218 [Show           ][DEBUG] 88451 서울촌놈 airDate : 2020.7.12~
+2020-06-28 22:34:06,219 [Show           ][DEBUG] 88451 서울촌놈 epiCount : 0
+2020-06-28 22:34:11,219 [Show           ][DEBUG] 88453 내게 ON 트롯 파싱 - https://search.daum.net/search?w=tv&q=내게 ON 트롯&DA=TVS&&irk=88453&irt=tv-program
+2020-06-28 22:34:11,374 [Show           ][DEBUG] 88453 내게 ON 트롯 title : 내게 ON 트롯
+2020-06-28 22:34:11,374 [Show           ][DEBUG] 88453 내게 ON 트롯 status : 2
+2020-06-28 22:34:11,374 [Show           ][DEBUG] 88453 내게 ON 트롯 genre : 예능
+2020-06-28 22:34:11,374 [Show           ][DEBUG] 88453 내게 ON 트롯 comment : 2020년 현재 대한민국은 '트로트 앓이' 중. 가요계 각 장르 레전드 가수들이 요즘 대세 '트로트' 에 도전, 자신만의 음색으로 색다른 트로트 무대를 만든다
+2020-06-28 22:34:11,374 [Show           ][DEBUG] 88453 내게 ON 트롯 company : SBS 플러스
+2020-06-28 22:34:11,375 [Show           ][DEBUG] 88453 내게 ON 트롯 schedule : 화 오후 9:00
+2020-06-28 22:34:11,375 [Show           ][DEBUG] 88453 내게 ON 트롯 airDate : 2020.6.16~
+2020-06-28 22:34:11,375 [Show           ][DEBUG] 88453 내게 ON 트롯 epiCount : 0
+2020-06-28 22:34:16,376 [Show           ][DEBUG] 88465 비긴어게인 코리아 파싱 - https://search.daum.net/search?w=tv&q=비긴어게인 코리아&DA=TVS&&irk=88465&irt=tv-program
+2020-06-28 22:34:16,606 [Show           ][DEBUG] 88465 비긴어게인 코리아 title : 비긴어게인 코리아
+2020-06-28 22:34:16,606 [Show           ][DEBUG] 88465 비긴어게인 코리아 status : 2
+2020-06-28 22:34:16,606 [Show           ][DEBUG] 88465 비긴어게인 코리아 genre : 예능
+2020-06-28 22:34:16,606 [Show           ][DEBUG] 88465 비긴어게인 코리아 comment : 해외의 낯선 도시 대신 국내의 다양한 장소로 ‘거리두기 버스킹 음악여행’을 떠나 갑자기 들이닥친 코로나19로 인해 멈춰버린 평범한 일상 속 힘든 시간을 보내고 있는 대한민국 국민들을 음악으로 위로하는 프로그램
+2020-06-28 22:34:16,606 [Show           ][DEBUG] 88465 비긴어게인 코리아 company : JTBC
+2020-06-28 22:34:16,606 [Show           ][DEBUG] 88465 비긴어게인 코리아 schedule : 토 오후 11:00
+2020-06-28 22:34:16,606 [Show           ][DEBUG] 88465 비긴어게인 코리아 airDate : 2020.6.6~
+2020-06-28 22:34:16,606 [Show           ][DEBUG] 88465 비긴어게인 코리아 epiCount : 5
+2020-06-28 22:34:16,714 [Show           ][INFO ] 88465 비긴어게인 코리아 에피소드 업데이트 : 0 > 5
+2020-06-28 22:34:16,738 [Show           ][INFO ] iodides.showdown.object.Episode@6201b83a 에피소드 추가
+2020-06-28 22:34:16,764 [Show           ][INFO ] iodides.showdown.object.Episode@1c9cbf43 에피소드 추가
+2020-06-28 22:34:16,791 [Show           ][INFO ] iodides.showdown.object.Episode@a537e03 에피소드 추가
+2020-06-28 22:34:16,824 [Show           ][INFO ] iodides.showdown.object.Episode@73f9628c 에피소드 추가
+2020-06-28 22:34:16,941 [Show           ][INFO ] iodides.showdown.object.Episode@1cd6c4a1 에피소드 추가
+2020-06-28 22:34:21,941 [Show           ][DEBUG] 88469 감자덕후 파싱 - https://search.daum.net/search?w=tv&q=감자덕후&DA=TVS&&irk=88469&irt=tv-program
+2020-06-28 22:34:22,069 [Show           ][DEBUG] 88469 감자덕후 title : 감자덕후
+2020-06-28 22:34:22,069 [Show           ][DEBUG] 88469 감자덕후 status : 2
+2020-06-28 22:34:22,070 [Show           ][DEBUG] 88469 감자덕후 genre : 예능
+2020-06-28 22:34:22,070 [Show           ][DEBUG] 88469 감자덕후 comment : 모델계의 금손으로 알려진 송경아와 웹툰계의 금손 김풍 두 사람의 꿀캐미로 쉽게 만들고 폼나게 먹을 수 있는 감자 요리를 대방출하는 프로그램
+2020-06-28 22:34:22,070 [Show           ][DEBUG] 88469 감자덕후 company : SBS F!L
+2020-06-28 22:34:22,070 [Show           ][DEBUG] 88469 감자덕후 schedule : 월 오후 1:00
+2020-06-28 22:34:22,070 [Show           ][DEBUG] 88469 감자덕후 airDate : 2020.5.11~
+2020-06-28 22:34:22,070 [Show           ][DEBUG] 88469 감자덕후 epiCount : 0
+2020-06-28 22:34:27,071 [Show           ][DEBUG] 88475 집쿡라이브 파싱 - https://search.daum.net/search?w=tv&q=집쿡라이브&DA=TVS&&irk=88475&irt=tv-program
+2020-06-28 22:34:27,226 [Show           ][DEBUG] 88475 집쿡라이브 title : 집쿡라이브
+2020-06-28 22:34:27,226 [Show           ][DEBUG] 88475 집쿡라이브 status : 2
+2020-06-28 22:34:27,226 [Show           ][DEBUG] 88475 집쿡라이브 genre : 예능
+2020-06-28 22:34:27,226 [Show           ][DEBUG] 88475 집쿡라이브 comment : 스타 셰프의 노하우와 레시피를 배워보고 싶은 전국민을 위한 프로그램
+2020-06-28 22:34:27,226 [Show           ][DEBUG] 88475 집쿡라이브 company : 올리브
+2020-06-28 22:34:27,226 [Show           ][DEBUG] 88475 집쿡라이브 schedule : 일 오후 5:00
+2020-06-28 22:34:27,227 [Show           ][DEBUG] 88475 집쿡라이브 airDate : 2020.6.21~
+2020-06-28 22:34:27,227 [Show           ][DEBUG] 88475 집쿡라이브 epiCount : 2
+2020-06-28 22:34:27,390 [Show           ][INFO ] 88475 집쿡라이브 에피소드 업데이트 : 0 > 2
+2020-06-28 22:34:27,424 [Show           ][INFO ] iodides.showdown.object.Episode@234f332 에피소드 추가
+2020-06-28 22:34:27,457 [Show           ][INFO ] iodides.showdown.object.Episode@4039b46a 에피소드 추가
+2020-06-28 22:34:32,457 [Show           ][DEBUG] 88492 ILAND 파싱 - https://search.daum.net/search?w=tv&q=I-LAND&DA=TVS&&irk=88492&irt=tv-program
+2020-06-28 22:34:32,675 [Show           ][DEBUG] 88492 ILAND title : ILAND
+2020-06-28 22:34:32,675 [Show           ][DEBUG] 88492 ILAND status : 2
+2020-06-28 22:34:32,675 [Show           ][DEBUG] 88492 ILAND genre : 예능
+2020-06-28 22:34:32,675 [Show           ][DEBUG] 88492 ILAND comment : CJ ENM과 빅히트 엔터테인먼트가 지난해 3월 설립한 합작법인 ‘빌리프랩’의 첫 번째 프로젝트로 차세대 K-POP 아티스트를 탄생시켜 나가는 과정을 담은 관찰형 리얼리티 프로그램
+2020-06-28 22:34:32,675 [Show           ][DEBUG] 88492 ILAND company : Mnet
+2020-06-28 22:34:32,676 [Show           ][DEBUG] 88492 ILAND schedule : 금 오후 11:00
+2020-06-28 22:34:32,676 [Show           ][DEBUG] 88492 ILAND airDate : 2020.6.26~
+2020-06-28 22:34:32,676 [Show           ][DEBUG] 88492 ILAND epiCount : 0
