@@ -10,30 +10,47 @@ import iodides.showdown.daum.Daum;
 
 public class Showdown {
 	private static Logger log = Log.setLog();
+	
 
 	public static void main(final String[] args) { 
-		log.info("===== Showdown 시작");
-		boolean config = false;
-		if(args.length>0) config = checkConfig(args[0]);
-		else config = checkConfig("./config.json");
 		
-		boolean db = checkDB();
-
-		if (config && db) { 
-			log.info("메인 실행");
-
-			Daum daum = new Daum();
-			daum.start();
-			
-
-
-
-		}else {
-			log.info("프로그램을 종료합니다.");
+		String configFile = "./config.json";
+		boolean daumFlag = false;
+		boolean torrentFlag = false;
+		if (args.length == 0) {
+			System.out.println("Options");
+			System.out.println("-c [configfile] : Config File Location");
+			System.out.println("-d : Daum Show Search");
+			System.out.println("-t : Torrent Search");
+		} else {
+			log.info("===== Showdown 시작");
+			for (int i = 0; i < args.length; i++) {
+				if (args[i].equals("-c")) {
+					configFile = args[i + 1];
+					i = i + 1;
+				} else if (args[i].equals("-d")) {
+					daumFlag = true;
+				} else if (args[i].equals("-t")) {
+					torrentFlag = true;
+				}
+			}
+			boolean config = checkConfig(configFile);
+			boolean db = checkDB();
+			if (config && db) { 
+				log.info("메인 실행");
+	
+				if(daumFlag){
+					Daum daum = new Daum();
+					daum.start();
+				}
+				if(torrentFlag){
+	
+				}
+	
+			}else {
+				log.info("프로그램을 종료합니다.");
+			}
 		}
-
-		// try {Thread.sleep(1000 * 60 * 60);} catch (Exception e) {};
-		log.info("===== Showdown 종료");
 	}
 
 	// config 파일 체크
@@ -64,10 +81,6 @@ public class Showdown {
 			log.info("DB 연결 실패");
 			e.printStackTrace();
 		}
-
 		return result;
 	}
-
-
-
 }

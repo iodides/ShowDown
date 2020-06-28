@@ -2,7 +2,7 @@
 	"DB": {
 		"HOST":"192.168.0.80",
 		"PORT":"3306",
-		"NAME":"showdown",
+		"NAME":"showdown2",
 		"USER":"showdown",
 		"PASS":"Password!234"	
 	},

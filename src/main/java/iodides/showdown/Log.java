@@ -8,23 +8,70 @@ import org.apache.log4j.PatternLayout;
 
 
 public class Log {
-	// 로그 세팅
-	// 깃 테스트
-	public static Logger setLog() {
-		Logger log = Logger.getLogger(Log.class);
+	// 전역 로그
+
+	public static Logger setConsoleLog() {
+		//Logger log = Logger.getLogger(Log.class);
+		Logger log = Logger.getRootLogger();
 		try {
 			String layout = "%d [%-15C{1}][%-5p] %m%n";
 			//String layout = "%d   %m%n";
-			String logfilename = "showdown.log";
-			String datePattern = ".yyyy-MM-dd";
-			PatternLayout patternlayout = new PatternLayout(layout);
-			DailyRollingFileAppender fileAppender = new DailyRollingFileAppender(patternlayout, logfilename, datePattern);
 			
-			log.addAppender(fileAppender);
+			// String datePattern = ".yyyy-MM-dd";
+			// String logFileName = "showdown.log";
+			PatternLayout patternlayout = new PatternLayout(layout);
+			//DailyRollingFileAppender fileAppender = new DailyRollingFileAppender(patternlayout, logFileName, datePattern);
+			//log.addAppender(fileAppender);
+
 			ConsoleAppender consoleAppender = new ConsoleAppender(patternlayout);
+			consoleAppender.setThreshold(Level.INFO);
 		    log.addAppender(consoleAppender);
-	    	//log.setLevel(Level.INFO);
-		    log.setLevel(Level.DEBUG);
+			
+			//log.setLevel(Level.INFO);
+		} catch (Exception e) {}
+
+		return log;
+	}
+
+	public static Logger setLog(String logFileName) {
+		//Logger log = Logger.getLogger(Log.class);
+		Logger log = Logger.getRootLogger();
+		try {
+			String layout = "%d [%-15C{1}][%-5p] %m%n";
+			PatternLayout patternlayout = new PatternLayout(layout);
+			
+			String datePattern = ".yyyy-MM-dd";
+			DailyRollingFileAppender fileAppender = new DailyRollingFileAppender(patternlayout, logFileName, datePattern);
+			fileAppender.setThreshold(Level.DEBUG);
+			log.addAppender(fileAppender);
+			
+			//ConsoleAppender consoleAppender = new ConsoleAppender(patternlayout);
+			//consoleAppender.setThreshold(Level.INFO);
+		    //log.addAppender(consoleAppender);
+	    	
+		    //log.setLevel(Level.DEBUG);
+		} catch (Exception e) {}
+
+		return log;
+	}
+
+	public static Logger setLog() {
+		//Logger log = Logger.getLogger(Log.class);
+		Logger log = Logger.getRootLogger();
+		try {
+			String layout = "%d [%-15C{1}][%-5p] %m%n";
+			PatternLayout patternlayout = new PatternLayout(layout);
+			
+			String datePattern = ".yyyy-MM-dd";
+			DailyRollingFileAppender fileAppender = new DailyRollingFileAppender(patternlayout, "showdown.log", datePattern);
+			fileAppender.setThreshold(Level.DEBUG);
+			log.addAppender(fileAppender);
+			
+			ConsoleAppender consoleAppender = new ConsoleAppender(patternlayout);
+			consoleAppender.setThreshold(Level.INFO);
+		    log.addAppender(consoleAppender);
+	    	
+		    //log.setLevel(Level.DEBUG);
 		} catch (Exception e) {}
 
 		return log;
