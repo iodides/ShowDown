@@ -7,10 +7,10 @@ import org.apache.log4j.Logger;
 import iodides.showdown.Com;
 import iodides.showdown.DB;
 import iodides.showdown.Log;
-import iodides.showdown.object.Category;
-import iodides.showdown.object.Show;
+import iodides.showdown.object.DaumCategory;
+import iodides.showdown.object.DaumShow;
 
-public class Daum extends Thread {
+public class DaumSearch extends Thread {
 
     //private final static Logger log = Logger.getLogger(Log.class);
     private Logger log = Log.setLog("daum.log");
@@ -31,9 +31,9 @@ public class Daum extends Thread {
 
     private void add(){
         log.info("=== 신규 프로그램 검색 시작");
-        for(Category cat : getCategoryList()){
+        for(DaumCategory cat : getCategoryList()){
             if(cat.parse()){
-                for(Show show : cat.getShowList()){
+                for(DaumShow show : cat.getShowList()){
                     show.add();
                 }
             }
@@ -45,9 +45,9 @@ public class Daum extends Thread {
     private void update(){
         log.info("=== 프로그램 정보 업데이트 시작");
         try {
-            ArrayList<Show> sl = DB.getUpdateShowList();
-            for(Show show_db : sl){
-                Show show_web = new Show(show_db);
+            ArrayList<DaumShow> sl = DB.getUpdateShowList();
+            for(DaumShow show_db : sl){
+                DaumShow show_web = new DaumShow(show_db);
                 if(show_web.parse()){
                     show_web.compare(show_db);
                 }
@@ -61,16 +61,16 @@ public class Daum extends Thread {
 
     
 
-    private ArrayList<Category> getCategoryList(){
-        ArrayList<Category> cl = new ArrayList<Category>();
+    private ArrayList<DaumCategory> getCategoryList(){
+        ArrayList<DaumCategory> cl = new ArrayList<DaumCategory>();
 
         for(String category : dramaCategory){
-            Category cat = new Category("DRAMA", category);
+            DaumCategory cat = new DaumCategory("DRAMA", category);
             cl.add(cat);
         }
 
         for(String category : enterCategory){
-            Category cat = new Category("ENTER",category);
+            DaumCategory cat = new DaumCategory("ENTER",category);
             cl.add(cat);
         }
         return cl;

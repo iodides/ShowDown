@@ -7,8 +7,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import iodides.showdown.object.Episode;
-import iodides.showdown.object.Show;
+import iodides.showdown.object.DaumEpisode;
+import iodides.showdown.object.DaumShow;
+import iodides.showdown.object.Torrent;
+import iodides.showdown.object.TorrentSite;
 
 public class DB {
 
@@ -37,17 +39,17 @@ public class DB {
 		return result;
 	}
     
-    public static ArrayList<Show> getUpdateShowList() throws SQLException {
-        ArrayList<Show> sl = new ArrayList<Show>();
+    public static ArrayList<DaumShow> getUpdateShowList() throws SQLException {
+        ArrayList<DaumShow> sl = new ArrayList<DaumShow>();
 
         String sql =    " SELECT    SID, STYPE, TITLE, SEASON, AIRDATE, EPICOUNT, COMPANY, SCHEDULE, STATUS, GENRE, COMMENT, URL, THUMB "+
                         " FROM      SHOW_LIST "+
                         " WHERE     COMPLETE = false "+
                         " AND       STATUS != 3 ";
-        PreparedStatement pstmt = DB.conn.prepareStatement(sql);
+        PreparedStatement pstmt = conn.prepareStatement(sql);
         ResultSet rs = pstmt.executeQuery();
         while(rs.next()) {
-            Show s = new Show();
+            DaumShow s = new DaumShow();
             s.sid = rs.getString(1);
             s.type = rs.getString(2);
             s.title = rs.getString(3);
@@ -67,7 +69,7 @@ public class DB {
     }
 
 
-    public static boolean insertNewShow(Show show) throws SQLException {
+    public static boolean insertNewShow(DaumShow show) throws SQLException {
         String sql = " INSERT IGNORE INTO SHOW_LIST(SID, STYPE, TITLE, KWORD, URL) " + " VALUES(?, ?, ?, ?, ?) ";
         int cnt = 0;
         PreparedStatement pstmt = conn.prepareStatement(sql);
@@ -181,7 +183,7 @@ public class DB {
 		else return false;
 	}
 
-	public static boolean insertNewEpisode(Episode episode) throws SQLException {
+	public static boolean insertNewEpisode(DaumEpisode episode) throws SQLException {
 		int cnt = 0;
 		String sql = " INSERT IGNORE INTO EPISODE_LIST(SID, TITLE, EPINUM, AIR) " +
 					 " VALUES(?, ?, ?, ?) ";
@@ -195,11 +197,11 @@ public class DB {
 		else return false;					 
 	}
 
-	public static Episode selectEpisode(String sid) throws SQLException {
-		Episode episode = new Episode();
+	public static DaumEpisode selectEpisode(String sid) throws SQLException {
+		DaumEpisode episode = new DaumEpisode();
 		String sql = " SELECT TITLE, EPINUM, AIR FROM EPISODE_LIST"+
 					 " WHERE SID = ? ";
-		PreparedStatement ps = DB.conn.prepareStatement(sql);
+		PreparedStatement ps = conn.prepareStatement(sql);
 		ps.setString(1, sid);
 		ResultSet rs = ps.executeQuery();
 		while(rs.next()) {
@@ -211,10 +213,44 @@ public class DB {
 		return episode;
 	}
 
-	public static boolean updateEpisode(Episode episode) {
+	public static boolean updateEpisode(DaumEpisode episode) {
 		return false;
 	}
 
+	public static TorrentSite getTorrentSiteUrl(String name) throws SQLException {
+		TorrentSite ts = new TorrentSite();
+		String sql = " SELECT ID, BASE_URL FROM TORRENT_SITE_LIST WHERE NAME = ? ";
+		PreparedStatement ps = conn.prepareStatement(sql);
+		ps.setString(1, name);
+		ResultSet rs = ps.executeQuery();
+		while(rs.next()) {
+			ts.id = rs.getInt(1);
+			ts.name = name;
+			ts.baseUrl = rs.getString(2);
+		}
+		return ts;
+	}
+
+	public static boolean insertNewTorrent(Torrent torrent) throws SQLException {
+		int cnt = 0;
+		String sql = " INSERT IGNORE INTO TORRENT_LIST(SITENAME, ID, TITLE, NAME, EPI1, EPI2, AIRDATE, QUALITY, URL, MAGNET) " +
+					 " VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?) ";
+		PreparedStatement ps = conn.prepareStatement(sql);
+		ps.setString(1, torrent.siteName);
+		ps.setString(2, torrent.id);
+		ps.setString(3, torrent.title);
+		ps.setString(4, torrent.name);
+		ps.setInt(5, torrent.epi1);
+		ps.setInt(6, torrent.epi2);
+		ps.setString(7, torrent.airDate);
+		ps.setString(8, torrent.quality);
+		ps.setString(9, torrent.url);
+		ps.setString(10, torrent.magnet);
+		
+		cnt = ps.executeUpdate();
+		if (cnt > 0) return true;
+		else return false;			
+	}
 
 
 

@@ -12,7 +12,7 @@ import org.jsoup.select.Elements;
 
 import iodides.showdown.Log;
 
-public class Category {
+public class DaumCategory {
 
     private final static Logger log = Logger.getLogger(Log.class);
 
@@ -20,9 +20,9 @@ public class Category {
     private String type = "";
     private String category = "";
     private String url = "";
-    private ArrayList<Show> showList = new ArrayList<Show>();
+    private ArrayList<DaumShow> showList = new ArrayList<DaumShow>();
 
-    public Category(String type, String category){
+    public DaumCategory(String type, String category){
         this.type = type;
         this.category = category;
         this.url = baseUrl + category;
@@ -40,7 +40,7 @@ public class Category {
                 String url = (baseUrl + URLDecoder.decode(elm.attr("href"), "UTF-8")).replace("w=tot", "w=tv");
                 String title = elm.text().replaceAll("[^\uAC00-\uD7A3xfe0-9a-zA-Z\\s]", "");
                 String sid = getSid(url);
-                Show show = new Show(type, sid, title, url);
+                DaumShow show = new DaumShow(type, sid, title, url);
                 log.debug(category +" 파싱 - "+ sid + " "+ title);
                 showList.add(show);
                 result = true;
@@ -84,7 +84,7 @@ public class Category {
     }
     */
 
-    public ArrayList<Show> getShowList(){
+    public ArrayList<DaumShow> getShowList(){
         return showList;
     }
 

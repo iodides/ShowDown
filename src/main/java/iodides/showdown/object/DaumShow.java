@@ -13,7 +13,7 @@ import org.jsoup.select.Elements;
 import iodides.showdown.DB;
 import iodides.showdown.Log;
 
-public class Show {
+public class DaumShow {
 
     private final static Logger log = Logger.getLogger(Log.class);
 
@@ -31,20 +31,20 @@ public class Show {
     public String genre = "";
     public String comment = "";
     public String thumb = "";
-    public ArrayList<Episode> episodeList = new ArrayList<Episode>();
+    public ArrayList<DaumEpisode> episodeList = new ArrayList<DaumEpisode>();
 
-    public Show() {
+    public DaumShow() {
 
     }
 
-    public Show(String type, String sid, String title, String url) {
+    public DaumShow(String type, String sid, String title, String url) {
         this.type = type;
         this.sid = sid;
         this.title = title;
         this.url = url;
     }
 
-    public Show(Show show_db) {
+    public DaumShow(DaumShow show_db) {
         this.sid = show_db.sid;
         this.title = show_db.title;
         this.url = show_db.url;
@@ -54,7 +54,7 @@ public class Show {
         return DB.insertNewShow(this);
     }
 
-    public void addEpisode(Episode epi) {
+    public void addEpisode(DaumEpisode epi) {
         episodeList.add(epi);
     }
 
@@ -103,7 +103,7 @@ public class Show {
             if(tv_episode != null){     // 회차 정보가 없는 프로그램이 있으므로 null 체크
                 Elements episodes = tv_episode.select("ul.list_date li");
                 for (Element elm : episodes) {
-                    Episode episode = new Episode();
+                    DaumEpisode episode = new DaumEpisode();
                     episode.sid = this.sid;
                     episode.title = this.title;
                     episode.epiNum = Integer.parseInt("0" + elm.select(".txt_episode").text().replaceAll("[^0-9]", ""));
@@ -131,7 +131,7 @@ public class Show {
 		return result;
     }
 
-    public void compare(Show show_db) {
+    public void compare(DaumShow show_db) {
         if (!title.equals(show_db.title) && !title.equals("")){
             try {
                 if(DB.updateShowTitle(sid, title))
@@ -220,11 +220,11 @@ public class Show {
                     log.info(this + " 에피소드 업데이트 : " + show_db.epiCount + " > " + epiCount);
                     
                     // 에피소드 리스트 추가 insert 또는 update
-                    for(Episode episode : episodeList){
+                    for(DaumEpisode episode : episodeList){
                         if(DB.insertNewEpisode(episode)){
                             log.info(episode + " 에피소드 추가");
                         }else{
-                            Episode episode_db = DB.selectEpisode(sid);
+                            DaumEpisode episode_db = DB.selectEpisode(sid);
                             if(!episode.air.equals(episode_db.air)){
                                 if(DB.updateEpisode(episode)){
                                     log.info(episode + " 에피소드 업데이트 : "+ episode_db.air +" > "+ episode.air);

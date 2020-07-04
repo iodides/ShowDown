@@ -6,7 +6,8 @@ import java.sql.SQLException;
 import org.apache.log4j.Logger;
 import org.json.simple.parser.ParseException;
 
-import iodides.showdown.daum.Daum;
+import iodides.showdown.daum.DaumSearch;
+import iodides.showdown.torrent.TorrentSearch;
 
 public class Showdown {
 	private static Logger log = Log.setLog();
@@ -40,11 +41,12 @@ public class Showdown {
 				log.info("메인 실행");
 	
 				if(daumFlag){
-					Daum daum = new Daum();
+					DaumSearch daum = new DaumSearch();
 					daum.start();
 				}
 				if(torrentFlag){
-	
+					TorrentSearch torrent = new TorrentSearch();
+					torrent.start();
 				}
 	
 			}else {

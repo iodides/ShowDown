@@ -1,6 +1,6 @@
 package iodides.showdown.object;
 
-public class Episode {
+public class DaumEpisode {
     public String sid = "";
     public String title = "";
     public int epiNum = 0;
