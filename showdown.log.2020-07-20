@@ -1,0 +1,38 @@
+2020-07-21 09:24:22,555 [Showdown       ][INFO ] ===== Showdown 시작
+2020-07-21 09:24:22,568 [Showdown       ][INFO ] 설정 파일 로드
+2020-07-21 09:24:22,991 [Showdown       ][INFO ] DB 연결 성공
+2020-07-21 09:24:22,992 [Showdown       ][INFO ] 메인 실행
+2020-07-21 09:24:22,994 [MatchTorrent   ][INFO ] === Matching 시작
+2020-07-21 09:24:23,068 [MatchTorrent   ][INFO ] === Matching 완료 : 2020-07-21 09:34:23 에 다시 시작
+2020-07-21 09:25:49,036 [Showdown       ][INFO ] ===== Showdown 시작
+2020-07-21 09:25:49,048 [Showdown       ][INFO ] 설정 파일 로드
+2020-07-21 09:25:49,445 [Showdown       ][INFO ] DB 연결 성공
+2020-07-21 09:25:49,445 [Showdown       ][INFO ] 메인 실행
+2020-07-21 09:25:49,447 [MatchTorrent   ][INFO ] === Matching 시작
+2020-07-21 09:25:49,518 [MatchTorrent   ][INFO ] === Matching 완료 : 2020-07-21 09:35:49 에 다시 시작
+2020-07-21 09:27:12,244 [Showdown       ][INFO ] ===== Showdown 시작
+2020-07-21 09:27:12,256 [Showdown       ][INFO ] 설정 파일 로드
+2020-07-21 09:27:12,639 [Showdown       ][INFO ] DB 연결 성공
+2020-07-21 09:27:12,639 [Showdown       ][INFO ] 메인 실행
+2020-07-21 09:27:12,642 [MatchTorrent   ][INFO ] === Matching 시작
+2020-07-21 09:27:12,715 [MatchTorrent   ][INFO ] === Matching 완료 : 2020-07-21 09:37:12 에 다시 시작
+2020-07-21 09:37:12,716 [MatchTorrent   ][INFO ] === Matching 시작
+2020-07-21 09:37:12,780 [MatchTorrent   ][INFO ] === Matching 완료 : 2020-07-21 09:47:12 에 다시 시작
+2020-07-21 09:47:12,781 [MatchTorrent   ][INFO ] === Matching 시작
+2020-07-21 09:47:12,818 [MatchTorrent   ][INFO ] === Matching 완료 : 2020-07-21 09:57:12 에 다시 시작
+2020-07-21 09:57:12,819 [MatchTorrent   ][INFO ] === Matching 시작
+2020-07-21 09:57:12,855 [MatchTorrent   ][INFO ] === Matching 완료 : 2020-07-21 10:07:12 에 다시 시작
+2020-07-21 10:07:12,856 [MatchTorrent   ][INFO ] === Matching 시작
+2020-07-21 10:07:12,908 [MatchTorrent   ][INFO ] === Matching 완료 : 2020-07-21 10:17:12 에 다시 시작
+2020-07-21 10:17:12,910 [MatchTorrent   ][INFO ] === Matching 시작
+2020-07-21 10:17:12,981 [MatchTorrent   ][INFO ] === Matching 완료 : 2020-07-21 10:27:12 에 다시 시작
+2020-07-21 10:27:12,984 [MatchTorrent   ][INFO ] === Matching 시작
+2020-07-21 10:27:13,030 [MatchTorrent   ][INFO ] === Matching 완료 : 2020-07-21 10:37:13 에 다시 시작
+2020-07-21 10:37:13,031 [MatchTorrent   ][INFO ] === Matching 시작
+2020-07-21 10:37:13,074 [MatchTorrent   ][INFO ] === Matching 완료 : 2020-07-21 10:47:13 에 다시 시작
+2020-07-21 10:47:13,077 [MatchTorrent   ][INFO ] === Matching 시작
+2020-07-21 10:47:13,141 [MatchTorrent   ][INFO ] === Matching 완료 : 2020-07-21 10:57:13 에 다시 시작
+2020-07-21 10:57:13,142 [MatchTorrent   ][INFO ] === Matching 시작
+2020-07-21 10:57:13,197 [MatchTorrent   ][INFO ] === Matching 완료 : 2020-07-21 11:07:13 에 다시 시작
+2020-07-21 11:07:13,199 [MatchTorrent   ][INFO ] === Matching 시작
+2020-07-21 11:07:13,264 [MatchTorrent   ][INFO ] === Matching 완료 : 2020-07-21 11:17:13 에 다시 시작

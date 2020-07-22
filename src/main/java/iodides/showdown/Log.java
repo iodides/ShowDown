@@ -24,7 +24,7 @@ public class Log {
 			//log.addAppender(fileAppender);
 
 			ConsoleAppender consoleAppender = new ConsoleAppender(patternlayout);
-			consoleAppender.setThreshold(Level.INFO);
+			consoleAppender.setThreshold(Level.DEBUG);
 		    log.addAppender(consoleAppender);
 			
 			//log.setLevel(Level.INFO);

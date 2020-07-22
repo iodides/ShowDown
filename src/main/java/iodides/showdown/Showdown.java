@@ -6,23 +6,29 @@ import java.sql.SQLException;
 import org.apache.log4j.Logger;
 import org.json.simple.parser.ParseException;
 
-import iodides.showdown.daum.DaumSearch;
-import iodides.showdown.torrent.TorrentSearch;
+import iodides.showdown.crawler.CrawlerThread;
+import iodides.showdown.daum.DaumThread;
+import iodides.showdown.match.MatchThread;
 
 public class Showdown {
 	private static Logger log = Log.setLog();
 	
 
-	public static void main(final String[] args) { 
+	public static void main(String[] args) { 
+
+		args = new String[1];
+		args[0] = "-d";
 		
 		String configFile = "./config.json";
 		boolean daumFlag = false;
 		boolean torrentFlag = false;
+		boolean matchFlag = false;
 		if (args.length == 0) {
 			System.out.println("Options");
 			System.out.println("-c [configfile] : Config File Location");
 			System.out.println("-d : Daum Show Search");
 			System.out.println("-t : Torrent Search");
+			System.out.println("-m : Match & Download & Process");
 		} else {
 			log.info("===== Showdown 시작");
 			for (int i = 0; i < args.length; i++) {
@@ -33,6 +39,8 @@ public class Showdown {
 					daumFlag = true;
 				} else if (args[i].equals("-t")) {
 					torrentFlag = true;
+				} else if (args[i].equals("-m")) {
+					matchFlag = true;
 				}
 			}
 			boolean config = checkConfig(configFile);
@@ -41,12 +49,16 @@ public class Showdown {
 				log.info("메인 실행");
 	
 				if(daumFlag){
-					DaumSearch daum = new DaumSearch();
+					DaumThread daum = new DaumThread();
 					daum.start();
 				}
 				if(torrentFlag){
-					TorrentSearch torrent = new TorrentSearch();
-					torrent.start();
+					CrawlerThread crawlerThread = new CrawlerThread();
+					crawlerThread.start();
+				}
+				if (matchFlag){
+					MatchThread match = new MatchThread();
+					match.start();
 				}
 	
 			}else {
