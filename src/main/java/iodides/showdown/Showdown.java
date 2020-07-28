@@ -8,7 +8,6 @@ import org.json.simple.parser.ParseException;
 
 import iodides.showdown.crawler.CrawlerThread;
 import iodides.showdown.daum.DaumThread;
-import iodides.showdown.match.MatchThread;
 
 public class Showdown {
 	private static Logger log = Log.setLog();
@@ -57,8 +56,16 @@ public class Showdown {
 					crawlerThread.start();
 				}
 				if (matchFlag){
-					MatchThread match = new MatchThread();
-					match.start();
+				// //	MatchThread match = new MatchThread();
+				// //	match.start();
+				// 	Show show = new Show("87338", "모범형사");
+				// 	show.hd.episode(1);
+				// 	show.hd.isMonitor();
+				// 	// int a = show.hd.episodeSize();
+				// 	NewShow nshow = new NewShow();
+					
+
+					// System.out.println(show);
 				}
 	
 			}else {

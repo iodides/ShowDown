@@ -12,7 +12,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
 import iodides.showdown.DB;
-import iodides.showdown.object.Torrent;
+import iodides.showdown.object.ObjTorrent;
 
 public class Torrentube {
 
@@ -92,11 +92,13 @@ public class Torrentube {
 					String url = baseUrl + "/kt/read?p="+ id;
                     String magnet = "magnet:?xt=urn:btih:" +(String) json.get("hs");
                     
-                    Torrent torrent = new Torrent();
+                    ObjTorrent torrent = new ObjTorrent();
+                    
+                    // Torrent torrent = new Torrent();
                     torrent.setCrawlResult(siteName, id, title, url, magnet);
                     
                     if(torrent.save()) {
-                        log.info("토렌트 추가 : "+ torrent);
+                        
                         insertCnt++;
                     }
 				}

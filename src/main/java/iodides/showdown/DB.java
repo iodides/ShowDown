@@ -7,9 +7,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-
-import iodides.showdown.object.Match;
-import iodides.showdown.object.Torrent;
+import iodides.showdown.com.Utils;
+import iodides.showdown.object.Category;
+import iodides.showdown.object.Episode;
 
 public class DB {
 
@@ -33,78 +33,6 @@ public class DB {
 
 	}
 
-	// public boolean addShow() {
-	// 	boolean result = false;
-	// 	return result;
-	// }
-
-	// public static ArrayList<DaumShow> getDaumShowList(String sql) throws SQLException {
-	// 	String base_sql = " SELECT SID, STYPE, TITLE, SEASON, AIRDATE, EPICOUNT, COMPANY, SCHEDULE, STATUS, GENRE, COMMENT, URL, THUMB FROM SHOW_LIST ";
-	// 	sql = base_sql + sql;
-	// 	ArrayList<DaumShow> sl = new ArrayList<DaumShow>();
-	// 	PreparedStatement pstmt = conn.prepareStatement(sql);
-	// 	ResultSet rs = pstmt.executeQuery();
-	// 	while (rs.next()) {
-	// 		DaumShow s = new DaumShow();
-	// 		s.sid = rs.getString(1);
-	// 		s.stype = rs.getString(2);
-	// 		s.title = rs.getString(3);
-	// 		s.season = rs.getInt(4);
-	// 		s.airDate = rs.getString(5);
-	// 		s.epiCount = rs.getInt(6);
-	// 		s.company = rs.getString(7);
-	// 		s.schedule = rs.getString(8);
-	// 		s.status = rs.getInt(9);
-	// 		s.genre = rs.getString(10);
-	// 		s.comment = rs.getString(11);
-	// 		s.url = rs.getString(12);
-	// 		s.thumb = rs.getString(13);
-	// 		sl.add(s);
-	// 	}
-	// 	return sl;
-	// }
-
-	
-
-	// 업데이트 대상 쇼 리스트 조회
-	// public static ArrayList<DaumShow> getShowListUpdate() throws SQLException {
-	// 	String sql = " WHERE COMP = false AND STATUS != 3 ";
-	// 	return getDaumShowList(sql);
-	// }
-	
-
-	// 
-
-
-    // public static boolean insertNewShow(DaumShow show) throws SQLException {
-    //     String sql = " INSERT IGNORE INTO SHOW_LIST(SID, STYPE, TITLE, KWORD, URL) " + " VALUES(?, ?, ?, ?, ?) ";
-    //     int cnt = 0;
-    //     PreparedStatement pstmt = conn.prepareStatement(sql);
-    //     pstmt.setString(1, show.sid);
-    //     pstmt.setString(2, show.stype);
-    //     pstmt.setString(3, show.title);
-    //     pstmt.setString(4, show.title);
-    //     pstmt.setString(5, show.url);
-    //     cnt = pstmt.executeUpdate();
-    //     if (cnt > 0) return true;
-    //     else return false;
-    // }
-
-	// public static boolean insertNewEpisode(DaumEpisode episode) throws SQLException {
-	// 	int cnt = 0;
-	// 	String sql = " INSERT IGNORE INTO EPISODE_LIST(SID, TITLE, EPINUM, AIR) " +
-	// 				 " VALUES(?, ?, ?, ?) ";
-	// 	PreparedStatement ps = conn.prepareStatement(sql);
-	// 	ps.setString(1, episode.sid);
-	// 	ps.setString(2, episode.title);
-	// 	ps.setInt(3, episode.epiNum);
-	// 	ps.setString(4, episode.air);
-	// 	cnt = ps.executeUpdate();
-	// 	if (cnt > 0) return true;
-	// 	else return false;					 
-	// }
-
-
 	public static String getTorrentSiteUrl(String siteName) throws SQLException {
 		String baseUrl = "";
 		String sql = " SELECT BASEURL FROM TORRENT_SITE_LIST WHERE SITENAME = ? AND USEFLAG = TRUE ";
@@ -115,28 +43,6 @@ public class DB {
 			baseUrl = rs.getString(1);
 		}
 		return baseUrl;
-	}
-
-	public static boolean insertNewTorrent(Torrent torrent) throws SQLException {
-		int cnt = 0;
-		String sql = " INSERT IGNORE INTO TORRENT_LIST(SITENAME, ID, TITLE, NAME, EPI1, EPI2, AIRDATE, QUALITY, RELGROUP, URL, MAGNET) " +
-					 " VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) ";
-		PreparedStatement ps = conn.prepareStatement(sql);
-		ps.setString(1, torrent.siteName);
-		ps.setString(2, torrent.id);
-		ps.setString(3, torrent.title);
-		ps.setString(4, torrent.name);
-		ps.setInt(5, torrent.epi1);
-		ps.setInt(6, torrent.epi2);
-		ps.setString(7, torrent.airDate);
-		ps.setString(8, torrent.quality);
-		ps.setString(9, torrent.relGroup);
-		ps.setString(10, torrent.url);
-		ps.setString(11, torrent.magnet);
-		
-		cnt = ps.executeUpdate();
-		if (cnt > 0) return true;
-		else return false;			
 	}
 
 	public static ArrayList<String> getRelGroups() throws SQLException {
@@ -151,56 +57,376 @@ public class DB {
 		return relGroups;
 	}
 
-	public static Torrent findTorrent(Match episode, String quality) throws SQLException {
-		String sql = " SELECT SITENAME, ID, TITLE, URL, MAGNET FROM TORRENT_LIST "
-				+ " WHERE NAME LIKE ? "
-				+ " AND (EPI1 = ? OR EPI2 = ?) "
-				+ " AND AIRDATE = ? " 
-				+ " AND QUALITY = ? ";
-		if(!episode.relGroup.equals("")) sql = sql + " AND RELGROUP = ? ";
-		sql = sql + " ORDER BY ADDTIME DESC "
-				+ " LIMIT 1 ";
-		PreparedStatement ps = conn.prepareStatement(sql);
-		ps.setString(1, "%"+ episode.kword +"%");
-		ps.setInt(2, episode.epiNum);
-		ps.setInt(3, episode.epiNum);
-		ps.setString(4, episode.air);
-		ps.setString(5, quality);
-		if(!episode.relGroup.equals("")) ps.setString(6, episode.relGroup);
-		ResultSet rs = ps.executeQuery();
-		
-		while(rs.next()){
-			String siteName = rs.getString(1);
-			String id = rs.getString(2);
-			String title = rs.getString(3);
-			String url = rs.getString(4);
-			String magnet = rs.getString(5);
-			Torrent torrent = new Torrent(siteName, id, title, url, magnet);
-			if(magnet.equals("")) return null;
-			else return torrent;
-		}
+	
 
-		return null;
+	////////////////////////////////////////////////////////////////////////////////
+
+	public static ArrayList<Category> getCategoryList() {
+        ArrayList<Category> categoryList = new ArrayList<Category>();
+        try {
+            String sql = " SELECT CTYPE, CATEGORY FROM CATEGORY_LIST ";
+            PreparedStatement ps = DB.conn.prepareStatement(sql);
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                Category category = new Category();
+                category.ctype = rs.getString(1);
+                category.category = rs.getString(2);
+                category.url = Utils.daumBaseUrl() + "?nil_suggest=btn&w=tot&DA=SBC&q=" + rs.getString(2);
+                categoryList.add(category);
+            }
+        } catch (Exception e) {
+			e.printStackTrace();
+        }
+        return categoryList;
+	}
+
+	public static ArrayList<String> getShowIdList() {
+		ArrayList<String> idList = new ArrayList<String>();
+		String sql = " SELECT ID FROM SHOW_LIST WHERE COMP=false AND AIRSTATUS !=3 ORDER BY TYPE, TITLE ";
+		try {
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next()) {
+				idList.add(rs.getString("ID"));
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return idList;
+	}
+
+	public static boolean insertEpisode(String id, int epiNum, String air, String quality) {
+		try {
+			int cnt = 0;
+			String sql = " INSERT IGNORE INTO EPISODE_LIST(ID, EPINUM, QUALITY, AIR) VALUES(?, ?, ?, ?) ";
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1, id);
+			ps.setInt(2, epiNum);
+			ps.setString(3, quality);
+			ps.setString(4, air);
+			cnt = cnt + ps.executeUpdate();
+			if (cnt > 0)
+				return true;
+			else
+				return false;
+		} catch (Exception e) {
+		}
+		return false;
+	}
+
+	public static void updateShowTitle(String id, String title) {
+		String sql = " UPDATE SHOW_LIST SET TITLE=? WHERE ID=? ";
+		try {
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1, title);
+			ps.setString(2, id);
+			ps.executeUpdate();
+		} catch (Exception e) {
+		}
+	}
+	public static void updateShowCompany(String id, String company) {
+		String sql = " UPDATE SHOW_LIST SET COMPANY=? WHERE ID=? ";
+		try {
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1, company);
+			ps.setString(2, id);
+			ps.executeUpdate();
+		} catch (Exception e) {
+		}
+	}
+	public static void updateShowSchedule(String id, String schedule){
+		String sql = " UPDATE SHOW_LIST SET SCHEDULE=? WHERE ID=? ";
+		try {
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1, schedule);
+			ps.setString(2, id);
+			ps.executeUpdate();
+		} catch (Exception e) {
+		}
+	}
+	public static void updateShowGenre(String id, String genre) {
+		String sql = " UPDATE SHOW_LIST SET GENRE=? WHERE ID=? ";
+		try {
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1, genre);
+			ps.setString(2, id);
+			ps.executeUpdate();
+		} catch (Exception e) {
+		}
+	}
+	public static void updateShowComment(String id, String comment){
+		String sql = " UPDATE SHOW_LIST SET COMMENT=? WHERE ID=? ";
+		try {
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1, comment);
+			ps.setString(2, id);
+			ps.executeUpdate();
+		} catch (Exception e) {
+		}
+	}
+	public static void updateShowThumb(String id, String thumb){
+		String sql = " UPDATE SHOW_LIST SET THUMB=? WHERE ID=? ";
+		try {
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1, thumb);
+			ps.setString(2, id);
+			ps.executeUpdate();
+		} catch (Exception e) {
+		}
+	}
+	public static void updateShowAirStatus(String id, int airStatus) {
+		String sql = " UPDATE SHOW_LIST SET AIRSTATUS=? WHERE ID=? ";
+		try {
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setInt(1, airStatus);
+			ps.setString(2, id);
+			ps.executeUpdate();
+		} catch (Exception e) {
+		}
+	}
+	public static void updateShowLastEpi(String id, int lastEpi) {
+		String sql = " UPDATE SHOW_LIST SET LASTEPI=? WHERE ID=? ";
+		try {
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setInt(1, lastEpi);
+			ps.setString(2, id);
+			ps.executeUpdate();
+		} catch (Exception e) {
+		}
+	}
+	public static void updateShowMonitor(String id, boolean monitor) {
+		String sql = " UPDATE SHOW_LIST SET MONITOR=? WHERE ID=? ";
+		try {
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setBoolean(1, monitor);
+			ps.setString(2, id);
+			ps.executeUpdate();
+		} catch (Exception e) {
+		}
+	}
+	public static void updateShowHD(String id, boolean hd) {
+		String sql = " UPDATE SHOW_LIST SET HD=? WHERE ID=? ";
+		try {
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setBoolean(1, hd);
+			ps.setString(2, id);
+			ps.executeUpdate();
+		} catch (Exception e) {
+		}
+	}
+	public static void updateShowFHD(String id, boolean fhd) {
+		String sql = " UPDATE SHOW_LIST SET FHD=? WHERE ID=? ";
+		try {
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setBoolean(1, fhd);
+			ps.setString(2, id);
+			ps.executeUpdate();
+		} catch (Exception e) {
+		}
+	}
+	public static void updateShowMaxEpi(String id, int maxEpi) {
+		String sql = " UPDATE SHOW_LIST SET MAXEPI=? WHERE ID=? ";
+		try {
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setInt(1, maxEpi);
+			ps.setString(2, id);
+			ps.executeUpdate();
+		} catch (Exception e) {
+		}
+	}
+
+
+
+	public static String getShowTitle(String id) {
+		String sql = " SELECT TITLE FROM SHOW_LIST WHERE ID=? ";
+		String result = "";
+		try {
+			PreparedStatement ps = DB.conn.prepareStatement(sql);
+			ps.setString(1, id);
+            ResultSet rs = ps.executeQuery();
+            while (rs.next())
+				result = rs.getString(1);
+		} catch (Exception e) {
+		}
+		return result;
+	}
+	
+	public static String getShowCompany(String id) {
+		String sql = " SELECT COMPANY FROM SHOW_LIST WHERE ID=? ";
+		String result = "";
+		try {
+			PreparedStatement ps = DB.conn.prepareStatement(sql);
+			ps.setString(1, id);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next())
+				result = rs.getString(1);
+		} catch (Exception e) {
+		}
+		return result;
+	}
+
+	public static String getShowSchedule(String id) {
+		String sql = " SELECT SCHEDULE FROM SHOW_LIST WHERE ID=? ";
+		String result = "";
+		try {
+			PreparedStatement ps = DB.conn.prepareStatement(sql);
+			ps.setString(1, id);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next())
+				result = rs.getString(1);
+		} catch (Exception e) {
+		}
+		return result;
+	}
+	public static String getShowGenre(String id) {
+		String sql = " SELECT GENRE FROM SHOW_LIST WHERE ID=? ";
+		String result = "";
+		try {
+			PreparedStatement ps = DB.conn.prepareStatement(sql);
+			ps.setString(1, id);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next())
+				result = rs.getString(1);
+		} catch (Exception e) {
+		}
+		return result;
+	}
+	public static String getShowComment(String id) {
+		String sql = " SELECT COMMENT FROM SHOW_LIST WHERE ID=? ";
+		String result = "";
+		try {
+			PreparedStatement ps = DB.conn.prepareStatement(sql);
+			ps.setString(1, id);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next())
+				result = rs.getString(1);
+		} catch (Exception e) {
+		}
+		return result;
+	}
+	public static String getShowThumb(String id) {
+		String sql = " SELECT THUMB FROM SHOW_LIST WHERE ID=? ";
+		String result = "";
+		try {
+			PreparedStatement ps = DB.conn.prepareStatement(sql);
+			ps.setString(1, id);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next())
+				result = rs.getString(1);
+		} catch (Exception e) {
+		}
+		return result;
+	}
+	public static int getShowAirStatus(String id) {
+		String sql = " SELECT AIRSTATUS FROM SHOW_LIST WHERE ID=? ";
+		int result = 0;
+		try {
+			PreparedStatement ps = DB.conn.prepareStatement(sql);
+			ps.setString(1, id);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next())
+				result = rs.getInt(1);
+		} catch (Exception e) {
+		}
+		return result;
+	}
+	
+	public static int getShowLastEpi(String id) {
+		String sql = " SELECT LASTEPI FROM SHOW_LIST WHERE ID=? ";
+		int result = 0;
+		try {
+			PreparedStatement ps = DB.conn.prepareStatement(sql);
+			ps.setString(1, id);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next())
+				result = rs.getInt(1);
+		} catch (Exception e) {
+		}
+		return result;
+	}
+
+	public static boolean getShowMonitor(String id) {
+		String sql = " SELECT MONITOR FROM SHOW_LIST WHERE ID=? ";
+		boolean result = false;
+		try {
+			PreparedStatement ps = DB.conn.prepareStatement(sql);
+			ps.setString(1, id);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next())
+				result = rs.getBoolean(1);
+		} catch (Exception e) {
+		}
+		return result;
+	}
+	public static boolean getShowHD(String id) {
+		String sql = " SELECT HD FROM SHOW_LIST WHERE ID=? ";
+		boolean result = false;
+		try {
+			PreparedStatement ps = DB.conn.prepareStatement(sql);
+			ps.setString(1, id);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next())
+				result = rs.getBoolean(1);
+		} catch (Exception e) {
+		}
+		return result;
+	}
+	public static boolean getShowFHD(String id) {
+		String sql = " SELECT FHD FROM SHOW_LIST WHERE ID=? ";
+		boolean result = false;
+		try {
+			PreparedStatement ps = DB.conn.prepareStatement(sql);
+			ps.setString(1, id);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next())
+				result = rs.getBoolean(1);
+		} catch (Exception e) {
+		}
+		return result;
+	}
+
+	public static int getshowMaxEpi(String id) {
+		String sql = " SELECT MAXEPI FROM SHOW_LIST WHERE ID=? ";
+		int result = 0;
+		try {
+			PreparedStatement ps = DB.conn.prepareStatement(sql);
+			ps.setString(1, id);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next()){
+				result = rs.getInt(1);
+			}
+		} catch (Exception e) {
+			result = 0;
+		}
+		return result;
+	}
+
+	public static ArrayList<Episode> getEpisodeList(String id, String quality) {
+		String sql = " SELECT EPINUM, AIR FROM EPISODE_LIST WHERE ID=? AND QUALITY=? ";
+		ArrayList<Episode> episodeList = new ArrayList<Episode>();
+		try {
+			PreparedStatement ps = DB.conn.prepareStatement(sql);
+			ps.setString(1, id);
+			ps.setString(2, quality);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next()){
+				int epiNum = rs.getInt("EPINUM");
+				String air = rs.getString("AIR");
+				Episode episode = new Episode(epiNum, air, quality);
+				episodeList.add(episode);
+			}
+		} catch (Exception e) {
+		}
+		return episodeList;
 	}
 
 
 
 
 
-	// Category 이름을 조회
-	// public static ArrayList<String> getCategory() {
-	// 	ArrayList<String> categoryList = new ArrayList<String>();
-	// 	try {
-	// 		String sql = " SELECT CATEGORY FROM CATEGORY_LIST ORDER BY NUM ";
-	// 		PreparedStatement ps;
-	// 		ps = conn.prepareStatement(sql);
-	// 		ResultSet rs = ps.executeQuery();
-	// 		while(rs.next()) {
-	// 			categoryList.add(rs.getString(1));
-	// 		}
-	// 	} catch (SQLException e) {
-	// 		e.printStackTrace();
-	// 	}
-	// 	return categoryList;
-	// }
+	
+
+
+
+
 }

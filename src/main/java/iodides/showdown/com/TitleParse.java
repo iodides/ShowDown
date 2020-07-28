@@ -96,7 +96,7 @@ public class TitleParse {
 
 	}
 
-	public static String getAirDate(String title) {
+	public static String getAir(String title) {
 		return pmatch(title, "\\.[0-9][0-9][0-9][0-9][0-9][0-9]\\.").replace(".", "");
 	}
 
