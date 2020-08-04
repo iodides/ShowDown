@@ -7,13 +7,19 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+import org.apache.log4j.Logger;
+
+import iodides.showdown.com.TitleParse;
 import iodides.showdown.com.Utils;
 import iodides.showdown.object.Category;
 import iodides.showdown.object.Episode;
+import iodides.showdown.object.Show;
+import iodides.showdown.object.Torrent;
 
 public class DB {
 
 	public static Connection conn = null;
+	private static Logger log = Logger.getLogger(Showdown.class);
 
 	public static void Connection() throws ClassNotFoundException, SQLException {
 
@@ -61,39 +67,35 @@ public class DB {
 
 	////////////////////////////////////////////////////////////////////////////////
 
-	public static ArrayList<Category> getCategoryList() {
+	public static ArrayList<Category> getCategoryList() throws SQLException {
         ArrayList<Category> categoryList = new ArrayList<Category>();
-        try {
-            String sql = " SELECT CTYPE, CATEGORY FROM CATEGORY_LIST ";
-            PreparedStatement ps = DB.conn.prepareStatement(sql);
-            ResultSet rs = ps.executeQuery();
-            while (rs.next()) {
-                Category category = new Category();
-                category.ctype = rs.getString(1);
-                category.category = rs.getString(2);
-                category.url = Utils.daumBaseUrl() + "?nil_suggest=btn&w=tot&DA=SBC&q=" + rs.getString(2);
-                categoryList.add(category);
-            }
-        } catch (Exception e) {
-			e.printStackTrace();
-        }
+		String sql = " SELECT CTYPE, CATEGORY FROM CATEGORY_LIST ";
+		PreparedStatement ps = DB.conn.prepareStatement(sql);
+		ResultSet rs = ps.executeQuery();
+		while (rs.next()) {
+			Category category = new Category();
+			category.ctype = rs.getString(1);
+			category.category = rs.getString(2);
+			category.url = Utils.daumBaseUrl() + "?nil_suggest=btn&w=tot&DA=SBC&q=" + rs.getString(2);
+			categoryList.add(category);
+		}
         return categoryList;
 	}
 
-	public static ArrayList<String> getShowIdList() {
-		ArrayList<String> idList = new ArrayList<String>();
-		String sql = " SELECT ID FROM SHOW_LIST WHERE COMP=false AND AIRSTATUS !=3 ORDER BY TYPE, TITLE ";
-		try {
-			PreparedStatement ps = conn.prepareStatement(sql);
-			ResultSet rs = ps.executeQuery();
-			while (rs.next()) {
-				idList.add(rs.getString("ID"));
-			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-		return idList;
-	}
+	// public static ArrayList<String> getShowIdList() {
+	// 	ArrayList<String> idList = new ArrayList<String>();
+	// 	String sql = " SELECT TYPE, TITLE, ID FROM SHOW_LIST WHERE COMP=false AND AIRSTATUS !=3 GROUP BY TYPE, TITLE, ID ORDER BY TYPE, TITLE ";
+	// 	try {
+	// 		PreparedStatement ps = conn.prepareStatement(sql);
+	// 		ResultSet rs = ps.executeQuery();
+	// 		while (rs.next()) {
+	// 			idList.add(rs.getString("ID"));
+	// 		}
+	// 	} catch (SQLException e) {
+	// 		e.printStackTrace();
+	// 	}
+	// 	return idList;
+	// }
 
 	public static boolean insertEpisode(String id, int epiNum, String air, String quality) {
 		try {
@@ -401,8 +403,15 @@ public class DB {
 		return result;
 	}
 
-	public static ArrayList<Episode> getEpisodeList(String id, String quality) {
-		String sql = " SELECT EPINUM, AIR FROM EPISODE_LIST WHERE ID=? AND QUALITY=? ";
+	public static ArrayList<Episode> getEpisodeList(Show show) {
+		String id = show.getId();
+		String title = show.getTitle();
+		String type = show.getType();
+		int season = show.getSeason();
+		String kword = show.getKword();
+		String quality = show.getQuality();
+		String relGroup = show.getRelGroup();
+		String sql = " SELECT EPINUM, AIR, MONITOR, FIND, DOWN, COMP, REN, MOVE, DEL, TORRENTMAGNET, TORRENTNAME, TORRENTHASH FROM EPISODE_LIST WHERE ID=? AND QUALITY=? ";
 		ArrayList<Episode> episodeList = new ArrayList<Episode>();
 		try {
 			PreparedStatement ps = DB.conn.prepareStatement(sql);
@@ -410,23 +419,240 @@ public class DB {
 			ps.setString(2, quality);
 			ResultSet rs = ps.executeQuery();
 			while (rs.next()){
-				int epiNum = rs.getInt("EPINUM");
-				String air = rs.getString("AIR");
-				Episode episode = new Episode(epiNum, air, quality);
+				Episode episode = new Episode();
+				episode.setId(id);
+				episode.setTitle(title);
+				episode.setType(type);
+				episode.setSeason(season);
+				episode.setKword(kword);
+				episode.setEpiNum(rs.getInt("EPINUM"));
+				episode.setAir(rs.getString("AIR"));
+				episode.setQuality(quality);
+				episode.setRelGroup(relGroup);
+				episode.setMonitor(rs.getBoolean("MONITOR"));
+				episode.setFind(rs.getBoolean("FIND"));
+				episode.setDown(rs.getBoolean("DOWN"));
+				episode.setComp(rs.getBoolean("COMP"));
+				episode.setRename(rs.getBoolean("REN"));
+				episode.setMove(rs.getBoolean("MOVE"));
+				episode.setDel(rs.getBoolean("DEL"));
+				episode.setTorrentMagnet(rs.getString("TORRENTMAGNET"));
+				episode.setTorrentName(rs.getString("TORRENTNAME"));
+				episode.setTorrentHash(rs.getString("TORRENTHASH"));
 				episodeList.add(episode);
 			}
 		} catch (Exception e) {
+			log.error("DB에러(프로그램리스트조회)", e);
 		}
 		return episodeList;
 	}
 
+	public static Torrent findTorrent(String kword, int epiNum, String air, String quality, String relGroup) {
+		String sql = " SELECT TITLE, MAGNET FROM TORRENT_LIST WHERE NAME LIKE ? AND (EPI1=? OR EPI2=?) AND AIR=? AND QUALITY=? ";
+		if(!relGroup.equals("")) {
+			sql += " AND RELGROUP=? ";
+		}
+		sql += " ORDER BY ADDTIME DESC LIMIT 1";
+		try {
+			PreparedStatement ps = DB.conn.prepareStatement(sql);
+			ps.setString(1, "%"+kword+"%");
+			ps.setInt(2, epiNum);
+			ps.setInt(3, epiNum);
+			ps.setString(4, air);
+			ps.setString(5, quality);
+			if(!relGroup.equals("")) {
+				ps.setString(6, relGroup);
+			}
 
+			ResultSet rs = ps.executeQuery();
+			while (rs.next()){
+				String title = rs.getString("TITLE");
+				String magnet = rs.getString("MAGNET");
+				Torrent torrent = new Torrent(title, magnet);
+				return torrent;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
+		return null;
+	}
 
+	public static boolean insertTorrent(String siteName, String id, String title, String url, String magnet) {
+		String name = TitleParse.getName(title);
+        String quality = TitleParse.getQuality(title);
+        String air = TitleParse.getAir(title);
+        String relGroup = TitleParse.getRelGroup(title);
+        int epi1 = TitleParse.getEpi(title)[0];
+        int epi2 = TitleParse.getEpi(title)[1];
+        try{
+            int cnt = 0;
+            String sql = " INSERT IGNORE INTO TORRENT_LIST(SITENAME, ID, TITLE, NAME, EPI1, EPI2, AIR, QUALITY, RELGROUP, URL, MAGNET) " +
+                        " VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) ";
+            PreparedStatement ps = DB.conn.prepareStatement(sql);
+            ps.setString(1, siteName);
+            ps.setString(2, id);
+            ps.setString(3, title);
+            ps.setString(4, name);
+            ps.setInt(5, epi1);
+            ps.setInt(6, epi2);
+            ps.setString(7, air);
+            ps.setString(8, quality);
+            ps.setString(9, relGroup);
+            ps.setString(10, url);
+            ps.setString(11, magnet);
+            
+            cnt = ps.executeUpdate();
+            if (cnt > 0) return true;
 
-	
+        } catch(SQLException e){
+            e.printStackTrace();
+        }
+        return false;
+	}
 
+	// public static boolean updateEpisodeTorrent(String id, int epiNum, String torrentName, String torrentMagnet, String quality) {
+	// 	try {
+	// 		String sql = " UPDATE EPISODE_LIST SET TORRENTMAGNET=?, TORRENTNAME=?, FIND=true WHERE ID=? AND EPINUM=? AND QUALITY=? ";
+	// 		PreparedStatement ps = DB.conn.prepareStatement(sql);
+	// 		ps.setString(1, torrentMagnet);
+	// 		ps.setString(2, torrentName);
+	// 		ps.setString(3, id);
+	// 		ps.setInt(4, epiNum);
+	// 		ps.setString(5, quality);
+	// 		ps.executeUpdate();
+	// 		return true;
+	// 	} catch (Exception e) {
+	// 	}
+	// 	return false;
+	// }
 
+	public static boolean updateEpisode(String id, int epiNum, String quality, String col, String val) {
+		try {
+			String sql = " UPDATE EPISODE_LIST SET "+ col + "=? WHERE ID=? AND EPINUM=? AND QUALITY=? ";
+			PreparedStatement ps = DB.conn.prepareStatement(sql);
+			ps.setString(1, val);
+			ps.setString(2, id);
+			ps.setInt(3, epiNum);
+			ps.setString(4, quality);
+			ps.executeUpdate();
+			return true;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return false;
+		}
+	}
+	public static boolean updateEpisode(String id, int epiNum, String quality, String col, int val) {
+		try {
+			String sql = " UPDATE EPISODE_LIST SET "+ col + "=? WHERE ID=? AND EPINUM=? AND QUALITY=? ";
+			PreparedStatement ps = DB.conn.prepareStatement(sql);
+			ps.setInt(1, val);
+			ps.setString(2, id);
+			ps.setInt(3, epiNum);
+			ps.setString(4, quality);
+			ps.executeUpdate();
+			return true;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return false;
+		}
+	}
+	public static boolean updateEpisode(String id, int epiNum, String quality, String col, boolean val) {
+		try {
+			String sql = " UPDATE EPISODE_LIST SET "+ col + "=? WHERE ID=? AND EPINUM=? AND QUALITY=? ";
+			PreparedStatement ps = DB.conn.prepareStatement(sql);
+			ps.setBoolean(1, val);
+			ps.setString(2, id);
+			ps.setInt(3, epiNum);
+			ps.setString(4, quality);
+			ps.executeUpdate();
+			return true;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return false;
+		}
+	}
+
+	public static boolean insertShow(String id, String quality, String title, String type, String url) throws SQLException {
+		int cnt=0;
+		String sql = " INSERT IGNORE INTO SHOW_LIST(ID, QUALITY, TYPE, TITLE, KWORD, URL) " + " VALUES(?, ?, ?, ?, ?, ?) ";
+		PreparedStatement ps = DB.conn.prepareStatement(sql);
+		ps.setString(1, id);
+		ps.setString(2, quality);
+		ps.setString(3, type);
+		ps.setString(4, title);
+		ps.setString(5, title);
+		ps.setString(6, url);
+		cnt = ps.executeUpdate();
+		if(cnt>0) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public static ArrayList<Show> getUpdateList() throws SQLException {
+		ArrayList<Show> showList = new ArrayList<Show>();
+        String sql = " SELECT ID, TYPE, TITLE, KWORD, RELGROUP, SEASON, LASTEPI, MAXEPI, AIRSTATUS, MONITOR, QUALITY, COMPANY, SCHEDULE, GENRE, COMMENT, URL, THUMB, COMP FROM SHOW_LIST WHERE QUALITY = 'HD' ";
+		PreparedStatement ps = DB.conn.prepareStatement(sql);
+		ResultSet rs = ps.executeQuery();
+		while (rs.next()){
+			Show show = new Show();
+			show.setId(rs.getString("ID"));
+			show.setType(rs.getString("TYPE"));
+			show.setTitle(rs.getString("TITLE"));
+			show.setKword(rs.getString("KWORD"));
+			show.setRelGroup(rs.getString("RELGROUP"));
+			show.setSeason(rs.getInt("SEASON"));
+			show.setLastEpi(rs.getInt("LASTEPI"));
+			show.setMaxEpi(rs.getInt("MAXEPI"));
+			show.setAirStatus(rs.getInt("AIRSTATUS"));
+			show.setMonitor(rs.getBoolean("MONITOR"));
+			show.setQuality(rs.getString("QUALITY"));
+			show.setCompany(rs.getString("COMPANY"));
+			show.setSchedule(rs.getString("SCHEDULE"));
+			show.setGenre(rs.getString("GENRE"));
+			show.setComment(rs.getString("COMMENT"));
+			show.setUrl(rs.getString("URL"));
+			show.setThumb(rs.getString("THUMB"));
+			show.setComp(rs.getBoolean("COMP"));
+			showList.add(show);
+		}
+    	return showList;
+	}
+	public static ArrayList<Show> getMatchList() {
+		ArrayList<Show> showList = new ArrayList<Show>();
+		String sql = " SELECT ID, TYPE, TITLE, KWORD, RELGROUP, SEASON, LASTEPI, MAXEPI, AIRSTATUS, MONITOR, QUALITY, COMPANY, SCHEDULE, GENRE, COMMENT, URL, THUMB, COMP FROM SHOW_LIST ";
+		try {
+			PreparedStatement ps = DB.conn.prepareStatement(sql);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next()){
+				Show show = new Show();
+				show.setId(rs.getString("ID"));
+				show.setType(rs.getString("TYPE"));
+				show.setTitle(rs.getString("TITLE"));
+				show.setKword(rs.getString("KWORD"));
+				show.setRelGroup(rs.getString("RELGROUP"));
+				show.setSeason(rs.getInt("SEASON"));
+				show.setLastEpi(rs.getInt("LASTEPI"));
+				show.setMaxEpi(rs.getInt("MAXEPI"));
+				show.setAirStatus(rs.getInt("AIRSTATUS"));
+				show.setMonitor(rs.getBoolean("MONITOR"));
+				show.setQuality(rs.getString("QUALITY"));
+				show.setCompany(rs.getString("COMPANY"));
+				show.setSchedule(rs.getString("SCHEDULE"));
+				show.setGenre(rs.getString("GENRE"));
+				show.setComment(rs.getString("COMMENT"));
+				show.setUrl(rs.getString("URL"));
+				show.setThumb(rs.getString("THUMB"));
+				show.setComp(rs.getBoolean("COMP"));
+				showList.add(show);
+			}
+		} catch (Exception e) {
+			log.error("DB에러(프로그램리스트조회)", e);
+		}
+    	return showList;
+	}
 
 
 }

@@ -1,107 +1,115 @@
 package iodides.showdown.match;
 
-import java.util.ArrayList;
-
 import org.apache.log4j.Logger;
 
 import iodides.showdown.Com;
 import iodides.showdown.DB;
-import iodides.showdown.Log;
-import iodides.showdown.object.Match;
-import iodides.showdown.object.MatchList;
+import iodides.showdown.Showdown;
+
 import iodides.showdown.object.Episode;
 import iodides.showdown.object.Show;
-import iodides.showdown.object.Torrent;
 
 public class MatchThread extends Thread {
 
-    private Logger log = Log.setLog("match.log");
+    private static Logger log = Logger.getLogger(Showdown.class);
     int interval = 10 * 60; // 10분
 
     public void run() {
         while (true) {
             log.info("=== Matching 시작");
-            Find();
-            Download();
-            Process();
+            find();
+            download();
+            status();
+            rename();
+            move();
+            del();
             log.info("=== Matching 완료 : " + Com.nextTime(interval) + " 에 다시 시작");
             Com.sleep(interval);
         }
-        
+
     }
-    
-    private void Find() {
-        try {
-            for(Show show : DB.getShowIdList()){
-                show.findTorrent();
-                
-    
+
+    private void find() {
+        log.info("= Find 시작");
+        for (Show show : DB.getMatchList()) {
+            if (show.isMonitor()) {
+                for (Episode episode : DB.getEpisodeList(show)) {
+                    if (episode.isMonitor() && !episode.isFind()) {
+                        episode.find();
+                    }
+                }
             }
-        } catch (Exception e) {
-            //TODO: handle exception
         }
-        ShowList showList = new ShowList();
-        for(int i=0; i<showList.size(); i++){
-            Show show = showList.get(i);
-            if(show.hd.isMonitor()){
-                show.hd.
+        log.info("= Find 완료");
+    }
+
+    private void download() {
+        log.info("= Download 시작");
+        for (Show show : DB.getMatchList()) {
+            if (show.isMonitor()) {
+                for (Episode episode : DB.getEpisodeList(show)) {
+                    if (episode.isMonitor() && episode.isFind() && !episode.isDown()) {
+                        episode.download();
+                    }
+                }
             }
-            showList.get(i).findTorrent();
-
-            // if(show.hd.isMonitor()){
-            //     for(int j=0; j<show.hd.episodeList.size(); j++){
-            //         Episode episode = show.hd.episodeList.get(j);
-            //         if(!episode.isFind()){
-            //             Torrent torrent = DB.findTorrent(show.kword, episode.epiNum, episode.air, episode.quality, show.hd.relGroup);
-            //             if(torrent.magnet!=null){
-            //                 log.info(episode +" 토렌트 발견 - "+ torrent);
-            //                 episode.setTorrent(torrent);
-            //                 episode.save();
-            //             }
-            //         }
-            //     }
-            // }
-
-            // for(int j=0; j<show.hd.episodeList.size(); j++){
-            //     Episode episodeHD = show.hd.episodeList.get(j);
-            //     Torrent torrent = new Torrent(show.kword, episodeHD.epiNum, episodeHD.air, episodeHD.quality);
-            //     episodeHD.find(torrent);
-            //     episodeHD.save();
-
-
-            //     Episode episodeFHD = show.fhd.episodeList.get(j);
-            // }
-            // show.getStatus();
-            // EpisodeList episodeList = new EpisodeList(show);
-            // episodeList.getMatchList();
-            // for(int j=0; j<episodeList.size(); j++){
-            //     Episode episode = episodeList.get(j);
-            //     episode.matchTorrent(show);
-
-
-            // }
-
-
-
         }
-
-        
-
-        // ArrayList<Match> matchList = MatchList.getList();
-        // for (Match match : matchList) {
-        //     match.findTorrent();
-
-
-
-        
-        // }
-
+        log.info("= Download 완료");
     }
 
-    private void Process() {
+    private void status() {
+        log.info("= Status 시작");
+        for (Show show : DB.getMatchList()) {
+            if (show.isMonitor()) {
+                for (Episode episode : DB.getEpisodeList(show)) {
+                    if (episode.isMonitor() && episode.isDown() && !episode.isComp()) {
+                        episode.status();
+                    }
+                }
+            }
+        }
+        log.info("= Status 완료");
     }
 
-    private void Download() {
+    private void rename() {
+        log.info("= Rename 시작");
+        for (Show show : DB.getMatchList()) {
+            if(show.isMonitor()) {
+                for (Episode episode : DB.getEpisodeList(show)) {
+                    if (episode.isMonitor() && episode.isComp() && !episode.isRename()) {
+                        episode.rename();
+                    }
+                }
+            }
+        }
+        log.info("= Rename 완료");
     }
 
+    private void move() {
+        log.info("= Move 시작");
+        for (Show show : DB.getMatchList()) {
+            if (show.isMonitor()) {
+                for (Episode episode : DB.getEpisodeList(show)) {
+                    if (episode.isMonitor() && episode.isRename() && !episode.isMove()) {
+                        episode.move();
+                    }
+                }
+            }
+        }
+        log.info("= Move 완료");
+    }
+
+    private void del() {
+        log.info("= Del 시작");
+        for (Show show : DB.getMatchList()) {
+            if (show.isMonitor()) {
+                for (Episode episode : DB.getEpisodeList(show)) {
+                    if (episode.isMonitor() && episode.isMove() && !episode.isDel()) {
+                        episode.del();
+                    }
+                }
+            }
+        }
+        log.info("= Del 완료");
+    }
 }

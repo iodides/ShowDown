@@ -1,5 +1,7 @@
 package iodides.showdown.daum;
 
+import java.sql.SQLException;
+
 import org.apache.log4j.Logger;
 
 import iodides.showdown.Com;
@@ -28,19 +30,26 @@ public class DaumThread extends Thread {
 
     private void add() {
         log.info("=== 신규 프로그램 검색 시작");
-        for (Category category : DB.getCategoryList()) {
-            category.parse();
-            Utils.sleep(2);
+        try {
+            for (Category category : DB.getCategoryList()) {
+                category.parse();
+                Utils.sleep(2);
+            }
+        } catch (SQLException e) {
+            log.error("DB에러(카테고리리스트조회)", e);
         }
         log.info("=== 신규 프로그램 검색 완료");
     }
 
     private void update() {
         log.info("=== 프로그램 정보 업데이트 시작");
-        for (String id : DB.getShowIdList()) {
-            Show show = new Show(id);
-            show.parse();
-            Utils.sleep(2);
+        try {
+            for (Show show : DB.getUpdateList()) {
+                show.parse();
+                Utils.sleep(2);
+            }
+        } catch (SQLException e) {
+            log.error("DB에러(프로그램리스트조회)", e);
         }
         log.info("=== 프로그램 정보 업데이트 완료");
     }

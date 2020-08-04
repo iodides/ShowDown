@@ -1,0 +1,151 @@
+2020-07-30 11:02:08,874 [CrawlerThread  ][INFO ] === Torrent 검색 시작
+2020-07-30 11:06:11,629 [Torrentube     ][ERROR] TORRENTUBE 연결 실패
+javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:994)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:162)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:732)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:707)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:297)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:286)
+	at iodides.showdown.crawler.Torrentube.checkSite(Torrentube.java:53)
+	at iodides.showdown.crawler.Torrentube.init(Torrentube.java:30)
+	at iodides.showdown.crawler.CrawlerThread.run(CrawlerThread.java:20)
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.InputRecord.read(InputRecord.java:505)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:975)
+	... 13 more
+2020-07-30 11:06:11,664 [CrawlerThread  ][INFO ] === Torrent 검색 완료 : 2020-07-30 21:06:11 에 다시 시작
+2020-07-30 13:59:11,558 [CrawlerThread  ][INFO ] === Torrent 검색 시작
+2020-07-30 13:59:14,006 [Torrentube     ][INFO ] TORRENTUBE 연결 성공
+2020-07-30 13:59:15,391 [Torrentube     ][INFO ] TORRENTUBE 1페이지 검색 (0/30) 추가
+2020-07-30 13:59:17,393 [CrawlerThread  ][INFO ] === Torrent 검색 완료 : 2020-07-30 23:59:17 에 다시 시작
+2020-07-30 14:10:31,562 [CrawlerThread  ][INFO ] === Torrent 검색 시작
+2020-07-30 14:10:34,324 [Torrentube     ][INFO ] TORRENTUBE 연결 성공
+2020-07-30 14:10:35,356 [Torrentube     ][INFO ] 토렌트 추가 : TV 정보쇼 알짜왕.E181.200730.720p-NEXT
+2020-07-30 14:10:35,398 [Torrentube     ][INFO ] 토렌트 추가 : 돈플릭스.E03.200730.720p-NEXT
+2020-07-30 14:10:35,592 [Torrentube     ][INFO ] 토렌트 추가 : 셀럽뷰티2.E04.200729.720p-NEXT
+2020-07-30 14:10:35,712 [Torrentube     ][INFO ] 토렌트 추가 : 엄마가 바람났다.E64.200730.720p-NEXT
+2020-07-30 14:10:35,895 [Torrentube     ][INFO ] 토렌트 추가 : 백종원의 골목식당.E128.200729.1080p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:36,023 [Torrentube     ][INFO ] 토렌트 추가 : 트롯신이 떴다.E21.200729.1080p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:36,193 [Torrentube     ][INFO ] 토렌트 추가 : 1호가 될 순 없어 E11.200729.1080p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:36,318 [Torrentube     ][INFO ] 토렌트 추가 : 1호가 될 순 없어 E11.200729.720p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:36,409 [Torrentube     ][INFO ] 토렌트 추가 : 유 퀴즈 온 더 블럭 E65.200729.720p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:36,577 [Torrentube     ][INFO ] 토렌트 추가 : 유 퀴즈 온 더 블럭 E65.200729.1080p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:36,670 [Torrentube     ][INFO ] 토렌트 추가 : 뽕숭아학당 E12.200729.720p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:36,807 [Torrentube     ][INFO ] 토렌트 추가 : 뽕숭아학당 E12.200729.1080p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:36,964 [Torrentube     ][INFO ] 토렌트 추가 : 1호가 될 순 없어.E11.200729.720p-NEXT
+2020-07-30 14:10:37,102 [Torrentube     ][INFO ] 토렌트 추가 : 악의 꽃 E01.200729.720p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:37,483 [Torrentube     ][INFO ] 토렌트 추가 : 악의 꽃 E01.200729.1080p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:39,115 [Torrentube     ][INFO ] 토렌트 추가 : 극한직업.E5050.200729.720p-NEXT
+2020-07-30 14:10:39,820 [Torrentube     ][INFO ] 토렌트 추가 : 1호가 될 순 없어.E11.200729.720p-NEXT
+2020-07-30 14:10:40,198 [Torrentube     ][INFO ] 토렌트 추가 : 우리, 사랑했을까 E07.200729.720p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:40,591 [Torrentube     ][INFO ] 토렌트 추가 : 우리, 사랑했을까 E07.200729.1080p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:40,987 [Torrentube     ][INFO ] 토렌트 추가 : 백종원의 골목식당.E128.200729.720p-NEXT
+2020-07-30 14:10:41,163 [Torrentube     ][INFO ] 토렌트 추가 : 백종원의 골목식당.E128.200729.720p-NEXT
+2020-07-30 14:10:41,199 [Torrentube     ][INFO ] 토렌트 추가 : 라디오스타.E679.200729.720p-NEXT
+2020-07-30 14:10:41,378 [Torrentube     ][INFO ] 토렌트 추가 : 생로병사의 비밀.E743.200729.720p-NEXT
+2020-07-30 14:10:41,612 [Torrentube     ][INFO ] 토렌트 추가 : 뽕숭아 학당.E12.200729.720p-NEXT
+2020-07-30 14:10:41,691 [Torrentube     ][INFO ] 토렌트 추가 : 나는 자연인이다 E410.200729.1080p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:41,831 [Torrentube     ][INFO ] 토렌트 추가 : 라디오스타.E679.200729.720p-NEXT
+2020-07-30 14:10:41,910 [Torrentube     ][INFO ] 토렌트 추가 : 찐한 친구 E04.200729.1080p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:42,026 [Torrentube     ][INFO ] 토렌트 추가 : 악의꽃.E01.200729.720p-NEXT
+2020-07-30 14:10:42,110 [Torrentube     ][INFO ] 토렌트 추가 : 대한외국인 E94.200729.1080p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:42,182 [Torrentube     ][INFO ] 토렌트 추가 : 악의꽃.E01.200729.720p-NEXT
+2020-07-30 14:10:42,183 [Torrentube     ][INFO ] TORRENTUBE 1페이지 검색 (30/30) 추가
+2020-07-30 14:10:45,377 [Torrentube     ][INFO ] 토렌트 추가 : 박원숙의 같이 삽시다.E05.200729.720p-NEXT
+2020-07-30 14:10:45,401 [Torrentube     ][INFO ] 토렌트 추가 : 트롯신이 떴다.E21.200729.720p-NEXT
+2020-07-30 14:10:45,427 [Torrentube     ][INFO ] 토렌트 추가 : 식벤져스 E06.200729.1080p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:45,602 [Torrentube     ][INFO ] 토렌트 추가 : 주간 아이돌 E470.200729.1080p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:45,626 [Torrentube     ][INFO ] 토렌트 추가 : 침묵예능 아이콘택트.E50.200729.720p-NEXT
+2020-07-30 14:10:45,651 [Torrentube     ][INFO ] 토렌트 추가 : 트롯신이 떴다.E21.200729.720p-NEXT
+2020-07-30 14:10:45,676 [Torrentube     ][INFO ] 토렌트 추가 : 유 퀴즈 온 더 블럭.E65.200729.720p-NEXT
+2020-07-30 14:10:45,702 [Torrentube     ][INFO ] 토렌트 추가 : 출사표.E09.200729.720p-NEXT
+2020-07-30 14:10:45,780 [Torrentube     ][INFO ] 토렌트 추가 : 유 퀴즈 온 더 블럭.E65.200729.720p-NEXT
+2020-07-30 14:10:45,955 [Torrentube     ][INFO ] 토렌트 추가 : 우리 사랑했을까.E07.200729.720p-NEXT
+2020-07-30 14:10:46,084 [Torrentube     ][INFO ] 토렌트 추가 : 대한 외국인.E94.200729.720p-NEXT
+2020-07-30 14:10:46,177 [Torrentube     ][INFO ] 토렌트 추가 : 출사표.E09.200729.720p-NEXT
+2020-07-30 14:10:46,202 [Torrentube     ][INFO ] 토렌트 추가 : 나는 자연인이다.E410.200729.720p-NEXT
+2020-07-30 14:10:46,227 [Torrentube     ][INFO ] 토렌트 추가 : 십시일반.E03.200729.720p-NEXT
+2020-07-30 14:10:46,327 [Torrentube     ][INFO ] 토렌트 추가 : 십시일반.E03.200729.720p-NEXT
+2020-07-30 14:10:46,502 [Torrentube     ][INFO ] 토렌트 추가 : 대한 외국인.E94.200729.720p-NEXT
+2020-07-30 14:10:46,574 [Torrentube     ][INFO ] 토렌트 추가 : 우리 사랑했을까.E07.200729.720p-NEXT
+2020-07-30 14:10:46,669 [Torrentube     ][INFO ] 토렌트 추가 : 본격연예 한밤.E168.200729.720p-NEXT
+2020-07-30 14:10:46,866 [Torrentube     ][INFO ] 토렌트 추가 : 찐한친구.E04.200729.720p-NEXT
+2020-07-30 14:10:47,923 [Torrentube     ][INFO ] 토렌트 추가 : 관찰카메라 24.E148.200729.720p-NEXT
+2020-07-30 14:10:48,086 [Torrentube     ][INFO ] 토렌트 추가 : 식벤져스.E06.200729.720p-NEXT
+2020-07-30 14:10:48,111 [Torrentube     ][INFO ] 토렌트 추가 : 기막힌 유산.E72.200729.720p-NEXT
+2020-07-30 14:10:48,300 [Torrentube     ][INFO ] 토렌트 추가 : 퍼펙트 라이프.E07.200729.720p-NEXT
+2020-07-30 14:10:48,611 [Torrentube     ][INFO ] 토렌트 추가 : 위험한 약속.E84.200729.720p-NEXT
+2020-07-30 14:10:48,645 [Torrentube     ][INFO ] 토렌트 추가 : TOO MYSTERY 툐미스테리-좀비워.E01.200729.720p-NEXT
+2020-07-30 14:10:48,715 [Torrentube     ][INFO ] 토렌트 추가 : 2TV 생생정보.E1319.200729.720p-NEXT
+2020-07-30 14:10:48,878 [Torrentube     ][INFO ] 토렌트 추가 : 찬란한 내 인생.E23.200729.720p-NEXT
+2020-07-30 14:10:49,041 [Torrentube     ][INFO ] 토렌트 추가 : 백세누리쇼.E33.200729.720p-NEXT
+2020-07-30 14:10:49,070 [Torrentube     ][INFO ] 토렌트 추가 : 곽승준의 쿨까당.E371.200729.720p-NEXT
+2020-07-30 14:10:49,124 [Torrentube     ][INFO ] 토렌트 추가 : 쇼 챔피언.E364.200729.720p-NEXT
+2020-07-30 14:10:49,125 [Torrentube     ][INFO ] TORRENTUBE 2페이지 검색 (30/30) 추가
+2020-07-30 14:10:52,074 [Torrentube     ][INFO ] 토렌트 추가 : 주간 아이돌.E470.200729.720p-NEXT
+2020-07-30 14:10:52,107 [Torrentube     ][INFO ] 토렌트 추가 : 앙코르 20주년 인간극장.E4874.200728.720p-NEXT
+2020-07-30 14:10:52,140 [Torrentube     ][INFO ] 토렌트 추가 : 엄마가 바람났다.E63.200729.720p-NEXT
+2020-07-30 14:10:52,174 [Torrentube     ][INFO ] 토렌트 추가 : 체인지.E54.200729.720p-NEXT
+2020-07-30 14:10:52,207 [Torrentube     ][INFO ] 토렌트 추가 : 칭장에서 우랄까지 [1080P]
+2020-07-30 14:10:52,352 [Torrentube     ][INFO ] 토렌트 추가 : 코리안 몬스터-그를 만든 시간 E01.200728.720p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:52,518 [Torrentube     ][INFO ] 토렌트 추가 : 코리안 몬스터-그를 만든 시간 E01.200728.1080p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:52,574 [Torrentube     ][INFO ] 토렌트 추가 : 불타는 청춘.E264.200728.1080p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:52,607 [Torrentube     ][INFO ] 토렌트 추가 : 공부가 머니.E37.200728.720p-NEXT
+2020-07-30 14:10:52,641 [Torrentube     ][INFO ] 토렌트 추가 : 가정경제전담 수사본부.E08.200728.720p-NEXT
+2020-07-30 14:10:52,703 [Torrentube     ][INFO ] 토렌트 추가 : 아내의 맛.E108.200728.720p-NEXT
+2020-07-30 14:10:52,814 [Torrentube     ][INFO ] 토렌트 추가 : 옥탑방의 문제아들.E88.200728.720p-NEXT
+2020-07-30 14:10:52,935 [Torrentube     ][INFO ] 토렌트 추가 : 가치 들어요.E03.200728.720p-NEXT
+2020-07-30 14:10:53,008 [Torrentube     ][INFO ] 토렌트 추가 : 역사 다시보기 천일야사.E188.200728.720p-NEXT
+2020-07-30 14:10:53,487 [Torrentube     ][INFO ] 토렌트 추가 : 아내의 맛.E108.200728.720p-NEXT
+2020-07-30 14:10:53,624 [Torrentube     ][INFO ] 토렌트 추가 : 연애의 참견 시즌3.E30.200728.720p-NEXT
+2020-07-30 14:10:53,691 [Torrentube     ][INFO ] 토렌트 추가 : 여름특집 불타는 청춘.E264.200728.720p-NEXT
+2020-07-30 14:10:53,724 [Torrentube     ][INFO ] 토렌트 추가 : 옥탑방의 문제아들.E88.200728.720p-NEXT
+2020-07-30 14:10:53,749 [Torrentube     ][INFO ] 토렌트 추가 : 차이나는 클라스.E167.200728.720p-NEXT
+2020-07-30 14:10:53,774 [Torrentube     ][INFO ] 토렌트 추가 : 코리안 몬스터.E01.200728.720p-NEXT
+2020-07-30 14:10:53,799 [Torrentube     ][INFO ] 토렌트 추가 : 나는 몸신이다.E290.200728.720p-NEXT
+2020-07-30 14:10:53,825 [Torrentube     ][INFO ] 토렌트 추가 : 코리안 몬스터.E01.200728.720p-NEXT
+2020-07-30 14:10:53,883 [Torrentube     ][INFO ] 토렌트 추가 : 그놈이 그놈이다.E08.200728.720p-NEXT
+2020-07-30 14:10:53,941 [Torrentube     ][INFO ] 토렌트 추가 : 휴먼다큐 사노라면.E441.200728.720p-NEXT
+2020-07-30 14:10:53,967 [Torrentube     ][INFO ] 토렌트 추가 : TV 동물농장 우린 같이 산다.E06.200728.720p-NEXT
+2020-07-30 14:10:53,991 [Torrentube     ][INFO ] 토렌트 추가 : 그놈이 그놈이다.E08.200728.720p-NEXT
+2020-07-30 14:10:54,017 [Torrentube     ][INFO ] 토렌트 추가 : 미래수업.E04.200728.720p-NEXT
+2020-07-30 14:10:54,042 [Torrentube     ][INFO ] 토렌트 추가 : 서민 갑부.E290.200728.720p-NEXT
+2020-07-30 14:10:54,114 [Torrentube     ][INFO ] 토렌트 추가 : 모범형사.E08.200728.720p-NEXT
+2020-07-30 14:10:54,183 [Torrentube     ][INFO ] 토렌트 추가 : 모범형사.E08.200728.720p-NEXT
+2020-07-30 14:10:54,184 [Torrentube     ][INFO ] TORRENTUBE 3페이지 검색 (30/30) 추가
+2020-07-30 14:10:57,608 [Torrentube     ][INFO ] 토렌트 추가 : 비디오스타.E207.200728.720p-NEXT
+2020-07-30 14:10:57,700 [Torrentube     ][INFO ] 토렌트 추가 : 모범형사 E08.200728.720p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:57,826 [Torrentube     ][INFO ] 토렌트 추가 : 모범형사 E08.200728.1080p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:58,038 [Torrentube     ][INFO ] 토렌트 추가 : 서민갑부.E290.200728.720p-NEXT
+2020-07-30 14:10:58,116 [Torrentube     ][INFO ] 토렌트 추가 : 기막힌 유산.E71.200728.720p-NEXT
+2020-07-30 14:10:58,228 [Torrentube     ][INFO ] 토렌트 추가 : 노래가 좋아.E172.200728.720p-NEXT
+2020-07-30 14:10:58,374 [Torrentube     ][INFO ] 토렌트 추가 : 더 짠내투어.E120.200728.720p-NEXT
+2020-07-30 14:10:58,625 [Torrentube     ][INFO ] 토렌트 추가 : 엄지의 제왕.E393.200728.720p-NEXT
+2020-07-30 14:10:58,693 [Torrentube     ][INFO ] 토렌트 추가 : 미래수업 E04.200728.720p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:58,883 [Torrentube     ][INFO ] 토렌트 추가 : 미래수업 E04.200728.1080p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:10:58,991 [Torrentube     ][INFO ] 토렌트 추가 : 위험한 약속.E83.200728.720p-NEXT
+2020-07-30 14:10:59,135 [Torrentube     ][INFO ] 토렌트 추가 : 찬란한 내 인생.E22.200728.720p-NEXT
+2020-07-30 14:11:00,246 [Torrentube     ][INFO ] 토렌트 추가 : 쇼 챔피언 비하인드.E172.200728.720p-NEXT
+2020-07-30 14:11:00,414 [Torrentube     ][INFO ] 토렌트 추가 : 가정경제전담 수사본부.E08.200728.720p-NEXT
+2020-07-30 14:11:00,610 [Torrentube     ][INFO ] 토렌트 추가 : 기적의 습관.E38.200728.720p-NEXT
+2020-07-30 14:11:00,819 [Torrentube     ][INFO ] 토렌트 추가 : 생활의 발견.E696.200728.720p-NEXT
+2020-07-30 14:11:00,993 [Torrentube     ][INFO ] 토렌트 추가 : 기막힌 유산.E71.200728.720p-NEXT
+2020-07-30 14:11:01,025 [Torrentube     ][INFO ] 토렌트 추가 : 위험한 약속.E83.200728.720p-NEXT
+2020-07-30 14:11:01,104 [Torrentube     ][INFO ] 토렌트 추가 : 더 짠내투어.E120.200728.720p-NEXT
+2020-07-30 14:11:01,230 [Torrentube     ][INFO ] 토렌트 추가 : 더 짠내투어 E120.200728.720p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:11:01,328 [Torrentube     ][INFO ] 토렌트 추가 : 더 짠내투어 E120.200728.1080p.WEB-DL.x264.AAC-Deresisi
+2020-07-30 14:11:01,408 [Torrentube     ][INFO ] 토렌트 추가 : 엄마가 바람났다.E62.200728.720p-NEXT
+2020-07-30 14:11:01,442 [Torrentube     ][INFO ] 토렌트 추가 : 동상이몽2 너는 내운명.E156.200727.720p-NEXT
+2020-07-30 14:11:01,466 [Torrentube     ][INFO ] 토렌트 추가 : 그놈이 그놈이다.E07.200727.720p-NEXT
+2020-07-30 14:11:01,583 [Torrentube     ][INFO ] 토렌트 추가 : 위대한 배태랑.E09.200727.720p-NEXT
+2020-07-30 14:11:01,645 [Torrentube     ][INFO ] 토렌트 추가 : 백파더 확장판.E02.200727.720p-NEXT
+2020-07-30 14:11:01,783 [Torrentube     ][INFO ] 토렌트 추가 : 내사랑 투유.E10.200728.720p-NEXT
+2020-07-30 14:11:01,972 [Torrentube     ][INFO ] 토렌트 추가 : 부부의 발견 배우자.E02.200728.720p-NEXT
+2020-07-30 14:11:01,982 [Torrentube     ][INFO ] TORRENTUBE 4페이지 검색 (28/30) 추가
+2020-07-30 14:11:03,985 [CrawlerThread  ][INFO ] === Torrent 검색 완료 : 2020-07-31 00:11:03 에 다시 시작

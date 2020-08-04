@@ -2,8 +2,6 @@ package iodides.showdown.object;
 
 import java.io.IOException;
 import java.net.URLDecoder;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.util.ArrayList;
 
 import org.apache.log4j.Logger;
@@ -25,13 +23,15 @@ public class Show {
     private String url;
 
     private String kword;
+    private String relGroup;
     private int airStatus = 1;
     private int season = 1;
     private int lastEpi = 0;
     private int maxEpi = 0;
     private boolean monitor;
-    private boolean hd;
-    private boolean fhd;
+    private String quality;
+    // private boolean hd;
+    // private boolean fhd;
 
     private String company = "";
     private String schedule = "";
@@ -48,14 +48,14 @@ public class Show {
         this.title = title;
         this.type = type;
         this.url = url;
-        monitor = DB.getShowMonitor(id);
-        hd = DB.getShowMonitor(id);
-        fhd = DB.getShowMonitor(id);
+        // monitor = DB.getShowMonitor(id);
+        // hd = DB.getShowMonitor(id);
+        // fhd = DB.getShowMonitor(id);
 	}
 
 	@Override
     public String toString(){
-        return id +" "+ title;
+        return "* "+ id +" "+ type +" "+ title +" "+ quality +" "+ relGroup;
     }
 
 	public void parse() {
@@ -211,7 +211,7 @@ public class Show {
 
 	public void updateEpisode() {
         for(Episode episode : episodeList){
-            if(DB.insertEpisode(id, episode.epiNum, episode.air, episode.quality)){
+            if(DB.insertEpisode(id, episode.getEpiNum(), episode.getAir(), episode.getQuality())){
                 log.info(this +" "+ episode + " 추가 ");
             }
 
@@ -224,59 +224,64 @@ public class Show {
 
     public static void insertNewShow(String id, String title, String type, String url) {
         try {
-            int cnt = 0;
-            String sql = " INSERT IGNORE INTO SHOW_LIST(ID, TYPE, TITLE, KWORD, URL) " + " VALUES(?, ?, ?, ?, ?) ";
-            PreparedStatement ps = DB.conn.prepareStatement(sql);
-            ps.setString(1, id);
-            ps.setString(2, type);
-            ps.setString(3, title);
-            ps.setString(4, title);
-            ps.setString(5, url);
-            cnt = ps.executeUpdate();
-            if(cnt>0)
+            boolean hd = DB.insertShow(id, "HD", title, type, url);
+            boolean fhd = DB.insertShow(id, "FHD", title, type, url);
+            if(hd && fhd) {
                 log.info("신규 프로그램 추가 - " + id + " " + type + " " + title);
+            }
         } catch (Exception e) {
-            log.error("DB에러 - 신규 프로그램 추가 - " + id + " " + type + " " + title, e);
+            log.error("DB에러(신규 프로그램 추가) - " + id + " " + type + " " + title, e);
         }
     }
 
-    public Show(String id) {
-        this.id = id;
-        String sql = " SELECT TYPE, TITLE, KWORD, SEASON, LASTEPI, MAXEPI, AIRSTATUS, MONITOR, HD, FHD, COMPANY, SCHEDULE, GENRE, COMMENT, URL, THUMB, COMP FROM SHOW_LIST WHERE ID=? ";
-        try {
-            PreparedStatement ps = DB.conn.prepareStatement(sql);
-			ps.setString(1, id);
-			ResultSet rs = ps.executeQuery();
-			while (rs.next()){
-                setType(rs.getString("TYPE"));
-                setTitle(rs.getString("TITLE"));
-                setKword(rs.getString("KWORD"));
-                setSeason(rs.getInt("SEASON"));
-                setLastEpi(rs.getInt("LASTEPI"));
-                setMaxEpi(rs.getInt("MAXEPI"));
-                setMonitor(rs.getBoolean("MONITOR"));
-                setHD(rs.getBoolean("HD"));
-                setFHD(rs.getBoolean("FHD"));
-                setCompany(rs.getString("COMPANY"));
-                setSchedule(rs.getString("SCHEDULE"));
-                setAirStatus(rs.getInt("AIRSTATUS"));
-                setGenre(rs.getString("GENRE"));
-                setComment(rs.getString("COMMENT"));
-                setUrl(rs.getString("URL"));
-                setThumb(rs.getString("THUMB"));
-                setComp(rs.getBoolean("COMP"));
-			}
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+    // public Show(String id) {
+    //     this.id = id;
+    //     String sql = " SELECT TYPE, TITLE, KWORD, RELGROUP, SEASON, LASTEPI, MAXEPI, AIRSTATUS, MONITOR, COMPANY, SCHEDULE, GENRE, COMMENT, URL, THUMB, COMP FROM SHOW_LIST WHERE ID=? AND QUALITY = 'HD' ";
+    //     try {
+    //         PreparedStatement ps = DB.conn.prepareStatement(sql);
+	// 		ps.setString(1, id);
+	// 		ResultSet rs = ps.executeQuery();
+	// 		while (rs.next()){
+    //             type = rs.getString("TYPE");
+    //             title = rs.getString("TITLE");
+    //             kword = rs.getString("KWORD");
+    //             relGroup = rs.getString("RELGROUP");
+    //             season = rs.getInt("SEASON");
+    //             lastEpi = rs.getInt("LASTEPI");
+    //             maxEpi = rs.getInt("MAXEPI");
+    //             monitor = rs.getBoolean("MONITOR");
+    //             company = rs.getString("COMPANY");
+    //             schedule = rs.getString("SCHEDULE");
+    //             airStatus = rs.getInt("AIRSTATUS");
+    //             genre = rs.getString("GENRE");
+    //             comment = rs.getString("COMMENT");
+    //             url = rs.getString("URL");
+    //             thumb = rs.getString("THUMB");
+    //             comp = rs.getBoolean("COMP");
+	// 		}
+    //     } catch (Exception e) {
+    //         e.printStackTrace();
+    //     }
+    // }
+
+    public Show() {
+	}
 
     // getter
+    public String getId() {
+		return id;
+	}
     public String getType() {
         return type;
     }
+    public String getTitle() {
+        return title;
+    }
     public String getKword() {
         return kword;
+    }
+    public String getQuality() {
+        return quality;
     }
     public int getSeason() {
         return season;
@@ -284,72 +289,78 @@ public class Show {
     public String getUrl() {
         return url;
     }
+    public String getRelGroup() {
+        return relGroup;
+    }
     public boolean isMonitor() {
         return monitor;
-    }
-    public boolean isHD() {
-        return hd;
-    }
-    public boolean isFHD() {
-        return fhd;
     }
     public boolean isComp() {
         return comp;
     }
 
+    
+    
     // setter
-
-    private void setType(String type) {
+    
+    public void setId(String id) {
+        this.id = id;
+    }
+    public void setType(String type) {
         this.type = type;
     }
-    private void setTitle(String title) {
+    public void setTitle(String title) {
         this.title = title;
     }
-    private void setKword(String kword) {
+    public void setKword(String kword) {
         this.kword = kword;
     }
-    private void setSeason(int season) {
+    public void setRelGroup(String relGroup) {
+        this.relGroup = relGroup;
+    }
+    public void setSeason(int season) {
         this.season = season;
     }
-    private void setLastEpi(int lastEpi) {
+    public void setLastEpi(int lastEpi) {
         this.lastEpi = lastEpi;
     }
-    private void setMaxEpi(int maxEpi) {
+    public void setMaxEpi(int maxEpi) {
         this.maxEpi = maxEpi;
     }
-    private void setMonitor(boolean monitor) {
+    public void setMonitor(boolean monitor) {
         this.monitor = monitor;
     }
-    private void setHD(boolean hd) {
-        this.hd = hd;
+    public void setQuality(String quality) {
+        this.quality = quality;
     }
-    private void setFHD(boolean fhd) {
-        this.fhd = fhd;
-    }
-    private void setCompany(String company) {
+    public void setCompany(String company) {
         this.company = company;
     }
-    private void setSchedule(String schedule) {
+    public void setSchedule(String schedule) {
         this.schedule = schedule;
     }
-    private void setAirStatus(int airStatus) {
+    public void setAirStatus(int airStatus) {
         this.airStatus = airStatus;
     }
-    private void setGenre(String genre) {
+    public void setGenre(String genre) {
         this.genre = genre;
     }
-    private void setComment(String comment) {
+    public void setComment(String comment) {
         this.comment = comment;
     }
-    private void setUrl(String url) {
+    public void setUrl(String url) {
         this.url = url;
     }
-    private void setThumb(String thumb) {
+    public void setThumb(String thumb) {
         this.thumb = thumb;
     }
-    private void setComp(boolean comp) {
+    public void setComp(boolean comp) {
         this.comp = comp;
     }
+
+	
+
+
 
 
 
