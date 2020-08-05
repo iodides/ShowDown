@@ -30,8 +30,6 @@ public class Show {
     private int maxEpi = 0;
     private boolean monitor;
     private String quality;
-    // private boolean hd;
-    // private boolean fhd;
 
     private String company = "";
     private String schedule = "";
@@ -48,14 +46,11 @@ public class Show {
         this.title = title;
         this.type = type;
         this.url = url;
-        // monitor = DB.getShowMonitor(id);
-        // hd = DB.getShowMonitor(id);
-        // fhd = DB.getShowMonitor(id);
 	}
 
 	@Override
     public String toString(){
-        return "* "+ id +" "+ type +" "+ title +" "+ quality +" "+ relGroup;
+        return id +" "+ type +" "+ title;
     }
 
 	public void parse() {
@@ -112,8 +107,8 @@ public class Show {
                     String temp = elm.attr("data-clip").replaceAll("[^0-9]", "");
                     if(temp.length()==8) air = temp.substring(2);
 
-                    episodeList.add(new Episode(epiNum, air, "HD"));
-                    episodeList.add(new Episode(epiNum, air, "FHD"));
+                    episodeList.add(new Episode(id, newTitle, epiNum, air, "HD", relGroup));
+                    episodeList.add(new Episode(id, newTitle, epiNum, air, "FHD", relGroup));
 
                     if (lastEpi < epiNum)      // 최대 500개의 회차 정보만 보여주기 때문에 최종 에피소드 회차를 회차 카운트에 반영
                         lastEpi = epiNum;
@@ -212,7 +207,7 @@ public class Show {
 	public void updateEpisode() {
         for(Episode episode : episodeList){
             if(DB.insertEpisode(id, episode.getEpiNum(), episode.getAir(), episode.getQuality())){
-                log.info(this +" "+ episode + " 추가 ");
+                log.info(episode + " 추가 ");
             }
 
         }
@@ -233,36 +228,6 @@ public class Show {
             log.error("DB에러(신규 프로그램 추가) - " + id + " " + type + " " + title, e);
         }
     }
-
-    // public Show(String id) {
-    //     this.id = id;
-    //     String sql = " SELECT TYPE, TITLE, KWORD, RELGROUP, SEASON, LASTEPI, MAXEPI, AIRSTATUS, MONITOR, COMPANY, SCHEDULE, GENRE, COMMENT, URL, THUMB, COMP FROM SHOW_LIST WHERE ID=? AND QUALITY = 'HD' ";
-    //     try {
-    //         PreparedStatement ps = DB.conn.prepareStatement(sql);
-	// 		ps.setString(1, id);
-	// 		ResultSet rs = ps.executeQuery();
-	// 		while (rs.next()){
-    //             type = rs.getString("TYPE");
-    //             title = rs.getString("TITLE");
-    //             kword = rs.getString("KWORD");
-    //             relGroup = rs.getString("RELGROUP");
-    //             season = rs.getInt("SEASON");
-    //             lastEpi = rs.getInt("LASTEPI");
-    //             maxEpi = rs.getInt("MAXEPI");
-    //             monitor = rs.getBoolean("MONITOR");
-    //             company = rs.getString("COMPANY");
-    //             schedule = rs.getString("SCHEDULE");
-    //             airStatus = rs.getInt("AIRSTATUS");
-    //             genre = rs.getString("GENRE");
-    //             comment = rs.getString("COMMENT");
-    //             url = rs.getString("URL");
-    //             thumb = rs.getString("THUMB");
-    //             comp = rs.getBoolean("COMP");
-	// 		}
-    //     } catch (Exception e) {
-    //         e.printStackTrace();
-    //     }
-    // }
 
     public Show() {
 	}

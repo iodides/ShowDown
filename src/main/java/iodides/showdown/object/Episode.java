@@ -38,10 +38,13 @@ public class Episode {
     private int torrentPercent;
     private ArrayList<String> torrentFiles;
 
-    public Episode(int epiNum, String air, String quality) {
+    public Episode(String id, String title, int epiNum, String air, String quality, String relGroup) {
+        this.id = id;
+        this.title = title;
         this.epiNum = epiNum;
         this.air = air;
         this.quality = quality;
+        this.relGroup = relGroup;
     }
 
     public Episode() {
@@ -415,18 +418,4 @@ public class Episode {
     public void setTorrentPercent(int torrentPercent) {
         this.torrentPercent = torrentPercent;
     }
-
-	
-
-	
-
-	
-	
-
-	
-
-
-	
-
-	
 }

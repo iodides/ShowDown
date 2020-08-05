@@ -9,7 +9,6 @@ import org.json.simple.parser.ParseException;
 import iodides.showdown.crawler.CrawlerThread;
 import iodides.showdown.daum.DaumThread;
 import iodides.showdown.match.MatchThread;
-import iodides.showdown.object.TransmissionAPI;
 
 public class Showdown {
 	private static Logger log = Log.setLog();
@@ -17,18 +16,8 @@ public class Showdown {
 
 	public static void main(String[] args) { 
 
-
-		// try {
-		// 	log.info("aaa");
-		// 	TransmissionAPI.move("d338b5a12724ce2358e1f09c0a6335d910a36f9e", "/mnt/GDrive/My Drive/test4");
-		// 	log.info("bbb");
-			
-		// } catch (IOException e) {
-		// 	e.printStackTrace();
-		// }
-
-		args = new String[1];
-		args[0] = "-m";
+		// args = new String[1];
+		// args[0] = "-m";
 		
 		String configFile = "./config.json";
 		boolean daumFlag = false;

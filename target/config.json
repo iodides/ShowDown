@@ -1,0 +1,39 @@
+{
+	"DB": {
+		"HOST":"192.168.0.80",
+		"PORT":"3306",
+		"NAME":"showdown2",
+		"USER":"showdown",
+		"PASS":"Password!234"	
+	},
+	"SITE": {
+		"TORRENTUBE": {
+			"USE": true,
+			"URL": "https://9.torrentube.net/"
+		},
+		"SITE2": {
+			"USE": true,
+			"URL": ""
+		} 
+	},
+	"FILE": {
+		"DRAMA": {
+			"FILEFORMAT": "",
+			"LOCATION": "/share/GDrive/My Drive/test/드라마_한국"
+		},
+		"ENTER": {
+			"LOCATION": ""
+		},
+		"TV": {
+			"LOCATION": ""
+		}
+	},	
+	"TRANSMISSION": {
+		"URL": "http://192.168.0.70:39091/transmission/rpc/",
+		"USER": "qnap",
+		"PASS": "Password!234",
+		"DELETE": true
+	}
+	
+	
+}

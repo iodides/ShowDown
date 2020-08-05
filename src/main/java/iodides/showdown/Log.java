@@ -64,7 +64,7 @@ public class Log {
 			
 			String datePattern = ".yyyy-MM-dd";
 			DailyRollingFileAppender fileAppender = new DailyRollingFileAppender(patternlayout, "showdown.log", datePattern);
-			fileAppender.setThreshold(Level.DEBUG);
+			fileAppender.setThreshold(Level.INFO);
 			log.addAppender(fileAppender);
 			
 			ConsoleAppender consoleAppender = new ConsoleAppender(patternlayout);

@@ -82,21 +82,6 @@ public class DB {
         return categoryList;
 	}
 
-	// public static ArrayList<String> getShowIdList() {
-	// 	ArrayList<String> idList = new ArrayList<String>();
-	// 	String sql = " SELECT TYPE, TITLE, ID FROM SHOW_LIST WHERE COMP=false AND AIRSTATUS !=3 GROUP BY TYPE, TITLE, ID ORDER BY TYPE, TITLE ";
-	// 	try {
-	// 		PreparedStatement ps = conn.prepareStatement(sql);
-	// 		ResultSet rs = ps.executeQuery();
-	// 		while (rs.next()) {
-	// 			idList.add(rs.getString("ID"));
-	// 		}
-	// 	} catch (SQLException e) {
-	// 		e.printStackTrace();
-	// 	}
-	// 	return idList;
-	// }
-
 	public static boolean insertEpisode(String id, int epiNum, String air, String quality) {
 		try {
 			int cnt = 0;
@@ -510,22 +495,6 @@ public class DB {
         }
         return false;
 	}
-
-	// public static boolean updateEpisodeTorrent(String id, int epiNum, String torrentName, String torrentMagnet, String quality) {
-	// 	try {
-	// 		String sql = " UPDATE EPISODE_LIST SET TORRENTMAGNET=?, TORRENTNAME=?, FIND=true WHERE ID=? AND EPINUM=? AND QUALITY=? ";
-	// 		PreparedStatement ps = DB.conn.prepareStatement(sql);
-	// 		ps.setString(1, torrentMagnet);
-	// 		ps.setString(2, torrentName);
-	// 		ps.setString(3, id);
-	// 		ps.setInt(4, epiNum);
-	// 		ps.setString(5, quality);
-	// 		ps.executeUpdate();
-	// 		return true;
-	// 	} catch (Exception e) {
-	// 	}
-	// 	return false;
-	// }
 
 	public static boolean updateEpisode(String id, int epiNum, String quality, String col, String val) {
 		try {
