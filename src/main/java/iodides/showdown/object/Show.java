@@ -118,8 +118,8 @@ public class Show {
                     episodeList.add(new Episode(id, newTitle, epiNum, air, "HD", relGroup));
                     episodeList.add(new Episode(id, newTitle, epiNum, air, "FHD", relGroup));
 
-                    if (lastEpi < epiNum) // 최대 500개의 회차 정보만 보여주기 때문에 최종 에피소드 회차를 회차 카운트에 반영
-                        lastEpi = epiNum;
+                    if (newLastEpi < epiNum) // 최대 500개의 회차 정보만 보여주기 때문에 최종 에피소드 회차를 회차 카운트에 반영
+                        newLastEpi = epiNum;
                 }
             }
             log.debug(this + " title : " + title);

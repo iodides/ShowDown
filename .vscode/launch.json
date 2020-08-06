@@ -15,6 +15,7 @@
             "name": "Debug (Launch)-Showdown<showdown>",
             "request": "launch",
             "mainClass": "iodides.showdown.Showdown",
+            "args": "-m",
             "projectName": "showdown"
         }
     ]

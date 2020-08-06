@@ -440,7 +440,7 @@ public class DB {
 		sql += " ORDER BY ADDTIME DESC LIMIT 1";
 		try {
 			PreparedStatement ps = DB.conn.prepareStatement(sql);
-			ps.setString(1, "%"+kword+"%");
+			ps.setString(1, "%"+kword.replace(" ", "")+"%");
 			ps.setInt(2, epiNum);
 			ps.setInt(3, epiNum);
 			ps.setString(4, air);

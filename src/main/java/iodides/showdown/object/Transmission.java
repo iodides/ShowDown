@@ -65,6 +65,8 @@ public class Transmission {
         statusName = "다운로드중";
       } else if (status==6) {
         statusName = "시딩중";
+      } else if (status==3) {
+        statusName = "대기중";
       }
       setFinish();
 	  }

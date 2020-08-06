@@ -8,7 +8,7 @@ import iodides.showdown.com.Utils;
 public class CrawlerThread extends Thread {
 
     private static Logger log = Logger.getLogger(Log.class);
-    int interval = 10 * 60 * 60;    // 10시간
+    int interval = 1 * 60 * 60;    // 10시간
 
     public void run(){
 
