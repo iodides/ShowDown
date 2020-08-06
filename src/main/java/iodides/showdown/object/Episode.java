@@ -6,13 +6,13 @@ import java.util.ArrayList;
 import org.apache.log4j.Logger;
 
 import iodides.showdown.DB;
-import iodides.showdown.Showdown;
 import iodides.showdown.com.TitleParse;
 import iodides.showdown.com.Utils;
+import iodides.showdown.match.MatchThread;
 
 public class Episode {
 
-    private static Logger log = Logger.getLogger(Showdown.class);
+    private static Logger log = Logger.getLogger(MatchThread.class);
 
     private String id;
     private String title;

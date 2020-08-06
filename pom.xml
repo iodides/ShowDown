@@ -74,6 +74,7 @@
   </dependencies>
 
   <build>
+    <finalName>showdown</finalName>
       <plugins>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>

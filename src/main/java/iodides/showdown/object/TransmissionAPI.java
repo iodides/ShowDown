@@ -10,24 +10,24 @@ import java.util.Base64;
 import java.util.HashMap;
 
 import org.apache.commons.io.IOUtils;
-import org.apache.log4j.Logger;
+// import org.apache.log4j.Logger;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-import iodides.showdown.Showdown;
+// import iodides.showdown.Showdown;
 
 public class TransmissionAPI {
 
-    private static Logger log = Logger.getLogger(Showdown.class);
+    // private static Logger log = Logger.getLogger(Showdown.class);
 
     private static String url = "http://192.168.0.100:49091/transmission/rpc/";
     private static String id = "plex";
     private static String pw = "Password!234";
 
     private static JSONObject tran(JSONObject send) throws IOException {
-        log.debug("Transmission send : " + send);
+        // log.debug("Transmission send : " + send);
 
         String sessionID = getSessionID();
         JSONObject result = new JSONObject();
@@ -55,7 +55,7 @@ public class TransmissionAPI {
         is = httpconn.getInputStream();
 
         String receive = IOUtils.toString(is, "UTF-8");
-        log.debug("Transmission receive : " + receive);
+        // log.debug("Transmission receive : " + receive);
 
         JSONParser parser = new JSONParser();
         try {

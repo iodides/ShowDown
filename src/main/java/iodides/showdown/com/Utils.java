@@ -6,6 +6,10 @@ import java.util.Date;
 
 public class Utils {
 
+    public static boolean daumFlag = true;
+    public static boolean torrentFlag = true;
+    public static boolean matchFlag = true;
+
     public static String daumBaseUrl(){
         return "https://search.daum.net/search";
     }

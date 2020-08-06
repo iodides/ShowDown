@@ -4,7 +4,6 @@ import java.sql.SQLException;
 
 import org.apache.log4j.Logger;
 
-import iodides.showdown.Com;
 import iodides.showdown.DB;
 import iodides.showdown.Log;
 import iodides.showdown.com.Utils;
@@ -13,8 +12,7 @@ import iodides.showdown.object.Show;
 
 public class DaumThread extends Thread {
 
-    // private final static Logger log = Logger.getLogger(Log.class);
-    private Logger log = Log.setLog("daum.log");
+    private static Logger log = Logger.getLogger(Log.class);
     int interval = 12 * 60 * 60; // 12시간
 
     public void run() {
@@ -23,8 +21,14 @@ public class DaumThread extends Thread {
             log.info("=== Daum 검색 시작");
             add();
             update();
-            log.info("=== Daum 검색 완료 : " + Com.nextTime(interval) + " 에 다시 시작");
-            Com.sleep(interval);
+            if (Utils.daumFlag) {
+                log.info("=== Daum 검색 완료 : " + Utils.nextTime(interval) + " 에 다시 시작");
+                Utils.sleep(interval);
+
+            } else {
+                log.info("=== Daum 검색 완료");
+                break;
+            }
         }
     }
 

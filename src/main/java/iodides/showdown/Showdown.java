@@ -6,48 +6,57 @@ import java.sql.SQLException;
 import org.apache.log4j.Logger;
 import org.json.simple.parser.ParseException;
 
+import iodides.showdown.com.Utils;
 import iodides.showdown.crawler.CrawlerThread;
 import iodides.showdown.daum.DaumThread;
 import iodides.showdown.match.MatchThread;
 
 public class Showdown {
 	private static Logger log = Log.setLog();
-	
 
-	public static void main(String[] args) { 
+	public static void main(String[] args) {
 
+		// Logger log = Logger..getLogger("daumInfo");
 		// args = new String[1];
 		// args[0] = "-m";
-		
+
 		String configFile = "./config.json";
+		String version = "1.0";
 		boolean daumFlag = false;
 		boolean torrentFlag = false;
 		boolean matchFlag = false;
 		if (args.length == 0) {
-			System.out.println("Options");
-			System.out.println("-c [configfile] : Config File Location");
-			System.out.println("-d : Daum Show Search");
-			System.out.println("-t : Torrent Search");
-			System.out.println("-m : Match & Download & Process");
+
+			System.out.println("Please Select Options");
+			System.out.println("-s : Start Showdown");
+			System.out.println("-v : Show version");
+			// System.out.println("-c [configfile] : Config File Location");
+			System.out.println("-d : Daum Show Search (1time)");
+			System.out.println("-t : Torrent Search (1time)");
+			System.out.println("-m : Match & Download & Process (1time)");
 		} else {
 			log.info("===== Showdown 시작");
-			for (int i = 0; i < args.length; i++) {
-				if (args[i].equals("-c")) {
-					configFile = args[i + 1];
-					i = i + 1;
-				} else if (args[i].equals("-d")) {
-					daumFlag = true;
-				} else if (args[i].equals("-t")) {
-					torrentFlag = true;
-				} else if (args[i].equals("-m")) {
-					matchFlag = true;
-				}
-			}
 			boolean config = checkConfig(configFile);
 			boolean db = checkDB();
 			if (config && db) { 
 				log.info("메인 실행");
-	
+				if (args[0].equals("-v")) {
+					System.out.println("Showdown2 Version : "+ version);
+				} else if (args[0].equals("-s")) {
+					daumFlag = true;
+					torrentFlag = true;
+					matchFlag = true;
+				} else if (args[0].equals("-d")) {
+					daumFlag = true;
+					Utils.daumFlag = false;
+				} else if (args[0].equals("-t")) {
+					torrentFlag = true;
+					Utils.torrentFlag = false;
+				} else if (args[0].equals("-m")) {
+					matchFlag = true;
+					Utils.matchFlag = false;
+				}
+
 				if(daumFlag){
 					DaumThread daum = new DaumThread();
 					daum.start();
@@ -60,8 +69,7 @@ public class Showdown {
 					MatchThread match = new MatchThread();
 					match.start();
 				}
-	
-			}else {
+			} else {
 				log.info("프로그램을 종료합니다.");
 			}
 		}
@@ -75,11 +83,9 @@ public class Showdown {
 			log.info("설정 파일 로드");
 			result = true;
 		} catch (IOException e) {
-			log.info("설정파일을 읽을 수 없습니다.");
-			e.printStackTrace();
+			log.error("설정파일을 읽을 수 없습니다.", e);
 		} catch (ParseException e) {
-			log.info("설정파일 내용에 오류가 있습니다.");
-			e.printStackTrace();
+			log.error("설정파일 내용에 오류가 있습니다.", e);
 		}
 		return result;
 	}
@@ -92,8 +98,7 @@ public class Showdown {
 			log.info("DB 연결 성공");
 			result = true;
 		} catch (ClassNotFoundException | SQLException e) {
-			log.info("DB 연결 실패");
-			e.printStackTrace();
+			log.error("DB 연결 실패", e);
 		}
 		return result;
 	}

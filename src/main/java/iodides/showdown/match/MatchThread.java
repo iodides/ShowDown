@@ -2,16 +2,15 @@ package iodides.showdown.match;
 
 import org.apache.log4j.Logger;
 
-import iodides.showdown.Com;
 import iodides.showdown.DB;
-import iodides.showdown.Showdown;
-
+import iodides.showdown.Log;
+import iodides.showdown.com.Utils;
 import iodides.showdown.object.Episode;
 import iodides.showdown.object.Show;
 
 public class MatchThread extends Thread {
 
-    private static Logger log = Logger.getLogger(Showdown.class);
+    private static Logger log = Logger.getLogger(Log.class);
     int interval = 10 * 60; // 10분
 
     public void run() {
@@ -23,8 +22,14 @@ public class MatchThread extends Thread {
             rename();
             move();
             del();
-            log.info("=== Matching 완료 : " + Com.nextTime(interval) + " 에 다시 시작");
-            Com.sleep(interval);
+
+            if (Utils.matchFlag) {
+                log.info("=== Matching 완료 : " + Utils.nextTime(interval) + " 에 다시 시작");
+                Utils.sleep(interval);
+            } else {
+                log.info("=== Matching 완료");
+                break;
+            }
         }
 
     }

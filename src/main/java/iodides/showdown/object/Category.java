@@ -9,12 +9,12 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import iodides.showdown.Showdown;
 import iodides.showdown.com.Utils;
+import iodides.showdown.daum.DaumThread;
 
 public class Category {
 
-    private static Logger log = Logger.getLogger(Showdown.class);
+    private static Logger log = Logger.getLogger(DaumThread.class);
     public String ctype = "";
     public String category = "";
     public String url = "";
