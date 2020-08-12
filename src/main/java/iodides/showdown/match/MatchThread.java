@@ -1,5 +1,7 @@
 package iodides.showdown.match;
 
+import java.util.ArrayList;
+
 import org.apache.log4j.Logger;
 
 import iodides.showdown.DB;
@@ -36,7 +38,8 @@ public class MatchThread extends Thread {
 
     private void find() {
         log.info("= Find 시작");
-        for (Show show : DB.getMatchList()) {
+        ArrayList<Show> showList = DB.getMatchList();
+        for (Show show : showList) {
             if (show.isMonitor()) {
                 for (Episode episode : DB.getEpisodeList(show)) {
                     int epiAir = Integer.parseInt(episode.getAir());
@@ -47,6 +50,10 @@ public class MatchThread extends Thread {
                         }
                     }
                 }
+            }
+        }
+        for (Show show : showList) {
+            if (show.isMonitor()) {
                 for (Episode episode : DB.getEpisodeList(show)) {
                     int epiAir = Integer.parseInt(episode.getAir());
                     int curAir = Integer.parseInt(Utils.currentDate());
