@@ -131,7 +131,7 @@ public class Show {
             log.debug(this + " lastEpi : " + lastEpi);
             log.debug(this + " maxEp : " + maxEpi);
 
-            updateTitle(newTitle);
+            // updateTitle(newTitle);
             updateCompany(newCompany);
             updateSchedule(newSchedule);
             updateGenre(newGenre);
