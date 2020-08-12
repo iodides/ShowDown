@@ -45,13 +45,16 @@ public class MatchThread extends Thread {
                         if (episode.isMonitor() && !episode.isFind()) {
                             episode.find();
                         }
-                    } else if (curAir>epiAir) {
+                    }
+                }
+                for (Episode episode : DB.getEpisodeList(show)) {
+                    int epiAir = Integer.parseInt(episode.getAir());
+                    int curAir = Integer.parseInt(Utils.currentDate());
+                    if (curAir==epiAir) {
                         if (episode.isMonitor() && !episode.isFind()) {
                             episode.find();
                         }
                     }
-
-
                 }
             }
         }
