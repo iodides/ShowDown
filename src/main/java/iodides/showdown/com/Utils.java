@@ -31,6 +31,17 @@ public class Utils {
         cal.add(Calendar.SECOND,interval);
         result = sd.format(cal.getTime());
 		return result;
-	}
+    }
+
+    public static String currentDate() {
+        String result = "";
+        SimpleDateFormat sd = new SimpleDateFormat("yyMMdd");
+        Date date = new Date();
+        Calendar cal= Calendar.getInstance();
+        cal.setTime(date);
+        result = sd.format(cal.getTime());
+		return result;
+    }
+    
     
 }

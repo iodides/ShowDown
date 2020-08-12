@@ -11,7 +11,10 @@ public class TitleParse {
 
 	public static String getName(String title) {
 		// 문자열 비교를 위해 특수문자 제거, 공백제거, 소문자화
-		return title.split("\\.")[0].replaceAll("[^\uAC00-\uD7A3xfe0-9a-zA-Z\\s]", "").replaceAll(" ","").toLowerCase();
+		String temp = title.split("\\.")[0].replaceAll("[^\uAC00-\uD7A3xfe0-9a-zA-Z\\s]", "").replaceAll(" ","").toLowerCase();
+		temp = temp.replaceAll("  "," ");
+		temp = temp.replaceAll("  "," ");
+		return temp;
 	}
 
 	public static int[] getEpi(String title) {

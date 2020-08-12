@@ -20,8 +20,8 @@ public class MatchThread extends Thread {
             download();
             status();
             rename();
-            move();
-            del();
+            // move();
+            // del();
 
             if (Utils.matchFlag) {
                 log.info("=== Matching 완료 : " + Utils.nextTime(interval) + " 에 다시 시작");
@@ -39,9 +39,19 @@ public class MatchThread extends Thread {
         for (Show show : DB.getMatchList()) {
             if (show.isMonitor()) {
                 for (Episode episode : DB.getEpisodeList(show)) {
-                    if (episode.isMonitor() && !episode.isFind()) {
-                        episode.find();
+                    int epiAir = Integer.parseInt(episode.getAir());
+                    int curAir = Integer.parseInt(Utils.currentDate());
+                    if (curAir>epiAir) {
+                        if (episode.isMonitor() && !episode.isFind()) {
+                            episode.find();
+                        }
+                    } else if (curAir>epiAir) {
+                        if (episode.isMonitor() && !episode.isFind()) {
+                            episode.find();
+                        }
                     }
+
+
                 }
             }
         }
@@ -77,44 +87,50 @@ public class MatchThread extends Thread {
     }
 
     private void rename() {
-        log.info("= Rename 시작");
+        log.info("= Torrent Process 시작");
         for (Show show : DB.getMatchList()) {
             if(show.isMonitor()) {
                 for (Episode episode : DB.getEpisodeList(show)) {
                     if (episode.isMonitor() && episode.isComp() && !episode.isRename()) {
                         episode.rename();
                     }
-                }
-            }
-        }
-        log.info("= Rename 완료");
-    }
-
-    private void move() {
-        log.info("= Move 시작");
-        for (Show show : DB.getMatchList()) {
-            if (show.isMonitor()) {
-                for (Episode episode : DB.getEpisodeList(show)) {
                     if (episode.isMonitor() && episode.isRename() && !episode.isMove()) {
                         episode.move();
                     }
-                }
-            }
-        }
-        log.info("= Move 완료");
-    }
-
-    private void del() {
-        log.info("= Del 시작");
-        for (Show show : DB.getMatchList()) {
-            if (show.isMonitor()) {
-                for (Episode episode : DB.getEpisodeList(show)) {
                     if (episode.isMonitor() && episode.isMove() && !episode.isDel()) {
                         episode.del();
                     }
                 }
             }
         }
-        log.info("= Del 완료");
+        log.info("= Torrent Process 완료");
     }
+
+    // private void move() {
+    //     log.info("= Move 시작");
+    //     for (Show show : DB.getMatchList()) {
+    //         if (show.isMonitor()) {
+    //             for (Episode episode : DB.getEpisodeList(show)) {
+    //                 if (episode.isMonitor() && episode.isRename() && !episode.isMove()) {
+    //                     episode.move();
+    //                 }
+    //             }
+    //         }
+    //     }
+    //     log.info("= Move 완료");
+    // }
+
+    // private void del() {
+    //     log.info("= Del 시작");
+    //     for (Show show : DB.getMatchList()) {
+    //         if (show.isMonitor()) {
+    //             for (Episode episode : DB.getEpisodeList(show)) {
+    //                 if (episode.isMonitor() && episode.isMove() && !episode.isDel()) {
+    //                     episode.del();
+    //                 }
+    //             }
+    //         }
+    //     }
+    //     log.info("= Del 완료");
+    // }
 }

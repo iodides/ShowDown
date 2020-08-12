@@ -16,10 +16,6 @@ public class Showdown {
 
 	public static void main(String[] args) {
 
-		// Logger log = Logger..getLogger("daumInfo");
-		// args = new String[1];
-		// args[0] = "-m";
-
 		String configFile = "./config.json";
 		String version = "1.0";
 		boolean daumFlag = false;

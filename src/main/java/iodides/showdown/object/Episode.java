@@ -60,13 +60,21 @@ public class Episode {
     }
 
     public void find() {
+        String dateType = "";
+        int curAir = Integer.parseInt(Utils.currentDate());
+        int epiAir = Integer.parseInt(air);
+        if (curAir>epiAir) {
+            dateType = "지난 방영일";
+        }else if (curAir==epiAir) {
+            dateType = "오늘 방영";
+        }
         try {
             if (findTransmission()) { // 트랜스미션에서 검색
-                log.info(this + " 트랜스미션에서 발견 - " + torrentName);
+                log.info(dateType +" "+ this + " 트랜스미션에서 발견 - " + torrentName);
             } else if (findTorrent()) { // 없으면 토렌트DB에서 검색
-                log.info(this + " 토렌트 발견 - " + torrentName);
+                log.info(dateType +" "+ this + " 토렌트 발견 - " + torrentName);
             } else {
-                log.info(this + " 토렌트 없음");
+                log.info(dateType +" "+ this + " 토렌트 없음");
             }
         } catch (IOException e) {
             log.error("트랜스미션 에러", e);
@@ -193,19 +201,11 @@ public class Episode {
     public void rename() {
         try {
             torrentFiles = TransmissionAPI.status(torrentHash).getFiles();
-            String fileExt = "";
             String newName = "";
             String qualityName = "";
+            String epiName = "";
             String seasonName = "";
-            for(String fileName : torrentFiles) {
-                if (fileName.contains("mp4")) {
-                    fileExt = ".mp4";
-                } else if (fileName.contains("mkv")) {
-                    fileExt = ".mkv";
-                } else if (fileName.contains("avi")) {
-                    fileExt = ".avi";
-                }
-            }
+            String seasonFolder = "";
     
             if (quality.equals("HD")) {
                 qualityName = "720P";
@@ -215,31 +215,66 @@ public class Episode {
 
             if (season<10) {
                 seasonName = "S0"+season;
+                seasonFolder = "Season 0"+season;
             }else {
                 seasonName = "S"+season;
+                seasonFolder = "Season "+season;
             }
 
-    
             if (epiNum < 10) {
-                newName = title +"."+ seasonName +"E0" + epiNum + "." + air + "." + qualityName +"."+ relGroup + fileExt;
+                epiName = "E0"+epiNum;
             } else {
-                newName = title +"."+ seasonName +"E" + epiNum + "." + air + "." + qualityName +"."+ relGroup + fileExt;
+                epiName = "E"+epiNum;
             }
-    
-            if (TransmissionAPI.rename(torrentHash, newName)) {
-                DB.updateEpisode(id, epiNum, quality, "REN", true);
-                this.rename = true;
-                log.info(this +" 파일명 변경 - "+ newName);
-            }else {
-                log.info(this +" 파일명 변경 실패");
+
+            // 만약 폴더없이 파일이 1개면, '토렌트' 의 이름을 새로운 파일명으로 변경하고,
+            // 파일 이동시 시즌폴더 이후로 이동한다.
+            // 만약 폴더안에 파일이 여러개 존재하면, '토렌트' 의 이름은 시즌이름으로 변경하고,
+            // 폴더내의 파일은 영상 파일을 이름을 새로운 파일명으로 변경하고,
+            // 파일 이동시 쇼이름 이후로 이동한다.
+
+            for(String fileName : torrentFiles) {
+                if (fileName.contains(".mp4") || fileName.contains(".mkv") || fileName.contains(".avi")) {
+                    if (fileName.contains(".mp4")) {
+                        newName = title +"."+ seasonName + epiName + "." + air + "." + qualityName +"."+ relGroup + ".mp4";
+                    } else if (fileName.contains(".mkv")) {
+                        newName = title +"."+ seasonName + epiName + "." + air + "." + qualityName +"."+ relGroup + ".mkv";
+                    } else if (fileName.contains(".avi")) {
+                        newName = title +"."+ seasonName + epiName + "." + air + "." + qualityName +"."+ relGroup + ".avi";
+                    }
+                    if (TransmissionAPI.rename(torrentHash, fileName, newName)) {
+                        DB.updateEpisode(id, epiNum, quality, "REN", true);
+                        this.rename = true;
+                        log.info(this +" 파일명 변경 - "+ newName);
+                    }else {
+                        log.info(this +" 파일명 변경 실패");
+                    }
+                    
+                }
             }
-        } catch (IOException e) {
+            if(torrentFiles.size()>1) {
+                if (season>1) {
+                    if (TransmissionAPI.rename(torrentHash, seasonFolder)) {
+                        log.info(this +" 토렌트명 변경 - "+ seasonFolder);
+                    } else {
+                        log.info(this +" 토렌트명 변경 실패");
+                    }
+                } else {
+                    if (TransmissionAPI.rename(torrentHash, title)) {
+                        log.info(this +" 토렌트명 변경 - "+ title);
+                    } else {
+                        log.info(this +" 토렌트명 변경 실패");
+                    }
+                }
+            }
+        } catch(IOException e) {
             log.error("트랜스미션 에러 - "+ this, e);
         }
     }
 
     public void move() {
-        String baseLocation = "/mnt/GDrive/My Drive/Media/Plex";
+        // String baseLocation = "/mnt/GDrive/My Drive/Media/Plex";
+        String baseLocation = "/share/GDrive/My Drive/Media/Plex";
         String seasonFolder = "";
         String location = "";
         String libraryName = "";
@@ -255,12 +290,20 @@ public class Episode {
         } else {
             seasonFolder = "Season "+season;
         }
-
-        if (season==1) {
-            location = baseLocation +"/"+ libraryName +"/"+ title +"/";            
+        if (torrentFiles.size()>1) {
+            if (season==1) {
+                location = baseLocation +"/"+ libraryName +"/";
+            } else {
+                location = baseLocation +"/"+ libraryName +"/"+ title +"/";
+            }
         } else {
-            location = baseLocation +"/"+ libraryName +"/"+ title +"/"+ seasonFolder +"/";
+            if (season==1) {
+                location = baseLocation +"/"+ libraryName +"/"+ title +"/";
+            } else {
+                location = baseLocation +"/"+ libraryName +"/"+ title +"/"+ seasonFolder +"/";
+            }
         }
+
         try {
             if (TransmissionAPI.move(torrentHash, location)) {
                 DB.updateEpisode(id, epiNum, quality, "MOVE", true);

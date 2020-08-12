@@ -74,8 +74,7 @@ public class Show {
             if (tv_program == null)
                 throw new IOException();
 
-            newTitle = tv_program.select("div.tit_program strong").text().replaceAll("[^\uAC00-\uD7A3xfe0-9a-zA-Z\\s]",
-                    "");
+            newTitle = tv_program.select("div.tit_program strong").text().replaceAll("[^\uAC00-\uD7A3xfe0-9a-zA-Z\\s]","").replaceAll("  ", " ");
 
             newThumb = URLDecoder.decode("https:" + tv_program.select("div.wrap_thumb img").attr("src"), "UTF-8");
 

@@ -22,8 +22,8 @@ public class TransmissionAPI {
 
     // private static Logger log = Logger.getLogger(Showdown.class);
 
-    private static String url = "http://192.168.0.100:49091/transmission/rpc/";
-    private static String id = "plex";
+    private static String url = "http://192.168.0.70:39091/transmission/rpc/";
+    private static String id = "qnap";
     private static String pw = "Password!234";
 
     private static JSONObject tran(JSONObject send) throws IOException {
@@ -263,6 +263,29 @@ public class TransmissionAPI {
             return false;
         }
     }
+
+    public static boolean rename(String torrentHash, String oldName, String newName) throws IOException {
+        // Transmission tran = status(torrentHash);
+        HashMap<String, Object> arguments = new HashMap<String, Object>();
+        HashMap<String, Object> hashMap = new HashMap<String, Object>();
+
+        arguments.put("ids", torrentHash);
+        arguments.put("path", oldName);
+        arguments.put("name", newName);
+
+        hashMap.put("method", "torrent-rename-path");
+        hashMap.put("arguments", arguments);
+
+        JSONObject send = new JSONObject(hashMap);
+        JSONObject receive = tran(send);
+        String result = (String) receive.get("result");
+        if (result.equals("success")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     
     public static boolean move(String torrentHash, String location) throws IOException {
         HashMap<String, Object> arguments = new HashMap<String, Object>();
