@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="iodides.showdown.AppTest" time="0.156" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="iodides.showdown.AppTest" time="0.056" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="KR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/local/java/jdk1.8.0_251/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/plex/code/showdown/target/surefire/surefirebooter3871609319247367748.jar /home/plex/code/showdown/target/surefire 2020-08-12T21-41-17_514-jvmRun1 surefire5428816531370114322tmp surefire_08899183081073365685tmp"/>
+    <property name="sun.java.command" value="/home/plex/code/showdown/target/surefire/surefirebooter428683548613638899.jar /home/plex/code/showdown/target/surefire 2020-08-14T09-42-13_747-jvmRun1 surefire1651081968480284393tmp surefire_07532090784322100536tmp"/>
     <property name="surefire.test.class.path" value="/home/plex/code/showdown/target/test-classes:/home/plex/code/showdown/target/classes:/home/plex/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/plex/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/home/plex/.m2/repository/mysql/mysql-connector-java/8.0.20/mysql-connector-java-8.0.20.jar:/home/plex/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:/home/plex/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/home/plex/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/plex/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/plex/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/plex"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/plex/code/showdown/target/surefire/surefirebooter3871609319247367748.jar"/>
+    <property name="surefire.real.class.path" value="/home/plex/code/showdown/target/surefire/surefirebooter428683548613638899.jar"/>
     <property name="sun.boot.class.path" value="/usr/local/java/jdk1.8.0_251/jre/lib/resources.jar:/usr/local/java/jdk1.8.0_251/jre/lib/rt.jar:/usr/local/java/jdk1.8.0_251/jre/lib/sunrsasign.jar:/usr/local/java/jdk1.8.0_251/jre/lib/jsse.jar:/usr/local/java/jdk1.8.0_251/jre/lib/jce.jar:/usr/local/java/jdk1.8.0_251/jre/lib/charsets.jar:/usr/local/java/jdk1.8.0_251/jre/lib/jfr.jar:/usr/local/java/jdk1.8.0_251/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_251-b08"/>
@@ -57,5 +57,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="iodides.showdown.AppTest" time="0.003"/>
+  <testcase name="shouldAnswerWithTrue" classname="iodides.showdown.AppTest" time="0.002"/>
 </testsuite>

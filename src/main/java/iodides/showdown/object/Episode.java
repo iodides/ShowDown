@@ -283,6 +283,8 @@ public class Episode {
             libraryName = "드라마_한국";
         } else if (type.equals("예능")) {
             libraryName = "예능";
+        } else if (type.equals("TV")) {
+            libraryName = "TV";
         }
 
         if (season<10) {
