@@ -79,6 +79,7 @@ public class Torrentube {
 
                 Elements list = doc.select("script");
 
+
                 String pageItems = getPageItem(list);
                 // log.info(pageItems);
                 JSONArray array = getArray(pageItems);
@@ -104,7 +105,7 @@ public class Torrentube {
                     }
 				}
 				log.info(siteName +" "+ i + "페이지 검색 ("+ insertCnt +"/"+ array.size() +") 추가");
-				try {Thread.sleep(1000*2);} catch (InterruptedException e) {}
+				try {Thread.sleep(1000*10);} catch (InterruptedException e) {}
 				if(array.size()==insertCnt) {
 					i++;
 				}else {
@@ -138,7 +139,8 @@ public class Torrentube {
 				str = str.replaceAll("'td'", "\"td\"");
 				str = str.replaceAll("'tu'", "\"tu\"");
 				str = str.replaceAll("',", "\",");
-				str = str.replaceAll("'}", "\"}");
+                str = str.replaceAll("'}", "\"}");
+                str = str.replaceAll("\"\"", "\"");
 				return str;
 			}
 		}
