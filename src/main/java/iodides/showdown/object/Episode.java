@@ -107,16 +107,16 @@ public class Episode {
             String torrentMagnet = tran.getMagnet();
             String torrentHash = tran.getHash();
 
-            String tName = TitleParse.getName(torrentName);
+            String tName = TitleParse.getName(torrentName).toLowerCase();
             String tQuality = TitleParse.getQuality(torrentName);
             String tAir = TitleParse.getAir(torrentName);
             String tRelGroup = TitleParse.getRelGroup(torrentName);
             int tEpi1 = TitleParse.getEpi(torrentName)[0];
             int tEpi2 = TitleParse.getEpi(torrentName)[1];
             
+            log.debug("transmission - "+ tName +" "+ tQuality +" "+ tAir +" "+ tRelGroup +" "+ tEpi1 +" "+ tEpi2);
             
-            
-            if(tName.contains(kword.replaceAll(" ","")) && tQuality.equals(quality) && tAir.equals(air) && ( tEpi1==epiNum || tEpi2==epiNum) ) {
+            if(tName.contains(kword.replaceAll(" ","").toLowerCase()) && tQuality.equals(quality) && tAir.equals(air) && ( tEpi1==epiNum || tEpi2==epiNum) ) {
                 if(!relGroup.equals("") && relGroup.equals(tRelGroup)) {
                     DB.updateEpisode(id, epiNum, quality, "TORRENTNAME", torrentName);
                     DB.updateEpisode(id, epiNum, quality, "TORRENTMAGNET", torrentMagnet);

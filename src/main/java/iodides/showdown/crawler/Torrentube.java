@@ -81,7 +81,9 @@ public class Torrentube {
 
 
                 String pageItems = getPageItem(list);
-                // log.info(pageItems);
+                log.debug("-----pageItems");
+                log.debug(pageItems);
+                log.debug("-----pageItems");
                 JSONArray array = getArray(pageItems);
 
                 int insertCnt = 0;
@@ -112,8 +114,8 @@ public class Torrentube {
 					i = 9999;
 				}
 			}catch(Exception e) {
-				i++;
-				e.printStackTrace();
+                i++;
+                log.error("에러", e);
 			};
 		}
     }
@@ -121,10 +123,12 @@ public class Torrentube {
     private static String getPageItem(Elements list) {
 		for(int j=0; j<list.size(); j++) {
 			if(list.get(j).toString().contains("pageItems")) {
-				String str = list.get(j).toString();
+                String str = list.get(j).toString();
+                
 				
 				str = str.substring(str.indexOf("pageItems")+12);
 				//log.info(str.indexOf(";"));
+                str = str.replaceAll("&#034;","");
 
                 str = str.substring(0, str.indexOf(";"));
 				
